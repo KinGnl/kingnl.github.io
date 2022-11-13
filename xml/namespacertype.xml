@@ -138,7 +138,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/ClientCore.hpp" line="62" column="33" declfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/ClientCore.hpp" declline="62" declcolumn="33"/>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/ClientCore.hpp" line="63" column="33" declfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/ClientCore.hpp" declline="63" declcolumn="33"/>
       </memberdef>
       <memberdef kind="variable" id="ServerCore_8hpp_1a88bd20845fae0a6bd41ed051ef8754a9" prot="public" static="no" mutable="no">
         <type>int</type>

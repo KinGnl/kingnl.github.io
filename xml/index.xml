@@ -61,6 +61,7 @@
     <member refid="classrtype_1_1ClientCore_1a3e2d8b3b748ef4ecfcc299a5b601142a" kind="function"><name>createLocalGame</name></member>
     <member refid="classrtype_1_1ClientCore_1a7190d0e597c7064aea356ef4e0a10a34" kind="function"><name>createPlayMenu</name></member>
     <member refid="classrtype_1_1ClientCore_1ae246194b48d1205b023437030eb68486" kind="function"><name>createPause</name></member>
+    <member refid="classrtype_1_1ClientCore_1a11e666ea77d042065592647ea0c88bd0" kind="function"><name>createSettings</name></member>
   </compound>
   <compound refid="classClockTime" kind="class"><name>ClockTime</name>
     <member refid="classClockTime_1a1c68df787a3aab6526f3a3a38e6809a4" kind="variable"><name>start</name></member>
