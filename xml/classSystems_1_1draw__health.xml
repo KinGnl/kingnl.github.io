@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="classSystems_1_1draw__health" kind="class" language="C++" prot="public">
+    <compoundname>Systems::draw_health</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classSystems_1_1draw__health_1ac20d600d6aca09f3f2a09197c81ebaea" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="classgraphics_1_1IDisplay" kindref="compound">graphics::IDisplay</ref> &gt; &amp;</type>
+        <definition>std::shared_ptr&lt;graphics::IDisplay&gt;&amp; Systems::draw_health::_disp</definition>
+        <argsstring></argsstring>
+        <name>_disp</name>
+        <qualifiedname>Systems::draw_health::_disp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" line="41" column="29" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classSystems_1_1draw__health_1aa1dbc71feac223db3f082c50969f472f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Systems::draw_health::draw_health</definition>
+        <argsstring>(std::shared_ptr&lt; graphics::IDisplay &gt; &amp;disp)</argsstring>
+        <name>draw_health</name>
+        <qualifiedname>Systems::draw_health::draw_health</qualifiedname>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="classgraphics_1_1IDisplay" kindref="compound">graphics::IDisplay</ref> &gt; &amp;</type>
+          <declname>disp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" line="35" column="13" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" bodystart="35" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classSystems_1_1draw__health_1a60cbab8826d0e255b3a49c143eb306bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Systems::draw_health::~draw_health</definition>
+        <argsstring>()</argsstring>
+        <name>~draw_health</name>
+        <qualifiedname>Systems::draw_health::~draw_health</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" line="36" column="13" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classSystems_1_1draw__health_1a74c7a3f6dcd9095bdca8d42733b0d033" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Systems::draw_health::operator()</definition>
+        <argsstring>(registry &amp;, sparse_array&lt; component::health &gt; &amp;) const</argsstring>
+        <name>operator()</name>
+        <qualifiedname>Systems::draw_health::operator()</qualifiedname>
+        <param>
+          <type><ref refid="classregistry" kindref="compound">registry</ref> &amp;</type>
+        </param>
+        <param>
+          <type><ref refid="classsparse__array" kindref="compound">sparse_array</ref>&lt; <ref refid="structcomponent_1_1health" kindref="compound">component::health</ref> &gt; &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" line="37" column="18"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" line="33" column="5" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" bodystart="33" bodyend="42"/>
+    <listofallmembers>
+      <member refid="classSystems_1_1draw__health_1ac20d600d6aca09f3f2a09197c81ebaea" prot="private" virt="non-virtual"><scope>Systems::draw_health</scope><name>_disp</name></member>
+      <member refid="classSystems_1_1draw__health_1aa1dbc71feac223db3f082c50969f472f" prot="public" virt="non-virtual"><scope>Systems::draw_health</scope><name>draw_health</name></member>
+      <member refid="classSystems_1_1draw__health_1a74c7a3f6dcd9095bdca8d42733b0d033" prot="public" virt="non-virtual"><scope>Systems::draw_health</scope><name>operator()</name></member>
+      <member refid="classSystems_1_1draw__health_1a60cbab8826d0e255b3a49c143eb306bf" prot="public" virt="non-virtual"><scope>Systems::draw_health</scope><name>~draw_health</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

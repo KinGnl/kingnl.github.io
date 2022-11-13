@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="classSystems_1_1control" kind="class" language="C++" prot="public">
+    <compoundname>Systems::control</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classSystems_1_1control_1aeb3070655bab3f10b20a82f801040ea0" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="classgraphics_1_1IDisplay" kindref="compound">graphics::IDisplay</ref> &gt; &amp;</type>
+        <definition>std::shared_ptr&lt;graphics::IDisplay&gt;&amp; Systems::control::_disp</definition>
+        <argsstring></argsstring>
+        <name>_disp</name>
+        <qualifiedname>Systems::control::_disp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" line="91" column="29" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSystems_1_1control_1a88c2b396fca84c356e278436f77ce842" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="classnetwork_1_1INetworker" kindref="compound">network::INetworker</ref> &gt; &amp;</type>
+        <definition>std::shared_ptr&lt;network::INetworker&gt;&amp; Systems::control::_net</definition>
+        <argsstring></argsstring>
+        <name>_net</name>
+        <qualifiedname>Systems::control::_net</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" line="92" column="29" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classSystems_1_1control_1a921a75e49b9a3fc0a93ee70a2be841c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Systems::control::control</definition>
+        <argsstring>(std::shared_ptr&lt; graphics::IDisplay &gt; &amp;disp, std::shared_ptr&lt; network::INetworker &gt; &amp;net)</argsstring>
+        <name>control</name>
+        <qualifiedname>Systems::control::control</qualifiedname>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="classgraphics_1_1IDisplay" kindref="compound">graphics::IDisplay</ref> &gt; &amp;</type>
+          <declname>disp</declname>
+        </param>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="classnetwork_1_1INetworker" kindref="compound">network::INetworker</ref> &gt; &amp;</type>
+          <declname>net</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" line="84" column="13" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" bodystart="84" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="classSystems_1_1control_1a69510cc26bfc9145ebe2f4fe52fe83af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Systems::control::~control</definition>
+        <argsstring>()</argsstring>
+        <name>~control</name>
+        <qualifiedname>Systems::control::~control</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" line="85" column="13" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" bodystart="85" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="classSystems_1_1control_1ac3f5d4dbec6fe4cd8c577bfc21831b59" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Systems::control::operator()</definition>
+        <argsstring>(registry &amp;, sparse_array&lt; component::controllable &gt; &amp;) const</argsstring>
+        <name>operator()</name>
+        <qualifiedname>Systems::control::operator()</qualifiedname>
+        <param>
+          <type><ref refid="classregistry" kindref="compound">registry</ref> &amp;</type>
+        </param>
+        <param>
+          <type><ref refid="classsparse__array" kindref="compound">sparse_array</ref>&lt; <ref refid="structcomponent_1_1controllable" kindref="compound">component::controllable</ref> &gt; &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" line="86" column="18"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" line="81" column="5" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" bodystart="81" bodyend="93"/>
+    <listofallmembers>
+      <member refid="classSystems_1_1control_1aeb3070655bab3f10b20a82f801040ea0" prot="private" virt="non-virtual"><scope>Systems::control</scope><name>_disp</name></member>
+      <member refid="classSystems_1_1control_1a88c2b396fca84c356e278436f77ce842" prot="private" virt="non-virtual"><scope>Systems::control</scope><name>_net</name></member>
+      <member refid="classSystems_1_1control_1a921a75e49b9a3fc0a93ee70a2be841c1" prot="public" virt="non-virtual"><scope>Systems::control</scope><name>control</name></member>
+      <member refid="classSystems_1_1control_1ac3f5d4dbec6fe4cd8c577bfc21831b59" prot="public" virt="non-virtual"><scope>Systems::control</scope><name>operator()</name></member>
+      <member refid="classSystems_1_1control_1a69510cc26bfc9145ebe2f4fe52fe83af" prot="public" virt="non-virtual"><scope>Systems::control</scope><name>~control</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

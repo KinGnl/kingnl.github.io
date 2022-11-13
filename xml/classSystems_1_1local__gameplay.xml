@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="classSystems_1_1local__gameplay" kind="class" language="C++" prot="public">
+    <compoundname>Systems::local_gameplay</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classSystems_1_1local__gameplay_1a815943fc6a4f4a1706416f5bc4b04072" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Systems::local_gameplay::local_gameplay</definition>
+        <argsstring>()</argsstring>
+        <name>local_gameplay</name>
+        <qualifiedname>Systems::local_gameplay::local_gameplay</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" line="109" column="13" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" bodystart="109" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="classSystems_1_1local__gameplay_1ab7c5eb5a3c85b6bc54616cc52d2bde50" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Systems::local_gameplay::~local_gameplay</definition>
+        <argsstring>()</argsstring>
+        <name>~local_gameplay</name>
+        <qualifiedname>Systems::local_gameplay::~local_gameplay</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" line="113" column="13" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" bodystart="113" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="classSystems_1_1local__gameplay_1a3bcb918ef32dff2a99c068a8b2b64368" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Systems::local_gameplay::operator()</definition>
+        <argsstring>(registry &amp;) const</argsstring>
+        <name>operator()</name>
+        <qualifiedname>Systems::local_gameplay::operator()</qualifiedname>
+        <param>
+          <type><ref refid="classregistry" kindref="compound">registry</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" line="117" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classSystems_1_1local__gameplay_1a90c31e3d7fb34fddb34ed0a9d76d1c2b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Systems::local_gameplay::update_room</definition>
+        <argsstring>(registry &amp;, std::size_t room_id) const</argsstring>
+        <name>update_room</name>
+        <qualifiedname>Systems::local_gameplay::update_room</qualifiedname>
+        <param>
+          <type><ref refid="classregistry" kindref="compound">registry</ref> &amp;</type>
+        </param>
+        <param>
+          <type>std::size_t</type>
+          <declname>room_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" line="119" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classSystems_1_1local__gameplay_1a920a1910827278a6a8d5186c19f2263d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Systems::local_gameplay::kill_entities</definition>
+        <argsstring>(registry &amp;reg) const</argsstring>
+        <name>kill_entities</name>
+        <qualifiedname>Systems::local_gameplay::kill_entities</qualifiedname>
+        <param>
+          <type><ref refid="classregistry" kindref="compound">registry</ref> &amp;</type>
+          <declname>reg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" line="120" column="18"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" line="107" column="5" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" bodystart="107" bodyend="121"/>
+    <listofallmembers>
+      <member refid="classSystems_1_1local__gameplay_1a920a1910827278a6a8d5186c19f2263d" prot="public" virt="non-virtual"><scope>Systems::local_gameplay</scope><name>kill_entities</name></member>
+      <member refid="classSystems_1_1local__gameplay_1a815943fc6a4f4a1706416f5bc4b04072" prot="public" virt="non-virtual"><scope>Systems::local_gameplay</scope><name>local_gameplay</name></member>
+      <member refid="classSystems_1_1local__gameplay_1a3bcb918ef32dff2a99c068a8b2b64368" prot="public" virt="non-virtual"><scope>Systems::local_gameplay</scope><name>operator()</name></member>
+      <member refid="classSystems_1_1local__gameplay_1a90c31e3d7fb34fddb34ed0a9d76d1c2b" prot="public" virt="non-virtual"><scope>Systems::local_gameplay</scope><name>update_room</name></member>
+      <member refid="classSystems_1_1local__gameplay_1ab7c5eb5a3c85b6bc54616cc52d2bde50" prot="public" virt="non-virtual"><scope>Systems::local_gameplay</scope><name>~local_gameplay</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

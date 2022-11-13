@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="dir_a6fdc934cd0ee4bb17a9923193c4f741" kind="dir">
+    <compoundname>graphic_lib_encapsulation</compoundname>
+    <innerdir refid="dir_7cbeb05042874a62a7b9aaa28ea481e4">graphic_lib_encapsulation/Raylib</innerdir>
+    <innerfile refid="IDisplay_8hpp">IDisplay.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="graphic_lib_encapsulation/"/>
+  </compounddef>
+</doxygen>

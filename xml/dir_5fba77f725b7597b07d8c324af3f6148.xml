@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="dir_5fba77f725b7597b07d8c324af3f6148" kind="dir">
+    <compoundname>ecs_architecture</compoundname>
+    <innerdir refid="dir_ae22ece7f59e0f6599f26f63e1f303bf">ecs_architecture/includes</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="ecs_architecture/"/>
+  </compounddef>
+</doxygen>

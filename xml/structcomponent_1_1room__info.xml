@@ -1,0 +1,443 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="structcomponent_1_1room__info" kind="struct" language="C++" prot="public">
+    <compoundname>component::room_info</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structcomponent_1_1room__info_1a5f10e6930f756a3b3aad512eef0e2e7c" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool component::room_info::full</definition>
+        <argsstring></argsstring>
+        <name>full</name>
+        <qualifiedname>component::room_info::full</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="287" column="14" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="287" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcomponent_1_1room__info_1abc97e20f72934d3c71fdb576c8f728de" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool component::room_info::can</definition>
+        <argsstring></argsstring>
+        <name>can</name>
+        <qualifiedname>component::room_info::can</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="288" column="14" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="288" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcomponent_1_1room__info_1a7c32f834f7ae18bf7e8265f36361396c" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="classentity" kindref="compound">registry::entity_t</ref> &gt;</type>
+        <definition>std::vector&lt; registry::entity_t &gt; component::room_info::entities</definition>
+        <argsstring></argsstring>
+        <name>entities</name>
+        <qualifiedname>component::room_info::entities</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="289" column="21" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="289" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcomponent_1_1room__info_1a4e3cd3fb0676325e2282e804a9aef780" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="classentity" kindref="compound">registry::entity_t</ref> &gt;</type>
+        <definition>std::vector&lt; registry::entity_t &gt; component::room_info::clients</definition>
+        <argsstring></argsstring>
+        <name>clients</name>
+        <qualifiedname>component::room_info::clients</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="290" column="21" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="290" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcomponent_1_1room__info_1a36210e3c9e437e63373d1f7433921e74" prot="public" static="no" mutable="no">
+        <type>std::deque&lt; std::vector&lt; std::string &gt; &gt;</type>
+        <definition>std::deque&lt; std::vector&lt; std::string &gt; &gt; component::room_info::commands</definition>
+        <argsstring></argsstring>
+        <name>commands</name>
+        <qualifiedname>component::room_info::commands</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="291" column="20" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="291" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcomponent_1_1room__info_1ad988f8e9ef4cd4a887db4e120f0bcb7d" prot="public" static="no" mutable="no">
+        <type>std::deque&lt; std::vector&lt; std::string &gt; &gt;::iterator</type>
+        <definition>std::deque&lt;std::vector&lt;std::string&gt;&gt;::iterator component::room_info::cmd</definition>
+        <argsstring></argsstring>
+        <name>cmd</name>
+        <qualifiedname>component::room_info::cmd</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="292" column="31" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="292" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcomponent_1_1room__info_1a36bc0f9cbf0a9e6f5ce3a51b2b4f3aef" prot="public" static="no" mutable="no">
+        <type><ref refid="classClockTime" kindref="compound">ClockTime</ref></type>
+        <definition>ClockTime component::room_info::clock</definition>
+        <argsstring></argsstring>
+        <name>clock</name>
+        <qualifiedname>component::room_info::clock</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="293" column="19" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="293" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcomponent_1_1room__info_1afdef3574667e99c8c5969fb151679363" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double component::room_info::next_wake</definition>
+        <argsstring></argsstring>
+        <name>next_wake</name>
+        <qualifiedname>component::room_info::next_wake</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="294" column="16" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="294" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structcomponent_1_1room__info_1a1207058550b507572267a4ab03e77dbe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>component::room_info::room_info</definition>
+        <argsstring>()</argsstring>
+        <name>room_info</name>
+        <qualifiedname>component::room_info::room_info</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="195" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="195" bodyend="214"/>
+      </memberdef>
+      <memberdef kind="function" id="structcomponent_1_1room__info_1a458c41e6bb64978b10fc53cfdb3aceeb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void component::room_info::load_level</definition>
+        <argsstring>(std::string lvl)</argsstring>
+        <name>load_level</name>
+        <qualifiedname>component::room_info::load_level</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>lvl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="216" column="14" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="216" bodyend="231"/>
+      </memberdef>
+      <memberdef kind="function" id="structcomponent_1_1room__info_1a666d80aa802b921834b217fc1f87e472" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt; std::string &gt; component::room_info::spliter</definition>
+        <argsstring>(std::string line)</argsstring>
+        <name>spliter</name>
+        <qualifiedname>component::room_info::spliter</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>line</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="233" column="21" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="233" bodyend="243"/>
+      </memberdef>
+      <memberdef kind="function" id="structcomponent_1_1room__info_1add35dca53aa4e8f822b8bd1aa84328bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void component::room_info::destroy</definition>
+        <argsstring>(registry &amp;reg)</argsstring>
+        <name>destroy</name>
+        <qualifiedname>component::room_info::destroy</qualifiedname>
+        <param>
+          <type><ref refid="classregistry" kindref="compound">registry</ref> &amp;</type>
+          <declname>reg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="245" column="14" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="245" bodyend="248"/>
+      </memberdef>
+      <memberdef kind="function" id="structcomponent_1_1room__info_1a7ee0a8410bfbe03e8b37b6fe4aaf3041" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool component::room_info::add_client</definition>
+        <argsstring>(registry::entity_t en)</argsstring>
+        <name>add_client</name>
+        <qualifiedname>component::room_info::add_client</qualifiedname>
+        <param>
+          <type><ref refid="classentity" kindref="compound">registry::entity_t</ref></type>
+          <declname>en</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="250" column="14" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="250" bodyend="258"/>
+      </memberdef>
+      <memberdef kind="function" id="structcomponent_1_1room__info_1a165510c7d6cc366c3271225581c73ee5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void component::room_info::add_entity</definition>
+        <argsstring>(registry::entity_t en)</argsstring>
+        <name>add_entity</name>
+        <qualifiedname>component::room_info::add_entity</qualifiedname>
+        <param>
+          <type><ref refid="classentity" kindref="compound">registry::entity_t</ref></type>
+          <declname>en</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="260" column="14" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="260" bodyend="263"/>
+      </memberdef>
+      <memberdef kind="function" id="structcomponent_1_1room__info_1a12aa73c1959a50afb8e52bb9c6dddbc0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool component::room_info::kill_entity</definition>
+        <argsstring>(registry &amp;reg, registry::entity_t en)</argsstring>
+        <name>kill_entity</name>
+        <qualifiedname>component::room_info::kill_entity</qualifiedname>
+        <param>
+          <type><ref refid="classregistry" kindref="compound">registry</ref> &amp;</type>
+          <declname>reg</declname>
+        </param>
+        <param>
+          <type><ref refid="classentity" kindref="compound">registry::entity_t</ref></type>
+          <declname>en</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="265" column="14" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="265" bodyend="274"/>
+      </memberdef>
+      <memberdef kind="function" id="structcomponent_1_1room__info_1a8c13a44fcfc9a2017da1cd5fa8d89835" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool component::room_info::kill_player</definition>
+        <argsstring>(registry &amp;reg, registry::entity_t en)</argsstring>
+        <name>kill_player</name>
+        <qualifiedname>component::room_info::kill_player</qualifiedname>
+        <param>
+          <type><ref refid="classregistry" kindref="compound">registry</ref> &amp;</type>
+          <declname>reg</declname>
+        </param>
+        <param>
+          <type><ref refid="classentity" kindref="compound">registry::entity_t</ref></type>
+          <declname>en</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="276" column="14" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="276" bodyend="285"/>
+      </memberdef>
+      <memberdef kind="function" id="structcomponent_1_1room__info_1a1207058550b507572267a4ab03e77dbe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>component::room_info::room_info</definition>
+        <argsstring>()</argsstring>
+        <name>room_info</name>
+        <qualifiedname>component::room_info::room_info</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Component.hpp" line="83" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Component.hpp" bodystart="83" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="structcomponent_1_1room__info_1a666d80aa802b921834b217fc1f87e472" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt; std::string &gt; component::room_info::spliter</definition>
+        <argsstring>(std::string line)</argsstring>
+        <name>spliter</name>
+        <qualifiedname>component::room_info::spliter</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>line</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Component.hpp" line="103" column="21" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Component.hpp" bodystart="103" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="structcomponent_1_1room__info_1add35dca53aa4e8f822b8bd1aa84328bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void component::room_info::destroy</definition>
+        <argsstring>(registry &amp;reg)</argsstring>
+        <name>destroy</name>
+        <qualifiedname>component::room_info::destroy</qualifiedname>
+        <param>
+          <type><ref refid="classregistry" kindref="compound">registry</ref> &amp;</type>
+          <declname>reg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Component.hpp" line="115" column="14" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Component.hpp" bodystart="115" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="structcomponent_1_1room__info_1a7ee0a8410bfbe03e8b37b6fe4aaf3041" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool component::room_info::add_client</definition>
+        <argsstring>(registry::entity_t en)</argsstring>
+        <name>add_client</name>
+        <qualifiedname>component::room_info::add_client</qualifiedname>
+        <param>
+          <type><ref refid="classentity" kindref="compound">registry::entity_t</ref></type>
+          <declname>en</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Component.hpp" line="122" column="14" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Component.hpp" bodystart="122" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="structcomponent_1_1room__info_1a165510c7d6cc366c3271225581c73ee5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void component::room_info::add_entity</definition>
+        <argsstring>(registry::entity_t en)</argsstring>
+        <name>add_entity</name>
+        <qualifiedname>component::room_info::add_entity</qualifiedname>
+        <param>
+          <type><ref refid="classentity" kindref="compound">registry::entity_t</ref></type>
+          <declname>en</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Component.hpp" line="132" column="14" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Component.hpp" bodystart="132" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="structcomponent_1_1room__info_1a12aa73c1959a50afb8e52bb9c6dddbc0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool component::room_info::kill_entity</definition>
+        <argsstring>(registry &amp;reg, registry::entity_t en)</argsstring>
+        <name>kill_entity</name>
+        <qualifiedname>component::room_info::kill_entity</qualifiedname>
+        <param>
+          <type><ref refid="classregistry" kindref="compound">registry</ref> &amp;</type>
+          <declname>reg</declname>
+        </param>
+        <param>
+          <type><ref refid="classentity" kindref="compound">registry::entity_t</ref></type>
+          <declname>en</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Component.hpp" line="137" column="14" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Component.hpp" bodystart="137" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="structcomponent_1_1room__info_1a8c13a44fcfc9a2017da1cd5fa8d89835" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool component::room_info::kill_player</definition>
+        <argsstring>(registry &amp;reg, registry::entity_t en)</argsstring>
+        <name>kill_player</name>
+        <qualifiedname>component::room_info::kill_player</qualifiedname>
+        <param>
+          <type><ref refid="classregistry" kindref="compound">registry</ref> &amp;</type>
+          <declname>reg</declname>
+        </param>
+        <param>
+          <type><ref refid="classentity" kindref="compound">registry::entity_t</ref></type>
+          <declname>en</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Component.hpp" line="148" column="14" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Component.hpp" bodystart="148" bodyend="157"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>ClockTime</label>
+        <link refid="classClockTime"/>
+      </node>
+      <node id="1">
+        <label>component::room_info</label>
+        <link refid="structcomponent_1_1room__info"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>clock</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="194" column="5" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="194" bodyend="295"/>
+    <listofallmembers>
+      <member refid="structcomponent_1_1room__info_1a7ee0a8410bfbe03e8b37b6fe4aaf3041" prot="public" virt="non-virtual"><scope>component::room_info</scope><name>add_client</name></member>
+      <member refid="structcomponent_1_1room__info_1a7ee0a8410bfbe03e8b37b6fe4aaf3041" prot="public" virt="non-virtual"><scope>component::room_info</scope><name>add_client</name></member>
+      <member refid="structcomponent_1_1room__info_1a165510c7d6cc366c3271225581c73ee5" prot="public" virt="non-virtual"><scope>component::room_info</scope><name>add_entity</name></member>
+      <member refid="structcomponent_1_1room__info_1a165510c7d6cc366c3271225581c73ee5" prot="public" virt="non-virtual"><scope>component::room_info</scope><name>add_entity</name></member>
+      <member refid="structcomponent_1_1room__info_1abc97e20f72934d3c71fdb576c8f728de" prot="public" virt="non-virtual"><scope>component::room_info</scope><name>can</name></member>
+      <member refid="structcomponent_1_1room__info_1a4e3cd3fb0676325e2282e804a9aef780" prot="public" virt="non-virtual"><scope>component::room_info</scope><name>clients</name></member>
+      <member refid="structcomponent_1_1room__info_1a36bc0f9cbf0a9e6f5ce3a51b2b4f3aef" prot="public" virt="non-virtual"><scope>component::room_info</scope><name>clock</name></member>
+      <member refid="structcomponent_1_1room__info_1ad988f8e9ef4cd4a887db4e120f0bcb7d" prot="public" virt="non-virtual"><scope>component::room_info</scope><name>cmd</name></member>
+      <member refid="structcomponent_1_1room__info_1a36210e3c9e437e63373d1f7433921e74" prot="public" virt="non-virtual"><scope>component::room_info</scope><name>commands</name></member>
+      <member refid="structcomponent_1_1room__info_1add35dca53aa4e8f822b8bd1aa84328bd" prot="public" virt="non-virtual"><scope>component::room_info</scope><name>destroy</name></member>
+      <member refid="structcomponent_1_1room__info_1add35dca53aa4e8f822b8bd1aa84328bd" prot="public" virt="non-virtual"><scope>component::room_info</scope><name>destroy</name></member>
+      <member refid="structcomponent_1_1room__info_1a7c32f834f7ae18bf7e8265f36361396c" prot="public" virt="non-virtual"><scope>component::room_info</scope><name>entities</name></member>
+      <member refid="structcomponent_1_1room__info_1a5f10e6930f756a3b3aad512eef0e2e7c" prot="public" virt="non-virtual"><scope>component::room_info</scope><name>full</name></member>
+      <member refid="structcomponent_1_1room__info_1a12aa73c1959a50afb8e52bb9c6dddbc0" prot="public" virt="non-virtual"><scope>component::room_info</scope><name>kill_entity</name></member>
+      <member refid="structcomponent_1_1room__info_1a12aa73c1959a50afb8e52bb9c6dddbc0" prot="public" virt="non-virtual"><scope>component::room_info</scope><name>kill_entity</name></member>
+      <member refid="structcomponent_1_1room__info_1a8c13a44fcfc9a2017da1cd5fa8d89835" prot="public" virt="non-virtual"><scope>component::room_info</scope><name>kill_player</name></member>
+      <member refid="structcomponent_1_1room__info_1a8c13a44fcfc9a2017da1cd5fa8d89835" prot="public" virt="non-virtual"><scope>component::room_info</scope><name>kill_player</name></member>
+      <member refid="structcomponent_1_1room__info_1a458c41e6bb64978b10fc53cfdb3aceeb" prot="public" virt="non-virtual"><scope>component::room_info</scope><name>load_level</name></member>
+      <member refid="structcomponent_1_1room__info_1afdef3574667e99c8c5969fb151679363" prot="public" virt="non-virtual"><scope>component::room_info</scope><name>next_wake</name></member>
+      <member refid="structcomponent_1_1room__info_1a1207058550b507572267a4ab03e77dbe" prot="public" virt="non-virtual"><scope>component::room_info</scope><name>room_info</name></member>
+      <member refid="structcomponent_1_1room__info_1a1207058550b507572267a4ab03e77dbe" prot="public" virt="non-virtual"><scope>component::room_info</scope><name>room_info</name></member>
+      <member refid="structcomponent_1_1room__info_1a666d80aa802b921834b217fc1f87e472" prot="public" virt="non-virtual"><scope>component::room_info</scope><name>spliter</name></member>
+      <member refid="structcomponent_1_1room__info_1a666d80aa802b921834b217fc1f87e472" prot="public" virt="non-virtual"><scope>component::room_info</scope><name>spliter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

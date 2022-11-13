@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="classSystems_1_1clickable" kind="class" language="C++" prot="public">
+    <compoundname>Systems::clickable</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classSystems_1_1clickable_1a3d5180b0980cbd8ea1c0779a54b5ee4f" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="classgraphics_1_1IDisplay" kindref="compound">graphics::IDisplay</ref> &gt; &amp;</type>
+        <definition>std::shared_ptr&lt;graphics::IDisplay&gt;&amp; Systems::clickable::_disp</definition>
+        <argsstring></argsstring>
+        <name>_disp</name>
+        <qualifiedname>Systems::clickable::_disp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" line="78" column="29" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classSystems_1_1clickable_1a0b75299cc53314185803453a94e0ff98" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Systems::clickable::clickable</definition>
+        <argsstring>(std::shared_ptr&lt; graphics::IDisplay &gt; &amp;disp)</argsstring>
+        <name>clickable</name>
+        <qualifiedname>Systems::clickable::clickable</qualifiedname>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="classgraphics_1_1IDisplay" kindref="compound">graphics::IDisplay</ref> &gt; &amp;</type>
+          <declname>disp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" line="70" column="13" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" bodystart="70" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classSystems_1_1clickable_1a437ca96d73c058c9a1c9b88ee986a62b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Systems::clickable::~clickable</definition>
+        <argsstring>()</argsstring>
+        <name>~clickable</name>
+        <qualifiedname>Systems::clickable::~clickable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" line="71" column="13" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" bodystart="71" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classSystems_1_1clickable_1a6762e32c2a4a20aaf2af634c47d87e07" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Systems::clickable::operator()</definition>
+        <argsstring>(registry &amp;reg, sparse_array&lt; component::drawable &gt; &amp;c, sparse_array&lt; component::clickable &gt; &amp;, sparse_array&lt; component::position &gt; &amp;) const</argsstring>
+        <name>operator()</name>
+        <qualifiedname>Systems::clickable::operator()</qualifiedname>
+        <param>
+          <type><ref refid="classregistry" kindref="compound">registry</ref> &amp;</type>
+          <declname>reg</declname>
+        </param>
+        <param>
+          <type><ref refid="classsparse__array" kindref="compound">sparse_array</ref>&lt; <ref refid="structcomponent_1_1drawable" kindref="compound">component::drawable</ref> &gt; &amp;</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type><ref refid="classsparse__array" kindref="compound">sparse_array</ref>&lt; <ref refid="structcomponent_1_1clickable" kindref="compound">component::clickable</ref> &gt; &amp;</type>
+        </param>
+        <param>
+          <type><ref refid="classsparse__array" kindref="compound">sparse_array</ref>&lt; <ref refid="structcomponent_1_1position" kindref="compound">component::position</ref> &gt; &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" line="72" column="18"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" line="68" column="5" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" bodystart="68" bodyend="79"/>
+    <listofallmembers>
+      <member refid="classSystems_1_1clickable_1a3d5180b0980cbd8ea1c0779a54b5ee4f" prot="private" virt="non-virtual"><scope>Systems::clickable</scope><name>_disp</name></member>
+      <member refid="classSystems_1_1clickable_1a0b75299cc53314185803453a94e0ff98" prot="public" virt="non-virtual"><scope>Systems::clickable</scope><name>clickable</name></member>
+      <member refid="classSystems_1_1clickable_1a6762e32c2a4a20aaf2af634c47d87e07" prot="public" virt="non-virtual"><scope>Systems::clickable</scope><name>operator()</name></member>
+      <member refid="classSystems_1_1clickable_1a437ca96d73c058c9a1c9b88ee986a62b" prot="public" virt="non-virtual"><scope>Systems::clickable</scope><name>~clickable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

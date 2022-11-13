@@ -1,0 +1,340 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="structcomponent_1_1weapon" kind="struct" language="C++" prot="public">
+    <compoundname>component::weapon</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structcomponent_1_1weapon_1abbd9d93537d1d0c3ee5cb8116150d521" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int component::weapon::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>component::weapon::type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="463" column="13" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="463" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcomponent_1_1weapon_1ad7dc160990329467a90f7d77e70573ba" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int component::weapon::damage_val</definition>
+        <argsstring></argsstring>
+        <name>damage_val</name>
+        <qualifiedname>component::weapon::damage_val</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="464" column="13" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="464" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcomponent_1_1weapon_1ac8d67edd5bfc593f146298b069aed0f4" prot="public" static="no" mutable="no">
+        <type>EntityType</type>
+        <definition>EntityType component::weapon::adversary_type</definition>
+        <argsstring></argsstring>
+        <name>adversary_type</name>
+        <qualifiedname>component::weapon::adversary_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="465" column="20" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="465" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcomponent_1_1weapon_1a4170d44b80e1c40e0761f38bd037a02b" prot="public" static="no" mutable="no">
+        <type><ref refid="classClockTime" kindref="compound">ClockTime</ref></type>
+        <definition>ClockTime component::weapon::clock</definition>
+        <argsstring></argsstring>
+        <name>clock</name>
+        <qualifiedname>component::weapon::clock</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Component.hpp" line="306" column="19" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Component.hpp" bodystart="306" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structcomponent_1_1weapon_1a7724eb798177c303feb651e3c4b99852" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>component::weapon::weapon</definition>
+        <argsstring>(EntityType _adversary_type=Enemy)</argsstring>
+        <name>weapon</name>
+        <qualifiedname>component::weapon::weapon</qualifiedname>
+        <param>
+          <type>EntityType</type>
+          <declname>_adversary_type</declname>
+          <defval>Enemy</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="387" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="387" bodyend="390"/>
+      </memberdef>
+      <memberdef kind="function" id="structcomponent_1_1weapon_1a80ee5fd14c08ef033881d2b021ab50c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void component::weapon::set_type</definition>
+        <argsstring>(int _type)</argsstring>
+        <name>set_type</name>
+        <qualifiedname>component::weapon::set_type</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>_type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="392" column="14" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="392" bodyend="395"/>
+      </memberdef>
+      <memberdef kind="function" id="structcomponent_1_1weapon_1af9bcdc606a442dce6d41f6ad079edea7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void component::weapon::shoot</definition>
+        <argsstring>(registry &amp;reg, component::SceneName page, registry::entity_t parent, float x, float y)</argsstring>
+        <name>shoot</name>
+        <qualifiedname>component::weapon::shoot</qualifiedname>
+        <param>
+          <type><ref refid="classregistry" kindref="compound">registry</ref> &amp;</type>
+          <declname>reg</declname>
+        </param>
+        <param>
+          <type>component::SceneName</type>
+          <declname>page</declname>
+        </param>
+        <param>
+          <type><ref refid="classentity" kindref="compound">registry::entity_t</ref></type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="397" column="14" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="397" bodyend="412"/>
+      </memberdef>
+      <memberdef kind="function" id="structcomponent_1_1weapon_1a5f7bd4b7713d28046cd65ffb4eee10a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void component::weapon::one_shot</definition>
+        <argsstring>(registry &amp;reg, component::SceneName page, registry::entity_t parent, float x, float y, float vx, float vy, float ax, float ay)</argsstring>
+        <name>one_shot</name>
+        <qualifiedname>component::weapon::one_shot</qualifiedname>
+        <param>
+          <type><ref refid="classregistry" kindref="compound">registry</ref> &amp;</type>
+          <declname>reg</declname>
+        </param>
+        <param>
+          <type>component::SceneName</type>
+          <declname>page</declname>
+        </param>
+        <param>
+          <type><ref refid="classentity" kindref="compound">registry::entity_t</ref></type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>vx</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>vy</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>ax</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>ay</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="414" column="14" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="414" bodyend="461"/>
+      </memberdef>
+      <memberdef kind="function" id="structcomponent_1_1weapon_1a7724eb798177c303feb651e3c4b99852" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>component::weapon::weapon</definition>
+        <argsstring>(EntityType _adversary_type=Enemy)</argsstring>
+        <name>weapon</name>
+        <qualifiedname>component::weapon::weapon</qualifiedname>
+        <param>
+          <type>EntityType</type>
+          <declname>_adversary_type</declname>
+          <defval>Enemy</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Component.hpp" line="211" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Component.hpp" bodystart="211" bodyend="214"/>
+      </memberdef>
+      <memberdef kind="function" id="structcomponent_1_1weapon_1a80ee5fd14c08ef033881d2b021ab50c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void component::weapon::set_type</definition>
+        <argsstring>(int _type)</argsstring>
+        <name>set_type</name>
+        <qualifiedname>component::weapon::set_type</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>_type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Component.hpp" line="216" column="14" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Component.hpp" bodystart="216" bodyend="219"/>
+      </memberdef>
+      <memberdef kind="function" id="structcomponent_1_1weapon_1afe5757e992ce3d37b2ab4ae4cd4397e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void component::weapon::shoot</definition>
+        <argsstring>(registry &amp;reg, std::shared_ptr&lt; network::INetworker &gt; &amp;_net, registry::entity_t parent, float x, float y)</argsstring>
+        <name>shoot</name>
+        <qualifiedname>component::weapon::shoot</qualifiedname>
+        <param>
+          <type><ref refid="classregistry" kindref="compound">registry</ref> &amp;</type>
+          <declname>reg</declname>
+        </param>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="classnetwork_1_1INetworker" kindref="compound">network::INetworker</ref> &gt; &amp;</type>
+          <declname>_net</declname>
+        </param>
+        <param>
+          <type><ref refid="classentity" kindref="compound">registry::entity_t</ref></type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Component.hpp" line="221" column="14" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Component.hpp" bodystart="221" bodyend="238"/>
+      </memberdef>
+      <memberdef kind="function" id="structcomponent_1_1weapon_1a4d694882b9e19d1cdef5146087568c39" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void component::weapon::one_shot</definition>
+        <argsstring>(registry &amp;reg, std::shared_ptr&lt; network::INetworker &gt; &amp;_net, registry::entity_t parent, float x, float y, float vx, float vy, float ax, float ay)</argsstring>
+        <name>one_shot</name>
+        <qualifiedname>component::weapon::one_shot</qualifiedname>
+        <param>
+          <type><ref refid="classregistry" kindref="compound">registry</ref> &amp;</type>
+          <declname>reg</declname>
+        </param>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="classnetwork_1_1INetworker" kindref="compound">network::INetworker</ref> &gt; &amp;</type>
+          <declname>_net</declname>
+        </param>
+        <param>
+          <type><ref refid="classentity" kindref="compound">registry::entity_t</ref></type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>vx</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>vy</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>ax</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>ay</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Component.hpp" line="240" column="14" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Component.hpp" bodystart="240" bodyend="301"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>ClockTime</label>
+        <link refid="classClockTime"/>
+      </node>
+      <node id="1">
+        <label>component::weapon</label>
+        <link refid="structcomponent_1_1weapon"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>clock</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="386" column="5" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="386" bodyend="466"/>
+    <listofallmembers>
+      <member refid="structcomponent_1_1weapon_1ac8d67edd5bfc593f146298b069aed0f4" prot="public" virt="non-virtual"><scope>component::weapon</scope><name>adversary_type</name></member>
+      <member refid="structcomponent_1_1weapon_1a4170d44b80e1c40e0761f38bd037a02b" prot="public" virt="non-virtual"><scope>component::weapon</scope><name>clock</name></member>
+      <member refid="structcomponent_1_1weapon_1ad7dc160990329467a90f7d77e70573ba" prot="public" virt="non-virtual"><scope>component::weapon</scope><name>damage_val</name></member>
+      <member refid="structcomponent_1_1weapon_1a5f7bd4b7713d28046cd65ffb4eee10a0" prot="public" virt="non-virtual"><scope>component::weapon</scope><name>one_shot</name></member>
+      <member refid="structcomponent_1_1weapon_1a4d694882b9e19d1cdef5146087568c39" prot="public" virt="non-virtual"><scope>component::weapon</scope><name>one_shot</name></member>
+      <member refid="structcomponent_1_1weapon_1a80ee5fd14c08ef033881d2b021ab50c4" prot="public" virt="non-virtual"><scope>component::weapon</scope><name>set_type</name></member>
+      <member refid="structcomponent_1_1weapon_1a80ee5fd14c08ef033881d2b021ab50c4" prot="public" virt="non-virtual"><scope>component::weapon</scope><name>set_type</name></member>
+      <member refid="structcomponent_1_1weapon_1af9bcdc606a442dce6d41f6ad079edea7" prot="public" virt="non-virtual"><scope>component::weapon</scope><name>shoot</name></member>
+      <member refid="structcomponent_1_1weapon_1afe5757e992ce3d37b2ab4ae4cd4397e8" prot="public" virt="non-virtual"><scope>component::weapon</scope><name>shoot</name></member>
+      <member refid="structcomponent_1_1weapon_1abbd9d93537d1d0c3ee5cb8116150d521" prot="public" virt="non-virtual"><scope>component::weapon</scope><name>type</name></member>
+      <member refid="structcomponent_1_1weapon_1a7724eb798177c303feb651e3c4b99852" prot="public" virt="non-virtual"><scope>component::weapon</scope><name>weapon</name></member>
+      <member refid="structcomponent_1_1weapon_1a7724eb798177c303feb651e3c4b99852" prot="public" virt="non-virtual"><scope>component::weapon</scope><name>weapon</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

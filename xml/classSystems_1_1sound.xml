@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="classSystems_1_1sound" kind="class" language="C++" prot="public">
+    <compoundname>Systems::sound</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classSystems_1_1sound_1a0bc8e3e8ba66015074e6a3fa49f2354f" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="classgraphics_1_1IDisplay" kindref="compound">graphics::IDisplay</ref> &gt; &amp;</type>
+        <definition>std::shared_ptr&lt;graphics::IDisplay&gt;&amp; Systems::sound::_disp</definition>
+        <argsstring></argsstring>
+        <name>_disp</name>
+        <qualifiedname>Systems::sound::_disp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" line="149" column="29" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classSystems_1_1sound_1a967f24da9ae59f65940827822c5aebd4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Systems::sound::sound</definition>
+        <argsstring>(std::shared_ptr&lt; graphics::IDisplay &gt; &amp;disp)</argsstring>
+        <name>sound</name>
+        <qualifiedname>Systems::sound::sound</qualifiedname>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="classgraphics_1_1IDisplay" kindref="compound">graphics::IDisplay</ref> &gt; &amp;</type>
+          <declname>disp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" line="143" column="13" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" bodystart="143" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="classSystems_1_1sound_1ae4f2d1e54cebef9ee7ba82e2895ebc3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Systems::sound::~sound</definition>
+        <argsstring>()</argsstring>
+        <name>~sound</name>
+        <qualifiedname>Systems::sound::~sound</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" line="144" column="13" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" bodystart="144" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="classSystems_1_1sound_1ac21d5278fe526d4df11a60a3e09075b6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Systems::sound::operator()</definition>
+        <argsstring>(registry &amp;, sparse_array&lt; component::sound &gt; &amp;) const</argsstring>
+        <name>operator()</name>
+        <qualifiedname>Systems::sound::operator()</qualifiedname>
+        <param>
+          <type><ref refid="classregistry" kindref="compound">registry</ref> &amp;</type>
+        </param>
+        <param>
+          <type><ref refid="classsparse__array" kindref="compound">sparse_array</ref>&lt; <ref refid="structcomponent_1_1sound" kindref="compound">component::sound</ref> &gt; &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" line="145" column="18"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" line="141" column="5" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" bodystart="141" bodyend="150"/>
+    <listofallmembers>
+      <member refid="classSystems_1_1sound_1a0bc8e3e8ba66015074e6a3fa49f2354f" prot="private" virt="non-virtual"><scope>Systems::sound</scope><name>_disp</name></member>
+      <member refid="classSystems_1_1sound_1ac21d5278fe526d4df11a60a3e09075b6" prot="public" virt="non-virtual"><scope>Systems::sound</scope><name>operator()</name></member>
+      <member refid="classSystems_1_1sound_1a967f24da9ae59f65940827822c5aebd4" prot="public" virt="non-virtual"><scope>Systems::sound</scope><name>sound</name></member>
+      <member refid="classSystems_1_1sound_1ae4f2d1e54cebef9ee7ba82e2895ebc3e" prot="public" virt="non-virtual"><scope>Systems::sound</scope><name>~sound</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

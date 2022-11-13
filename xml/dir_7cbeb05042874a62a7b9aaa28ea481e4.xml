@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="dir_7cbeb05042874a62a7b9aaa28ea481e4" kind="dir">
+    <compoundname>graphic_lib_encapsulation/Raylib</compoundname>
+    <innerfile refid="graphic__lib__encapsulation_2Raylib_2entryPoint_8cpp">entryPoint.cpp</innerfile>
+    <innerfile refid="Raylib_8cpp">Raylib.cpp</innerfile>
+    <innerfile refid="Raylib_8hpp">Raylib.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="graphic_lib_encapsulation/Raylib/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="classrtype_1_1ServerCore" kind="class" language="C++" prot="public">
+    <compoundname>rtype::ServerCore</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classrtype_1_1ServerCore_1a005a8c3832312195429e00ff014d3ca5" prot="private" static="no" mutable="no">
+        <type><ref refid="classregistry" kindref="compound">registry</ref></type>
+        <definition>registry rtype::ServerCore::reg</definition>
+        <argsstring></argsstring>
+        <name>reg</name>
+        <qualifiedname>rtype::ServerCore::reg</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/ServerCore.hpp" line="37" column="22" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/ServerCore.hpp" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classrtype_1_1ServerCore_1a63534027fcf47908312c1caab542a833" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool rtype::ServerCore::running</definition>
+        <argsstring></argsstring>
+        <name>running</name>
+        <qualifiedname>rtype::ServerCore::running</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/ServerCore.hpp" line="38" column="18" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/ServerCore.hpp" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classrtype_1_1ServerCore_1a25fb4b8b0cded7836940b3d80a11f031" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="classnetwork_1_1INetworker" kindref="compound">network::INetworker</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;network::INetworker&gt; rtype::ServerCore::_networker</definition>
+        <argsstring></argsstring>
+        <name>_networker</name>
+        <qualifiedname>rtype::ServerCore::_networker</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/ServerCore.hpp" line="39" column="29" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/ServerCore.hpp" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classrtype_1_1ServerCore_1a28d31aea3a93af42aeca0fa207d4086e" prot="private" static="no" mutable="no">
+        <type>std::queue&lt; <ref refid="structnetwork_1_1datatrans" kindref="compound">network::datatrans</ref> &gt;</type>
+        <definition>std::queue&lt;network::datatrans&gt; rtype::ServerCore::_net_datas</definition>
+        <argsstring></argsstring>
+        <name>_net_datas</name>
+        <qualifiedname>rtype::ServerCore::_net_datas</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/ServerCore.hpp" line="40" column="24" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/ServerCore.hpp" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classrtype_1_1ServerCore_1afbba78f7b387523ec00fc49d43879e56" prot="private" static="no" mutable="no">
+        <type>std::thread</type>
+        <definition>std::thread rtype::ServerCore::accept_req_th</definition>
+        <argsstring></argsstring>
+        <name>accept_req_th</name>
+        <qualifiedname>rtype::ServerCore::accept_req_th</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/ServerCore.hpp" line="41" column="25" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/ServerCore.hpp" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classrtype_1_1ServerCore_1ace2c26fbcb3ec9a4815164e2a9bd8617" prot="private" static="no" mutable="no">
+        <type>std::mutex</type>
+        <definition>std::mutex rtype::ServerCore::req_mtx</definition>
+        <argsstring></argsstring>
+        <name>req_mtx</name>
+        <qualifiedname>rtype::ServerCore::req_mtx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/ServerCore.hpp" line="42" column="24" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/ServerCore.hpp" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classrtype_1_1ServerCore_1ad575456755c9dbb49046d229addfe0d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>rtype::ServerCore::ServerCore</definition>
+        <argsstring>(int port)</argsstring>
+        <name>ServerCore</name>
+        <qualifiedname>rtype::ServerCore::ServerCore</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>port</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/ServerCore.hpp" line="30" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classrtype_1_1ServerCore_1a6d2e1e92a18212e9e37a5532e8bef3fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>rtype::ServerCore::~ServerCore</definition>
+        <argsstring>()</argsstring>
+        <name>~ServerCore</name>
+        <qualifiedname>rtype::ServerCore::~ServerCore</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/ServerCore.hpp" line="31" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classrtype_1_1ServerCore_1a251eab798799d4f70f2862fd4c090369" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void rtype::ServerCore::set_components</definition>
+        <argsstring>()</argsstring>
+        <name>set_components</name>
+        <qualifiedname>rtype::ServerCore::set_components</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/ServerCore.hpp" line="32" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classrtype_1_1ServerCore_1a98db4db19fc67bd57e818dc40bb5ebdf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void rtype::ServerCore::set_systems</definition>
+        <argsstring>()</argsstring>
+        <name>set_systems</name>
+        <qualifiedname>rtype::ServerCore::set_systems</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/ServerCore.hpp" line="33" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classrtype_1_1ServerCore_1a2cb96c43289cb8c9715281d734448ead" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void rtype::ServerCore::run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <qualifiedname>rtype::ServerCore::run</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/ServerCore.hpp" line="34" column="18"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/ServerCore.hpp" line="28" column="5" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/ServerCore.hpp" bodystart="28" bodyend="43"/>
+    <listofallmembers>
+      <member refid="classrtype_1_1ServerCore_1a28d31aea3a93af42aeca0fa207d4086e" prot="private" virt="non-virtual"><scope>rtype::ServerCore</scope><name>_net_datas</name></member>
+      <member refid="classrtype_1_1ServerCore_1a25fb4b8b0cded7836940b3d80a11f031" prot="private" virt="non-virtual"><scope>rtype::ServerCore</scope><name>_networker</name></member>
+      <member refid="classrtype_1_1ServerCore_1afbba78f7b387523ec00fc49d43879e56" prot="private" virt="non-virtual"><scope>rtype::ServerCore</scope><name>accept_req_th</name></member>
+      <member refid="classrtype_1_1ServerCore_1a005a8c3832312195429e00ff014d3ca5" prot="private" virt="non-virtual"><scope>rtype::ServerCore</scope><name>reg</name></member>
+      <member refid="classrtype_1_1ServerCore_1ace2c26fbcb3ec9a4815164e2a9bd8617" prot="private" virt="non-virtual"><scope>rtype::ServerCore</scope><name>req_mtx</name></member>
+      <member refid="classrtype_1_1ServerCore_1a2cb96c43289cb8c9715281d734448ead" prot="public" virt="non-virtual"><scope>rtype::ServerCore</scope><name>run</name></member>
+      <member refid="classrtype_1_1ServerCore_1a63534027fcf47908312c1caab542a833" prot="private" virt="non-virtual"><scope>rtype::ServerCore</scope><name>running</name></member>
+      <member refid="classrtype_1_1ServerCore_1ad575456755c9dbb49046d229addfe0d0" prot="public" virt="non-virtual"><scope>rtype::ServerCore</scope><name>ServerCore</name></member>
+      <member refid="classrtype_1_1ServerCore_1a251eab798799d4f70f2862fd4c090369" prot="public" virt="non-virtual"><scope>rtype::ServerCore</scope><name>set_components</name></member>
+      <member refid="classrtype_1_1ServerCore_1a98db4db19fc67bd57e818dc40bb5ebdf" prot="public" virt="non-virtual"><scope>rtype::ServerCore</scope><name>set_systems</name></member>
+      <member refid="classrtype_1_1ServerCore_1a6d2e1e92a18212e9e37a5532e8bef3fe" prot="public" virt="non-virtual"><scope>rtype::ServerCore</scope><name>~ServerCore</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

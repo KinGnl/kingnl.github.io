@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="structcomponent_1_1acceleration" kind="struct" language="C++" prot="public">
+    <compoundname>component::acceleration</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structcomponent_1_1acceleration_1a9051bb3e9b69c3d13f0697472f5f3842" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float component::acceleration::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <qualifiedname>component::acceleration::x</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="75" column="15" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcomponent_1_1acceleration_1ad1ed38e16b383170b26d51244bb6ee28" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float component::acceleration::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <qualifiedname>component::acceleration::y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="76" column="15" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structcomponent_1_1acceleration_1af799d0267c1ef2e44188be36fc9862a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>component::acceleration::acceleration</definition>
+        <argsstring>(float _x=0, float _y=0)</argsstring>
+        <name>acceleration</name>
+        <qualifiedname>component::acceleration::acceleration</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>_x</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_y</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="73" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="73" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="structcomponent_1_1acceleration_1af799d0267c1ef2e44188be36fc9862a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>component::acceleration::acceleration</definition>
+        <argsstring>(float _x=0, float _y=0)</argsstring>
+        <name>acceleration</name>
+        <qualifiedname>component::acceleration::acceleration</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>_x</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_y</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Component.hpp" line="46" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Component.hpp" bodystart="46" bodyend="46"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="72" column="5" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="72" bodyend="77"/>
+    <listofallmembers>
+      <member refid="structcomponent_1_1acceleration_1af799d0267c1ef2e44188be36fc9862a8" prot="public" virt="non-virtual"><scope>component::acceleration</scope><name>acceleration</name></member>
+      <member refid="structcomponent_1_1acceleration_1af799d0267c1ef2e44188be36fc9862a8" prot="public" virt="non-virtual"><scope>component::acceleration</scope><name>acceleration</name></member>
+      <member refid="structcomponent_1_1acceleration_1a9051bb3e9b69c3d13f0697472f5f3842" prot="public" virt="non-virtual"><scope>component::acceleration</scope><name>x</name></member>
+      <member refid="structcomponent_1_1acceleration_1ad1ed38e16b383170b26d51244bb6ee28" prot="public" virt="non-virtual"><scope>component::acceleration</scope><name>y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

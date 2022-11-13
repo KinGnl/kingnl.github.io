@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="dir_c42279baa4fc7f9d445090712e80ab77" kind="dir">
+    <compoundname>server_lib_encapsulation/Enet</compoundname>
+    <innerfile refid="Enet_8cpp">Enet.cpp</innerfile>
+    <innerfile refid="Enet_8hpp">Enet.hpp</innerfile>
+    <innerfile refid="server__lib__encapsulation_2Enet_2entryPoint_8cpp">entryPoint.cpp</innerfile>
+    <innerfile refid="serialization_8cpp">serialization.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="server_lib_encapsulation/Enet/"/>
+  </compounddef>
+</doxygen>

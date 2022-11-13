@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="structcomponent_1_1controllable" kind="struct" language="C++" prot="public">
+    <compoundname>component::controllable</compoundname>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structcomponent_1_1controllable_1a35cbb25ad757cef3b41cfcaa49b8fedd" prot="public" static="no">
+        <type>std::function&lt; void()&gt;</type>
+        <definition>using component::controllable::actioner_t =  std::function&lt;void ()&gt;</definition>
+        <argsstring></argsstring>
+        <name>actioner_t</name>
+        <qualifiedname>component::controllable::actioner_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="80" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structcomponent_1_1controllable_1a98d5b0a7455e84f76c6bf1c26b5c77bc" prot="public" static="no" mutable="no">
+        <type>std::unordered_map&lt; graphics::Keyboard, actioner_t &gt;</type>
+        <definition>std::unordered_map&lt;graphics::Keyboard, actioner_t&gt; component::controllable::bindings</definition>
+        <argsstring></argsstring>
+        <name>bindings</name>
+        <qualifiedname>component::controllable::bindings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="88" column="28" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcomponent_1_1controllable_1af9191caf199465f6103d223f63fb8592" prot="public" static="no" mutable="no">
+        <type>sf::Keyboard::Key</type>
+        <definition>sf::Keyboard::Key component::controllable::keyUp</definition>
+        <argsstring></argsstring>
+        <name>keyUp</name>
+        <qualifiedname>component::controllable::keyUp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/BasicECS.hpp" line="32" column="27" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/BasicECS.hpp" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcomponent_1_1controllable_1a4f7250b5a73391f46f7bf2ac61043422" prot="public" static="no" mutable="no">
+        <type>sf::Keyboard::Key</type>
+        <definition>sf::Keyboard::Key component::controllable::keyLeft</definition>
+        <argsstring></argsstring>
+        <name>keyLeft</name>
+        <qualifiedname>component::controllable::keyLeft</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/BasicECS.hpp" line="33" column="27" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/BasicECS.hpp" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcomponent_1_1controllable_1a9abefe7efd746aea45cf32711c46fdcd" prot="public" static="no" mutable="no">
+        <type>sf::Keyboard::Key</type>
+        <definition>sf::Keyboard::Key component::controllable::keyDown</definition>
+        <argsstring></argsstring>
+        <name>keyDown</name>
+        <qualifiedname>component::controllable::keyDown</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/BasicECS.hpp" line="34" column="27" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/BasicECS.hpp" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcomponent_1_1controllable_1ab044e8c9f38739146b0e4a76ee123239" prot="public" static="no" mutable="no">
+        <type>sf::Keyboard::Key</type>
+        <definition>sf::Keyboard::Key component::controllable::keyRight</definition>
+        <argsstring></argsstring>
+        <name>keyRight</name>
+        <qualifiedname>component::controllable::keyRight</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/BasicECS.hpp" line="35" column="27" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/BasicECS.hpp" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structcomponent_1_1controllable_1af56b9cd6e8f9079d0e7f89d8d27afc27" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>component::controllable::controllable</definition>
+        <argsstring>()</argsstring>
+        <name>controllable</name>
+        <qualifiedname>component::controllable::controllable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="81" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="81" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="structcomponent_1_1controllable_1a9c8951042666321024e22e4e48ea3359" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void component::controllable::add_binding</definition>
+        <argsstring>(graphics::Keyboard key, actioner_t action)</argsstring>
+        <name>add_binding</name>
+        <qualifiedname>component::controllable::add_binding</qualifiedname>
+        <param>
+          <type>graphics::Keyboard</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>actioner_t</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="83" column="14" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="83" bodyend="86"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="79" column="5" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="79" bodyend="89"/>
+    <listofallmembers>
+      <member refid="structcomponent_1_1controllable_1a35cbb25ad757cef3b41cfcaa49b8fedd" prot="public" virt="non-virtual"><scope>component::controllable</scope><name>actioner_t</name></member>
+      <member refid="structcomponent_1_1controllable_1a9c8951042666321024e22e4e48ea3359" prot="public" virt="non-virtual"><scope>component::controllable</scope><name>add_binding</name></member>
+      <member refid="structcomponent_1_1controllable_1a98d5b0a7455e84f76c6bf1c26b5c77bc" prot="public" virt="non-virtual"><scope>component::controllable</scope><name>bindings</name></member>
+      <member refid="structcomponent_1_1controllable_1af56b9cd6e8f9079d0e7f89d8d27afc27" prot="public" virt="non-virtual"><scope>component::controllable</scope><name>controllable</name></member>
+      <member refid="structcomponent_1_1controllable_1a9abefe7efd746aea45cf32711c46fdcd" prot="public" virt="non-virtual"><scope>component::controllable</scope><name>keyDown</name></member>
+      <member refid="structcomponent_1_1controllable_1a4f7250b5a73391f46f7bf2ac61043422" prot="public" virt="non-virtual"><scope>component::controllable</scope><name>keyLeft</name></member>
+      <member refid="structcomponent_1_1controllable_1ab044e8c9f38739146b0e4a76ee123239" prot="public" virt="non-virtual"><scope>component::controllable</scope><name>keyRight</name></member>
+      <member refid="structcomponent_1_1controllable_1af9191caf199465f6103d223f63fb8592" prot="public" virt="non-virtual"><scope>component::controllable</scope><name>keyUp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

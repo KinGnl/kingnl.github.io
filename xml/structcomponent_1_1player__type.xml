@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="structcomponent_1_1player__type" kind="struct" language="C++" prot="public">
+    <compoundname>component::player_type</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structcomponent_1_1player__type_1ad3f542fd371e8f7e2a98a4d39c59a352" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int component::player_type::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>component::player_type::type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Component.hpp" line="55" column="13" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Component.hpp" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structcomponent_1_1player__type_1aa9c3383423a0e2c8379d1014a86fe439" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>component::player_type::player_type</definition>
+        <argsstring>(int _val)</argsstring>
+        <name>player_type</name>
+        <qualifiedname>component::player_type::player_type</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>_val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Component.hpp" line="53" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Component.hpp" bodystart="53" bodyend="53"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Component.hpp" line="52" column="5" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Component.hpp" bodystart="52" bodyend="56"/>
+    <listofallmembers>
+      <member refid="structcomponent_1_1player__type_1aa9c3383423a0e2c8379d1014a86fe439" prot="public" virt="non-virtual"><scope>component::player_type</scope><name>player_type</name></member>
+      <member refid="structcomponent_1_1player__type_1ad3f542fd371e8f7e2a98a4d39c59a352" prot="public" virt="non-virtual"><scope>component::player_type</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

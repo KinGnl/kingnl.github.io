@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="classentity" kind="class" language="C++" prot="public">
+    <compoundname>entity</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classentity_1a7995f0bfb6e947efb47c96ecfe3bb8ff" prot="public" static="no" mutable="no">
+        <type>std::size_t</type>
+        <definition>std::size_t entity::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <qualifiedname>entity::id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Entity.hpp" line="25" column="21" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Entity.hpp" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classentity_1a7cfd8e1d10076bc4139e8b86cd2897b1" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>entity::entity</definition>
+        <argsstring>(std::size_t _id)</argsstring>
+        <name>entity</name>
+        <qualifiedname>entity::entity</qualifiedname>
+        <param>
+          <type>std::size_t</type>
+          <declname>_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Entity.hpp" line="14" column="18" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Entity.hpp" bodystart="14" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classentity_1acec2b315e0eddb40f6c2dc1a7688293e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>entity::~entity</definition>
+        <argsstring>()</argsstring>
+        <name>~entity</name>
+        <qualifiedname>entity::~entity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Entity.hpp" line="17" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Entity.hpp" bodystart="17" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classentity_1a5fcb6528bfcdf84ac69440ae83720b02" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>entity::operator size_t</definition>
+        <argsstring>() const</argsstring>
+        <name>operator size_t</name>
+        <qualifiedname>entity::operator size_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Entity.hpp" line="20" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Entity.hpp" bodystart="20" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classentity_1a87e85768bffb796e8eafc3f7370257fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream &amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, entity const &amp;en)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <qualifiedname>entity::operator&lt;&lt;</qualifiedname>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classentity" kindref="compound">entity</ref> const &amp;</type>
+          <declname>en</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Entity.hpp" line="27" column="16" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Entity.hpp" bodystart="27" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Entity.hpp" line="12" column="1" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Entity.hpp" bodystart="12" bodyend="32"/>
+    <listofallmembers>
+      <member refid="classentity_1a7cfd8e1d10076bc4139e8b86cd2897b1" prot="public" virt="non-virtual"><scope>entity</scope><name>entity</name></member>
+      <member refid="classentity_1a7995f0bfb6e947efb47c96ecfe3bb8ff" prot="public" virt="non-virtual"><scope>entity</scope><name>id</name></member>
+      <member refid="classentity_1a5fcb6528bfcdf84ac69440ae83720b02" prot="public" virt="non-virtual"><scope>entity</scope><name>operator size_t</name></member>
+      <member refid="classentity_1a87e85768bffb796e8eafc3f7370257fe" prot="public" virt="non-virtual"><scope>entity</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classentity_1acec2b315e0eddb40f6c2dc1a7688293e" prot="public" virt="non-virtual"><scope>entity</scope><name>~entity</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

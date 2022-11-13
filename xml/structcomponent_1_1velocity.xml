@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="structcomponent_1_1velocity" kind="struct" language="C++" prot="public">
+    <compoundname>component::velocity</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structcomponent_1_1velocity_1a3373a19e5aa3d54cd371a8b3ee89dbe4" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float component::velocity::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <qualifiedname>component::velocity::x</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="68" column="15" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcomponent_1_1velocity_1a2172daf5bf2f6a5ad0f030f481524f94" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float component::velocity::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <qualifiedname>component::velocity::y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="69" column="15" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structcomponent_1_1velocity_1a2d4d46bbc5c65a74381efd60b78a65a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>component::velocity::velocity</definition>
+        <argsstring>(float _x=0, float _y=0)</argsstring>
+        <name>velocity</name>
+        <qualifiedname>component::velocity::velocity</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>_x</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_y</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="66" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="66" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="structcomponent_1_1velocity_1a2d4d46bbc5c65a74381efd60b78a65a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>component::velocity::velocity</definition>
+        <argsstring>(float _x=0, float _y=0)</argsstring>
+        <name>velocity</name>
+        <qualifiedname>component::velocity::velocity</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>_x</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_y</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Component.hpp" line="39" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Component.hpp" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="structcomponent_1_1velocity_1a2d4d46bbc5c65a74381efd60b78a65a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>component::velocity::velocity</definition>
+        <argsstring>(float _x=0, float _y=0)</argsstring>
+        <name>velocity</name>
+        <qualifiedname>component::velocity::velocity</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>_x</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_y</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/BasicECS.hpp" line="22" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/BasicECS.hpp" bodystart="22" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="65" column="5" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="65" bodyend="70"/>
+    <listofallmembers>
+      <member refid="structcomponent_1_1velocity_1a2d4d46bbc5c65a74381efd60b78a65a9" prot="public" virt="non-virtual"><scope>component::velocity</scope><name>velocity</name></member>
+      <member refid="structcomponent_1_1velocity_1a2d4d46bbc5c65a74381efd60b78a65a9" prot="public" virt="non-virtual"><scope>component::velocity</scope><name>velocity</name></member>
+      <member refid="structcomponent_1_1velocity_1a2d4d46bbc5c65a74381efd60b78a65a9" prot="public" virt="non-virtual"><scope>component::velocity</scope><name>velocity</name></member>
+      <member refid="structcomponent_1_1velocity_1a3373a19e5aa3d54cd371a8b3ee89dbe4" prot="public" virt="non-virtual"><scope>component::velocity</scope><name>x</name></member>
+      <member refid="structcomponent_1_1velocity_1a2172daf5bf2f6a5ad0f030f481524f94" prot="public" virt="non-virtual"><scope>component::velocity</scope><name>y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

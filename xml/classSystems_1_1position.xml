@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="classSystems_1_1position" kind="class" language="C++" prot="public">
+    <compoundname>Systems::position</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classSystems_1_1position_1a61b9d1d47a46fc8d452df402ddc1fb15" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="classnetwork_1_1INetworker" kindref="compound">network::INetworker</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;network::INetworker&gt; Systems::position::_net</definition>
+        <argsstring></argsstring>
+        <name>_net</name>
+        <qualifiedname>Systems::position::_net</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Systems.hpp" line="81" column="29" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Systems.hpp" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classSystems_1_1position_1a03992271710858ee29c050f1699dec6c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Systems::position::position</definition>
+        <argsstring>(std::shared_ptr&lt; network::INetworker &gt; &amp;net)</argsstring>
+        <name>position</name>
+        <qualifiedname>Systems::position::position</qualifiedname>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="classnetwork_1_1INetworker" kindref="compound">network::INetworker</ref> &gt; &amp;</type>
+          <declname>net</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Systems.hpp" line="67" column="13" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Systems.hpp" bodystart="67" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classSystems_1_1position_1a10d85c7b4a04401fb31fd26c0a5ad040" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Systems::position::~position</definition>
+        <argsstring>()</argsstring>
+        <name>~position</name>
+        <qualifiedname>Systems::position::~position</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Systems.hpp" line="72" column="13" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Systems.hpp" bodystart="72" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classSystems_1_1position_1a12df3602073a30d615a4c21e64fbdbd6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Systems::position::operator()</definition>
+        <argsstring>(registry &amp;reg, sparse_array&lt; component::velocity &gt; &amp;, sparse_array&lt; component::position &gt; &amp;) const</argsstring>
+        <name>operator()</name>
+        <qualifiedname>Systems::position::operator()</qualifiedname>
+        <param>
+          <type><ref refid="classregistry" kindref="compound">registry</ref> &amp;</type>
+          <declname>reg</declname>
+        </param>
+        <param>
+          <type><ref refid="classsparse__array" kindref="compound">sparse_array</ref>&lt; <ref refid="structcomponent_1_1velocity" kindref="compound">component::velocity</ref> &gt; &amp;</type>
+        </param>
+        <param>
+          <type><ref refid="classsparse__array" kindref="compound">sparse_array</ref>&lt; <ref refid="structcomponent_1_1position" kindref="compound">component::position</ref> &gt; &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Systems.hpp" line="76" column="18"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Systems.hpp" line="64" column="5" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Systems.hpp" bodystart="64" bodyend="82"/>
+    <listofallmembers>
+      <member refid="classSystems_1_1position_1a61b9d1d47a46fc8d452df402ddc1fb15" prot="private" virt="non-virtual"><scope>Systems::position</scope><name>_net</name></member>
+      <member refid="classSystems_1_1position_1a12df3602073a30d615a4c21e64fbdbd6" prot="public" virt="non-virtual"><scope>Systems::position</scope><name>operator()</name></member>
+      <member refid="classSystems_1_1position_1a03992271710858ee29c050f1699dec6c" prot="public" virt="non-virtual"><scope>Systems::position</scope><name>position</name></member>
+      <member refid="classSystems_1_1position_1a10d85c7b4a04401fb31fd26c0a5ad040" prot="public" virt="non-virtual"><scope>Systems::position</scope><name>~position</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="classecs__system_1_1draw" kind="class" language="C++" prot="public">
+    <compoundname>ecs_system::draw</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classecs__system_1_1draw_1a6fe5d2a011674383222390f40d45d8d5" prot="private" static="no" mutable="no">
+        <type>sf::RenderWindow &amp;</type>
+        <definition>sf::RenderWindow&amp; ecs_system::draw::_window</definition>
+        <argsstring></argsstring>
+        <name>_window</name>
+        <qualifiedname>ecs_system::draw::_window</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/BasicECS.hpp" line="66" column="30" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/BasicECS.hpp" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classecs__system_1_1draw_1ac2b8aabe1acb8f332ff2ceda3e600565" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ecs_system::draw::draw</definition>
+        <argsstring>(sf::RenderWindow &amp;window)</argsstring>
+        <name>draw</name>
+        <qualifiedname>ecs_system::draw::draw</qualifiedname>
+        <param>
+          <type>sf::RenderWindow &amp;</type>
+          <declname>window</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/BasicECS.hpp" line="44" column="13" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/BasicECS.hpp" bodystart="44" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classecs__system_1_1draw_1af487f173949f657bcf03482f782bfcaf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ecs_system::draw::~draw</definition>
+        <argsstring>()</argsstring>
+        <name>~draw</name>
+        <qualifiedname>ecs_system::draw::~draw</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/BasicECS.hpp" line="46" column="13" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/BasicECS.hpp" bodystart="46" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classecs__system_1_1draw_1a2e1f2267e6aea8d97a52392dc7cf55a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ecs_system::draw::operator()</definition>
+        <argsstring>(registry &amp;reg)</argsstring>
+        <name>operator()</name>
+        <qualifiedname>ecs_system::draw::operator()</qualifiedname>
+        <param>
+          <type><ref refid="classregistry" kindref="compound">registry</ref> &amp;</type>
+          <declname>reg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/BasicECS.hpp" line="48" column="18" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/BasicECS.hpp" bodystart="48" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/BasicECS.hpp" line="41" column="5" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/BasicECS.hpp" bodystart="41" bodyend="67"/>
+    <listofallmembers>
+      <member refid="classecs__system_1_1draw_1a6fe5d2a011674383222390f40d45d8d5" prot="private" virt="non-virtual"><scope>ecs_system::draw</scope><name>_window</name></member>
+      <member refid="classecs__system_1_1draw_1ac2b8aabe1acb8f332ff2ceda3e600565" prot="public" virt="non-virtual"><scope>ecs_system::draw</scope><name>draw</name></member>
+      <member refid="classecs__system_1_1draw_1a2e1f2267e6aea8d97a52392dc7cf55a5" prot="public" virt="non-virtual"><scope>ecs_system::draw</scope><name>operator()</name></member>
+      <member refid="classecs__system_1_1draw_1af487f173949f657bcf03482f782bfcaf" prot="public" virt="non-virtual"><scope>ecs_system::draw</scope><name>~draw</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

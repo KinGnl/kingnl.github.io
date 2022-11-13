@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="dir_eaf5e719b164b99b8b6ffe32c982edeb" kind="dir">
+    <compoundname>R-typeClient/includes</compoundname>
+    <innerfile refid="ClientCore_8hpp">ClientCore.hpp</innerfile>
+    <innerfile refid="R-typeClient_2includes_2Component_8hpp">Component.hpp</innerfile>
+    <innerfile refid="R-typeClient_2includes_2CreateEntities_8hpp">CreateEntities.hpp</innerfile>
+    <innerfile refid="EventActions_8hpp">EventActions.hpp</innerfile>
+    <innerfile refid="Scene_8hpp">Scene.hpp</innerfile>
+    <innerfile refid="R-typeClient_2includes_2Systems_8hpp">Systems.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="R-typeClient/includes/"/>
+  </compounddef>
+</doxygen>

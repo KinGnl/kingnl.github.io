@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="classSystems_1_1velocity" kind="class" language="C++" prot="public">
+    <compoundname>Systems::velocity</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classSystems_1_1velocity_1a51c5b38e9a5ff8802171806ef89951b0" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="classnetwork_1_1INetworker" kindref="compound">network::INetworker</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;network::INetworker&gt; Systems::velocity::_net</definition>
+        <argsstring></argsstring>
+        <name>_net</name>
+        <qualifiedname>Systems::velocity::_net</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Systems.hpp" line="101" column="29" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Systems.hpp" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classSystems_1_1velocity_1aef7b83cd106aafc4189005bfc7dc1935" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Systems::velocity::velocity</definition>
+        <argsstring>(std::shared_ptr&lt; network::INetworker &gt; &amp;net)</argsstring>
+        <name>velocity</name>
+        <qualifiedname>Systems::velocity::velocity</qualifiedname>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="classnetwork_1_1INetworker" kindref="compound">network::INetworker</ref> &gt; &amp;</type>
+          <declname>net</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Systems.hpp" line="87" column="13" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Systems.hpp" bodystart="87" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classSystems_1_1velocity_1a156429f8494fa1b47c492abcf16ef377" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Systems::velocity::~velocity</definition>
+        <argsstring>()</argsstring>
+        <name>~velocity</name>
+        <qualifiedname>Systems::velocity::~velocity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Systems.hpp" line="92" column="13" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Systems.hpp" bodystart="92" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classSystems_1_1velocity_1a0aba3f634b63eeae6fef5931df84e06f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Systems::velocity::operator()</definition>
+        <argsstring>(registry &amp;reg, sparse_array&lt; component::acceleration &gt; &amp;, sparse_array&lt; component::velocity &gt; &amp;) const</argsstring>
+        <name>operator()</name>
+        <qualifiedname>Systems::velocity::operator()</qualifiedname>
+        <param>
+          <type><ref refid="classregistry" kindref="compound">registry</ref> &amp;</type>
+          <declname>reg</declname>
+        </param>
+        <param>
+          <type><ref refid="classsparse__array" kindref="compound">sparse_array</ref>&lt; <ref refid="structcomponent_1_1acceleration" kindref="compound">component::acceleration</ref> &gt; &amp;</type>
+        </param>
+        <param>
+          <type><ref refid="classsparse__array" kindref="compound">sparse_array</ref>&lt; <ref refid="structcomponent_1_1velocity" kindref="compound">component::velocity</ref> &gt; &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Systems.hpp" line="96" column="18"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Systems.hpp" line="84" column="5" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Systems.hpp" bodystart="84" bodyend="102"/>
+    <listofallmembers>
+      <member refid="classSystems_1_1velocity_1a51c5b38e9a5ff8802171806ef89951b0" prot="private" virt="non-virtual"><scope>Systems::velocity</scope><name>_net</name></member>
+      <member refid="classSystems_1_1velocity_1a0aba3f634b63eeae6fef5931df84e06f" prot="public" virt="non-virtual"><scope>Systems::velocity</scope><name>operator()</name></member>
+      <member refid="classSystems_1_1velocity_1aef7b83cd106aafc4189005bfc7dc1935" prot="public" virt="non-virtual"><scope>Systems::velocity</scope><name>velocity</name></member>
+      <member refid="classSystems_1_1velocity_1a156429f8494fa1b47c492abcf16ef377" prot="public" virt="non-virtual"><scope>Systems::velocity</scope><name>~velocity</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

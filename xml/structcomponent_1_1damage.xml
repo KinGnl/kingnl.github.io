@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="structcomponent_1_1damage" kind="struct" language="C++" prot="public">
+    <compoundname>component::damage</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structcomponent_1_1damage_1a88226417a237dfd4e0ac383d9d459901" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int component::damage::val</definition>
+        <argsstring></argsstring>
+        <name>val</name>
+        <qualifiedname>component::damage::val</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="314" column="13" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="314" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structcomponent_1_1damage_1afd2da8c44c0497dde4223f5e4a691a10" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>component::damage::damage</definition>
+        <argsstring>(int _val)</argsstring>
+        <name>damage</name>
+        <qualifiedname>component::damage::damage</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>_val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="312" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="312" bodyend="312"/>
+      </memberdef>
+      <memberdef kind="function" id="structcomponent_1_1damage_1afd2da8c44c0497dde4223f5e4a691a10" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>component::damage::damage</definition>
+        <argsstring>(int _val)</argsstring>
+        <name>damage</name>
+        <qualifiedname>component::damage::damage</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>_val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Component.hpp" line="59" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Component.hpp" bodystart="59" bodyend="59"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="311" column="5" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="311" bodyend="315"/>
+    <listofallmembers>
+      <member refid="structcomponent_1_1damage_1afd2da8c44c0497dde4223f5e4a691a10" prot="public" virt="non-virtual"><scope>component::damage</scope><name>damage</name></member>
+      <member refid="structcomponent_1_1damage_1afd2da8c44c0497dde4223f5e4a691a10" prot="public" virt="non-virtual"><scope>component::damage</scope><name>damage</name></member>
+      <member refid="structcomponent_1_1damage_1a88226417a237dfd4e0ac383d9d459901" prot="public" virt="non-virtual"><scope>component::damage</scope><name>val</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

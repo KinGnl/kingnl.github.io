@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="structVector2D" kind="struct" language="C++" prot="public">
+    <compoundname>Vector2D</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structVector2D_1a65e391ec61c185092a02cf6301d0fff7" prot="public" static="no" mutable="no">
+        <type>T</type>
+        <definition>T Vector2D&lt; T &gt;::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <qualifiedname>Vector2D::x</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/general/default_libs.hpp" line="28" column="7" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/general/default_libs.hpp" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVector2D_1a6a91fccbbd37162d28fa54aeeb88f9d2" prot="public" static="no" mutable="no">
+        <type>T</type>
+        <definition>T Vector2D&lt; T &gt;::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <qualifiedname>Vector2D::y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/general/default_libs.hpp" line="29" column="7" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/general/default_libs.hpp" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structVector2D_1ab0c331c7e7c41bc297447fc9de7aa682" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Vector2D&lt; T &gt;::Vector2D</definition>
+        <argsstring>(T _x=0, T _y=0)</argsstring>
+        <name>Vector2D</name>
+        <qualifiedname>Vector2D::Vector2D</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>_x</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>_y</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/general/default_libs.hpp" line="26" column="5" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/general/default_libs.hpp" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="structVector2D_1a46fa682e1306e0cc13ede410a886bffc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void Vector2D&lt; T &gt;::serialize</definition>
+        <argsstring>(Archive &amp;ar, const unsigned int version)</argsstring>
+        <name>serialize</name>
+        <qualifiedname>Vector2D::serialize</qualifiedname>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>const unsigned int</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/general/default_libs.hpp" line="32" column="10" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/general/default_libs.hpp" bodystart="32" bodyend="34"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/general/default_libs.hpp" line="25" column="1" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/general/default_libs.hpp" bodystart="25" bodyend="35"/>
+    <listofallmembers>
+      <member refid="structVector2D_1a46fa682e1306e0cc13ede410a886bffc" prot="public" virt="non-virtual"><scope>Vector2D</scope><name>serialize</name></member>
+      <member refid="structVector2D_1ab0c331c7e7c41bc297447fc9de7aa682" prot="public" virt="non-virtual"><scope>Vector2D</scope><name>Vector2D</name></member>
+      <member refid="structVector2D_1a65e391ec61c185092a02cf6301d0fff7" prot="public" virt="non-virtual"><scope>Vector2D</scope><name>x</name></member>
+      <member refid="structVector2D_1a6a91fccbbd37162d28fa54aeeb88f9d2" prot="public" virt="non-virtual"><scope>Vector2D</scope><name>y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

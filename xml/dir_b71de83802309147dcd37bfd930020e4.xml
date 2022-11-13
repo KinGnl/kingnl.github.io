@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="dir_b71de83802309147dcd37bfd930020e4" kind="dir">
+    <compoundname>server_lib_encapsulation</compoundname>
+    <innerdir refid="dir_c42279baa4fc7f9d445090712e80ab77">server_lib_encapsulation/Enet</innerdir>
+    <innerfile refid="INetworker_8hpp">INetworker.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="server_lib_encapsulation/"/>
+  </compounddef>
+</doxygen>

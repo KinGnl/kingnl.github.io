@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="dir_b271cc06cb07e1de938d163fe84d5e80" kind="dir">
+    <compoundname>R-typeServer/includes</compoundname>
+    <innerfile refid="R-typeServer_2includes_2Component_8hpp">Component.hpp</innerfile>
+    <innerfile refid="R-typeServer_2includes_2CreateEntities_8hpp">CreateEntities.hpp</innerfile>
+    <innerfile refid="ServerCore_8hpp">ServerCore.hpp</innerfile>
+    <innerfile refid="R-typeServer_2includes_2Systems_8hpp">Systems.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="R-typeServer/includes/"/>
+  </compounddef>
+</doxygen>

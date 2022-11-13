@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="structcomponent_1_1room__id" kind="struct" language="C++" prot="public">
+    <compoundname>component::room_id</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structcomponent_1_1room__id_1ab499fc5cc388bcb04a1cc2dbc6b3eebb" prot="public" static="no" mutable="no">
+        <type>std::size_t</type>
+        <definition>std::size_t component::room_id::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <qualifiedname>component::room_id::id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="191" column="21" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="191" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structcomponent_1_1room__id_1ac217ae027aaaf2e32b9b80e861eb2858" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>component::room_id::room_id</definition>
+        <argsstring>(std::size_t _val)</argsstring>
+        <name>room_id</name>
+        <qualifiedname>component::room_id::room_id</qualifiedname>
+        <param>
+          <type>std::size_t</type>
+          <declname>_val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="189" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="189" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="structcomponent_1_1room__id_1ac217ae027aaaf2e32b9b80e861eb2858" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>component::room_id::room_id</definition>
+        <argsstring>(std::size_t _val)</argsstring>
+        <name>room_id</name>
+        <qualifiedname>component::room_id::room_id</qualifiedname>
+        <param>
+          <type>std::size_t</type>
+          <declname>_val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Component.hpp" line="77" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Component.hpp" bodystart="77" bodyend="77"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="188" column="5" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="188" bodyend="192"/>
+    <listofallmembers>
+      <member refid="structcomponent_1_1room__id_1ab499fc5cc388bcb04a1cc2dbc6b3eebb" prot="public" virt="non-virtual"><scope>component::room_id</scope><name>id</name></member>
+      <member refid="structcomponent_1_1room__id_1ac217ae027aaaf2e32b9b80e861eb2858" prot="public" virt="non-virtual"><scope>component::room_id</scope><name>room_id</name></member>
+      <member refid="structcomponent_1_1room__id_1ac217ae027aaaf2e32b9b80e861eb2858" prot="public" virt="non-virtual"><scope>component::room_id</scope><name>room_id</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

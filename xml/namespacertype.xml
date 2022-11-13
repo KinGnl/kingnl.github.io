@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="namespacertype" kind="namespace" language="C++">
+    <compoundname>rtype</compoundname>
+    <innerclass refid="classrtype_1_1ClientCore" prot="public">rtype::ClientCore</innerclass>
+    <innerclass refid="classrtype_1_1IScene" prot="public">rtype::IScene</innerclass>
+    <innerclass refid="classrtype_1_1Scene" prot="public">rtype::Scene</innerclass>
+    <innerclass refid="classrtype_1_1ServerCore" prot="public">rtype::ServerCore</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="Scene_8hpp_1ad80375e169e619db7ebc6377d1679287" prot="public" static="no" strong="no">
+        <type></type>
+        <name>SceneName</name>
+        <qualifiedname>rtype::SceneName</qualifiedname>
+        <enumvalue id="Scene_8hpp_1ad80375e169e619db7ebc6377d1679287ac0d4ef5a66aedbf87e00841f763f1dfe" prot="public">
+          <name>Cinematic</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Scene_8hpp_1ad80375e169e619db7ebc6377d1679287a3c7997c4b9342c41ca97920e21f93cfc" prot="public">
+          <name>Loading</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Scene_8hpp_1ad80375e169e619db7ebc6377d1679287aef1c8c754d7c631ef57b0113fcf7df49" prot="public">
+          <name>MainMenu</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Scene_8hpp_1ad80375e169e619db7ebc6377d1679287afbb200da690474c3999af9d5dc218b58" prot="public">
+          <name>Transition</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Scene_8hpp_1ad80375e169e619db7ebc6377d1679287a279500ff649ead0d1e64d19c26424d36" prot="public">
+          <name>PlayMenu</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Scene_8hpp_1ad80375e169e619db7ebc6377d1679287ad7fa36ecffb3bd8276c1b404a598e75e" prot="public">
+          <name>SinglePlayer</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Scene_8hpp_1ad80375e169e619db7ebc6377d1679287a539f0ac603e6c1a180dccb0beb2bf970" prot="public">
+          <name>MultiPlayer</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Scene_8hpp_1ad80375e169e619db7ebc6377d1679287a236ed2d8672b1e80403169dd56cc33cf" prot="public">
+          <name>Settings</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Scene_8hpp_1ad80375e169e619db7ebc6377d1679287afd37733ef376879d0d72ddaf6733f921" prot="public">
+          <name>Help</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Scene_8hpp_1ad80375e169e619db7ebc6377d1679287ab1ed65a764f455b71b881e77e3a1bfb6" prot="public">
+          <name>Credits</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Scene_8hpp_1ad80375e169e619db7ebc6377d1679287a6714a24f64e4d01ad068f3cef44a59f0" prot="public">
+          <name>NameInsertion</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Scene_8hpp_1ad80375e169e619db7ebc6377d1679287a952ebd37e716744ff1b13427079cb89c" prot="public">
+          <name>VesselChoice</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Scene_8hpp_1ad80375e169e619db7ebc6377d1679287ac6a258ef214de0604ae75f1448229558" prot="public">
+          <name>RoomChoice</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Scene_8hpp_1ad80375e169e619db7ebc6377d1679287a33bc8c469c9bef8ed0d7ec619a975305" prot="public">
+          <name>RoomLoading</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Scene_8hpp_1ad80375e169e619db7ebc6377d1679287abc90af634195c8abf87399dcb38b0829" prot="public">
+          <name>Game</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Scene.hpp" line="14" column="5" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Scene.hpp" bodystart="14" bodyend="30"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="ClientCore_8hpp_1a603d480628945ceb2d19ecad061eb531" prot="public" static="no" mutable="no">
+        <type>component::SceneName</type>
+        <definition>component::SceneName rtype::_scene</definition>
+        <argsstring></argsstring>
+        <name>_scene</name>
+        <qualifiedname>rtype::_scene</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/ClientCore.hpp" line="62" column="33" declfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/ClientCore.hpp" declline="62" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="variable" id="ServerCore_8hpp_1a88bd20845fae0a6bd41ed051ef8754a9" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int rtype::sig_num</definition>
+        <argsstring></argsstring>
+        <name>sig_num</name>
+        <qualifiedname>rtype::sig_num</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/ServerCore.hpp" line="45" column="16" declfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/ServerCore.hpp" declline="45" declcolumn="16"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Scene.hpp" line="12" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,655 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="classRaylib" kind="class" language="C++" prot="public">
+    <compoundname>Raylib</compoundname>
+    <basecompoundref refid="classgraphics_1_1IDisplay" prot="public" virt="non-virtual">graphics::IDisplay</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classRaylib_1aa62ad9b2eefd809dc4a539298d59eb3f" prot="private" static="no" mutable="no">
+        <type>std::unordered_map&lt; std::string, Font &gt;</type>
+        <definition>std::unordered_map&lt;std::string, Font&gt; Raylib::_fonts</definition>
+        <argsstring></argsstring>
+        <name>_fonts</name>
+        <qualifiedname>Raylib::_fonts</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.hpp" line="51" column="28" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.hpp" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRaylib_1a31062a17fe50df4ce42aca4e18615b89" prot="private" static="no" mutable="no">
+        <type>std::unordered_map&lt; std::string, Image &gt;</type>
+        <definition>std::unordered_map&lt;std::string, Image&gt; Raylib::_images</definition>
+        <argsstring></argsstring>
+        <name>_images</name>
+        <qualifiedname>Raylib::_images</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.hpp" line="52" column="28" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.hpp" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRaylib_1a649b95a52e1c4becb8d3e37b81dba0a0" prot="private" static="no" mutable="no">
+        <type>std::unordered_map&lt; std::string, Texture2D &gt;</type>
+        <definition>std::unordered_map&lt;std::string, Texture2D&gt; Raylib::_textures</definition>
+        <argsstring></argsstring>
+        <name>_textures</name>
+        <qualifiedname>Raylib::_textures</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.hpp" line="53" column="28" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.hpp" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRaylib_1afc8f920c274b675cde60207d7fd1cb5b" prot="private" static="no" mutable="no">
+        <type>std::unordered_map&lt; std::string, Sound &gt;</type>
+        <definition>std::unordered_map&lt;std::string, Sound&gt; Raylib::_sounds</definition>
+        <argsstring></argsstring>
+        <name>_sounds</name>
+        <qualifiedname>Raylib::_sounds</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.hpp" line="54" column="28" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.hpp" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRaylib_1a0756c7c92db805f6826c2aa07ad9280e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Raylib::_poll_event</definition>
+        <argsstring></argsstring>
+        <name>_poll_event</name>
+        <qualifiedname>Raylib::_poll_event</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.hpp" line="55" column="14" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.hpp" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classRaylib_1a6912339ce0a1c189a7b756ad3ca1fe50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Raylib::Raylib</definition>
+        <argsstring>()</argsstring>
+        <name>Raylib</name>
+        <qualifiedname>Raylib::Raylib</qualifiedname>
+        <briefdescription>
+<para>Construct a new <ref refid="classRaylib" kindref="compound">Raylib</ref>:: <ref refid="classRaylib" kindref="compound">Raylib</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.hpp" line="25" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.cpp" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classRaylib_1a73c8b0f22704986442fd4d63146ac0a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Raylib::~Raylib</definition>
+        <argsstring>()</argsstring>
+        <name>~Raylib</name>
+        <qualifiedname>Raylib::~Raylib</qualifiedname>
+        <briefdescription>
+<para>Destroy the <ref refid="classRaylib" kindref="compound">Raylib</ref>:: <ref refid="classRaylib" kindref="compound">Raylib</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.hpp" line="26" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.cpp" bodystart="27" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classRaylib_1a6817466000222151e6dea205ba5d44e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Raylib::openWin</definition>
+        <argsstring>()</argsstring>
+        <name>openWin</name>
+        <qualifiedname>Raylib::openWin</qualifiedname>
+        <reimplements refid="classgraphics_1_1IDisplay_1a42d4ac0840dd50629674739732c18158">openWin</reimplements>
+        <briefdescription>
+<para>Open a window. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.hpp" line="27" column="14" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.cpp" bodystart="35" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classRaylib_1ab07e6a62d1031b183c9cf894ee1a5f3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int Raylib::getScreenWidth</definition>
+        <argsstring>()</argsstring>
+        <name>getScreenWidth</name>
+        <qualifiedname>Raylib::getScreenWidth</qualifiedname>
+        <reimplements refid="classgraphics_1_1IDisplay_1a68e9af3e1a47f1547bc734c643526301">getScreenWidth</reimplements>
+        <briefdescription>
+<para>Get the window width. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>int </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.hpp" line="28" column="13" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.cpp" bodystart="53" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classRaylib_1af0fd264584fc278602d28188cfc04123" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int Raylib::getScreenHeight</definition>
+        <argsstring>()</argsstring>
+        <name>getScreenHeight</name>
+        <qualifiedname>Raylib::getScreenHeight</qualifiedname>
+        <reimplements refid="classgraphics_1_1IDisplay_1aecc5c67d9f7301c2501aa3be55de6d2b">getScreenHeight</reimplements>
+        <briefdescription>
+<para>Get the window Height. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>int </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.hpp" line="29" column="13" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.cpp" bodystart="63" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classRaylib_1a5102ca76dfb9e5dd2b3dd2bfbda3a04d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Raylib::setFps</definition>
+        <argsstring>(int fps)</argsstring>
+        <name>setFps</name>
+        <qualifiedname>Raylib::setFps</qualifiedname>
+        <reimplements refid="classgraphics_1_1IDisplay_1a75686a31bb9195da5dcef3bdc581da24">setFps</reimplements>
+        <param>
+          <type>int</type>
+          <declname>fps</declname>
+        </param>
+        <briefdescription>
+<para>Set frame rate. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: the value of rate </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.hpp" line="30" column="14" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.cpp" bodystart="73" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classRaylib_1a72c614e50e0ba7cc2994f7b4c9a2e3b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool Raylib::isOpen</definition>
+        <argsstring>()</argsstring>
+        <name>isOpen</name>
+        <qualifiedname>Raylib::isOpen</qualifiedname>
+        <reimplements refid="classgraphics_1_1IDisplay_1ad3e8d7f8c2f6cd2f3ab549e36995054f">isOpen</reimplements>
+        <briefdescription>
+<para>Verify if the window is open. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true if the window is open </para>
+</simplesect>
+<simplesect kind="return"><para>false if the window is close </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.hpp" line="31" column="14" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.cpp" bodystart="84" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="classRaylib_1a553668e178d1a09c176293f2e3210ead" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Raylib::closeWin</definition>
+        <argsstring>()</argsstring>
+        <name>closeWin</name>
+        <qualifiedname>Raylib::closeWin</qualifiedname>
+        <reimplements refid="classgraphics_1_1IDisplay_1ab42619fb6444a67ac7f4c25ed6df71d6">closeWin</reimplements>
+        <briefdescription>
+<para>Close window. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.hpp" line="32" column="14" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.cpp" bodystart="93" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="classRaylib_1a70c7f9c8a078818a737a796d21594c5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool Raylib::pollEvent</definition>
+        <argsstring>()</argsstring>
+        <name>pollEvent</name>
+        <qualifiedname>Raylib::pollEvent</qualifiedname>
+        <reimplements refid="classgraphics_1_1IDisplay_1ad2524a05717992ebad1f69394ce4c34d">pollEvent</reimplements>
+        <briefdescription>
+<para>Verify if an event happened. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true if an event happened </para>
+</simplesect>
+<simplesect kind="return"><para>false if there is no event happened </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.hpp" line="33" column="14" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.cpp" bodystart="113" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="classRaylib_1ae2f46bc478414d002510e8268fc94107" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Raylib::beginDrawing</definition>
+        <argsstring>()</argsstring>
+        <name>beginDrawing</name>
+        <qualifiedname>Raylib::beginDrawing</qualifiedname>
+        <reimplements refid="classgraphics_1_1IDisplay_1a422115304bc15272930fc91cfac942f1">beginDrawing</reimplements>
+        <briefdescription>
+<para>Start drawing This function must be called before drawing anything. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.hpp" line="34" column="14" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.cpp" bodystart="124" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="classRaylib_1a452fd23d2d7412fb4a3035c7337f28f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Raylib::clearBackground</definition>
+        <argsstring>()</argsstring>
+        <name>clearBackground</name>
+        <qualifiedname>Raylib::clearBackground</qualifiedname>
+        <reimplements refid="classgraphics_1_1IDisplay_1aa83ce879ec863bc6d6afec6fb19928a8">clearBackground</reimplements>
+        <briefdescription>
+<para>Clear background. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.hpp" line="35" column="14" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.cpp" bodystart="133" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="classRaylib_1ab24a2afc51a35fe0cd8d99632d82b144" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Raylib::draw</definition>
+        <argsstring>(component::position posComp, component::drawable drawComp)</argsstring>
+        <name>draw</name>
+        <qualifiedname>Raylib::draw</qualifiedname>
+        <reimplements refid="classgraphics_1_1IDisplay_1a7d87637abb600adbc1b716ad89d10967">draw</reimplements>
+        <param>
+          <type><ref refid="structcomponent_1_1position" kindref="compound">component::position</ref></type>
+          <declname>posComp</declname>
+        </param>
+        <param>
+          <type><ref refid="structcomponent_1_1drawable" kindref="compound">component::drawable</ref></type>
+          <declname>drawComp</declname>
+        </param>
+        <briefdescription>
+<para>Draw entities. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>posComp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: position component of the entity </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>drawComp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: drawable component of the entity </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.hpp" line="36" column="14" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.cpp" bodystart="144" bodyend="195"/>
+      </memberdef>
+      <memberdef kind="function" id="classRaylib_1a247b79289042dffcbaa45eaa90e1a9c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Raylib::endDrawing</definition>
+        <argsstring>()</argsstring>
+        <name>endDrawing</name>
+        <qualifiedname>Raylib::endDrawing</qualifiedname>
+        <reimplements refid="classgraphics_1_1IDisplay_1a20933b417f7b845cab5c2c3d327e2812">endDrawing</reimplements>
+        <briefdescription>
+<para>End drawing This function must be called to stop drawing. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.hpp" line="37" column="14" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.cpp" bodystart="202" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="function" id="classRaylib_1a854e5d6c6bd36b961f7845e401242c14" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int Raylib::getCharPressed</definition>
+        <argsstring>()</argsstring>
+        <name>getCharPressed</name>
+        <qualifiedname>Raylib::getCharPressed</qualifiedname>
+        <reimplements refid="classgraphics_1_1IDisplay_1ac8040ff86e0fc29b3e381a59a9e9b7c9">getCharPressed</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.hpp" line="38" column="13" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.cpp" bodystart="207" bodyend="210"/>
+      </memberdef>
+      <memberdef kind="function" id="classRaylib_1ae89ed6e0dc80c915e007b85ddb9e257e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool Raylib::isKeyPressed</definition>
+        <argsstring>(Keyboard key)</argsstring>
+        <name>isKeyPressed</name>
+        <qualifiedname>Raylib::isKeyPressed</qualifiedname>
+        <reimplements refid="classgraphics_1_1IDisplay_1a7496a199aa98a30da52e880e4dbf900d">isKeyPressed</reimplements>
+        <param>
+          <type>Keyboard</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+<para>verify if a keyboard touch was pressed once </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: the key to check </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if a keyboard touch was pressed once </para>
+</simplesect>
+<simplesect kind="return"><para>false if a keyboard touch was not pressed once </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.hpp" line="39" column="14" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.cpp" bodystart="219" bodyend="266"/>
+      </memberdef>
+      <memberdef kind="function" id="classRaylib_1abdd2681427e02f7c2a4a24ff8325bb6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool Raylib::isKeyBeingPressed</definition>
+        <argsstring>(Keyboard key)</argsstring>
+        <name>isKeyBeingPressed</name>
+        <qualifiedname>Raylib::isKeyBeingPressed</qualifiedname>
+        <reimplements refid="classgraphics_1_1IDisplay_1a64685751056794aeb7c2ee3cca05829f">isKeyBeingPressed</reimplements>
+        <param>
+          <type>Keyboard</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+<para>verify if a keyboard touch is been pressed </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: the key to check </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if a keyboard touch is been pressed </para>
+</simplesect>
+<simplesect kind="return"><para>false if a keyboard touch is not been pressed </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.hpp" line="40" column="14" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.cpp" bodystart="275" bodyend="322"/>
+      </memberdef>
+      <memberdef kind="function" id="classRaylib_1af01e7b95d67a38b65665fe0596c6ece2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool Raylib::isKeyReleased</definition>
+        <argsstring>(Keyboard key)</argsstring>
+        <name>isKeyReleased</name>
+        <qualifiedname>Raylib::isKeyReleased</qualifiedname>
+        <reimplements refid="classgraphics_1_1IDisplay_1a2e846357664409226f392f639b037260">isKeyReleased</reimplements>
+        <param>
+          <type>Keyboard</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+<para>verify if a keyboard touch was released once </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: the key to check </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if a keyboard touch was released once </para>
+</simplesect>
+<simplesect kind="return"><para>false if a keyboard touch was not released once </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.hpp" line="41" column="14" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.cpp" bodystart="331" bodyend="378"/>
+      </memberdef>
+      <memberdef kind="function" id="classRaylib_1af47b4c4b37a12d11942f5492f8863446" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool Raylib::isMouseButtonPressed</definition>
+        <argsstring>(graphics::MouseButton button)</argsstring>
+        <name>isMouseButtonPressed</name>
+        <qualifiedname>Raylib::isMouseButtonPressed</qualifiedname>
+        <reimplements refid="classgraphics_1_1IDisplay_1aa2c0a45707bde7c0fe6b31b0acee7a98">isMouseButtonPressed</reimplements>
+        <param>
+          <type>graphics::MouseButton</type>
+          <declname>button</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.hpp" line="42" column="14" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.cpp" bodystart="380" bodyend="389"/>
+      </memberdef>
+      <memberdef kind="function" id="classRaylib_1a1cd45d48b839a21ad0b75063a893847f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool Raylib::isMouseButtonBeingPressed</definition>
+        <argsstring>(graphics::MouseButton button)</argsstring>
+        <name>isMouseButtonBeingPressed</name>
+        <qualifiedname>Raylib::isMouseButtonBeingPressed</qualifiedname>
+        <reimplements refid="classgraphics_1_1IDisplay_1a278330d28bad9727887acb58d8898050">isMouseButtonBeingPressed</reimplements>
+        <param>
+          <type>graphics::MouseButton</type>
+          <declname>button</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.hpp" line="43" column="14" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.cpp" bodystart="391" bodyend="400"/>
+      </memberdef>
+      <memberdef kind="function" id="classRaylib_1a4144ebbc3754a4807d623ca1ffb9681f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool Raylib::isMouseButtonReleased</definition>
+        <argsstring>(graphics::MouseButton button)</argsstring>
+        <name>isMouseButtonReleased</name>
+        <qualifiedname>Raylib::isMouseButtonReleased</qualifiedname>
+        <reimplements refid="classgraphics_1_1IDisplay_1a05a9a3fdae05afeaeee652cee37adcf7">isMouseButtonReleased</reimplements>
+        <param>
+          <type>graphics::MouseButton</type>
+          <declname>button</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.hpp" line="44" column="14" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.cpp" bodystart="402" bodyend="411"/>
+      </memberdef>
+      <memberdef kind="function" id="classRaylib_1a62b1e9caf4cbe2ee8864c2c72dcdea88" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="structVector2D" kindref="compound">Vector2D</ref>&lt; float &gt;</type>
+        <definition>Vector2D&lt; float &gt; Raylib::getMousePosition</definition>
+        <argsstring>()</argsstring>
+        <name>getMousePosition</name>
+        <qualifiedname>Raylib::getMousePosition</qualifiedname>
+        <reimplements refid="classgraphics_1_1IDisplay_1a6ed5288e1985a98395da471035d56985">getMousePosition</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.hpp" line="45" column="18" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.cpp" bodystart="413" bodyend="416"/>
+      </memberdef>
+      <memberdef kind="function" id="classRaylib_1a53b5cea12a2daead5e9a3bc7728944c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Raylib::playSound</definition>
+        <argsstring>(std::string path, bool looping)</argsstring>
+        <name>playSound</name>
+        <qualifiedname>Raylib::playSound</qualifiedname>
+        <reimplements refid="classgraphics_1_1IDisplay_1a35ee147040aedfc79ef7b9301f3cc26b">playSound</reimplements>
+        <param>
+          <type>std::string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>looping</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.hpp" line="46" column="14" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.cpp" bodystart="418" bodyend="428"/>
+      </memberdef>
+      <memberdef kind="function" id="classRaylib_1a3371e3aac7fad1373bf459ccde1b6211" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Raylib::stopSound</definition>
+        <argsstring>(std::string path)</argsstring>
+        <name>stopSound</name>
+        <qualifiedname>Raylib::stopSound</qualifiedname>
+        <reimplements refid="classgraphics_1_1IDisplay_1adf53de91cee0a7cd9df6dfd5946b9d85">stopSound</reimplements>
+        <param>
+          <type>std::string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.hpp" line="47" column="14" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.cpp" bodystart="430" bodyend="434"/>
+      </memberdef>
+      <memberdef kind="function" id="classRaylib_1a0b25e235c85454c221abe2e458754c05" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Raylib::setSoundVolume</definition>
+        <argsstring>(float volume)</argsstring>
+        <name>setSoundVolume</name>
+        <qualifiedname>Raylib::setSoundVolume</qualifiedname>
+        <reimplements refid="classgraphics_1_1IDisplay_1a50106e73837ed2bac73c3bdd58d040d5">setSoundVolume</reimplements>
+        <param>
+          <type>float</type>
+          <declname>volume</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.hpp" line="48" column="14" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.cpp" bodystart="436" bodyend="441"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IDisplay</label>
+        <link refid="classgraphics_1_1IDisplay"/>
+      </node>
+      <node id="1">
+        <label>Raylib</label>
+        <link refid="classRaylib"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IDisplay</label>
+        <link refid="classgraphics_1_1IDisplay"/>
+      </node>
+      <node id="1">
+        <label>Raylib</label>
+        <link refid="classRaylib"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.hpp" line="22" column="1" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib/Raylib.hpp" bodystart="23" bodyend="56"/>
+    <listofallmembers>
+      <member refid="classRaylib_1aa62ad9b2eefd809dc4a539298d59eb3f" prot="private" virt="non-virtual"><scope>Raylib</scope><name>_fonts</name></member>
+      <member refid="classRaylib_1a31062a17fe50df4ce42aca4e18615b89" prot="private" virt="non-virtual"><scope>Raylib</scope><name>_images</name></member>
+      <member refid="classRaylib_1a0756c7c92db805f6826c2aa07ad9280e" prot="private" virt="non-virtual"><scope>Raylib</scope><name>_poll_event</name></member>
+      <member refid="classRaylib_1afc8f920c274b675cde60207d7fd1cb5b" prot="private" virt="non-virtual"><scope>Raylib</scope><name>_sounds</name></member>
+      <member refid="classRaylib_1a649b95a52e1c4becb8d3e37b81dba0a0" prot="private" virt="non-virtual"><scope>Raylib</scope><name>_textures</name></member>
+      <member refid="classRaylib_1ae2f46bc478414d002510e8268fc94107" prot="public" virt="virtual"><scope>Raylib</scope><name>beginDrawing</name></member>
+      <member refid="classRaylib_1a452fd23d2d7412fb4a3035c7337f28f2" prot="public" virt="virtual"><scope>Raylib</scope><name>clearBackground</name></member>
+      <member refid="classRaylib_1a553668e178d1a09c176293f2e3210ead" prot="public" virt="virtual"><scope>Raylib</scope><name>closeWin</name></member>
+      <member refid="classRaylib_1ab24a2afc51a35fe0cd8d99632d82b144" prot="public" virt="virtual"><scope>Raylib</scope><name>draw</name></member>
+      <member refid="classRaylib_1a247b79289042dffcbaa45eaa90e1a9c4" prot="public" virt="virtual"><scope>Raylib</scope><name>endDrawing</name></member>
+      <member refid="classRaylib_1a854e5d6c6bd36b961f7845e401242c14" prot="public" virt="virtual"><scope>Raylib</scope><name>getCharPressed</name></member>
+      <member refid="classRaylib_1a62b1e9caf4cbe2ee8864c2c72dcdea88" prot="public" virt="virtual"><scope>Raylib</scope><name>getMousePosition</name></member>
+      <member refid="classRaylib_1af0fd264584fc278602d28188cfc04123" prot="public" virt="virtual"><scope>Raylib</scope><name>getScreenHeight</name></member>
+      <member refid="classRaylib_1ab07e6a62d1031b183c9cf894ee1a5f3a" prot="public" virt="virtual"><scope>Raylib</scope><name>getScreenWidth</name></member>
+      <member refid="classgraphics_1_1IDisplay_1ade1b83a4b736f8c866be0a58b685ee99" prot="public" virt="non-virtual"><scope>Raylib</scope><name>IDisplay</name></member>
+      <member refid="classRaylib_1abdd2681427e02f7c2a4a24ff8325bb6c" prot="public" virt="virtual"><scope>Raylib</scope><name>isKeyBeingPressed</name></member>
+      <member refid="classRaylib_1ae89ed6e0dc80c915e007b85ddb9e257e" prot="public" virt="virtual"><scope>Raylib</scope><name>isKeyPressed</name></member>
+      <member refid="classRaylib_1af01e7b95d67a38b65665fe0596c6ece2" prot="public" virt="virtual"><scope>Raylib</scope><name>isKeyReleased</name></member>
+      <member refid="classRaylib_1a1cd45d48b839a21ad0b75063a893847f" prot="public" virt="virtual"><scope>Raylib</scope><name>isMouseButtonBeingPressed</name></member>
+      <member refid="classRaylib_1af47b4c4b37a12d11942f5492f8863446" prot="public" virt="virtual"><scope>Raylib</scope><name>isMouseButtonPressed</name></member>
+      <member refid="classRaylib_1a4144ebbc3754a4807d623ca1ffb9681f" prot="public" virt="virtual"><scope>Raylib</scope><name>isMouseButtonReleased</name></member>
+      <member refid="classRaylib_1a72c614e50e0ba7cc2994f7b4c9a2e3b5" prot="public" virt="virtual"><scope>Raylib</scope><name>isOpen</name></member>
+      <member refid="classRaylib_1a6817466000222151e6dea205ba5d44e6" prot="public" virt="virtual"><scope>Raylib</scope><name>openWin</name></member>
+      <member refid="classRaylib_1a53b5cea12a2daead5e9a3bc7728944c5" prot="public" virt="virtual"><scope>Raylib</scope><name>playSound</name></member>
+      <member refid="classRaylib_1a70c7f9c8a078818a737a796d21594c5f" prot="public" virt="virtual"><scope>Raylib</scope><name>pollEvent</name></member>
+      <member refid="classRaylib_1a6912339ce0a1c189a7b756ad3ca1fe50" prot="public" virt="non-virtual"><scope>Raylib</scope><name>Raylib</name></member>
+      <member refid="classRaylib_1a5102ca76dfb9e5dd2b3dd2bfbda3a04d" prot="public" virt="virtual"><scope>Raylib</scope><name>setFps</name></member>
+      <member refid="classRaylib_1a0b25e235c85454c221abe2e458754c05" prot="public" virt="virtual"><scope>Raylib</scope><name>setSoundVolume</name></member>
+      <member refid="classRaylib_1a3371e3aac7fad1373bf459ccde1b6211" prot="public" virt="virtual"><scope>Raylib</scope><name>stopSound</name></member>
+      <member refid="classgraphics_1_1IDisplay_1a8842b34be9393e4083157dd33ac8d0aa" prot="public" virt="virtual"><scope>Raylib</scope><name>~IDisplay</name></member>
+      <member refid="classRaylib_1a73c8b0f22704986442fd4d63146ac0a7" prot="public" virt="non-virtual"><scope>Raylib</scope><name>~Raylib</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

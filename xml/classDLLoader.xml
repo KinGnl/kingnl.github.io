@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="classDLLoader" kind="class" language="C++" prot="public">
+    <compoundname>DLLoader</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classDLLoader_1a5325b75590d870844d552acbc5140318" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string DLLoader&lt; T &gt;::_path</definition>
+        <argsstring></argsstring>
+        <name>_path</name>
+        <qualifiedname>DLLoader::_path</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/general/DLLoader.hpp" line="50" column="21" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/general/DLLoader.hpp" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDLLoader_1adf5e6cb9f2417fb09a086216540b0cc0" prot="private" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* DLLoader&lt; T &gt;::_hdl</definition>
+        <argsstring></argsstring>
+        <name>_hdl</name>
+        <qualifiedname>DLLoader::_hdl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/general/DLLoader.hpp" line="51" column="14" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/general/DLLoader.hpp" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classDLLoader_1acc5f868150527e09aa8a6aaac63666d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DLLoader&lt; T &gt;::DLLoader</definition>
+        <argsstring>(std::string path)</argsstring>
+        <name>DLLoader</name>
+        <qualifiedname>DLLoader::DLLoader</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/general/DLLoader.hpp" line="18" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/general/DLLoader.hpp" bodystart="18" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classDLLoader_1aea867b497cf92c50f85ad7e1d37962ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DLLoader&lt; T &gt;::~DLLoader</definition>
+        <argsstring>()</argsstring>
+        <name>~DLLoader</name>
+        <qualifiedname>DLLoader::~DLLoader</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/general/DLLoader.hpp" line="25" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/general/DLLoader.hpp" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classDLLoader_1a8922cc5d294e7f0ac39a3ad6ebd85d47" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DLLoader&lt; T &gt;::check_dlerror</definition>
+        <argsstring>()</argsstring>
+        <name>check_dlerror</name>
+        <qualifiedname>DLLoader::check_dlerror</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/general/DLLoader.hpp" line="30" column="14" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/general/DLLoader.hpp" bodystart="30" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classDLLoader_1a5c641f157c254b525de688663e59c62d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename ...</type>
+            <declname>Types</declname>
+            <defname>Types</defname>
+          </param>
+        </templateparamlist>
+        <type>std::shared_ptr&lt; T &gt;</type>
+        <definition>std::shared_ptr&lt; T &gt; DLLoader&lt; T &gt;::getInstance</definition>
+        <argsstring>(std::string sym, Types &amp;&amp;...va)</argsstring>
+        <name>getInstance</name>
+        <qualifiedname>DLLoader::getInstance</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>sym</declname>
+        </param>
+        <param>
+          <type>Types &amp;&amp;...</type>
+          <declname>va</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/general/DLLoader.hpp" line="39" column="25" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/general/DLLoader.hpp" bodystart="39" bodyend="47"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/general/DLLoader.hpp" line="15" column="1" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/general/DLLoader.hpp" bodystart="16" bodyend="52"/>
+    <listofallmembers>
+      <member refid="classDLLoader_1adf5e6cb9f2417fb09a086216540b0cc0" prot="private" virt="non-virtual"><scope>DLLoader</scope><name>_hdl</name></member>
+      <member refid="classDLLoader_1a5325b75590d870844d552acbc5140318" prot="private" virt="non-virtual"><scope>DLLoader</scope><name>_path</name></member>
+      <member refid="classDLLoader_1a8922cc5d294e7f0ac39a3ad6ebd85d47" prot="public" virt="non-virtual"><scope>DLLoader</scope><name>check_dlerror</name></member>
+      <member refid="classDLLoader_1acc5f868150527e09aa8a6aaac63666d6" prot="public" virt="non-virtual"><scope>DLLoader</scope><name>DLLoader</name></member>
+      <member refid="classDLLoader_1a5c641f157c254b525de688663e59c62d" prot="public" virt="non-virtual"><scope>DLLoader</scope><name>getInstance</name></member>
+      <member refid="classDLLoader_1aea867b497cf92c50f85ad7e1d37962ae" prot="public" virt="non-virtual"><scope>DLLoader</scope><name>~DLLoader</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="classTest" kind="class" language="C++" prot="public">
+    <compoundname>Test</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classTest_1af0802b1f817c7baf4ec7dc214b81c909" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Test::a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <qualifiedname>Test::a</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/server_lib_encapsulation/Enet/serialization.cpp" line="27" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/server_lib_encapsulation/Enet/serialization.cpp" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTest_1a3973896fdcf5a9310602c4cffdfc1768" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Test::s</definition>
+        <argsstring></argsstring>
+        <name>s</name>
+        <qualifiedname>Test::s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/server_lib_encapsulation/Enet/serialization.cpp" line="28" column="17" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/server_lib_encapsulation/Enet/serialization.cpp" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTest_1acd27ea3aef46e51b0664986315b92773" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; Test::v</definition>
+        <argsstring></argsstring>
+        <name>v</name>
+        <qualifiedname>Test::v</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/server_lib_encapsulation/Enet/serialization.cpp" line="29" column="17" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/server_lib_encapsulation/Enet/serialization.cpp" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classTest_1a99f2bbfac6c95612322b0f10e607ebe5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Test::Test</definition>
+        <argsstring>()</argsstring>
+        <name>Test</name>
+        <qualifiedname>Test::Test</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/server_lib_encapsulation/Enet/serialization.cpp" line="16" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/server_lib_encapsulation/Enet/serialization.cpp" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classTest_1a08807bbd5bfe2ab43e975644729e87a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Test::Test</definition>
+        <argsstring>(int i, std::string c, float f1, float f2)</argsstring>
+        <name>Test</name>
+        <qualifiedname>Test::Test</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>f1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>f2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/server_lib_encapsulation/Enet/serialization.cpp" line="17" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/server_lib_encapsulation/Enet/serialization.cpp" bodystart="17" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classTest_1af23c3a107c375bfba55174dfdb780709" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void Test::serialize</definition>
+        <argsstring>(Archive &amp;ar, const unsigned int version)</argsstring>
+        <name>serialize</name>
+        <qualifiedname>Test::serialize</qualifiedname>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>const unsigned int</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/server_lib_encapsulation/Enet/serialization.cpp" line="24" column="10" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/server_lib_encapsulation/Enet/serialization.cpp" bodystart="24" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/server_lib_encapsulation/Enet/serialization.cpp" line="14" column="1" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/server_lib_encapsulation/Enet/serialization.cpp" bodystart="14" bodyend="30"/>
+    <listofallmembers>
+      <member refid="classTest_1af0802b1f817c7baf4ec7dc214b81c909" prot="public" virt="non-virtual"><scope>Test</scope><name>a</name></member>
+      <member refid="classTest_1a3973896fdcf5a9310602c4cffdfc1768" prot="public" virt="non-virtual"><scope>Test</scope><name>s</name></member>
+      <member refid="classTest_1af23c3a107c375bfba55174dfdb780709" prot="public" virt="non-virtual"><scope>Test</scope><name>serialize</name></member>
+      <member refid="classTest_1a99f2bbfac6c95612322b0f10e607ebe5" prot="public" virt="non-virtual"><scope>Test</scope><name>Test</name></member>
+      <member refid="classTest_1a08807bbd5bfe2ab43e975644729e87a0" prot="public" virt="non-virtual"><scope>Test</scope><name>Test</name></member>
+      <member refid="classTest_1acd27ea3aef46e51b0664986315b92773" prot="public" virt="non-virtual"><scope>Test</scope><name>v</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

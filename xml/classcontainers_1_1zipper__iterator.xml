@@ -1,0 +1,723 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="classcontainers_1_1zipper__iterator" kind="class" language="C++" prot="public">
+    <compoundname>containers::zipper_iterator</compoundname>
+    <templateparamlist>
+      <param>
+        <type>class ...</type>
+        <declname>Containers</declname>
+        <defname>Containers</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="classcontainers_1_1zipper__iterator_1adad9671219a1ea399e414180cbfe836d" prot="private" static="no">
+        <templateparamlist>
+          <param>
+            <type>class Container</type>
+          </param>
+        </templateparamlist>
+        <type>decltype(std::declval&lt; Container &gt;().begin())</type>
+        <definition>using containers::zipper_iterator&lt; Containers &gt;::iterator_t =  decltype(std::declval&lt;Container&gt;().begin())</definition>
+        <argsstring></argsstring>
+        <name>iterator_t</name>
+        <qualifiedname>containers::zipper_iterator::iterator_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" line="25" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classcontainers_1_1zipper__iterator_1a463c89f5caf25648666898b48e948d5d" prot="private" static="no">
+        <templateparamlist>
+          <param>
+            <type>class Container</type>
+          </param>
+        </templateparamlist>
+        <type>typename iterator_t&lt; Container &gt;::reference</type>
+        <definition>using containers::zipper_iterator&lt; Containers &gt;::it_reference_t =  typename iterator_t&lt;Container&gt;::reference</definition>
+        <argsstring></argsstring>
+        <name>it_reference_t</name>
+        <qualifiedname>containers::zipper_iterator::it_reference_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" line="27" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classcontainers_1_1zipper__iterator_1adcffc8b38227da427abec51c308c056d" prot="public" static="no">
+        <type>std::tuple&lt; decltype(std::declval&lt; it_reference_t&lt; Containers &gt; &gt;().value()) &amp;... &gt;</type>
+        <definition>using containers::zipper_iterator&lt; Containers &gt;::value_type =  std::tuple&lt;decltype(std::declval&lt;it_reference_t&lt;Containers&gt; &gt;().value()) &amp;...&gt;</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>containers::zipper_iterator::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" line="30" column="13" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classcontainers_1_1zipper__iterator_1a5d84749226bb09b5e5cffe20d715f699" prot="public" static="no">
+        <type>value_type &amp;</type>
+        <definition>using containers::zipper_iterator&lt; Containers &gt;::reference =  value_type &amp;</definition>
+        <argsstring></argsstring>
+        <name>reference</name>
+        <qualifiedname>containers::zipper_iterator::reference</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" line="31" column="13" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classcontainers_1_1zipper__iterator_1ae9e7f1366abf7e3e877dc32090cb5de9" prot="public" static="no">
+        <type>value_type *</type>
+        <definition>using containers::zipper_iterator&lt; Containers &gt;::pointer =  value_type *</definition>
+        <argsstring></argsstring>
+        <name>pointer</name>
+        <qualifiedname>containers::zipper_iterator::pointer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" line="32" column="13" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classcontainers_1_1zipper__iterator_1a1cfd50433882075d5c2f2a74ac42dc40" prot="public" static="no">
+        <type>size_t</type>
+        <definition>using containers::zipper_iterator&lt; Containers &gt;::difference_type =  size_t</definition>
+        <argsstring></argsstring>
+        <name>difference_type</name>
+        <qualifiedname>containers::zipper_iterator::difference_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" line="33" column="13" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classcontainers_1_1zipper__iterator_1aa4e356fc97550cbccea01a5f9b13c824" prot="public" static="no">
+        <type>std::bidirectional_iterator_tag</type>
+        <definition>using containers::zipper_iterator&lt; Containers &gt;::iterator_category =  std::bidirectional_iterator_tag</definition>
+        <argsstring></argsstring>
+        <name>iterator_category</name>
+        <qualifiedname>containers::zipper_iterator::iterator_category</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" line="34" column="13" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classcontainers_1_1zipper__iterator_1a534086e4fc5fe56798ee84a162ada001" prot="public" static="no">
+        <type>std::tuple&lt; iterator_t&lt; Containers &gt;... &gt;</type>
+        <definition>using containers::zipper_iterator&lt; Containers &gt;::iterator_tuple =  std::tuple&lt;iterator_t&lt;Containers&gt;...&gt;</definition>
+        <argsstring></argsstring>
+        <name>iterator_tuple</name>
+        <qualifiedname>containers::zipper_iterator::iterator_tuple</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" line="35" column="13" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcontainers_1_1zipper__iterator_1a5ef09611f4e1dca8228bcf1c5b478b33" prot="private" static="no" mutable="no">
+        <type>iterator_tuple</type>
+        <definition>iterator_tuple containers::zipper_iterator&lt; Containers &gt;::_current</definition>
+        <argsstring></argsstring>
+        <name>_current</name>
+        <qualifiedname>containers::zipper_iterator::_current</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" line="244" column="28" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" bodystart="244" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcontainers_1_1zipper__iterator_1aa74a088af21a5ba2ba684f15a193f67d" prot="private" static="no" mutable="no">
+        <type>std::any</type>
+        <definition>std::any containers::zipper_iterator&lt; Containers &gt;::_value</definition>
+        <argsstring></argsstring>
+        <name>_value</name>
+        <qualifiedname>containers::zipper_iterator::_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" line="245" column="22" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" bodystart="245" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcontainers_1_1zipper__iterator_1ad4689ab6660c7f9a5798e9b0ad51dac4" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t containers::zipper_iterator&lt; Containers &gt;::_max</definition>
+        <argsstring></argsstring>
+        <name>_max</name>
+        <qualifiedname>containers::zipper_iterator::_max</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" line="246" column="20" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" bodystart="246" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcontainers_1_1zipper__iterator_1a1b7a4acaee73be259b6b51c99f39b5b9" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t containers::zipper_iterator&lt; Containers &gt;::_idx</definition>
+        <argsstring></argsstring>
+        <name>_idx</name>
+        <qualifiedname>containers::zipper_iterator::_idx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" line="247" column="20" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" bodystart="247" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcontainers_1_1zipper__iterator_1aa15ce1d86060fae2860abd385b41113e" prot="private" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr std::index_sequence_for&lt; Containers... &gt;</type>
+        <definition>constexpr std::index_sequence_for&lt;Containers...&gt; containers::zipper_iterator&lt; Containers &gt;::_seq</definition>
+        <argsstring></argsstring>
+        <name>_seq</name>
+        <qualifiedname>containers::zipper_iterator::_seq</qualifiedname>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" line="248" column="54" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" bodystart="248" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcontainers_1_1zipper__iterator_1a8cc553af6cd21f32e0a61344333377bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>containers::zipper_iterator&lt; Containers &gt;::zipper_iterator</definition>
+        <argsstring>(iterator_tuple const &amp;it_tuple, size_t max)</argsstring>
+        <name>zipper_iterator</name>
+        <qualifiedname>containers::zipper_iterator::zipper_iterator</qualifiedname>
+        <param>
+          <type>iterator_tuple const &amp;</type>
+          <declname>it_tuple</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>max</declname>
+        </param>
+        <briefdescription>
+<para>Construct a new zipper iterator object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>it_tuple</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>iterator_tuple used to create first iterator </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>max</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of iterators available </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" line="45" column="13" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" bodystart="45" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classcontainers_1_1zipper__iterator_1a40f1c67ec6c2c29a33e5280a53b66a88" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>containers::zipper_iterator&lt; Containers &gt;::zipper_iterator</definition>
+        <argsstring>()</argsstring>
+        <name>zipper_iterator</name>
+        <qualifiedname>containers::zipper_iterator::zipper_iterator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" line="53" column="13" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" bodystart="53" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classcontainers_1_1zipper__iterator_1a57a7864c34b0c42916ccd4dd3dda8505" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>containers::zipper_iterator&lt; Containers &gt;::zipper_iterator</definition>
+        <argsstring>(zipper_iterator const &amp;z)</argsstring>
+        <name>zipper_iterator</name>
+        <qualifiedname>containers::zipper_iterator::zipper_iterator</qualifiedname>
+        <param>
+          <type><ref refid="classcontainers_1_1zipper__iterator" kindref="compound">zipper_iterator</ref> const &amp;</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+<para>Construct a new zipper iterator object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>z</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="classcontainers_1_1zipper__iterator" kindref="compound">zipper_iterator</ref> to copy </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" line="61" column="13" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" bodystart="61" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classcontainers_1_1zipper__iterator_1a76fae19593639acdba6ff63b16abe6ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcontainers_1_1zipper__iterator" kindref="compound">zipper_iterator</ref> &amp;</type>
+        <definition>zipper_iterator &amp; containers::zipper_iterator&lt; Containers &gt;::operator=</definition>
+        <argsstring>(zipper_iterator const &amp;z)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>containers::zipper_iterator::operator=</qualifiedname>
+        <param>
+          <type><ref refid="classcontainers_1_1zipper__iterator" kindref="compound">zipper_iterator</ref> const &amp;</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" line="69" column="29" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" bodystart="69" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classcontainers_1_1zipper__iterator_1a8e7d3d9010f89c2583a89583ec710d38" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcontainers_1_1zipper__iterator" kindref="compound">zipper_iterator</ref> &amp;</type>
+        <definition>zipper_iterator &amp; containers::zipper_iterator&lt; Containers &gt;::operator++</definition>
+        <argsstring>()</argsstring>
+        <name>operator++</name>
+        <qualifiedname>containers::zipper_iterator::operator++</qualifiedname>
+        <briefdescription>
+<para>Increment iterator and return previous value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classcontainers_1_1zipper__iterator" kindref="compound">zipper_iterator</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" line="83" column="29" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" bodystart="83" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classcontainers_1_1zipper__iterator_1a6411cbeed1833a854dce7e6f4b1f9383" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcontainers_1_1zipper__iterator" kindref="compound">zipper_iterator</ref></type>
+        <definition>zipper_iterator containers::zipper_iterator&lt; Containers &gt;::operator++</definition>
+        <argsstring>(int)</argsstring>
+        <name>operator++</name>
+        <qualifiedname>containers::zipper_iterator::operator++</qualifiedname>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+<para>Increment iterator and return current value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classcontainers_1_1zipper__iterator" kindref="compound">zipper_iterator</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" line="100" column="29" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" bodystart="100" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="classcontainers_1_1zipper__iterator_1a3a34cf9ffd6878139b32722cb645fb4e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcontainers_1_1zipper__iterator" kindref="compound">zipper_iterator</ref> &amp;</type>
+        <definition>zipper_iterator &amp; containers::zipper_iterator&lt; Containers &gt;::operator--</definition>
+        <argsstring>()</argsstring>
+        <name>operator--</name>
+        <qualifiedname>containers::zipper_iterator::operator--</qualifiedname>
+        <briefdescription>
+<para>Decrement iterator and return previous value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classcontainers_1_1zipper__iterator" kindref="compound">zipper_iterator</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" line="113" column="29" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" bodystart="113" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="classcontainers_1_1zipper__iterator_1a66bf796849e22c7d1c27e624a83c5f14" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcontainers_1_1zipper__iterator" kindref="compound">zipper_iterator</ref></type>
+        <definition>zipper_iterator containers::zipper_iterator&lt; Containers &gt;::operator--</definition>
+        <argsstring>(int)</argsstring>
+        <name>operator--</name>
+        <qualifiedname>containers::zipper_iterator::operator--</qualifiedname>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+<para>Decrement iterator and return current value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classcontainers_1_1zipper__iterator" kindref="compound">zipper_iterator</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" line="130" column="29" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" bodystart="130" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="classcontainers_1_1zipper__iterator_1a797726c8b9b8a5cf289669a12f7a8c9e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void containers::zipper_iterator&lt; Containers &gt;::set_value</definition>
+        <argsstring>()</argsstring>
+        <name>set_value</name>
+        <qualifiedname>containers::zipper_iterator::set_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" line="138" column="18" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" bodystart="138" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="classcontainers_1_1zipper__iterator_1a706791869d3c653e9b25451d05c1d7e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>reference</type>
+        <definition>reference containers::zipper_iterator&lt; Containers &gt;::operator*</definition>
+        <argsstring>()</argsstring>
+        <name>operator*</name>
+        <qualifiedname>containers::zipper_iterator::operator*</qualifiedname>
+        <briefdescription>
+<para>Dereference iterator. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>reference </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" line="149" column="23" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" bodystart="149" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="classcontainers_1_1zipper__iterator_1a046e7c6865d9824a1a6a8d6796ccc0b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>pointer</type>
+        <definition>pointer containers::zipper_iterator&lt; Containers &gt;::operator-&gt;</definition>
+        <argsstring>()</argsstring>
+        <name>operator-&gt;</name>
+        <qualifiedname>containers::zipper_iterator::operator-&gt;</qualifiedname>
+        <briefdescription>
+<para>Dereference iterator. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>pointer </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" line="159" column="21" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" bodystart="159" bodyend="162"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classcontainers_1_1zipper__iterator_1a9dd49941fda1e913f093febd6412a967" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool operator==</definition>
+        <argsstring>(zipper_iterator const &amp;lhs, zipper_iterator const &amp;rhs)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>containers::zipper_iterator::operator==</qualifiedname>
+        <param>
+          <type><ref refid="classcontainers_1_1zipper__iterator" kindref="compound">zipper_iterator</ref> const &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type><ref refid="classcontainers_1_1zipper__iterator" kindref="compound">zipper_iterator</ref> const &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+<para>Compare two zipper_iterators. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>lhs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>first iterator </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rhs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>second iterator </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true lhs and rhs are equal </para>
+</simplesect>
+<simplesect kind="return"><para>false lhs and rhs are not equal </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" line="172" column="25" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" bodystart="172" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="friend" id="classcontainers_1_1zipper__iterator_1ad41cff659848db0b594c686745102cdb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool operator!=</definition>
+        <argsstring>(zipper_iterator const &amp;lhs, zipper_iterator const &amp;rhs)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>containers::zipper_iterator::operator!=</qualifiedname>
+        <param>
+          <type><ref refid="classcontainers_1_1zipper__iterator" kindref="compound">zipper_iterator</ref> const &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type><ref refid="classcontainers_1_1zipper__iterator" kindref="compound">zipper_iterator</ref> const &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+<para>Compare two zipper_iterators. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>lhs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>first iterator </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rhs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>second iterator </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true lhs and rhs are not equal </para>
+</simplesect>
+<simplesect kind="return"><para>false lhs and rhs are equal </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" line="185" column="25" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" bodystart="185" bodyend="188"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classcontainers_1_1zipper__iterator_1acbe8caf3b9a04139e0c4516f3df29234" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>size_t ...</type>
+            <declname>Is</declname>
+            <defname>Is</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void containers::zipper_iterator&lt; Containers &gt;::incr_all</definition>
+        <argsstring>(std::index_sequence&lt; Is... &gt;)</argsstring>
+        <name>incr_all</name>
+        <qualifiedname>containers::zipper_iterator::incr_all</qualifiedname>
+        <param>
+          <type>std::index_sequence&lt; Is... &gt;</type>
+        </param>
+        <briefdescription>
+<para>Increment all single iterator inside an iterator_tuple. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Is</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Index sequence to access each iterator inside tuple </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" line="198" column="18" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" bodystart="198" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="function" id="classcontainers_1_1zipper__iterator_1a538a939f0e02fdc8ee6340b033ddc857" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>size_t ...</type>
+            <declname>Is</declname>
+            <defname>Is</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void containers::zipper_iterator&lt; Containers &gt;::decr_all</definition>
+        <argsstring>(std::index_sequence&lt; Is... &gt;)</argsstring>
+        <name>decr_all</name>
+        <qualifiedname>containers::zipper_iterator::decr_all</qualifiedname>
+        <param>
+          <type>std::index_sequence&lt; Is... &gt;</type>
+        </param>
+        <briefdescription>
+<para>Decrement all single iterator inside an iterator_tuple. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Is</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Index sequence to access each iterator inside tuple </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" line="209" column="18" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" bodystart="209" bodyend="212"/>
+      </memberdef>
+      <memberdef kind="function" id="classcontainers_1_1zipper__iterator_1a4dfa207da3c53a3fffb5af0e23553679" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>size_t ...</type>
+            <declname>Is</declname>
+            <defname>Is</defname>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool containers::zipper_iterator&lt; Containers &gt;::all_set</definition>
+        <argsstring>(std::index_sequence&lt; Is... &gt;)</argsstring>
+        <name>all_set</name>
+        <qualifiedname>containers::zipper_iterator::all_set</qualifiedname>
+        <param>
+          <type>std::index_sequence&lt; Is... &gt;</type>
+        </param>
+        <briefdescription>
+<para>Check if all iterator inside an iterator_tuple are set. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Is</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Index sequence to access each iterator inside tuple </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true All iterators are set </para>
+</simplesect>
+<simplesect kind="return"><para>false There is (are) one (or more) iterator not set </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" line="222" column="18" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" bodystart="222" bodyend="229"/>
+      </memberdef>
+      <memberdef kind="function" id="classcontainers_1_1zipper__iterator_1a90aaa1bc7ec7b25f0b176c7dea201768" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>size_t ...</type>
+            <declname>Is</declname>
+            <defname>Is</defname>
+          </param>
+        </templateparamlist>
+        <type>value_type</type>
+        <definition>value_type containers::zipper_iterator&lt; Containers &gt;::to_value</definition>
+        <argsstring>(std::index_sequence&lt; Is... &gt;)</argsstring>
+        <name>to_value</name>
+        <qualifiedname>containers::zipper_iterator::to_value</qualifiedname>
+        <param>
+          <type>std::index_sequence&lt; Is... &gt;</type>
+        </param>
+        <briefdescription>
+<para>Create a tuple containing all dereferenced iterators values. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Is</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Index sequence to access each iterator inside tuple </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>value_type Tuple containing these values </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" line="238" column="24" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" bodystart="238" bodyend="241"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" line="23" column="5" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Zipper.hpp" bodystart="23" bodyend="249"/>
+    <listofallmembers>
+      <member refid="classcontainers_1_1zipper__iterator_1a5ef09611f4e1dca8228bcf1c5b478b33" prot="private" virt="non-virtual"><scope>containers::zipper_iterator</scope><name>_current</name></member>
+      <member refid="classcontainers_1_1zipper__iterator_1a1b7a4acaee73be259b6b51c99f39b5b9" prot="private" virt="non-virtual"><scope>containers::zipper_iterator</scope><name>_idx</name></member>
+      <member refid="classcontainers_1_1zipper__iterator_1ad4689ab6660c7f9a5798e9b0ad51dac4" prot="private" virt="non-virtual"><scope>containers::zipper_iterator</scope><name>_max</name></member>
+      <member refid="classcontainers_1_1zipper__iterator_1aa15ce1d86060fae2860abd385b41113e" prot="private" virt="non-virtual"><scope>containers::zipper_iterator</scope><name>_seq</name></member>
+      <member refid="classcontainers_1_1zipper__iterator_1aa74a088af21a5ba2ba684f15a193f67d" prot="private" virt="non-virtual"><scope>containers::zipper_iterator</scope><name>_value</name></member>
+      <member refid="classcontainers_1_1zipper__iterator_1a4dfa207da3c53a3fffb5af0e23553679" prot="private" virt="non-virtual"><scope>containers::zipper_iterator</scope><name>all_set</name></member>
+      <member refid="classcontainers_1_1zipper__iterator_1a538a939f0e02fdc8ee6340b033ddc857" prot="private" virt="non-virtual"><scope>containers::zipper_iterator</scope><name>decr_all</name></member>
+      <member refid="classcontainers_1_1zipper__iterator_1a1cfd50433882075d5c2f2a74ac42dc40" prot="public" virt="non-virtual"><scope>containers::zipper_iterator</scope><name>difference_type</name></member>
+      <member refid="classcontainers_1_1zipper__iterator_1acbe8caf3b9a04139e0c4516f3df29234" prot="private" virt="non-virtual"><scope>containers::zipper_iterator</scope><name>incr_all</name></member>
+      <member refid="classcontainers_1_1zipper__iterator_1a463c89f5caf25648666898b48e948d5d" prot="private" virt="non-virtual"><scope>containers::zipper_iterator</scope><name>it_reference_t</name></member>
+      <member refid="classcontainers_1_1zipper__iterator_1aa4e356fc97550cbccea01a5f9b13c824" prot="public" virt="non-virtual"><scope>containers::zipper_iterator</scope><name>iterator_category</name></member>
+      <member refid="classcontainers_1_1zipper__iterator_1adad9671219a1ea399e414180cbfe836d" prot="private" virt="non-virtual"><scope>containers::zipper_iterator</scope><name>iterator_t</name></member>
+      <member refid="classcontainers_1_1zipper__iterator_1a534086e4fc5fe56798ee84a162ada001" prot="public" virt="non-virtual"><scope>containers::zipper_iterator</scope><name>iterator_tuple</name></member>
+      <member refid="classcontainers_1_1zipper__iterator_1ad41cff659848db0b594c686745102cdb" prot="public" virt="non-virtual"><scope>containers::zipper_iterator</scope><name>operator!=</name></member>
+      <member refid="classcontainers_1_1zipper__iterator_1a706791869d3c653e9b25451d05c1d7e8" prot="public" virt="non-virtual"><scope>containers::zipper_iterator</scope><name>operator*</name></member>
+      <member refid="classcontainers_1_1zipper__iterator_1a8e7d3d9010f89c2583a89583ec710d38" prot="public" virt="non-virtual"><scope>containers::zipper_iterator</scope><name>operator++</name></member>
+      <member refid="classcontainers_1_1zipper__iterator_1a6411cbeed1833a854dce7e6f4b1f9383" prot="public" virt="non-virtual"><scope>containers::zipper_iterator</scope><name>operator++</name></member>
+      <member refid="classcontainers_1_1zipper__iterator_1a3a34cf9ffd6878139b32722cb645fb4e" prot="public" virt="non-virtual"><scope>containers::zipper_iterator</scope><name>operator--</name></member>
+      <member refid="classcontainers_1_1zipper__iterator_1a66bf796849e22c7d1c27e624a83c5f14" prot="public" virt="non-virtual"><scope>containers::zipper_iterator</scope><name>operator--</name></member>
+      <member refid="classcontainers_1_1zipper__iterator_1a046e7c6865d9824a1a6a8d6796ccc0b8" prot="public" virt="non-virtual"><scope>containers::zipper_iterator</scope><name>operator-&gt;</name></member>
+      <member refid="classcontainers_1_1zipper__iterator_1a76fae19593639acdba6ff63b16abe6ba" prot="public" virt="non-virtual"><scope>containers::zipper_iterator</scope><name>operator=</name></member>
+      <member refid="classcontainers_1_1zipper__iterator_1a9dd49941fda1e913f093febd6412a967" prot="public" virt="non-virtual"><scope>containers::zipper_iterator</scope><name>operator==</name></member>
+      <member refid="classcontainers_1_1zipper__iterator_1ae9e7f1366abf7e3e877dc32090cb5de9" prot="public" virt="non-virtual"><scope>containers::zipper_iterator</scope><name>pointer</name></member>
+      <member refid="classcontainers_1_1zipper__iterator_1a5d84749226bb09b5e5cffe20d715f699" prot="public" virt="non-virtual"><scope>containers::zipper_iterator</scope><name>reference</name></member>
+      <member refid="classcontainers_1_1zipper__iterator_1a797726c8b9b8a5cf289669a12f7a8c9e" prot="public" virt="non-virtual"><scope>containers::zipper_iterator</scope><name>set_value</name></member>
+      <member refid="classcontainers_1_1zipper__iterator_1a90aaa1bc7ec7b25f0b176c7dea201768" prot="private" virt="non-virtual"><scope>containers::zipper_iterator</scope><name>to_value</name></member>
+      <member refid="classcontainers_1_1zipper__iterator_1adcffc8b38227da427abec51c308c056d" prot="public" virt="non-virtual"><scope>containers::zipper_iterator</scope><name>value_type</name></member>
+      <member refid="classcontainers_1_1zipper__iterator_1a8cc553af6cd21f32e0a61344333377bf" prot="public" virt="non-virtual"><scope>containers::zipper_iterator</scope><name>zipper_iterator</name></member>
+      <member refid="classcontainers_1_1zipper__iterator_1a40f1c67ec6c2c29a33e5280a53b66a88" prot="public" virt="non-virtual"><scope>containers::zipper_iterator</scope><name>zipper_iterator</name></member>
+      <member refid="classcontainers_1_1zipper__iterator_1a57a7864c34b0c42916ccd4dd3dda8505" prot="public" virt="non-virtual"><scope>containers::zipper_iterator</scope><name>zipper_iterator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

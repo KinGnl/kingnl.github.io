@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="dir_bba024cd03edd7f9d6096b84e1006209" kind="dir">
+    <compoundname>general</compoundname>
+    <innerfile refid="ClockTime_8hpp">ClockTime.hpp</innerfile>
+    <innerfile refid="default__libs_8hpp">default_libs.hpp</innerfile>
+    <innerfile refid="DLLoader_8hpp">DLLoader.hpp</innerfile>
+    <innerfile refid="Error_8hpp">Error.hpp</innerfile>
+    <innerfile refid="server__libs_8hpp">server_libs.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="general/"/>
+  </compounddef>
+</doxygen>

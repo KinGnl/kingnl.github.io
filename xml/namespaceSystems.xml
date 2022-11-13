@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="namespaceSystems" kind="namespace" language="C++">
+    <compoundname>Systems</compoundname>
+    <innerclass refid="classSystems_1_1clickable" prot="public">Systems::clickable</innerclass>
+    <innerclass refid="classSystems_1_1control" prot="public">Systems::control</innerclass>
+    <innerclass refid="classSystems_1_1draw__health" prot="public">Systems::draw_health</innerclass>
+    <innerclass refid="classSystems_1_1drawable" prot="public">Systems::drawable</innerclass>
+    <innerclass refid="classSystems_1_1gameplay" prot="public">Systems::gameplay</innerclass>
+    <innerclass refid="classSystems_1_1local__gameplay" prot="public">Systems::local_gameplay</innerclass>
+    <innerclass refid="classSystems_1_1manage__requests" prot="public">Systems::manage_requests</innerclass>
+    <innerclass refid="classSystems_1_1position" prot="public">Systems::position</innerclass>
+    <innerclass refid="classSystems_1_1sound" prot="public">Systems::sound</innerclass>
+    <innerclass refid="classSystems_1_1username" prot="public">Systems::username</innerclass>
+    <innerclass refid="classSystems_1_1velocity" prot="public">Systems::velocity</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="R-typeClient_2includes_2Systems_8hpp_1af4a61e316e72d143ef6c8ec6276cd1db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Systems::position_system</definition>
+        <argsstring>(registry &amp;, sparse_array&lt; component::velocity &gt; &amp;, sparse_array&lt; component::position &gt; &amp;)</argsstring>
+        <name>position_system</name>
+        <qualifiedname>Systems::position_system</qualifiedname>
+        <param>
+          <type><ref refid="classregistry" kindref="compound">registry</ref> &amp;</type>
+        </param>
+        <param>
+          <type><ref refid="classsparse__array" kindref="compound">sparse_array</ref>&lt; <ref refid="structcomponent_1_1velocity" kindref="compound">component::velocity</ref> &gt; &amp;</type>
+        </param>
+        <param>
+          <type><ref refid="classsparse__array" kindref="compound">sparse_array</ref>&lt; <ref refid="structcomponent_1_1position" kindref="compound">component::position</ref> &gt; &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" line="123" column="10" declfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" declline="123" declcolumn="10"/>
+      </memberdef>
+      <memberdef kind="function" id="R-typeClient_2includes_2Systems_8hpp_1af2c5727337c2f9de45df0622b5f0c99f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Systems::velocity_system</definition>
+        <argsstring>(registry &amp;, sparse_array&lt; component::acceleration &gt; &amp;, sparse_array&lt; component::velocity &gt; &amp;)</argsstring>
+        <name>velocity_system</name>
+        <qualifiedname>Systems::velocity_system</qualifiedname>
+        <param>
+          <type><ref refid="classregistry" kindref="compound">registry</ref> &amp;</type>
+        </param>
+        <param>
+          <type><ref refid="classsparse__array" kindref="compound">sparse_array</ref>&lt; <ref refid="structcomponent_1_1acceleration" kindref="compound">component::acceleration</ref> &gt; &amp;</type>
+        </param>
+        <param>
+          <type><ref refid="classsparse__array" kindref="compound">sparse_array</ref>&lt; <ref refid="structcomponent_1_1velocity" kindref="compound">component::velocity</ref> &gt; &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" line="127" column="10" declfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" declline="127" declcolumn="10"/>
+      </memberdef>
+      <memberdef kind="function" id="R-typeClient_2includes_2Systems_8hpp_1a6ed4a925e19858c72bf762dc76ecf3a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Systems::anim_system</definition>
+        <argsstring>(registry &amp;, sparse_array&lt; component::drawable &gt; &amp;)</argsstring>
+        <name>anim_system</name>
+        <qualifiedname>Systems::anim_system</qualifiedname>
+        <param>
+          <type><ref refid="classregistry" kindref="compound">registry</ref> &amp;</type>
+        </param>
+        <param>
+          <type><ref refid="classsparse__array" kindref="compound">sparse_array</ref>&lt; <ref refid="structcomponent_1_1drawable" kindref="compound">component::drawable</ref> &gt; &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" line="131" column="10" declfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" declline="131" declcolumn="10"/>
+      </memberdef>
+      <memberdef kind="function" id="R-typeClient_2includes_2Systems_8hpp_1ab07e5f6c4bee983c83dd7896c368c0e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Systems::changing_system</definition>
+        <argsstring>(registry &amp;, sparse_array&lt; component::drawable &gt; &amp;)</argsstring>
+        <name>changing_system</name>
+        <qualifiedname>Systems::changing_system</qualifiedname>
+        <param>
+          <type><ref refid="classregistry" kindref="compound">registry</ref> &amp;</type>
+        </param>
+        <param>
+          <type><ref refid="classsparse__array" kindref="compound">sparse_array</ref>&lt; <ref refid="structcomponent_1_1drawable" kindref="compound">component::drawable</ref> &gt; &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" line="134" column="10" declfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" declline="134" declcolumn="10"/>
+      </memberdef>
+      <memberdef kind="function" id="R-typeClient_2includes_2Systems_8hpp_1a9d99493a0e310ec6d361ab5d9000b1a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Systems::scrolling_system</definition>
+        <argsstring>(registry &amp;, sparse_array&lt; component::scrolling &gt; &amp;, sparse_array&lt; component::position &gt; &amp;)</argsstring>
+        <name>scrolling_system</name>
+        <qualifiedname>Systems::scrolling_system</qualifiedname>
+        <param>
+          <type><ref refid="classregistry" kindref="compound">registry</ref> &amp;</type>
+        </param>
+        <param>
+          <type><ref refid="classsparse__array" kindref="compound">sparse_array</ref>&lt; <ref refid="structcomponent_1_1scrolling" kindref="compound">component::scrolling</ref> &gt; &amp;</type>
+        </param>
+        <param>
+          <type><ref refid="classsparse__array" kindref="compound">sparse_array</ref>&lt; <ref refid="structcomponent_1_1position" kindref="compound">component::position</ref> &gt; &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" line="137" column="10" declfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" declline="137" declcolumn="10"/>
+      </memberdef>
+      <memberdef kind="function" id="R-typeClient_2includes_2Systems_8hpp_1a601861cff4493c91617eea9a39d4598d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Systems::collision_system</definition>
+        <argsstring>(registry &amp;reg, sparse_array&lt; component::area &gt; &amp;areas)</argsstring>
+        <name>collision_system</name>
+        <qualifiedname>Systems::collision_system</qualifiedname>
+        <param>
+          <type><ref refid="classregistry" kindref="compound">registry</ref> &amp;</type>
+          <declname>reg</declname>
+        </param>
+        <param>
+          <type><ref refid="classsparse__array" kindref="compound">sparse_array</ref>&lt; <ref refid="structcomponent_1_1area" kindref="compound">component::area</ref> &gt; &amp;</type>
+          <declname>areas</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" line="152" column="10" declfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" declline="152" declcolumn="10"/>
+      </memberdef>
+      <memberdef kind="function" id="R-typeServer_2includes_2Systems_8hpp_1a63bda7505c28f9be636b8e5d806d15a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Systems::accept_requests</definition>
+        <argsstring>(bool &amp;, std::mutex &amp;, std::shared_ptr&lt; network::INetworker &gt; &amp;, std::queue&lt; network::datatrans &gt; &amp;)</argsstring>
+        <name>accept_requests</name>
+        <qualifiedname>Systems::accept_requests</qualifiedname>
+        <param>
+          <type>bool &amp;</type>
+        </param>
+        <param>
+          <type>std::mutex &amp;</type>
+        </param>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="classnetwork_1_1INetworker" kindref="compound">network::INetworker</ref> &gt; &amp;</type>
+        </param>
+        <param>
+          <type>std::queue&lt; <ref refid="structnetwork_1_1datatrans" kindref="compound">network::datatrans</ref> &gt; &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Systems.hpp" line="25" column="10" declfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Systems.hpp" declline="25" declcolumn="10"/>
+      </memberdef>
+      <memberdef kind="function" id="R-typeServer_2includes_2Systems_8hpp_1a5e92c4b43fa5194092531948370f4f56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Systems::collision_system</definition>
+        <argsstring>(registry &amp;, sparse_array&lt; component::area &gt; &amp;, sparse_array&lt; component::position &gt; &amp;)</argsstring>
+        <name>collision_system</name>
+        <qualifiedname>Systems::collision_system</qualifiedname>
+        <param>
+          <type><ref refid="classregistry" kindref="compound">registry</ref> &amp;</type>
+        </param>
+        <param>
+          <type><ref refid="classsparse__array" kindref="compound">sparse_array</ref>&lt; <ref refid="structcomponent_1_1area" kindref="compound">component::area</ref> &gt; &amp;</type>
+        </param>
+        <param>
+          <type><ref refid="classsparse__array" kindref="compound">sparse_array</ref>&lt; <ref refid="structcomponent_1_1position" kindref="compound">component::position</ref> &gt; &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Systems.hpp" line="104" column="10" declfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Systems.hpp" declline="104" declcolumn="10"/>
+      </memberdef>
+      <memberdef kind="function" id="R-typeServer_2includes_2Systems_8hpp_1ad684704c09305d3cf851cd66dd9fb911" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Systems::oscillation_system</definition>
+        <argsstring>(registry &amp;, sparse_array&lt; component::acceleration &gt; &amp;, sparse_array&lt; component::oscillation &gt; &amp;, sparse_array&lt; component::position &gt; &amp;)</argsstring>
+        <name>oscillation_system</name>
+        <qualifiedname>Systems::oscillation_system</qualifiedname>
+        <param>
+          <type><ref refid="classregistry" kindref="compound">registry</ref> &amp;</type>
+        </param>
+        <param>
+          <type><ref refid="classsparse__array" kindref="compound">sparse_array</ref>&lt; <ref refid="structcomponent_1_1acceleration" kindref="compound">component::acceleration</ref> &gt; &amp;</type>
+        </param>
+        <param>
+          <type><ref refid="classsparse__array" kindref="compound">sparse_array</ref>&lt; <ref refid="structcomponent_1_1oscillation" kindref="compound">component::oscillation</ref> &gt; &amp;</type>
+        </param>
+        <param>
+          <type><ref refid="classsparse__array" kindref="compound">sparse_array</ref>&lt; <ref refid="structcomponent_1_1position" kindref="compound">component::position</ref> &gt; &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Systems.hpp" line="106" column="10" declfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Systems.hpp" declline="106" declcolumn="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" line="19" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="classSystems_1_1username" kind="class" language="C++" prot="public">
+    <compoundname>Systems::username</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classSystems_1_1username_1a8da6e66fb308808bf165bd46bdb5b6f3" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="classgraphics_1_1IDisplay" kindref="compound">graphics::IDisplay</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;graphics::IDisplay&gt; Systems::username::_disp</definition>
+        <argsstring></argsstring>
+        <name>_disp</name>
+        <qualifiedname>Systems::username::_disp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" line="65" column="29" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classSystems_1_1username_1a1c487a8eb4d0111f7a00e9f143a71ec8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Systems::username::username</definition>
+        <argsstring>(std::shared_ptr&lt; graphics::IDisplay &gt; disp)</argsstring>
+        <name>username</name>
+        <qualifiedname>Systems::username::username</qualifiedname>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="classgraphics_1_1IDisplay" kindref="compound">graphics::IDisplay</ref> &gt;</type>
+          <declname>disp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" line="59" column="13" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" bodystart="59" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classSystems_1_1username_1a591b6dfd8a477bf6626ed96d69fe5dc7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Systems::username::~username</definition>
+        <argsstring>()</argsstring>
+        <name>~username</name>
+        <qualifiedname>Systems::username::~username</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" line="60" column="13" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" bodystart="60" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classSystems_1_1username_1abd12c2ad438d11d6c29a3ee8ee4ddfe5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Systems::username::operator()</definition>
+        <argsstring>(registry &amp;, sparse_array&lt; component::drawable &gt; &amp;) const</argsstring>
+        <name>operator()</name>
+        <qualifiedname>Systems::username::operator()</qualifiedname>
+        <param>
+          <type><ref refid="classregistry" kindref="compound">registry</ref> &amp;</type>
+        </param>
+        <param>
+          <type><ref refid="classsparse__array" kindref="compound">sparse_array</ref>&lt; <ref refid="structcomponent_1_1drawable" kindref="compound">component::drawable</ref> &gt; &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" line="61" column="18"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" line="57" column="5" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" bodystart="57" bodyend="66"/>
+    <listofallmembers>
+      <member refid="classSystems_1_1username_1a8da6e66fb308808bf165bd46bdb5b6f3" prot="private" virt="non-virtual"><scope>Systems::username</scope><name>_disp</name></member>
+      <member refid="classSystems_1_1username_1abd12c2ad438d11d6c29a3ee8ee4ddfe5" prot="public" virt="non-virtual"><scope>Systems::username</scope><name>operator()</name></member>
+      <member refid="classSystems_1_1username_1a1c487a8eb4d0111f7a00e9f143a71ec8" prot="public" virt="non-virtual"><scope>Systems::username</scope><name>username</name></member>
+      <member refid="classSystems_1_1username_1a591b6dfd8a477bf6626ed96d69fe5dc7" prot="public" virt="non-virtual"><scope>Systems::username</scope><name>~username</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

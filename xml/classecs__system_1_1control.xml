@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="classecs__system_1_1control" kind="class" language="C++" prot="public">
+    <compoundname>ecs_system::control</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classecs__system_1_1control_1a105aa8499c3390c0d68245b866bb8eaf" prot="private" static="no" mutable="no">
+        <type>sf::Event &amp;</type>
+        <definition>sf::Event&amp; ecs_system::control::_event</definition>
+        <argsstring></argsstring>
+        <name>_event</name>
+        <qualifiedname>ecs_system::control::_event</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/BasicECS.hpp" line="104" column="23" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/BasicECS.hpp" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classecs__system_1_1control_1a9623539736080ded85989f230f1822f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ecs_system::control::control</definition>
+        <argsstring>(sf::Event &amp;event)</argsstring>
+        <name>control</name>
+        <qualifiedname>ecs_system::control::control</qualifiedname>
+        <param>
+          <type>sf::Event &amp;</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/BasicECS.hpp" line="72" column="13" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/BasicECS.hpp" bodystart="72" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classecs__system_1_1control_1acf29bf46a11ec39013a817a4fb62c2c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ecs_system::control::~control</definition>
+        <argsstring>()</argsstring>
+        <name>~control</name>
+        <qualifiedname>ecs_system::control::~control</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/BasicECS.hpp" line="74" column="13" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/BasicECS.hpp" bodystart="74" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classecs__system_1_1control_1a04a2a6bd87a14c970be13e5f311ebea6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ecs_system::control::operator()</definition>
+        <argsstring>(registry &amp;reg)</argsstring>
+        <name>operator()</name>
+        <qualifiedname>ecs_system::control::operator()</qualifiedname>
+        <param>
+          <type><ref refid="classregistry" kindref="compound">registry</ref> &amp;</type>
+          <declname>reg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/BasicECS.hpp" line="76" column="18" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/BasicECS.hpp" bodystart="76" bodyend="101"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/BasicECS.hpp" line="69" column="5" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/BasicECS.hpp" bodystart="69" bodyend="105"/>
+    <listofallmembers>
+      <member refid="classecs__system_1_1control_1a105aa8499c3390c0d68245b866bb8eaf" prot="private" virt="non-virtual"><scope>ecs_system::control</scope><name>_event</name></member>
+      <member refid="classecs__system_1_1control_1a9623539736080ded85989f230f1822f1" prot="public" virt="non-virtual"><scope>ecs_system::control</scope><name>control</name></member>
+      <member refid="classecs__system_1_1control_1a04a2a6bd87a14c970be13e5f311ebea6" prot="public" virt="non-virtual"><scope>ecs_system::control</scope><name>operator()</name></member>
+      <member refid="classecs__system_1_1control_1acf29bf46a11ec39013a817a4fb62c2c5" prot="public" virt="non-virtual"><scope>ecs_system::control</scope><name>~control</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

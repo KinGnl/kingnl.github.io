@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="classClockTime" kind="class" language="C++" prot="public">
+    <compoundname>ClockTime</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classClockTime_1a1c68df787a3aab6526f3a3a38e6809a4" prot="private" static="no" mutable="no">
+        <type>std::chrono::system_clock::time_point</type>
+        <definition>std::chrono::system_clock::time_point ClockTime::start</definition>
+        <argsstring></argsstring>
+        <name>start</name>
+        <qualifiedname>ClockTime::start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/general/ClockTime.hpp" line="42" column="47" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/general/ClockTime.hpp" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classClockTime_1aa8e255977e241f843383f5face6d8ff1" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ClockTime::active</definition>
+        <argsstring></argsstring>
+        <name>active</name>
+        <qualifiedname>ClockTime::active</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/general/ClockTime.hpp" line="43" column="14" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/general/ClockTime.hpp" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classClockTime_1a6ace7b63b14cda5e085fba1a043b05ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ClockTime::ClockTime</definition>
+        <argsstring>()</argsstring>
+        <name>ClockTime</name>
+        <qualifiedname>ClockTime::ClockTime</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/general/ClockTime.hpp" line="12" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/general/ClockTime.hpp" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classClockTime_1ac308325b87407eb91279113add6675e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ClockTime::~ClockTime</definition>
+        <argsstring>()</argsstring>
+        <name>~ClockTime</name>
+        <qualifiedname>ClockTime::~ClockTime</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/general/ClockTime.hpp" line="14" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/general/ClockTime.hpp" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classClockTime_1a3debc6cc818f7844b2b13ef051ac8c18" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ClockTime::launched</definition>
+        <argsstring>()</argsstring>
+        <name>launched</name>
+        <qualifiedname>ClockTime::launched</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/general/ClockTime.hpp" line="16" column="14" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/general/ClockTime.hpp" bodystart="16" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classClockTime_1af3b7a20b4bdcfd8a867bb04e13a84159" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ClockTime::launchChrono</definition>
+        <argsstring>()</argsstring>
+        <name>launchChrono</name>
+        <qualifiedname>ClockTime::launchChrono</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/general/ClockTime.hpp" line="21" column="14" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/general/ClockTime.hpp" bodystart="21" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classClockTime_1abf52ec1d8c74c1ea8f284fb28c2ad159" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ClockTime::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <qualifiedname>ClockTime::reset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/general/ClockTime.hpp" line="27" column="14" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/general/ClockTime.hpp" bodystart="27" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classClockTime_1a1b3752b75c54315d023c0e4d84963c21" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T ClockTime::getElapsedTime</definition>
+        <argsstring>()</argsstring>
+        <name>getElapsedTime</name>
+        <qualifiedname>ClockTime::getElapsedTime</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/general/ClockTime.hpp" line="33" column="11" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/general/ClockTime.hpp" bodystart="33" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/general/ClockTime.hpp" line="10" column="1" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/general/ClockTime.hpp" bodystart="10" bodyend="44"/>
+    <listofallmembers>
+      <member refid="classClockTime_1aa8e255977e241f843383f5face6d8ff1" prot="private" virt="non-virtual"><scope>ClockTime</scope><name>active</name></member>
+      <member refid="classClockTime_1a6ace7b63b14cda5e085fba1a043b05ce" prot="public" virt="non-virtual"><scope>ClockTime</scope><name>ClockTime</name></member>
+      <member refid="classClockTime_1a1b3752b75c54315d023c0e4d84963c21" prot="public" virt="non-virtual"><scope>ClockTime</scope><name>getElapsedTime</name></member>
+      <member refid="classClockTime_1af3b7a20b4bdcfd8a867bb04e13a84159" prot="public" virt="non-virtual"><scope>ClockTime</scope><name>launchChrono</name></member>
+      <member refid="classClockTime_1a3debc6cc818f7844b2b13ef051ac8c18" prot="public" virt="non-virtual"><scope>ClockTime</scope><name>launched</name></member>
+      <member refid="classClockTime_1abf52ec1d8c74c1ea8f284fb28c2ad159" prot="public" virt="non-virtual"><scope>ClockTime</scope><name>reset</name></member>
+      <member refid="classClockTime_1a1c68df787a3aab6526f3a3a38e6809a4" prot="private" virt="non-virtual"><scope>ClockTime</scope><name>start</name></member>
+      <member refid="classClockTime_1ac308325b87407eb91279113add6675e7" prot="public" virt="non-virtual"><scope>ClockTime</scope><name>~ClockTime</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

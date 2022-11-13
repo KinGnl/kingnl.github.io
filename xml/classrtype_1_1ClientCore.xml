@@ -1,0 +1,413 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="classrtype_1_1ClientCore" kind="class" language="C++" prot="public">
+    <compoundname>rtype::ClientCore</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classrtype_1_1ClientCore_1af8699ab7b231897c25fb44d61e51614c" prot="private" static="no" mutable="no">
+        <type><ref refid="classentity" kindref="compound">registry::entity_t</ref></type>
+        <definition>registry::entity_t rtype::ClientCore::_username</definition>
+        <argsstring></argsstring>
+        <name>_username</name>
+        <qualifiedname>rtype::ClientCore::_username</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/ClientCore.hpp" line="52" column="32" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/ClientCore.hpp" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classrtype_1_1ClientCore_1a1b546e9f90c57386c02f64aa217a684d" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool rtype::ClientCore::_mute</definition>
+        <argsstring></argsstring>
+        <name>_mute</name>
+        <qualifiedname>rtype::ClientCore::_mute</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/ClientCore.hpp" line="53" column="18" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/ClientCore.hpp" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classrtype_1_1ClientCore_1ab3e8fcaab93515739f01a83c5220755d" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float rtype::ClientCore::_volume</definition>
+        <argsstring></argsstring>
+        <name>_volume</name>
+        <qualifiedname>rtype::ClientCore::_volume</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/ClientCore.hpp" line="54" column="19" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/ClientCore.hpp" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classrtype_1_1ClientCore_1a0f430d8c9123def328928f4714a3d1db" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string rtype::ClientCore::_name</definition>
+        <argsstring></argsstring>
+        <name>_name</name>
+        <qualifiedname>rtype::ClientCore::_name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/ClientCore.hpp" line="55" column="25" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/ClientCore.hpp" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classrtype_1_1ClientCore_1aaeabfa8145063f263adc607d52dd23b1" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string rtype::ClientCore::_level</definition>
+        <argsstring></argsstring>
+        <name>_level</name>
+        <qualifiedname>rtype::ClientCore::_level</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/ClientCore.hpp" line="56" column="25" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/ClientCore.hpp" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classrtype_1_1ClientCore_1a6456b267fcf8e70d998f9455f1bb270c" prot="private" static="no" mutable="no">
+        <type><ref refid="classregistry" kindref="compound">registry</ref></type>
+        <definition>registry rtype::ClientCore::reg</definition>
+        <argsstring></argsstring>
+        <name>reg</name>
+        <qualifiedname>rtype::ClientCore::reg</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/ClientCore.hpp" line="57" column="22" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/ClientCore.hpp" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classrtype_1_1ClientCore_1ac716180f7ede2b6a77d32ac4e07e1dd3" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="classgraphics_1_1IDisplay" kindref="compound">graphics::IDisplay</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;graphics::IDisplay&gt; rtype::ClientCore::_graphics_manager</definition>
+        <argsstring></argsstring>
+        <name>_graphics_manager</name>
+        <qualifiedname>rtype::ClientCore::_graphics_manager</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/ClientCore.hpp" line="58" column="29" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/ClientCore.hpp" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classrtype_1_1ClientCore_1a82e9de94f6df1fc5b9339778389268bb" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="classnetwork_1_1INetworker" kindref="compound">network::INetworker</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;network::INetworker&gt; rtype::ClientCore::_networker</definition>
+        <argsstring></argsstring>
+        <name>_networker</name>
+        <qualifiedname>rtype::ClientCore::_networker</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/ClientCore.hpp" line="59" column="29" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/ClientCore.hpp" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classrtype_1_1ClientCore_1a2ffbf27fe3590bd37813876f9f00c5ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>rtype::ClientCore::ClientCore</definition>
+        <argsstring>(std::string, int)</argsstring>
+        <name>ClientCore</name>
+        <qualifiedname>rtype::ClientCore::ClientCore</qualifiedname>
+        <param>
+          <type>std::string</type>
+        </param>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/ClientCore.hpp" line="31" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classrtype_1_1ClientCore_1a0a625106e6afc8ae2c18f2fe3e00e2b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>rtype::ClientCore::~ClientCore</definition>
+        <argsstring>()</argsstring>
+        <name>~ClientCore</name>
+        <qualifiedname>rtype::ClientCore::~ClientCore</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/ClientCore.hpp" line="32" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classrtype_1_1ClientCore_1a47a38945daee87130f29115360cbd574" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void rtype::ClientCore::set_components</definition>
+        <argsstring>()</argsstring>
+        <name>set_components</name>
+        <qualifiedname>rtype::ClientCore::set_components</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/ClientCore.hpp" line="33" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classrtype_1_1ClientCore_1ab7471600ffb7a773adc8d44344e66ae1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void rtype::ClientCore::set_events_systems</definition>
+        <argsstring>()</argsstring>
+        <name>set_events_systems</name>
+        <qualifiedname>rtype::ClientCore::set_events_systems</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/ClientCore.hpp" line="34" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classrtype_1_1ClientCore_1a9b3b6fd02986f1b142edc4f8410afe74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void rtype::ClientCore::set_systems</definition>
+        <argsstring>()</argsstring>
+        <name>set_systems</name>
+        <qualifiedname>rtype::ClientCore::set_systems</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/ClientCore.hpp" line="35" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classrtype_1_1ClientCore_1a6e12a2ea31abac408ca6b912e9886668" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void rtype::ClientCore::run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <qualifiedname>rtype::ClientCore::run</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/ClientCore.hpp" line="36" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classrtype_1_1ClientCore_1adfe7ffb7f37fbe25ff354ffa83ded55b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void rtype::ClientCore::createCinematic</definition>
+        <argsstring>()</argsstring>
+        <name>createCinematic</name>
+        <qualifiedname>rtype::ClientCore::createCinematic</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/ClientCore.hpp" line="38" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classrtype_1_1ClientCore_1a518f9326c77f92f3476cac22390c8016" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void rtype::ClientCore::createMainMenu</definition>
+        <argsstring>()</argsstring>
+        <name>createMainMenu</name>
+        <qualifiedname>rtype::ClientCore::createMainMenu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/ClientCore.hpp" line="39" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classrtype_1_1ClientCore_1ab822a00ca6ca855c8121a5990c9da2e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void rtype::ClientCore::createSoloMode</definition>
+        <argsstring>()</argsstring>
+        <name>createSoloMode</name>
+        <qualifiedname>rtype::ClientCore::createSoloMode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/ClientCore.hpp" line="40" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classrtype_1_1ClientCore_1aacc836882a25ed37a2c0e5857775e673" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void rtype::ClientCore::createLevels</definition>
+        <argsstring>()</argsstring>
+        <name>createLevels</name>
+        <qualifiedname>rtype::ClientCore::createLevels</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/ClientCore.hpp" line="41" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classrtype_1_1ClientCore_1a1fda01a2a59a76cdcbd4dde1bd892991" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void rtype::ClientCore::createRoomLoading</definition>
+        <argsstring>()</argsstring>
+        <name>createRoomLoading</name>
+        <qualifiedname>rtype::ClientCore::createRoomLoading</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/ClientCore.hpp" line="42" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classrtype_1_1ClientCore_1a868a22a3a870bfad516ee2219a2f2c1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void rtype::ClientCore::createGame</definition>
+        <argsstring>()</argsstring>
+        <name>createGame</name>
+        <qualifiedname>rtype::ClientCore::createGame</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/ClientCore.hpp" line="43" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classrtype_1_1ClientCore_1a93e6c251a6bfef6eea30a556808adc0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void rtype::ClientCore::createCredits</definition>
+        <argsstring>()</argsstring>
+        <name>createCredits</name>
+        <qualifiedname>rtype::ClientCore::createCredits</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/ClientCore.hpp" line="44" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classrtype_1_1ClientCore_1a5c25812bd05a5a4ae30e09e04536e713" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void rtype::ClientCore::createHelp</definition>
+        <argsstring>()</argsstring>
+        <name>createHelp</name>
+        <qualifiedname>rtype::ClientCore::createHelp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/ClientCore.hpp" line="45" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classrtype_1_1ClientCore_1afa7527fca408bc3c096617b1b6d5c27c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void rtype::ClientCore::nameInsertion</definition>
+        <argsstring>()</argsstring>
+        <name>nameInsertion</name>
+        <qualifiedname>rtype::ClientCore::nameInsertion</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/ClientCore.hpp" line="46" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classrtype_1_1ClientCore_1a3e2d8b3b748ef4ecfcc299a5b601142a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void rtype::ClientCore::createLocalGame</definition>
+        <argsstring>()</argsstring>
+        <name>createLocalGame</name>
+        <qualifiedname>rtype::ClientCore::createLocalGame</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/ClientCore.hpp" line="47" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classrtype_1_1ClientCore_1a7190d0e597c7064aea356ef4e0a10a34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void rtype::ClientCore::createPlayMenu</definition>
+        <argsstring>()</argsstring>
+        <name>createPlayMenu</name>
+        <qualifiedname>rtype::ClientCore::createPlayMenu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/ClientCore.hpp" line="48" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classrtype_1_1ClientCore_1ae246194b48d1205b023437030eb68486" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void rtype::ClientCore::createPause</definition>
+        <argsstring>()</argsstring>
+        <name>createPause</name>
+        <qualifiedname>rtype::ClientCore::createPause</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/ClientCore.hpp" line="49" column="18"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/ClientCore.hpp" line="29" column="5" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/ClientCore.hpp" bodystart="29" bodyend="60"/>
+    <listofallmembers>
+      <member refid="classrtype_1_1ClientCore_1ac716180f7ede2b6a77d32ac4e07e1dd3" prot="private" virt="non-virtual"><scope>rtype::ClientCore</scope><name>_graphics_manager</name></member>
+      <member refid="classrtype_1_1ClientCore_1aaeabfa8145063f263adc607d52dd23b1" prot="private" virt="non-virtual"><scope>rtype::ClientCore</scope><name>_level</name></member>
+      <member refid="classrtype_1_1ClientCore_1a1b546e9f90c57386c02f64aa217a684d" prot="private" virt="non-virtual"><scope>rtype::ClientCore</scope><name>_mute</name></member>
+      <member refid="classrtype_1_1ClientCore_1a0f430d8c9123def328928f4714a3d1db" prot="private" virt="non-virtual"><scope>rtype::ClientCore</scope><name>_name</name></member>
+      <member refid="classrtype_1_1ClientCore_1a82e9de94f6df1fc5b9339778389268bb" prot="private" virt="non-virtual"><scope>rtype::ClientCore</scope><name>_networker</name></member>
+      <member refid="classrtype_1_1ClientCore_1af8699ab7b231897c25fb44d61e51614c" prot="private" virt="non-virtual"><scope>rtype::ClientCore</scope><name>_username</name></member>
+      <member refid="classrtype_1_1ClientCore_1ab3e8fcaab93515739f01a83c5220755d" prot="private" virt="non-virtual"><scope>rtype::ClientCore</scope><name>_volume</name></member>
+      <member refid="classrtype_1_1ClientCore_1a2ffbf27fe3590bd37813876f9f00c5ca" prot="public" virt="non-virtual"><scope>rtype::ClientCore</scope><name>ClientCore</name></member>
+      <member refid="classrtype_1_1ClientCore_1adfe7ffb7f37fbe25ff354ffa83ded55b" prot="public" virt="non-virtual"><scope>rtype::ClientCore</scope><name>createCinematic</name></member>
+      <member refid="classrtype_1_1ClientCore_1a93e6c251a6bfef6eea30a556808adc0c" prot="public" virt="non-virtual"><scope>rtype::ClientCore</scope><name>createCredits</name></member>
+      <member refid="classrtype_1_1ClientCore_1a868a22a3a870bfad516ee2219a2f2c1f" prot="public" virt="non-virtual"><scope>rtype::ClientCore</scope><name>createGame</name></member>
+      <member refid="classrtype_1_1ClientCore_1a5c25812bd05a5a4ae30e09e04536e713" prot="public" virt="non-virtual"><scope>rtype::ClientCore</scope><name>createHelp</name></member>
+      <member refid="classrtype_1_1ClientCore_1aacc836882a25ed37a2c0e5857775e673" prot="public" virt="non-virtual"><scope>rtype::ClientCore</scope><name>createLevels</name></member>
+      <member refid="classrtype_1_1ClientCore_1a3e2d8b3b748ef4ecfcc299a5b601142a" prot="public" virt="non-virtual"><scope>rtype::ClientCore</scope><name>createLocalGame</name></member>
+      <member refid="classrtype_1_1ClientCore_1a518f9326c77f92f3476cac22390c8016" prot="public" virt="non-virtual"><scope>rtype::ClientCore</scope><name>createMainMenu</name></member>
+      <member refid="classrtype_1_1ClientCore_1ae246194b48d1205b023437030eb68486" prot="public" virt="non-virtual"><scope>rtype::ClientCore</scope><name>createPause</name></member>
+      <member refid="classrtype_1_1ClientCore_1a7190d0e597c7064aea356ef4e0a10a34" prot="public" virt="non-virtual"><scope>rtype::ClientCore</scope><name>createPlayMenu</name></member>
+      <member refid="classrtype_1_1ClientCore_1a1fda01a2a59a76cdcbd4dde1bd892991" prot="public" virt="non-virtual"><scope>rtype::ClientCore</scope><name>createRoomLoading</name></member>
+      <member refid="classrtype_1_1ClientCore_1ab822a00ca6ca855c8121a5990c9da2e7" prot="public" virt="non-virtual"><scope>rtype::ClientCore</scope><name>createSoloMode</name></member>
+      <member refid="classrtype_1_1ClientCore_1afa7527fca408bc3c096617b1b6d5c27c" prot="public" virt="non-virtual"><scope>rtype::ClientCore</scope><name>nameInsertion</name></member>
+      <member refid="classrtype_1_1ClientCore_1a6456b267fcf8e70d998f9455f1bb270c" prot="private" virt="non-virtual"><scope>rtype::ClientCore</scope><name>reg</name></member>
+      <member refid="classrtype_1_1ClientCore_1a6e12a2ea31abac408ca6b912e9886668" prot="public" virt="non-virtual"><scope>rtype::ClientCore</scope><name>run</name></member>
+      <member refid="classrtype_1_1ClientCore_1a47a38945daee87130f29115360cbd574" prot="public" virt="non-virtual"><scope>rtype::ClientCore</scope><name>set_components</name></member>
+      <member refid="classrtype_1_1ClientCore_1ab7471600ffb7a773adc8d44344e66ae1" prot="public" virt="non-virtual"><scope>rtype::ClientCore</scope><name>set_events_systems</name></member>
+      <member refid="classrtype_1_1ClientCore_1a9b3b6fd02986f1b142edc4f8410afe74" prot="public" virt="non-virtual"><scope>rtype::ClientCore</scope><name>set_systems</name></member>
+      <member refid="classrtype_1_1ClientCore_1a0a625106e6afc8ae2c18f2fe3e00e2b9" prot="public" virt="non-virtual"><scope>rtype::ClientCore</scope><name>~ClientCore</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

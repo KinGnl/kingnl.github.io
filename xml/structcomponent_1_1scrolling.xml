@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="structcomponent_1_1scrolling" kind="struct" language="C++" prot="public">
+    <compoundname>component::scrolling</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structcomponent_1_1scrolling_1ad7b39bd09c49314063a47b4e271d7116" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float component::scrolling::limit</definition>
+        <argsstring></argsstring>
+        <name>limit</name>
+        <qualifiedname>component::scrolling::limit</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="300" column="15" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="300" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcomponent_1_1scrolling_1a5367161dd1ce3c5fc6404f6a40e91cb3" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float component::scrolling::start</definition>
+        <argsstring></argsstring>
+        <name>start</name>
+        <qualifiedname>component::scrolling::start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="301" column="15" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="301" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structcomponent_1_1scrolling_1a9d8270ceb65b33fe08c0c62dca6289d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>component::scrolling::scrolling</definition>
+        <argsstring>(float _l=0, float _s=0)</argsstring>
+        <name>scrolling</name>
+        <qualifiedname>component::scrolling::scrolling</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>_l</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_s</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="298" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="298" bodyend="298"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="297" column="5" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="297" bodyend="302"/>
+    <listofallmembers>
+      <member refid="structcomponent_1_1scrolling_1ad7b39bd09c49314063a47b4e271d7116" prot="public" virt="non-virtual"><scope>component::scrolling</scope><name>limit</name></member>
+      <member refid="structcomponent_1_1scrolling_1a9d8270ceb65b33fe08c0c62dca6289d6" prot="public" virt="non-virtual"><scope>component::scrolling</scope><name>scrolling</name></member>
+      <member refid="structcomponent_1_1scrolling_1a5367161dd1ce3c5fc6404f6a40e91cb3" prot="public" virt="non-virtual"><scope>component::scrolling</scope><name>start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

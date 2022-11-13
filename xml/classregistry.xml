@@ -1,0 +1,391 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="classregistry" kind="class" language="C++" prot="public">
+    <compoundname>registry</compoundname>
+    <innerclass refid="classregistry_1_1entity__manager__t" prot="public">registry::entity_manager_t</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classregistry_1afbd442d3a10f483cd3caab2ded84bca2" prot="public" static="no">
+        <type><ref refid="classentity" kindref="compound">entity</ref></type>
+        <definition>using registry::entity_t =  entity</definition>
+        <argsstring></argsstring>
+        <name>entity_t</name>
+        <qualifiedname>registry::entity_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" line="22" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classregistry_1add498b246f43a27490a289380209237a" prot="public" static="no">
+        <type>std::function&lt; void(<ref refid="classregistry" kindref="compound">registry</ref> &amp;, <ref refid="classentity" kindref="compound">entity_t</ref> const &amp;)&gt;</type>
+        <definition>using registry::deleter_t =  std::function&lt;void (registry &amp;, entity_t const &amp;)&gt;</definition>
+        <argsstring></argsstring>
+        <name>deleter_t</name>
+        <qualifiedname>registry::deleter_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" line="23" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classregistry_1a09362dcb9bd021eadb89de3cda0e6eb8" prot="public" static="no">
+        <type>std::function&lt; void(<ref refid="classregistry" kindref="compound">registry</ref> &amp;)&gt;</type>
+        <definition>using registry::systemt_t =  std::function&lt;void (registry &amp;)&gt;</definition>
+        <argsstring></argsstring>
+        <name>systemt_t</name>
+        <qualifiedname>registry::systemt_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" line="24" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classregistry_1a981a0c96d6eb81e70e595a5d450b558c" prot="public" static="no" mutable="no">
+        <type><ref refid="classregistry_1_1entity__manager__t" kindref="compound">entity_manager_t</ref></type>
+        <definition>entity_manager_t registry::entity_manager</definition>
+        <argsstring></argsstring>
+        <name>entity_manager</name>
+        <qualifiedname>registry::entity_manager</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" line="184" column="26" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" bodystart="184" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classregistry_1a3f2fdfe244f6966dfad14dc50a34e9f0" prot="private" static="no" mutable="no">
+        <type>std::unordered_map&lt; std::type_index, std::any &gt;</type>
+        <definition>std::unordered_map&lt;std::type_index, std::any&gt; registry::_components_arrays</definition>
+        <argsstring></argsstring>
+        <name>_components_arrays</name>
+        <qualifiedname>registry::_components_arrays</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" line="187" column="28" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" bodystart="187" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classregistry_1adafa1913ae539fca17c5e01e41caa826" prot="private" static="no" mutable="no">
+        <type>std::unordered_map&lt; std::type_index, deleter_t &gt;</type>
+        <definition>std::unordered_map&lt;std::type_index, deleter_t&gt; registry::_deleters</definition>
+        <argsstring></argsstring>
+        <name>_deleters</name>
+        <qualifiedname>registry::_deleters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" line="188" column="28" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" bodystart="188" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classregistry_1aa85497f90547454c32d1100603726068" prot="private" static="no" mutable="no">
+        <type>std::list&lt; systemt_t &gt;</type>
+        <definition>std::list&lt;systemt_t&gt; registry::_systems</definition>
+        <argsstring></argsstring>
+        <name>_systems</name>
+        <qualifiedname>registry::_systems</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" line="189" column="19" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" bodystart="189" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classregistry_1aa28d4215819df64d37a6d854fe0f960b" prot="private" static="no" mutable="no">
+        <type>std::list&lt; systemt_t &gt;</type>
+        <definition>std::list&lt;systemt_t&gt; registry::_events_systems</definition>
+        <argsstring></argsstring>
+        <name>_events_systems</name>
+        <qualifiedname>registry::_events_systems</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" line="190" column="19" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classregistry_1a757883d504ab1bb5a06e0faa8e28664d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>registry::registry</definition>
+        <argsstring>()</argsstring>
+        <name>registry</name>
+        <qualifiedname>registry::registry</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" line="26" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classregistry_1a5007aa52f3b6809650467604be188acf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>registry::~registry</definition>
+        <argsstring>()</argsstring>
+        <name>~registry</name>
+        <qualifiedname>registry::~registry</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" line="28" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classregistry_1ac77008529bb6e296916633cc41ba5be5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Component</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classsparse__array" kindref="compound">sparse_array</ref>&lt; Component &gt; &amp;</type>
+        <definition>sparse_array&lt; Component &gt; &amp; registry::register_component</definition>
+        <argsstring>()</argsstring>
+        <name>register_component</name>
+        <qualifiedname>registry::register_component</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" line="31" column="22" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" bodystart="31" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classregistry_1a3866ee276a5a1d78d00cd403e8e8c7d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Component</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classsparse__array" kindref="compound">sparse_array</ref>&lt; Component &gt; &amp;</type>
+        <definition>sparse_array&lt; Component &gt; &amp; registry::get_components</definition>
+        <argsstring>()</argsstring>
+        <name>get_components</name>
+        <qualifiedname>registry::get_components</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" line="52" column="22" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" bodystart="52" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classregistry_1a216d887232d1a7b36b115add610c2d84" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Component</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classsparse__array" kindref="compound">sparse_array</ref>&lt; Component &gt; const &amp;</type>
+        <definition>sparse_array&lt; Component &gt; const  &amp; registry::get_components</definition>
+        <argsstring>() const</argsstring>
+        <name>get_components</name>
+        <qualifiedname>registry::get_components</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" line="62" column="28" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" bodystart="62" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classregistry_1af9596641371a7191d44293d13c1f69bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class...</type>
+            <declname>Components</declname>
+            <defname>Components</defname>
+          </param>
+          <param>
+            <type>typename Function</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void registry::add_system</definition>
+        <argsstring>(Function &amp;&amp;f)</argsstring>
+        <name>add_system</name>
+        <qualifiedname>registry::add_system</qualifiedname>
+        <param>
+          <type>Function &amp;&amp;</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" line="72" column="14" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" bodystart="72" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classregistry_1a7453ec1f4862192b6d4091488c15a3ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class...</type>
+            <declname>Components</declname>
+            <defname>Components</defname>
+          </param>
+          <param>
+            <type>typename Function</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void registry::add_system</definition>
+        <argsstring>(Function const &amp;f)</argsstring>
+        <name>add_system</name>
+        <qualifiedname>registry::add_system</qualifiedname>
+        <param>
+          <type>Function const &amp;</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" line="80" column="14" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" bodystart="80" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="classregistry_1a1fda5cc52e611441228f8b1c26302060" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void registry::run_systems</definition>
+        <argsstring>()</argsstring>
+        <name>run_systems</name>
+        <qualifiedname>registry::run_systems</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" line="87" column="14" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" bodystart="87" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="classregistry_1aad3a53aad49d662703ac8769ad0ad676" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class...</type>
+            <declname>Components</declname>
+            <defname>Components</defname>
+          </param>
+          <param>
+            <type>typename Function</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void registry::add_events_system</definition>
+        <argsstring>(Function &amp;&amp;f)</argsstring>
+        <name>add_events_system</name>
+        <qualifiedname>registry::add_events_system</qualifiedname>
+        <param>
+          <type>Function &amp;&amp;</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" line="94" column="14" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" bodystart="94" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="classregistry_1a81782165114089ffca599dcaeeb213e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class...</type>
+            <declname>Components</declname>
+            <defname>Components</defname>
+          </param>
+          <param>
+            <type>typename Function</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void registry::add_events_system</definition>
+        <argsstring>(Function const &amp;f)</argsstring>
+        <name>add_events_system</name>
+        <qualifiedname>registry::add_events_system</qualifiedname>
+        <param>
+          <type>Function const &amp;</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" line="102" column="14" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" bodystart="102" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="classregistry_1a842591a93878d83bd717f98b82bea2b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void registry::run_events_systems</definition>
+        <argsstring>()</argsstring>
+        <name>run_events_systems</name>
+        <qualifiedname>registry::run_events_systems</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" line="109" column="14" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" bodystart="109" bodyend="113"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>registry</label>
+        <link refid="classregistry"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>entity_manager</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>registry::entity_manager_t</label>
+        <link refid="classregistry_1_1entity__manager__t"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" line="18" column="1" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" bodystart="18" bodyend="191"/>
+    <listofallmembers>
+      <member refid="classregistry_1a3f2fdfe244f6966dfad14dc50a34e9f0" prot="private" virt="non-virtual"><scope>registry</scope><name>_components_arrays</name></member>
+      <member refid="classregistry_1adafa1913ae539fca17c5e01e41caa826" prot="private" virt="non-virtual"><scope>registry</scope><name>_deleters</name></member>
+      <member refid="classregistry_1aa28d4215819df64d37a6d854fe0f960b" prot="private" virt="non-virtual"><scope>registry</scope><name>_events_systems</name></member>
+      <member refid="classregistry_1aa85497f90547454c32d1100603726068" prot="private" virt="non-virtual"><scope>registry</scope><name>_systems</name></member>
+      <member refid="classregistry_1aad3a53aad49d662703ac8769ad0ad676" prot="public" virt="non-virtual"><scope>registry</scope><name>add_events_system</name></member>
+      <member refid="classregistry_1a81782165114089ffca599dcaeeb213e8" prot="public" virt="non-virtual"><scope>registry</scope><name>add_events_system</name></member>
+      <member refid="classregistry_1af9596641371a7191d44293d13c1f69bf" prot="public" virt="non-virtual"><scope>registry</scope><name>add_system</name></member>
+      <member refid="classregistry_1a7453ec1f4862192b6d4091488c15a3ab" prot="public" virt="non-virtual"><scope>registry</scope><name>add_system</name></member>
+      <member refid="classregistry_1add498b246f43a27490a289380209237a" prot="public" virt="non-virtual"><scope>registry</scope><name>deleter_t</name></member>
+      <member refid="classregistry_1a981a0c96d6eb81e70e595a5d450b558c" prot="public" virt="non-virtual"><scope>registry</scope><name>entity_manager</name></member>
+      <member refid="classregistry_1afbd442d3a10f483cd3caab2ded84bca2" prot="public" virt="non-virtual"><scope>registry</scope><name>entity_t</name></member>
+      <member refid="classregistry_1a3866ee276a5a1d78d00cd403e8e8c7d9" prot="public" virt="non-virtual"><scope>registry</scope><name>get_components</name></member>
+      <member refid="classregistry_1a216d887232d1a7b36b115add610c2d84" prot="public" virt="non-virtual"><scope>registry</scope><name>get_components</name></member>
+      <member refid="classregistry_1ac77008529bb6e296916633cc41ba5be5" prot="public" virt="non-virtual"><scope>registry</scope><name>register_component</name></member>
+      <member refid="classregistry_1a757883d504ab1bb5a06e0faa8e28664d" prot="public" virt="non-virtual"><scope>registry</scope><name>registry</name></member>
+      <member refid="classregistry_1a842591a93878d83bd717f98b82bea2b3" prot="public" virt="non-virtual"><scope>registry</scope><name>run_events_systems</name></member>
+      <member refid="classregistry_1a1fda5cc52e611441228f8b1c26302060" prot="public" virt="non-virtual"><scope>registry</scope><name>run_systems</name></member>
+      <member refid="classregistry_1a09362dcb9bd021eadb89de3cda0e6eb8" prot="public" virt="non-virtual"><scope>registry</scope><name>systemt_t</name></member>
+      <member refid="classregistry_1a5007aa52f3b6809650467604be188acf" prot="public" virt="non-virtual"><scope>registry</scope><name>~registry</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="namespacenetwork" kind="namespace" language="C++">
+    <compoundname>network</compoundname>
+    <innerclass refid="structnetwork_1_1datatrans" prot="public">network::datatrans</innerclass>
+    <innerclass refid="structnetwork_1_1entity__info" prot="public">network::entity_info</innerclass>
+    <innerclass refid="classnetwork_1_1INetworker" prot="public">network::INetworker</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="INetworker_8hpp_1a4f49882eace57fc2599c944161f872a6" prot="public" static="no" strong="no">
+        <type></type>
+        <name>Command</name>
+        <qualifiedname>network::Command</qualifiedname>
+        <enumvalue id="INetworker_8hpp_1a4f49882eace57fc2599c944161f872a6a077c0765c78ac629fa30ade828c53937" prot="public">
+          <name>None</name>
+          <initializer>= -1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="INetworker_8hpp_1a4f49882eace57fc2599c944161f872a6a5b398c4ee0407b2748363627e12a3618" prot="public">
+          <name>CreatePlayer</name>
+          <initializer>= 100</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="INetworker_8hpp_1a4f49882eace57fc2599c944161f872a6aeb398dc5d1eed3fabef4be5c556be451" prot="public">
+          <name>CreateTeamMate</name>
+          <initializer>= 101</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="INetworker_8hpp_1a4f49882eace57fc2599c944161f872a6a0159ab39b964cf0721a39bb3616926a1" prot="public">
+          <name>CreateEnnemy</name>
+          <initializer>= 102</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="INetworker_8hpp_1a4f49882eace57fc2599c944161f872a6af7c8e5999b70d92aed8d625d219fbc9c" prot="public">
+          <name>CreateMissile</name>
+          <initializer>= 103</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="INetworker_8hpp_1a4f49882eace57fc2599c944161f872a6a77f6eff3155aca5bc5f5130318f3b296" prot="public">
+          <name>UpdateHealth</name>
+          <initializer>= 104</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="INetworker_8hpp_1a4f49882eace57fc2599c944161f872a6aea1d48b47e70f7492ea4fbf766937a1d" prot="public">
+          <name>UpdatePosition</name>
+          <initializer>= 105</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="INetworker_8hpp_1a4f49882eace57fc2599c944161f872a6a913d6ec246d01bcdde383ec4908eee9b" prot="public">
+          <name>UpdateScore</name>
+          <initializer>= 106</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="INetworker_8hpp_1a4f49882eace57fc2599c944161f872a6a5bdd2531db02ff78008d06b8aacb779c" prot="public">
+          <name>KillPlayer</name>
+          <initializer>= 107</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="INetworker_8hpp_1a4f49882eace57fc2599c944161f872a6a26f5a9dc022fcb1f6d2be972cb174590" prot="public">
+          <name>KillEntity</name>
+          <initializer>= 108</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="INetworker_8hpp_1a4f49882eace57fc2599c944161f872a6a65f046dd1cc214edb74b86daff9e7b1d" prot="public">
+          <name>CloseRoom</name>
+          <initializer>= 109</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="INetworker_8hpp_1a4f49882eace57fc2599c944161f872a6a14837b6c5deeea13ca1dc61139434052" prot="public">
+          <name>GameOver</name>
+          <initializer>= 110</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Differrents code that can be sent or received. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/server_lib_encapsulation/INetworker.hpp" line="23" column="5" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/server_lib_encapsulation/INetworker.hpp" bodystart="23" bodyend="36"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/server_lib_encapsulation/INetworker.hpp" line="17" column="1"/>
+  </compounddef>
+</doxygen>

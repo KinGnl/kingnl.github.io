@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="namespaceecs__system" kind="namespace" language="C++">
+    <compoundname>ecs_system</compoundname>
+    <innerclass refid="classecs__system_1_1control" prot="public">ecs_system::control</innerclass>
+    <innerclass refid="classecs__system_1_1draw" prot="public">ecs_system::draw</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/BasicECS.hpp" line="39" column="1"/>
+  </compounddef>
+</doxygen>

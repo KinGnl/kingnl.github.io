@@ -1,0 +1,436 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="namespacegraphics" kind="namespace" language="C++">
+    <compoundname>graphics</compoundname>
+    <innerclass refid="structgraphics_1_1color" prot="public">graphics::color</innerclass>
+    <innerclass refid="classgraphics_1_1IDisplay" prot="public">graphics::IDisplay</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64" prot="public" static="no" strong="no">
+        <type></type>
+        <name>Keyboard</name>
+        <qualifiedname>graphics::Keyboard</qualifiedname>
+        <enumvalue id="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a96eaeae4aa1b538cc8365da4bf92ccdd" prot="public">
+          <name>keyA</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a85b59a8b15eba3e42a7eec088a02eca4" prot="public">
+          <name>keyB</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64ac2614a0661a9907b1ccc188751f882a5" prot="public">
+          <name>keyC</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64aaf6d8ebbba6404e2021db3c864bf7535" prot="public">
+          <name>keyD</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a0ae2dca79c1bd513cfe14a2d035a0323" prot="public">
+          <name>keyE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a833d8d3a269cdf5cf40df1b33459b6ea" prot="public">
+          <name>keyF</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a0ab6905219acbe65869564e0b1b40e8c" prot="public">
+          <name>keyG</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a56e589e467063fadae4fca00c957cc33" prot="public">
+          <name>keyH</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a35aaaf15b39fbd23c28169509cbd4cab" prot="public">
+          <name>keyI</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64adb788b5aa24f74f904fb1e22fbdc6d73" prot="public">
+          <name>keyJ</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a97ffd5602045492f569b9c46ad22127e" prot="public">
+          <name>keyK</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64ae3cb5c09d31a2b23620b18976cc8e755" prot="public">
+          <name>keyL</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a5f2df3f0149f021dd569af9273d3e83c" prot="public">
+          <name>keyM</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64aa66f740e7b8ddbf6ef43e73004bfdfb6" prot="public">
+          <name>keyN</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a384ad610ded967ac4e64fdc1120a3b5e" prot="public">
+          <name>keyO</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a0722dae2ad428fa34063c681094dede5" prot="public">
+          <name>keyP</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a9d79a136a250003b47e586be347deedc" prot="public">
+          <name>keyQ</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a559617b3194ace2fe4da5c338b5182be" prot="public">
+          <name>keyR</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64ac507fc23f112a3707d1c7a3622d47ad5" prot="public">
+          <name>keyS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a371b30c4fda315932e26aa401cd9b9e4" prot="public">
+          <name>keyT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a1caf789b4b2a16ce16b54b347c3a5a7b" prot="public">
+          <name>keyU</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a7c0e5559aaaf60d79e5853d58d8292cb" prot="public">
+          <name>keyV</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a0ec5aefbbc58f19eb84bfc7439c04d00" prot="public">
+          <name>keyW</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64af765cf1b14ecf0743f4007ba0c0a97d9" prot="public">
+          <name>keyX</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a45829eed81f37f7ac1e05692658fc931" prot="public">
+          <name>keyY</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a4e874ff4de3c0dc43eeb4258b3e254f7" prot="public">
+          <name>keyZ</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a0c0b6af22bf2a958db80e32d6965ad21" prot="public">
+          <name>keyUp</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a9fdd3c12cb1613f473e276484e6776c3" prot="public">
+          <name>keyDown</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a8fbb364450dec11e07fdda09d55ac1f7" prot="public">
+          <name>keyRight</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a22b25c3e5abb6502a17b3c1f9a7749df" prot="public">
+          <name>keyLeft</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a644aefe621fa5c1f1eea5fc7e5c07c39" prot="public">
+          <name>keyEnter</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a0bb7883b72cb4c9bee342af72dd97804" prot="public">
+          <name>keyDel</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64ab02b16837eab97156c69ad5f80a8c3a2" prot="public">
+          <name>keySpace</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a7038cfbf48601ec5ccec97c79d39ce92" prot="public">
+          <name>keyESC</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a4c54603b3e8fc955941fd23a998ace13" prot="public">
+          <name>key0</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64ad72a87bf586bd23c368248d4a642033f" prot="public">
+          <name>key1</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a7f04f47a26bb401f45650d1d04d65037" prot="public">
+          <name>key2</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a51411432edd099c362fcfa3060267481" prot="public">
+          <name>key3</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a035d1ff6a787acd9c1c5f4c5a5e9d687" prot="public">
+          <name>key4</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a4c7c093ae1ff69e25f5fef8c11287e9c" prot="public">
+          <name>key5</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a2e7211384aabb64454b7093f6a4cce30" prot="public">
+          <name>key6</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64aa50cb5cea3fd3d82a6f6882a676c0e83" prot="public">
+          <name>key7</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64afc035cff8fd5f7f54217e4a99b314b6d" prot="public">
+          <name>key8</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a6cde498257e5aacd16c8274b448f0008" prot="public">
+          <name>key9</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/IDisplay.hpp" line="16" column="5" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/IDisplay.hpp" bodystart="16" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="enum" id="IDisplay_8hpp_1aeb1623160f684ce34c74595def0b35f5" prot="public" static="no" strong="no">
+        <type></type>
+        <name>MouseButton</name>
+        <qualifiedname>graphics::MouseButton</qualifiedname>
+        <enumvalue id="IDisplay_8hpp_1aeb1623160f684ce34c74595def0b35f5a07a69d44f714cbd0fed2abe274f3a093" prot="public">
+          <name>ButtonLeft</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="IDisplay_8hpp_1aeb1623160f684ce34c74595def0b35f5a356db44c1596d658fdf8f75ff4a145fc" prot="public">
+          <name>ButtonRight</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="IDisplay_8hpp_1aeb1623160f684ce34c74595def0b35f5ac138c149d4ee6202e3c1fb4aef36bbbf" prot="public">
+          <name>ButtonMiddle</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/IDisplay.hpp" line="63" column="5" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/IDisplay.hpp" bodystart="63" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="enum" id="IDisplay_8hpp_1ad31ec5e9e82ed8d0e9f5c16b89fd105d" prot="public" static="no" strong="no">
+        <type></type>
+        <name>DrawType</name>
+        <qualifiedname>graphics::DrawType</qualifiedname>
+        <enumvalue id="IDisplay_8hpp_1ad31ec5e9e82ed8d0e9f5c16b89fd105da50bfa433c63de8103d2da10cb0e03a1e" prot="public">
+          <name>Rectangle</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="IDisplay_8hpp_1ad31ec5e9e82ed8d0e9f5c16b89fd105da95f4e1cef86c0b435b60b1aeeca5b77e" prot="public">
+          <name>Circle</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="IDisplay_8hpp_1ad31ec5e9e82ed8d0e9f5c16b89fd105daf5007898413d792af1886712124740b6" prot="public">
+          <name>Text</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="IDisplay_8hpp_1ad31ec5e9e82ed8d0e9f5c16b89fd105da47ab65eb1d047245fd9e30217887bbd3" prot="public">
+          <name>Image</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="IDisplay_8hpp_1ad31ec5e9e82ed8d0e9f5c16b89fd105da649afb772226045ead1e49b0b5b8fa50" prot="public">
+          <name>AnimImage</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="IDisplay_8hpp_1ad31ec5e9e82ed8d0e9f5c16b89fd105da0fd0722149acd7806771c778e80c65e0" prot="public">
+          <name>Button</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="IDisplay_8hpp_1ad31ec5e9e82ed8d0e9f5c16b89fd105dace870ab30f5a46a394680635b066436d" prot="public">
+          <name>Username</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="IDisplay_8hpp_1ad31ec5e9e82ed8d0e9f5c16b89fd105dafbc35e61990c4d258d8ccb8997f4b558" prot="public">
+          <name>Changing</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/IDisplay.hpp" line="69" column="5" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/IDisplay.hpp" bodystart="69" bodyend="78"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/IDisplay.hpp" line="15" column="1"/>
+  </compounddef>
+</doxygen>

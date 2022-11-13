@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="classrtype_1_1Scene" kind="class" language="C++" prot="public">
+    <compoundname>rtype::Scene</compoundname>
+    <basecompoundref refid="classrtype_1_1IScene" prot="public" virt="non-virtual">rtype::IScene</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classrtype_1_1Scene_1a5729f02ff001ceed6598748260404ba3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>rtype::Scene::Scene</definition>
+        <argsstring>()</argsstring>
+        <name>Scene</name>
+        <qualifiedname>rtype::Scene::Scene</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Scene.hpp" line="45" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classrtype_1_1Scene_1aa050da328cdf89405306e6a57a2d9855" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>rtype::Scene::~Scene</definition>
+        <argsstring>()</argsstring>
+        <name>~Scene</name>
+        <qualifiedname>rtype::Scene::~Scene</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Scene.hpp" line="46" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classrtype_1_1Scene_1a2af1d66869fac1b3e35711bac99faa98" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void rtype::Scene::addEntity</definition>
+        <argsstring>(entity)</argsstring>
+        <name>addEntity</name>
+        <qualifiedname>rtype::Scene::addEntity</qualifiedname>
+        <reimplements refid="classrtype_1_1IScene_1a607f06da39e0325a77dd17646b2ed588">addEntity</reimplements>
+        <param>
+          <type><ref refid="classentity" kindref="compound">entity</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Scene.hpp" line="47" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classrtype_1_1Scene_1acabfaa7057e8950b23b8f9d89c3ae586" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void rtype::Scene::setActivity</definition>
+        <argsstring>(registry &amp;, bool)</argsstring>
+        <name>setActivity</name>
+        <qualifiedname>rtype::Scene::setActivity</qualifiedname>
+        <reimplements refid="classrtype_1_1IScene_1a84f0622d635943591d57720e2667c8ec">setActivity</reimplements>
+        <param>
+          <type><ref refid="classregistry" kindref="compound">registry</ref> &amp;</type>
+        </param>
+        <param>
+          <type>bool</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Scene.hpp" line="48" column="18"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>rtype::IScene</label>
+        <link refid="classrtype_1_1IScene"/>
+      </node>
+      <node id="1">
+        <label>rtype::Scene</label>
+        <link refid="classrtype_1_1Scene"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>rtype::IScene</label>
+        <link refid="classrtype_1_1IScene"/>
+      </node>
+      <node id="1">
+        <label>rtype::Scene</label>
+        <link refid="classrtype_1_1Scene"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Scene.hpp" line="43" column="5" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Scene.hpp" bodystart="43" bodyend="49"/>
+    <listofallmembers>
+      <member refid="classrtype_1_1IScene_1a744e1d1ae75bd8418080d531f4de46e8" prot="protected" virt="non-virtual"><scope>rtype::Scene</scope><name>_entities</name></member>
+      <member refid="classrtype_1_1Scene_1a2af1d66869fac1b3e35711bac99faa98" prot="public" virt="virtual"><scope>rtype::Scene</scope><name>addEntity</name></member>
+      <member refid="classrtype_1_1IScene_1a4d7f11be2a58aa0fe3f1284cbb06c50a" prot="public" virt="non-virtual"><scope>rtype::Scene</scope><name>IScene</name></member>
+      <member refid="classrtype_1_1Scene_1a5729f02ff001ceed6598748260404ba3" prot="public" virt="non-virtual"><scope>rtype::Scene</scope><name>Scene</name></member>
+      <member refid="classrtype_1_1Scene_1acabfaa7057e8950b23b8f9d89c3ae586" prot="public" virt="virtual"><scope>rtype::Scene</scope><name>setActivity</name></member>
+      <member refid="classrtype_1_1IScene_1ac5bef1212a82eaa65ef765dc9c9b0687" prot="public" virt="non-virtual"><scope>rtype::Scene</scope><name>~IScene</name></member>
+      <member refid="classrtype_1_1Scene_1aa050da328cdf89405306e6a57a2d9855" prot="public" virt="non-virtual"><scope>rtype::Scene</scope><name>~Scene</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

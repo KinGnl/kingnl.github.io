@@ -1,0 +1,567 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="classsparse__array" kind="class" language="C++" prot="public">
+    <compoundname>sparse_array</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename Component</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classsparse__array_1ab7403a6f935fa66034cce5bdcf49a9fc" prot="public" static="no">
+        <type>std::optional&lt; Component &gt;</type>
+        <definition>using sparse_array&lt; Component &gt;::value_type =  std::optional&lt;Component&gt;</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>sparse_array::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" line="20" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classsparse__array_1ae00c5b30838e89f0d368d55e0ba6a54d" prot="public" static="no">
+        <type>value_type &amp;</type>
+        <definition>using sparse_array&lt; Component &gt;::reference_type =  value_type &amp;</definition>
+        <argsstring></argsstring>
+        <name>reference_type</name>
+        <qualifiedname>sparse_array::reference_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" line="21" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classsparse__array_1a373bf1a871a33e79a21da15acf3652f8" prot="public" static="no">
+        <type>value_type const &amp;</type>
+        <definition>using sparse_array&lt; Component &gt;::const_reference_type =  value_type const &amp;</definition>
+        <argsstring></argsstring>
+        <name>const_reference_type</name>
+        <qualifiedname>sparse_array::const_reference_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" line="22" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classsparse__array_1a5f747e93a9406474b106bde9c66f01b7" prot="public" static="no">
+        <type>std::vector&lt; value_type &gt;</type>
+        <definition>using sparse_array&lt; Component &gt;::container_t =  std::vector&lt;value_type&gt;</definition>
+        <argsstring></argsstring>
+        <name>container_t</name>
+        <qualifiedname>sparse_array::container_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" line="23" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classsparse__array_1af1468a11a30a58090580d1fb399e3cc0" prot="public" static="no">
+        <type>typename container_t::size_type</type>
+        <definition>using sparse_array&lt; Component &gt;::size_type =  typename container_t::size_type</definition>
+        <argsstring></argsstring>
+        <name>size_type</name>
+        <qualifiedname>sparse_array::size_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" line="24" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classsparse__array_1a1293c5b64d77bb97ed87e57c6276925e" prot="public" static="no">
+        <type>typename container_t::iterator</type>
+        <definition>using sparse_array&lt; Component &gt;::iterator =  typename container_t::iterator</definition>
+        <argsstring></argsstring>
+        <name>iterator</name>
+        <qualifiedname>sparse_array::iterator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" line="25" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classsparse__array_1a9beecc69673481f79844336194dfc1a2" prot="public" static="no">
+        <type>typename container_t::const_iterator</type>
+        <definition>using sparse_array&lt; Component &gt;::const_iterator =  typename container_t::const_iterator</definition>
+        <argsstring></argsstring>
+        <name>const_iterator</name>
+        <qualifiedname>sparse_array::const_iterator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" line="26" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsparse__array_1af112878e0e1b449f263d4bb8f6ef758b" prot="private" static="no" mutable="no">
+        <type>container_t</type>
+        <definition>container_t sparse_array&lt; Component &gt;::_data</definition>
+        <argsstring></argsstring>
+        <name>_data</name>
+        <qualifiedname>sparse_array::_data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" line="175" column="21" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" bodystart="175" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsparse__array_1a7b8126fa6ace12d7c202a720a5bd9247" prot="private" static="no" mutable="no">
+        <type>const size_type</type>
+        <definition>const size_type sparse_array&lt; Component &gt;::npos</definition>
+        <argsstring></argsstring>
+        <name>npos</name>
+        <qualifiedname>sparse_array::npos</qualifiedname>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" line="176" column="25" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" bodystart="176" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsparse__array_1a34c792f0a28f90cffd87e58c52f20017" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sparse_array&lt; Component &gt;::sparse_array</definition>
+        <argsstring>()</argsstring>
+        <name>sparse_array</name>
+        <qualifiedname>sparse_array::sparse_array</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" line="29" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classsparse__array_1a2530f93c4d5c88e06ba6c69b4e04ca40" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sparse_array&lt; Component &gt;::sparse_array</definition>
+        <argsstring>(sparse_array const &amp;other)</argsstring>
+        <name>sparse_array</name>
+        <qualifiedname>sparse_array::sparse_array</qualifiedname>
+        <param>
+          <type><ref refid="classsparse__array" kindref="compound">sparse_array</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" line="34" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" bodystart="34" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classsparse__array_1abce5f36fcd9fba0ef3ce5280cbe241db" prot="public" static="no" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>sparse_array&lt; Component &gt;::sparse_array</definition>
+        <argsstring>(sparse_array &amp;&amp;other) noexcept</argsstring>
+        <name>sparse_array</name>
+        <qualifiedname>sparse_array::sparse_array</qualifiedname>
+        <param>
+          <type><ref refid="classsparse__array" kindref="compound">sparse_array</ref> &amp;&amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" line="39" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" bodystart="39" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classsparse__array_1a4fcfd9065975ddcb90f2a84c91313867" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sparse_array&lt; Component &gt;::~sparse_array</definition>
+        <argsstring>()</argsstring>
+        <name>~sparse_array</name>
+        <qualifiedname>sparse_array::~sparse_array</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" line="44" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" bodystart="44" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classsparse__array_1a22f7112eb9f0bf3d6f756ef14abd698a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classsparse__array" kindref="compound">sparse_array</ref> &amp;</type>
+        <definition>sparse_array &amp; sparse_array&lt; Component &gt;::operator=</definition>
+        <argsstring>(sparse_array const &amp;other)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>sparse_array::operator=</qualifiedname>
+        <param>
+          <type><ref refid="classsparse__array" kindref="compound">sparse_array</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" line="46" column="22" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" bodystart="46" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classsparse__array_1aadb8fc0433c146fd3d0f7309672b458d" prot="public" static="no" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type><ref refid="classsparse__array" kindref="compound">sparse_array</ref> &amp;</type>
+        <definition>sparse_array &amp; sparse_array&lt; Component &gt;::operator=</definition>
+        <argsstring>(sparse_array &amp;&amp;other) noexcept</argsstring>
+        <name>operator=</name>
+        <qualifiedname>sparse_array::operator=</qualifiedname>
+        <param>
+          <type><ref refid="classsparse__array" kindref="compound">sparse_array</ref> &amp;&amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" line="52" column="22" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" bodystart="52" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classsparse__array_1a4aa1f2fae14ff1cecdc6e42ded260cad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>reference_type</type>
+        <definition>reference_type sparse_array&lt; Component &gt;::operator[]</definition>
+        <argsstring>(size_t idx)</argsstring>
+        <name>operator[]</name>
+        <qualifiedname>sparse_array::operator[]</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>idx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" line="58" column="24" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" bodystart="58" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classsparse__array_1a1d66e1a1e11a9bcef70425c3c09eb6b4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const_reference_type</type>
+        <definition>const_reference_type sparse_array&lt; Component &gt;::operator[]</definition>
+        <argsstring>(size_t idx) const</argsstring>
+        <name>operator[]</name>
+        <qualifiedname>sparse_array::operator[]</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>idx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" line="65" column="30" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" bodystart="65" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classsparse__array_1a1cdf824b5897fb3ffc857843b37453b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>iterator</type>
+        <definition>iterator sparse_array&lt; Component &gt;::begin</definition>
+        <argsstring>()</argsstring>
+        <name>begin</name>
+        <qualifiedname>sparse_array::begin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" line="72" column="18" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" bodystart="72" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classsparse__array_1a25c3a93f84f860ee55bb25f8da67e358" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const_iterator</type>
+        <definition>const_iterator sparse_array&lt; Component &gt;::begin</definition>
+        <argsstring>() const</argsstring>
+        <name>begin</name>
+        <qualifiedname>sparse_array::begin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" line="77" column="24" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" bodystart="77" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classsparse__array_1a8f6e23b67ea783baf53129f8907e297a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const_iterator</type>
+        <definition>const_iterator sparse_array&lt; Component &gt;::cbegin</definition>
+        <argsstring>() const</argsstring>
+        <name>cbegin</name>
+        <qualifiedname>sparse_array::cbegin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" line="82" column="24" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" bodystart="82" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="classsparse__array_1af6749bdfbdc5200a77549f52594107eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>iterator</type>
+        <definition>iterator sparse_array&lt; Component &gt;::end</definition>
+        <argsstring>()</argsstring>
+        <name>end</name>
+        <qualifiedname>sparse_array::end</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" line="87" column="18" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" bodystart="87" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classsparse__array_1a094425cbf56a592e130b67ecda68cd3d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const_iterator</type>
+        <definition>const_iterator sparse_array&lt; Component &gt;::end</definition>
+        <argsstring>() const</argsstring>
+        <name>end</name>
+        <qualifiedname>sparse_array::end</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" line="92" column="24" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" bodystart="92" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="classsparse__array_1adb95eba3fb7e88207a4374c04950d167" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const_iterator</type>
+        <definition>const_iterator sparse_array&lt; Component &gt;::cend</definition>
+        <argsstring>() const</argsstring>
+        <name>cend</name>
+        <qualifiedname>sparse_array::cend</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" line="97" column="24" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" bodystart="97" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classsparse__array_1a6679a2315be266da4c01ad97f00e51fd" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_type</type>
+        <definition>size_type sparse_array&lt; Component &gt;::size</definition>
+        <argsstring>() const</argsstring>
+        <name>size</name>
+        <qualifiedname>sparse_array::size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" line="102" column="19" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" bodystart="102" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="classsparse__array_1a2e2d04ac69bfebfa5cc7ac4525c91813" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool sparse_array&lt; Component &gt;::has_value_at</definition>
+        <argsstring>(size_type pos) const</argsstring>
+        <name>has_value_at</name>
+        <qualifiedname>sparse_array::has_value_at</qualifiedname>
+        <param>
+          <type>size_type</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" line="107" column="14" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" bodystart="107" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="classsparse__array_1a937a81f8dc37d0a33237f3442225695c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>reference_type</type>
+        <definition>reference_type sparse_array&lt; Component &gt;::insert_at</definition>
+        <argsstring>(size_type pos, Component const &amp;comp)</argsstring>
+        <name>insert_at</name>
+        <qualifiedname>sparse_array::insert_at</qualifiedname>
+        <param>
+          <type>size_type</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>Component const &amp;</type>
+          <declname>comp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" line="112" column="24" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" bodystart="112" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="classsparse__array_1a0deaa37276bdd7ed64b33ce2d5c91e94" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>reference_type</type>
+        <definition>reference_type sparse_array&lt; Component &gt;::insert_at</definition>
+        <argsstring>(size_type pos, Component &amp;&amp;comp)</argsstring>
+        <name>insert_at</name>
+        <qualifiedname>sparse_array::insert_at</qualifiedname>
+        <param>
+          <type>size_type</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>Component &amp;&amp;</type>
+          <declname>comp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" line="121" column="24" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" bodystart="121" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="classsparse__array_1a198a17233acf70ec1d3d1451e77e12df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class ...</type>
+            <declname>Params</declname>
+            <defname>Params</defname>
+          </param>
+        </templateparamlist>
+        <type>reference_type</type>
+        <definition>reference_type sparse_array&lt; Component &gt;::emplace_at</definition>
+        <argsstring>(size_type pos, Params &amp;&amp;...params)</argsstring>
+        <name>emplace_at</name>
+        <qualifiedname>sparse_array::emplace_at</qualifiedname>
+        <param>
+          <type>size_type</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>Params &amp;&amp;...</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" line="131" column="24" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" bodystart="131" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="classsparse__array_1ac0bea77704ce39c1a731dc69de8d9d2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sparse_array&lt; Component &gt;::erase</definition>
+        <argsstring>(size_type pos)</argsstring>
+        <name>erase</name>
+        <qualifiedname>sparse_array::erase</qualifiedname>
+        <param>
+          <type>size_type</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" line="144" column="14" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" bodystart="144" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="classsparse__array_1acea541e416d26ee1fd0e7e5a8be7d989" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_type</type>
+        <definition>size_type sparse_array&lt; Component &gt;::get_index</definition>
+        <argsstring>(value_type const &amp;val) const</argsstring>
+        <name>get_index</name>
+        <qualifiedname>sparse_array::get_index</qualifiedname>
+        <param>
+          <type>value_type const &amp;</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" line="151" column="19" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" bodystart="151" bodyend="157"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classsparse__array_1a6efb885f4136710821a68d0c5ed6661f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream &amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, sparse_array&lt; Component &gt; const &amp;sp)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <qualifiedname>sparse_array::operator&lt;&lt;</qualifiedname>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classsparse__array" kindref="compound">sparse_array</ref>&lt; Component &gt; const &amp;</type>
+          <declname>sp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" line="159" column="16" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" bodystart="159" bodyend="172"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" line="17" column="1" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/SparseArray.hpp" bodystart="17" bodyend="178"/>
+    <listofallmembers>
+      <member refid="classsparse__array_1af112878e0e1b449f263d4bb8f6ef758b" prot="private" virt="non-virtual"><scope>sparse_array</scope><name>_data</name></member>
+      <member refid="classsparse__array_1a1cdf824b5897fb3ffc857843b37453b2" prot="public" virt="non-virtual"><scope>sparse_array</scope><name>begin</name></member>
+      <member refid="classsparse__array_1a25c3a93f84f860ee55bb25f8da67e358" prot="public" virt="non-virtual"><scope>sparse_array</scope><name>begin</name></member>
+      <member refid="classsparse__array_1a8f6e23b67ea783baf53129f8907e297a" prot="public" virt="non-virtual"><scope>sparse_array</scope><name>cbegin</name></member>
+      <member refid="classsparse__array_1adb95eba3fb7e88207a4374c04950d167" prot="public" virt="non-virtual"><scope>sparse_array</scope><name>cend</name></member>
+      <member refid="classsparse__array_1a9beecc69673481f79844336194dfc1a2" prot="public" virt="non-virtual"><scope>sparse_array</scope><name>const_iterator</name></member>
+      <member refid="classsparse__array_1a373bf1a871a33e79a21da15acf3652f8" prot="public" virt="non-virtual"><scope>sparse_array</scope><name>const_reference_type</name></member>
+      <member refid="classsparse__array_1a5f747e93a9406474b106bde9c66f01b7" prot="public" virt="non-virtual"><scope>sparse_array</scope><name>container_t</name></member>
+      <member refid="classsparse__array_1a198a17233acf70ec1d3d1451e77e12df" prot="public" virt="non-virtual"><scope>sparse_array</scope><name>emplace_at</name></member>
+      <member refid="classsparse__array_1af6749bdfbdc5200a77549f52594107eb" prot="public" virt="non-virtual"><scope>sparse_array</scope><name>end</name></member>
+      <member refid="classsparse__array_1a094425cbf56a592e130b67ecda68cd3d" prot="public" virt="non-virtual"><scope>sparse_array</scope><name>end</name></member>
+      <member refid="classsparse__array_1ac0bea77704ce39c1a731dc69de8d9d2d" prot="public" virt="non-virtual"><scope>sparse_array</scope><name>erase</name></member>
+      <member refid="classsparse__array_1acea541e416d26ee1fd0e7e5a8be7d989" prot="public" virt="non-virtual"><scope>sparse_array</scope><name>get_index</name></member>
+      <member refid="classsparse__array_1a2e2d04ac69bfebfa5cc7ac4525c91813" prot="public" virt="non-virtual"><scope>sparse_array</scope><name>has_value_at</name></member>
+      <member refid="classsparse__array_1a937a81f8dc37d0a33237f3442225695c" prot="public" virt="non-virtual"><scope>sparse_array</scope><name>insert_at</name></member>
+      <member refid="classsparse__array_1a0deaa37276bdd7ed64b33ce2d5c91e94" prot="public" virt="non-virtual"><scope>sparse_array</scope><name>insert_at</name></member>
+      <member refid="classsparse__array_1a1293c5b64d77bb97ed87e57c6276925e" prot="public" virt="non-virtual"><scope>sparse_array</scope><name>iterator</name></member>
+      <member refid="classsparse__array_1a7b8126fa6ace12d7c202a720a5bd9247" prot="private" virt="non-virtual"><scope>sparse_array</scope><name>npos</name></member>
+      <member refid="classsparse__array_1a6efb885f4136710821a68d0c5ed6661f" prot="public" virt="non-virtual"><scope>sparse_array</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classsparse__array_1a22f7112eb9f0bf3d6f756ef14abd698a" prot="public" virt="non-virtual"><scope>sparse_array</scope><name>operator=</name></member>
+      <member refid="classsparse__array_1aadb8fc0433c146fd3d0f7309672b458d" prot="public" virt="non-virtual"><scope>sparse_array</scope><name>operator=</name></member>
+      <member refid="classsparse__array_1a4aa1f2fae14ff1cecdc6e42ded260cad" prot="public" virt="non-virtual"><scope>sparse_array</scope><name>operator[]</name></member>
+      <member refid="classsparse__array_1a1d66e1a1e11a9bcef70425c3c09eb6b4" prot="public" virt="non-virtual"><scope>sparse_array</scope><name>operator[]</name></member>
+      <member refid="classsparse__array_1ae00c5b30838e89f0d368d55e0ba6a54d" prot="public" virt="non-virtual"><scope>sparse_array</scope><name>reference_type</name></member>
+      <member refid="classsparse__array_1a6679a2315be266da4c01ad97f00e51fd" prot="public" virt="non-virtual"><scope>sparse_array</scope><name>size</name></member>
+      <member refid="classsparse__array_1af1468a11a30a58090580d1fb399e3cc0" prot="public" virt="non-virtual"><scope>sparse_array</scope><name>size_type</name></member>
+      <member refid="classsparse__array_1a34c792f0a28f90cffd87e58c52f20017" prot="public" virt="non-virtual"><scope>sparse_array</scope><name>sparse_array</name></member>
+      <member refid="classsparse__array_1a2530f93c4d5c88e06ba6c69b4e04ca40" prot="public" virt="non-virtual"><scope>sparse_array</scope><name>sparse_array</name></member>
+      <member refid="classsparse__array_1abce5f36fcd9fba0ef3ce5280cbe241db" prot="public" virt="non-virtual"><scope>sparse_array</scope><name>sparse_array</name></member>
+      <member refid="classsparse__array_1ab7403a6f935fa66034cce5bdcf49a9fc" prot="public" virt="non-virtual"><scope>sparse_array</scope><name>value_type</name></member>
+      <member refid="classsparse__array_1a4fcfd9065975ddcb90f2a84c91313867" prot="public" virt="non-virtual"><scope>sparse_array</scope><name>~sparse_array</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

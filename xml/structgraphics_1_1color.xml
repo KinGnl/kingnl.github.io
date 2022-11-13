@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="structgraphics_1_1color" kind="struct" language="C++" prot="public">
+    <compoundname>graphics::color</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structgraphics_1_1color_1aedc31d808610af90389cf108bde94d86" prot="public" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char graphics::color::red</definition>
+        <argsstring></argsstring>
+        <name>red</name>
+        <qualifiedname>graphics::color::red</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/IDisplay.hpp" line="81" column="23" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/IDisplay.hpp" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgraphics_1_1color_1a3520538c9e242bc1b28284275bea031e" prot="public" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char graphics::color::green</definition>
+        <argsstring></argsstring>
+        <name>green</name>
+        <qualifiedname>graphics::color::green</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/IDisplay.hpp" line="81" column="27" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/IDisplay.hpp" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgraphics_1_1color_1a89c4d65a18a1a52608682e6032ad85db" prot="public" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char graphics::color::blue</definition>
+        <argsstring></argsstring>
+        <name>blue</name>
+        <qualifiedname>graphics::color::blue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/IDisplay.hpp" line="81" column="33" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/IDisplay.hpp" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgraphics_1_1color_1a52d67786a1e68bcf4d013ab22c321901" prot="public" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char graphics::color::alpha</definition>
+        <argsstring></argsstring>
+        <name>alpha</name>
+        <qualifiedname>graphics::color::alpha</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/IDisplay.hpp" line="81" column="38" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/IDisplay.hpp" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/IDisplay.hpp" line="80" column="5" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/IDisplay.hpp" bodystart="80" bodyend="82"/>
+    <listofallmembers>
+      <member refid="structgraphics_1_1color_1a52d67786a1e68bcf4d013ab22c321901" prot="public" virt="non-virtual"><scope>graphics::color</scope><name>alpha</name></member>
+      <member refid="structgraphics_1_1color_1a89c4d65a18a1a52608682e6032ad85db" prot="public" virt="non-virtual"><scope>graphics::color</scope><name>blue</name></member>
+      <member refid="structgraphics_1_1color_1a3520538c9e242bc1b28284275bea031e" prot="public" virt="non-virtual"><scope>graphics::color</scope><name>green</name></member>
+      <member refid="structgraphics_1_1color_1aedc31d808610af90389cf108bde94d86" prot="public" virt="non-virtual"><scope>graphics::color</scope><name>red</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

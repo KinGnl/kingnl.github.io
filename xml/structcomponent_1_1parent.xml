@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="structcomponent_1_1parent" kind="struct" language="C++" prot="public">
+    <compoundname>component::parent</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structcomponent_1_1parent_1aa22e95594f83acb5119b793fc917bdc1" prot="public" static="no" mutable="no">
+        <type><ref refid="classentity" kindref="compound">registry::entity_t</ref></type>
+        <definition>registry::entity_t component::parent::en</definition>
+        <argsstring></argsstring>
+        <name>en</name>
+        <qualifiedname>component::parent::en</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="354" column="28" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="354" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structcomponent_1_1parent_1a52b8f8a1eb6d0e5caf52e56aab41d0e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>component::parent::parent</definition>
+        <argsstring>(registry::entity_t _en)</argsstring>
+        <name>parent</name>
+        <qualifiedname>component::parent::parent</qualifiedname>
+        <param>
+          <type><ref refid="classentity" kindref="compound">registry::entity_t</ref></type>
+          <declname>_en</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="353" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="353" bodyend="353"/>
+      </memberdef>
+      <memberdef kind="function" id="structcomponent_1_1parent_1a52b8f8a1eb6d0e5caf52e56aab41d0e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>component::parent::parent</definition>
+        <argsstring>(registry::entity_t _en)</argsstring>
+        <name>parent</name>
+        <qualifiedname>component::parent::parent</qualifiedname>
+        <param>
+          <type><ref refid="classentity" kindref="compound">registry::entity_t</ref></type>
+          <declname>_en</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Component.hpp" line="169" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Component.hpp" bodystart="169" bodyend="169"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>component::parent</label>
+        <link refid="structcomponent_1_1parent"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>en</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>entity</label>
+        <link refid="classentity"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="352" column="5" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="352" bodyend="355"/>
+    <listofallmembers>
+      <member refid="structcomponent_1_1parent_1aa22e95594f83acb5119b793fc917bdc1" prot="public" virt="non-virtual"><scope>component::parent</scope><name>en</name></member>
+      <member refid="structcomponent_1_1parent_1a52b8f8a1eb6d0e5caf52e56aab41d0e0" prot="public" virt="non-virtual"><scope>component::parent</scope><name>parent</name></member>
+      <member refid="structcomponent_1_1parent_1a52b8f8a1eb6d0e5caf52e56aab41d0e0" prot="public" virt="non-virtual"><scope>component::parent</scope><name>parent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

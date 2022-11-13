@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="structcomponent_1_1network__id" kind="struct" language="C++" prot="public">
+    <compoundname>component::network_id</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structcomponent_1_1network__id_1ab837fe576e12adac1773233f1c1345a8" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t component::network_id::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <qualifiedname>component::network_id::id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="55" column="16" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcomponent_1_1network__id_1a55f45319685097f2d8a40cb3be94fc7e" prot="public" static="no" mutable="no">
+        <type>std::size_t</type>
+        <definition>std::size_t component::network_id::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <qualifiedname>component::network_id::id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Component.hpp" line="28" column="21" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Component.hpp" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structcomponent_1_1network__id_1a9645d39f7dc56b9d32db534b4412a08b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>component::network_id::network_id</definition>
+        <argsstring>(size_t _id)</argsstring>
+        <name>network_id</name>
+        <qualifiedname>component::network_id::network_id</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="53" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="53" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="structcomponent_1_1network__id_1ab8e8353828f19c30aa75dddb36299868" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>component::network_id::network_id</definition>
+        <argsstring>(std::size_t _id)</argsstring>
+        <name>network_id</name>
+        <qualifiedname>component::network_id::network_id</qualifiedname>
+        <param>
+          <type>std::size_t</type>
+          <declname>_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Component.hpp" line="26" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Component.hpp" bodystart="26" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="52" column="5" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="52" bodyend="56"/>
+    <listofallmembers>
+      <member refid="structcomponent_1_1network__id_1ab837fe576e12adac1773233f1c1345a8" prot="public" virt="non-virtual"><scope>component::network_id</scope><name>id</name></member>
+      <member refid="structcomponent_1_1network__id_1a55f45319685097f2d8a40cb3be94fc7e" prot="public" virt="non-virtual"><scope>component::network_id</scope><name>id</name></member>
+      <member refid="structcomponent_1_1network__id_1a9645d39f7dc56b9d32db534b4412a08b" prot="public" virt="non-virtual"><scope>component::network_id</scope><name>network_id</name></member>
+      <member refid="structcomponent_1_1network__id_1ab8e8353828f19c30aa75dddb36299868" prot="public" virt="non-virtual"><scope>component::network_id</scope><name>network_id</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,624 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="CreateEntities_8hpp" kind="file" language="C++">
+    <compoundname>CreateEntities.hpp</compoundname>
+    <includes local="yes">../../ecs_architecture/includes/Zipper.hpp</includes>
+    <includes local="yes">../../ecs_architecture/includes/IndexedZipper.hpp</includes>
+    <includes local="yes">../../graphic_lib_encapsulation/IDisplay.hpp</includes>
+    <includes refid="Component_8hpp" local="yes">Component.hpp</includes>
+    <includedby refid="ClientCore_8hpp" local="yes">R-typeClient/includes/ClientCore.hpp</includedby>
+    <incdepgraph>
+      <node id="3">
+        <label>../../ecs_architecture/includes/IndexedZipper.hpp</label>
+      </node>
+      <node id="1">
+        <label>R-typeClient/includes/CreateEntities.hpp</label>
+        <link refid="CreateEntities_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>../../ecs_architecture/includes/Zipper.hpp</label>
+      </node>
+      <node id="6">
+        <label>../../ecs_architecture/includes/Registry.hpp</label>
+      </node>
+      <node id="4">
+        <label>../../graphic_lib_encapsulation/IDisplay.hpp</label>
+      </node>
+      <node id="5">
+        <label>Component.hpp</label>
+        <link refid="Component_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>R-typeClient/includes/CreateEntities.hpp</label>
+        <link refid="CreateEntities_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>R-typeClient/includes/ClientCore.hpp</label>
+        <link refid="ClientCore_8hpp_source"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="CreateEntities_8hpp_1a254531c1ed6b8ef1014e9d5d9fc4ed25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>registry::entity_t</type>
+        <definition>registry::entity_t create_rec</definition>
+        <argsstring>(registry &amp;reg, float width, float height, float posX, float posY, graphics::color)</argsstring>
+        <name>create_rec</name>
+        <param>
+          <type>registry &amp;</type>
+          <declname>reg</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>posX</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>posY</declname>
+        </param>
+        <param>
+          <type>graphics::color</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="R-typeClient/includes/CreateEntities.hpp" line="16" column="20" declfile="R-typeClient/includes/CreateEntities.hpp" declline="16" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="CreateEntities_8hpp_1a53b33b6a3d36605a5d742d238316d6d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>registry::entity_t</type>
+        <definition>registry::entity_t create_text</definition>
+        <argsstring>(registry &amp;reg, std::string path, std::string str, float scale, float spacing, float posX, float posY, graphics::color color)</argsstring>
+        <name>create_text</name>
+        <param>
+          <type>registry &amp;</type>
+          <declname>reg</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>scale</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>spacing</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>posX</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>posY</declname>
+        </param>
+        <param>
+          <type>graphics::color</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="R-typeClient/includes/CreateEntities.hpp" line="18" column="20" declfile="R-typeClient/includes/CreateEntities.hpp" declline="18" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="CreateEntities_8hpp_1a04fe14dd444d71ff22def1236c41ec1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>registry::entity_t</type>
+        <definition>registry::entity_t create_fixed_img</definition>
+        <argsstring>(registry &amp;reg, std::string path, bool scale, float scale_x, float scale_y, float posX, float posY)</argsstring>
+        <name>create_fixed_img</name>
+        <param>
+          <type>registry &amp;</type>
+          <declname>reg</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>scale</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>scale_x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>scale_y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>posX</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>posY</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="R-typeClient/includes/CreateEntities.hpp" line="20" column="20" declfile="R-typeClient/includes/CreateEntities.hpp" declline="20" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="CreateEntities_8hpp_1a1ca702f8a513f3ac47a5ecbebfba1759" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>registry::entity_t</type>
+        <definition>registry::entity_t create_parallax</definition>
+        <argsstring>(registry &amp;reg, std::string path, bool scale, float scale_x, float scale_y, float posX, float posY, float speed, float limit, float start)</argsstring>
+        <name>create_parallax</name>
+        <param>
+          <type>registry &amp;</type>
+          <declname>reg</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>scale</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>scale_x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>scale_y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>posX</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>posY</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>speed</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>limit</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>start</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="R-typeClient/includes/CreateEntities.hpp" line="22" column="20" declfile="R-typeClient/includes/CreateEntities.hpp" declline="22" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="CreateEntities_8hpp_1aa29a2df6638c2d483bb0e41390be0f96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>registry::entity_t</type>
+        <definition>registry::entity_t create_anim_img</definition>
+        <argsstring>(registry &amp;reg, std::string path, bool scale, float scale_x, float scale_y, int framex_nb, int framey_nb, int framesCounter, int framesSpeed, int currentFramex, int currentFramey, float posX, float posY)</argsstring>
+        <name>create_anim_img</name>
+        <param>
+          <type>registry &amp;</type>
+          <declname>reg</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>scale</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>scale_x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>scale_y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>framex_nb</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>framey_nb</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>framesCounter</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>framesSpeed</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>currentFramex</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>currentFramey</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>posX</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>posY</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="R-typeClient/includes/CreateEntities.hpp" line="24" column="20" declfile="R-typeClient/includes/CreateEntities.hpp" declline="24" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="CreateEntities_8hpp_1a5245b7e23bb4b1e9bb410d3036d00936" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>registry::entity_t</type>
+        <definition>registry::entity_t create_sound</definition>
+        <argsstring>(registry &amp;reg, std::string path, bool looping)</argsstring>
+        <name>create_sound</name>
+        <param>
+          <type>registry &amp;</type>
+          <declname>reg</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>looping</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="R-typeClient/includes/CreateEntities.hpp" line="28" column="20" declfile="R-typeClient/includes/CreateEntities.hpp" declline="28" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="CreateEntities_8hpp_1ad016dd5afe4ea0e67e63ef13ba90f763" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void update_entity_position</definition>
+        <argsstring>(registry &amp;, sparse_array&lt; component::network_id &gt; &amp;, sparse_array&lt; component::position &gt; &amp;, size_t, float, float)</argsstring>
+        <name>update_entity_position</name>
+        <param>
+          <type>registry &amp;</type>
+        </param>
+        <param>
+          <type>sparse_array&lt; <ref refid="structcomponent_1_1network__id" kindref="compound">component::network_id</ref> &gt; &amp;</type>
+        </param>
+        <param>
+          <type>sparse_array&lt; <ref refid="structcomponent_1_1position" kindref="compound">component::position</ref> &gt; &amp;</type>
+        </param>
+        <param>
+          <type>size_t</type>
+        </param>
+        <param>
+          <type>float</type>
+        </param>
+        <param>
+          <type>float</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="R-typeClient/includes/CreateEntities.hpp" line="30" column="6" declfile="R-typeClient/includes/CreateEntities.hpp" declline="30" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="CreateEntities_8hpp_1afe6afb917f98d50ca0aa67cf57781291" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>registry::entity_t</type>
+        <definition>registry::entity_t create_missile</definition>
+        <argsstring>(registry &amp;reg, size_t msl_id, float posX, float posY)</argsstring>
+        <name>create_missile</name>
+        <param>
+          <type>registry &amp;</type>
+          <declname>reg</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>msl_id</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>posX</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>posY</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="R-typeClient/includes/CreateEntities.hpp" line="33" column="20" declfile="R-typeClient/includes/CreateEntities.hpp" declline="33" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="CreateEntities_8hpp_1a276d1e74895ffb13e42cd8831760b42b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>registry::entity_t</type>
+        <definition>registry::entity_t create_ennemy</definition>
+        <argsstring>(registry &amp;reg, size_t nmi_id, int type, float posX, float posY)</argsstring>
+        <name>create_ennemy</name>
+        <param>
+          <type>registry &amp;</type>
+          <declname>reg</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>nmi_id</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>posX</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>posY</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="R-typeClient/includes/CreateEntities.hpp" line="35" column="20" declfile="R-typeClient/includes/CreateEntities.hpp" declline="35" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="CreateEntities_8hpp_1a56a55d920633cef7fe05b0613376dd08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>registry::entity_t</type>
+        <definition>registry::entity_t create_team_mate</definition>
+        <argsstring>(registry &amp;reg, size_t ply_id, int type, float posX, float posY)</argsstring>
+        <name>create_team_mate</name>
+        <param>
+          <type>registry &amp;</type>
+          <declname>reg</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>ply_id</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>posX</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>posY</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="R-typeClient/includes/CreateEntities.hpp" line="37" column="20" declfile="R-typeClient/includes/CreateEntities.hpp" declline="37" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="CreateEntities_8hpp_1ad551ed0aa9983b6eb6d22fbfcf20aa9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>registry::entity_t</type>
+        <definition>registry::entity_t create_player</definition>
+        <argsstring>(registry &amp;reg, size_t ply_id, int type, float posX, float posY)</argsstring>
+        <name>create_player</name>
+        <param>
+          <type>registry &amp;</type>
+          <declname>reg</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>ply_id</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>posX</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>posY</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="R-typeClient/includes/CreateEntities.hpp" line="39" column="20" declfile="R-typeClient/includes/CreateEntities.hpp" declline="39" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="CreateEntities_8hpp_1a3cd5ff1143659a02ddb13923541a329e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename ...</type>
+            <declname>FunctionParams</declname>
+            <defname>FunctionParams</defname>
+          </param>
+          <param>
+            <type>typename Function</type>
+          </param>
+        </templateparamlist>
+        <type>registry::entity_t</type>
+        <definition>registry::entity_t create_button</definition>
+        <argsstring>(registry &amp;reg, std::string path, bool scale, float scale_x, float scale_y, int framex_nb, int framey_nb, int currentFramex, int currentFramey, float posX, float posY, Function action, FunctionParams &amp;&amp;...va)</argsstring>
+        <name>create_button</name>
+        <param>
+          <type>registry &amp;</type>
+          <declname>reg</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>scale</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>scale_x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>scale_y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>framex_nb</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>framey_nb</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>currentFramex</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>currentFramey</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>posX</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>posY</declname>
+        </param>
+        <param>
+          <type>Function</type>
+          <declname>action</declname>
+        </param>
+        <param>
+          <type>FunctionParams &amp;&amp;...</type>
+          <declname>va</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="R-typeClient/includes/CreateEntities.hpp" line="42" column="20" bodyfile="R-typeClient/includes/CreateEntities.hpp" bodystart="42" bodyend="57"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">**<sp/>EPITECH<sp/>PROJECT,<sp/>2022</highlight></codeline>
+<codeline lineno="3"><highlight class="comment">**<sp/>B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun</highlight></codeline>
+<codeline lineno="4"><highlight class="comment">**<sp/>File<sp/>description:</highlight></codeline>
+<codeline lineno="5"><highlight class="comment">**<sp/>CreateEntities</highlight></codeline>
+<codeline lineno="6"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>CREATEENTITIES_HPP_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CREATEENTITIES_HPP_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../../ecs_architecture/includes/Zipper.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../../ecs_architecture/includes/IndexedZipper.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../../graphic_lib_encapsulation/IDisplay.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Component.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">registry::entity_t<sp/>create_rec(registry<sp/>&amp;reg,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>width,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>height,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>posX,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>posY,<sp/>graphics::color);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal">registry::entity_t<sp/>create_text(registry<sp/>&amp;reg,<sp/>std::string<sp/>path,<sp/>std::string<sp/>str,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>scale,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>spacing,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>posX,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>posY,<sp/>graphics::color<sp/>color);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal">registry::entity_t<sp/>create_fixed_img(registry<sp/>&amp;reg,<sp/>std::string<sp/>path,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>scale,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>scale_x,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>scale_y,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>posX,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>posY);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">registry::entity_t<sp/>create_parallax(registry<sp/>&amp;reg,<sp/>std::string<sp/>path,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>scale,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>scale_x,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>scale_y,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>posX,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>posY,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>speed,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>limit,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>start);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal">registry::entity_t<sp/>create_anim_img(registry<sp/>&amp;reg,<sp/>std::string<sp/>path,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>scale,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>scale_x,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>scale_y,</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>framex_nb,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>framey_nb,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>framesCounter,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>framesSpeed,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>currentFramex,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>currentFramey,</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>posX,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>posY);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">registry::entity_t<sp/>create_sound(registry<sp/>&amp;reg,<sp/>std::string<sp/>path,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>looping);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>update_entity_position(registry<sp/>&amp;,<sp/>sparse_array&lt;component::network_id&gt;<sp/>&amp;,</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>sparse_array&lt;component::position&gt;<sp/>&amp;,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal">registry::entity_t<sp/>create_missile(registry<sp/>&amp;reg,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>msl_id,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>posX,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>posY);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal">registry::entity_t<sp/>create_ennemy(registry<sp/>&amp;reg,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>nmi_id,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>type,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>posX,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>posY);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal">registry::entity_t<sp/>create_team_mate(registry<sp/>&amp;reg,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>ply_id,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>type,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>posX,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>posY);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal">registry::entity_t<sp/>create_player(registry<sp/>&amp;reg,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>ply_id,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>type,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>posX,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>posY);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>...FunctionParams,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>Function&gt;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">registry::entity_t<sp/>create_button(registry<sp/>&amp;reg,<sp/>std::string<sp/>path,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>scale,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>scale_x,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>scale_y,</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>framex_nb,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>framey_nb,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>currentFramex,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>currentFramey,</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>posX,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>posY,<sp/>Function<sp/>action,<sp/>FunctionParams<sp/>&amp;&amp;...va)</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>registry::entity_t<sp/>button<sp/>=<sp/>reg.entity_manager.spawn_entity();</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>reg.entity_manager.emplace_component&lt;component::activity&gt;(button,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>reg.entity_manager.emplace_component&lt;<ref refid="structcomponent_1_1position" kindref="compound">component::position</ref>&gt;(button,<sp/>posX,<sp/>posY);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>reg.entity_manager.emplace_component&lt;<ref refid="structcomponent_1_1drawable" kindref="compound">component::drawable</ref>&gt;(button,<sp/>graphics::DrawType::Button,<sp/>path,<sp/>scale,</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>scale_x,<sp/>scale_y,<sp/>framex_nb,<sp/>framey_nb,<sp/>currentFramex,<sp/>currentFramey);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>reg.entity_manager.emplace_component&lt;<ref refid="structcomponent_1_1clickable" kindref="compound">component::clickable</ref>&gt;(button,<sp/>scale_x/framex_nb,<sp/>scale_y,</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[&amp;,<sp/>action,<sp/>va...](registry<sp/>&amp;reg)<sp/>{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>action(reg,<sp/>va...);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>});</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>button;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>!CREATEENTITIES_HPP_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="R-typeClient/includes/CreateEntities.hpp"/>
+  </compounddef>
+</doxygen>

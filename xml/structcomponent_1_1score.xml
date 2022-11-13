@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="structcomponent_1_1score" kind="struct" language="C++" prot="public">
+    <compoundname>component::score</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structcomponent_1_1score_1a091e58ffb8056975f4d63d2d1cd9cad3" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int component::score::val</definition>
+        <argsstring></argsstring>
+        <name>val</name>
+        <qualifiedname>component::score::val</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="348" column="13" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="348" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcomponent_1_1score_1a099033d4b8b68c8509779d8af48ddee5" prot="public" static="no" mutable="no">
+        <type>std::size_t</type>
+        <definition>std::size_t component::score::ref</definition>
+        <argsstring></argsstring>
+        <name>ref</name>
+        <qualifiedname>component::score::ref</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="349" column="21" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="349" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structcomponent_1_1score_1aad2ff82561f16473aa711fcc7d2f457d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>component::score::score</definition>
+        <argsstring>(int _val)</argsstring>
+        <name>score</name>
+        <qualifiedname>component::score::score</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>_val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="318" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="318" bodyend="321"/>
+      </memberdef>
+      <memberdef kind="function" id="structcomponent_1_1score_1a4cf8acfb698d1113276a4d41533d1638" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>component::score::score</definition>
+        <argsstring>(int _val, registry &amp;reg, SceneName page)</argsstring>
+        <name>score</name>
+        <qualifiedname>component::score::score</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>_val</declname>
+        </param>
+        <param>
+          <type><ref refid="classregistry" kindref="compound">registry</ref> &amp;</type>
+          <declname>reg</declname>
+        </param>
+        <param>
+          <type>SceneName</type>
+          <declname>page</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="323" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="323" bodyend="334"/>
+      </memberdef>
+      <memberdef kind="function" id="structcomponent_1_1score_1a45d277909b305811775b5e81c436df5f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void component::score::update</definition>
+        <argsstring>(registry &amp;reg, int new_val)</argsstring>
+        <name>update</name>
+        <qualifiedname>component::score::update</qualifiedname>
+        <param>
+          <type><ref refid="classregistry" kindref="compound">registry</ref> &amp;</type>
+          <declname>reg</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>new_val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="336" column="14" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="336" bodyend="340"/>
+      </memberdef>
+      <memberdef kind="function" id="structcomponent_1_1score_1a4ab3fef28203c874094912a1fd8c5d44" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void component::score::add</definition>
+        <argsstring>(registry &amp;reg, int to_add)</argsstring>
+        <name>add</name>
+        <qualifiedname>component::score::add</qualifiedname>
+        <param>
+          <type><ref refid="classregistry" kindref="compound">registry</ref> &amp;</type>
+          <declname>reg</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>to_add</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="342" column="14" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="342" bodyend="346"/>
+      </memberdef>
+      <memberdef kind="function" id="structcomponent_1_1score_1aad2ff82561f16473aa711fcc7d2f457d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>component::score::score</definition>
+        <argsstring>(int _val)</argsstring>
+        <name>score</name>
+        <qualifiedname>component::score::score</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>_val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Component.hpp" line="71" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Component.hpp" bodystart="71" bodyend="71"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="317" column="5" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="317" bodyend="350"/>
+    <listofallmembers>
+      <member refid="structcomponent_1_1score_1a4ab3fef28203c874094912a1fd8c5d44" prot="public" virt="non-virtual"><scope>component::score</scope><name>add</name></member>
+      <member refid="structcomponent_1_1score_1a099033d4b8b68c8509779d8af48ddee5" prot="public" virt="non-virtual"><scope>component::score</scope><name>ref</name></member>
+      <member refid="structcomponent_1_1score_1aad2ff82561f16473aa711fcc7d2f457d" prot="public" virt="non-virtual"><scope>component::score</scope><name>score</name></member>
+      <member refid="structcomponent_1_1score_1a4cf8acfb698d1113276a4d41533d1638" prot="public" virt="non-virtual"><scope>component::score</scope><name>score</name></member>
+      <member refid="structcomponent_1_1score_1aad2ff82561f16473aa711fcc7d2f457d" prot="public" virt="non-virtual"><scope>component::score</scope><name>score</name></member>
+      <member refid="structcomponent_1_1score_1a45d277909b305811775b5e81c436df5f" prot="public" virt="non-virtual"><scope>component::score</scope><name>update</name></member>
+      <member refid="structcomponent_1_1score_1a091e58ffb8056975f4d63d2d1cd9cad3" prot="public" virt="non-virtual"><scope>component::score</scope><name>val</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

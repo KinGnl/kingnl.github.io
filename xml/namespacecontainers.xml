@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="namespacecontainers" kind="namespace" language="C++">
+    <compoundname>containers</compoundname>
+    <innerclass refid="classcontainers_1_1indexed__zipper" prot="public">containers::indexed_zipper</innerclass>
+    <innerclass refid="classcontainers_1_1indexed__zipper__iterator" prot="public">containers::indexed_zipper_iterator</innerclass>
+    <innerclass refid="classcontainers_1_1zipper" prot="public">containers::zipper</innerclass>
+    <innerclass refid="classcontainers_1_1zipper__iterator" prot="public">containers::zipper_iterator</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/IndexedZipper.hpp" line="17" column="1"/>
+  </compounddef>
+</doxygen>

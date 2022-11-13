@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="classSystems_1_1manage__requests" kind="class" language="C++" prot="public">
+    <compoundname>Systems::manage_requests</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classSystems_1_1manage__requests_1aa6300d845e6eecdbade6a273d481aec5" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="classnetwork_1_1INetworker" kindref="compound">network::INetworker</ref> &gt; &amp;</type>
+        <definition>std::shared_ptr&lt; network::INetworker &gt; &amp; Systems::manage_requests::_net</definition>
+        <argsstring></argsstring>
+        <name>_net</name>
+        <qualifiedname>Systems::manage_requests::_net</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" line="104" column="29" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSystems_1_1manage__requests_1a7778b50e7d99a7193bdd6b33c13d9476" prot="private" static="no" mutable="no">
+        <type>std::queue&lt; <ref refid="structnetwork_1_1datatrans" kindref="compound">network::datatrans</ref> &gt; &amp;</type>
+        <definition>std::queue&lt;network::datatrans&gt;&amp; Systems::manage_requests::_net_datas</definition>
+        <argsstring></argsstring>
+        <name>_net_datas</name>
+        <qualifiedname>Systems::manage_requests::_net_datas</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Systems.hpp" line="39" column="24" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Systems.hpp" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSystems_1_1manage__requests_1a93e0fd1b4a2620f8949bb51104e3fbdf" prot="private" static="no" mutable="no">
+        <type>std::mutex &amp;</type>
+        <definition>std::mutex&amp; Systems::manage_requests::req_mtx</definition>
+        <argsstring></argsstring>
+        <name>req_mtx</name>
+        <qualifiedname>Systems::manage_requests::req_mtx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Systems.hpp" line="40" column="24" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Systems.hpp" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classSystems_1_1manage__requests_1a8fa26598bbe2ea6e8bc1ad2ce6d29bfb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Systems::manage_requests::manage_requests</definition>
+        <argsstring>(std::shared_ptr&lt; network::INetworker &gt; &amp;net)</argsstring>
+        <name>manage_requests</name>
+        <qualifiedname>Systems::manage_requests::manage_requests</qualifiedname>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="classnetwork_1_1INetworker" kindref="compound">network::INetworker</ref> &gt; &amp;</type>
+          <declname>net</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" line="97" column="13" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" bodystart="97" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="classSystems_1_1manage__requests_1a784761fea78586884096aabe7dea46f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Systems::manage_requests::~manage_requests</definition>
+        <argsstring>()</argsstring>
+        <name>~manage_requests</name>
+        <qualifiedname>Systems::manage_requests::~manage_requests</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" line="100" column="13" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" bodystart="100" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classSystems_1_1manage__requests_1a82d4e9918f725f8bff2a36062163c262" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Systems::manage_requests::operator()</definition>
+        <argsstring>(registry &amp;reg) const</argsstring>
+        <name>operator()</name>
+        <qualifiedname>Systems::manage_requests::operator()</qualifiedname>
+        <param>
+          <type><ref refid="classregistry" kindref="compound">registry</ref> &amp;</type>
+          <declname>reg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" line="101" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classSystems_1_1manage__requests_1a6f7b2ab31d53edf2c53c7dfc3c417e4c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Systems::manage_requests::manage_requests</definition>
+        <argsstring>(std::shared_ptr&lt; network::INetworker &gt; &amp;net, std::queue&lt; network::datatrans &gt; &amp;_datas, std::mutex &amp;mtx)</argsstring>
+        <name>manage_requests</name>
+        <qualifiedname>Systems::manage_requests::manage_requests</qualifiedname>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="classnetwork_1_1INetworker" kindref="compound">network::INetworker</ref> &gt; &amp;</type>
+          <declname>net</declname>
+        </param>
+        <param>
+          <type>std::queue&lt; <ref refid="structnetwork_1_1datatrans" kindref="compound">network::datatrans</ref> &gt; &amp;</type>
+          <declname>_datas</declname>
+        </param>
+        <param>
+          <type>std::mutex &amp;</type>
+          <declname>mtx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Systems.hpp" line="29" column="13" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Systems.hpp" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classSystems_1_1manage__requests_1a784761fea78586884096aabe7dea46f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Systems::manage_requests::~manage_requests</definition>
+        <argsstring>()</argsstring>
+        <name>~manage_requests</name>
+        <qualifiedname>Systems::manage_requests::~manage_requests</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Systems.hpp" line="34" column="13" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Systems.hpp" bodystart="34" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classSystems_1_1manage__requests_1a82d4e9918f725f8bff2a36062163c262" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Systems::manage_requests::operator()</definition>
+        <argsstring>(registry &amp;reg) const</argsstring>
+        <name>operator()</name>
+        <qualifiedname>Systems::manage_requests::operator()</qualifiedname>
+        <param>
+          <type><ref refid="classregistry" kindref="compound">registry</ref> &amp;</type>
+          <declname>reg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes/Systems.hpp" line="35" column="18"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" line="95" column="5" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" bodystart="95" bodyend="105"/>
+    <listofallmembers>
+      <member refid="classSystems_1_1manage__requests_1aa6300d845e6eecdbade6a273d481aec5" prot="private" virt="non-virtual"><scope>Systems::manage_requests</scope><name>_net</name></member>
+      <member refid="classSystems_1_1manage__requests_1a7778b50e7d99a7193bdd6b33c13d9476" prot="private" virt="non-virtual"><scope>Systems::manage_requests</scope><name>_net_datas</name></member>
+      <member refid="classSystems_1_1manage__requests_1a8fa26598bbe2ea6e8bc1ad2ce6d29bfb" prot="public" virt="non-virtual"><scope>Systems::manage_requests</scope><name>manage_requests</name></member>
+      <member refid="classSystems_1_1manage__requests_1a6f7b2ab31d53edf2c53c7dfc3c417e4c" prot="public" virt="non-virtual"><scope>Systems::manage_requests</scope><name>manage_requests</name></member>
+      <member refid="classSystems_1_1manage__requests_1a82d4e9918f725f8bff2a36062163c262" prot="public" virt="non-virtual"><scope>Systems::manage_requests</scope><name>operator()</name></member>
+      <member refid="classSystems_1_1manage__requests_1a82d4e9918f725f8bff2a36062163c262" prot="public" virt="non-virtual"><scope>Systems::manage_requests</scope><name>operator()</name></member>
+      <member refid="classSystems_1_1manage__requests_1a93e0fd1b4a2620f8949bb51104e3fbdf" prot="private" virt="non-virtual"><scope>Systems::manage_requests</scope><name>req_mtx</name></member>
+      <member refid="classSystems_1_1manage__requests_1a784761fea78586884096aabe7dea46f0" prot="public" virt="non-virtual"><scope>Systems::manage_requests</scope><name>~manage_requests</name></member>
+      <member refid="classSystems_1_1manage__requests_1a784761fea78586884096aabe7dea46f0" prot="public" virt="non-virtual"><scope>Systems::manage_requests</scope><name>~manage_requests</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

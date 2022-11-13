@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="classSystems_1_1drawable" kind="class" language="C++" prot="public">
+    <compoundname>Systems::drawable</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classSystems_1_1drawable_1ac29902b029a940d53136ac5587ab8136" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="classgraphics_1_1IDisplay" kindref="compound">graphics::IDisplay</ref> &gt; &amp;</type>
+        <definition>std::shared_ptr&lt;graphics::IDisplay&gt;&amp; Systems::drawable::_disp</definition>
+        <argsstring></argsstring>
+        <name>_disp</name>
+        <qualifiedname>Systems::drawable::_disp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" line="30" column="29" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classSystems_1_1drawable_1ac2e904822fece20f84b946cd999d9191" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Systems::drawable::drawable</definition>
+        <argsstring>(std::shared_ptr&lt; graphics::IDisplay &gt; &amp;disp)</argsstring>
+        <name>drawable</name>
+        <qualifiedname>Systems::drawable::drawable</qualifiedname>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="classgraphics_1_1IDisplay" kindref="compound">graphics::IDisplay</ref> &gt; &amp;</type>
+          <declname>disp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" line="23" column="13" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classSystems_1_1drawable_1af972280d720c9783eb826fa3f69f96b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Systems::drawable::~drawable</definition>
+        <argsstring>()</argsstring>
+        <name>~drawable</name>
+        <qualifiedname>Systems::drawable::~drawable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" line="24" column="13" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classSystems_1_1drawable_1a3fbd8bd7f5ab639d7bdea4f084501d38" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Systems::drawable::operator()</definition>
+        <argsstring>(registry &amp;, sparse_array&lt; component::position &gt; &amp;, sparse_array&lt; component::drawable &gt; &amp;) const</argsstring>
+        <name>operator()</name>
+        <qualifiedname>Systems::drawable::operator()</qualifiedname>
+        <param>
+          <type><ref refid="classregistry" kindref="compound">registry</ref> &amp;</type>
+        </param>
+        <param>
+          <type><ref refid="classsparse__array" kindref="compound">sparse_array</ref>&lt; <ref refid="structcomponent_1_1position" kindref="compound">component::position</ref> &gt; &amp;</type>
+        </param>
+        <param>
+          <type><ref refid="classsparse__array" kindref="compound">sparse_array</ref>&lt; <ref refid="structcomponent_1_1drawable" kindref="compound">component::drawable</ref> &gt; &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" line="25" column="18"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" line="21" column="5" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Systems.hpp" bodystart="21" bodyend="31"/>
+    <listofallmembers>
+      <member refid="classSystems_1_1drawable_1ac29902b029a940d53136ac5587ab8136" prot="private" virt="non-virtual"><scope>Systems::drawable</scope><name>_disp</name></member>
+      <member refid="classSystems_1_1drawable_1ac2e904822fece20f84b946cd999d9191" prot="public" virt="non-virtual"><scope>Systems::drawable</scope><name>drawable</name></member>
+      <member refid="classSystems_1_1drawable_1a3fbd8bd7f5ab639d7bdea4f084501d38" prot="public" virt="non-virtual"><scope>Systems::drawable</scope><name>operator()</name></member>
+      <member refid="classSystems_1_1drawable_1af972280d720c9783eb826fa3f69f96b5" prot="public" virt="non-virtual"><scope>Systems::drawable</scope><name>~drawable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,610 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="structcomponent_1_1drawable" kind="struct" language="C++" prot="public">
+    <compoundname>component::drawable</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structcomponent_1_1drawable_1a5e3d8316c5f4ec5cfb7df8bd7a9edf0f" prot="public" static="no" mutable="no">
+        <type>graphics::DrawType</type>
+        <definition>graphics::DrawType component::drawable::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>component::drawable::type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="136" column="28" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcomponent_1_1drawable_1acad4d959f39ede7dcae951ea87ca015b" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt;std::string&gt; component::drawable::img_paths</definition>
+        <argsstring></argsstring>
+        <name>img_paths</name>
+        <qualifiedname>component::drawable::img_paths</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="138" column="21" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcomponent_1_1drawable_1a97e5ab5b7c432fde62a3cd9b30c3a9db" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t component::drawable::index</definition>
+        <argsstring></argsstring>
+        <name>index</name>
+        <qualifiedname>component::drawable::index</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="139" column="16" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcomponent_1_1drawable_1a0dc8db8e9fe8f75577cee04229216775" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string component::drawable::img_path</definition>
+        <argsstring></argsstring>
+        <name>img_path</name>
+        <qualifiedname>component::drawable::img_path</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="141" column="21" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcomponent_1_1drawable_1aee2b93b9d5a38ac10fa21277af7665f1" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool component::drawable::scale</definition>
+        <argsstring></argsstring>
+        <name>scale</name>
+        <qualifiedname>component::drawable::scale</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="142" column="14" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcomponent_1_1drawable_1a4e243c7bef06cd50e19b17743d270c85" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float component::drawable::img_scale_x</definition>
+        <argsstring></argsstring>
+        <name>img_scale_x</name>
+        <qualifiedname>component::drawable::img_scale_x</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="143" column="15" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcomponent_1_1drawable_1a7ace6529c8ade8f0332b1fa5daa37f59" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float component::drawable::img_scale_y</definition>
+        <argsstring></argsstring>
+        <name>img_scale_y</name>
+        <qualifiedname>component::drawable::img_scale_y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="144" column="15" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcomponent_1_1drawable_1afc107d4ad38aae30631c970f356d62e8" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int component::drawable::limit_x</definition>
+        <argsstring></argsstring>
+        <name>limit_x</name>
+        <qualifiedname>component::drawable::limit_x</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="146" column="13" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcomponent_1_1drawable_1ad8ad62467357761305726f0a490e93b2" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int component::drawable::limit_y</definition>
+        <argsstring></argsstring>
+        <name>limit_y</name>
+        <qualifiedname>component::drawable::limit_y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="147" column="13" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcomponent_1_1drawable_1a1c72065a5fd9be69b6aeb7f43b31cb1a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int component::drawable::framesCounter</definition>
+        <argsstring></argsstring>
+        <name>framesCounter</name>
+        <qualifiedname>component::drawable::framesCounter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="148" column="13" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcomponent_1_1drawable_1a163773e18186727b4cdf70807e57ca08" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int component::drawable::framesSpeed</definition>
+        <argsstring></argsstring>
+        <name>framesSpeed</name>
+        <qualifiedname>component::drawable::framesSpeed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="149" column="13" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcomponent_1_1drawable_1ad6f7af64c478d8e6874668c213879246" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int component::drawable::currentFramex</definition>
+        <argsstring></argsstring>
+        <name>currentFramex</name>
+        <qualifiedname>component::drawable::currentFramex</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="150" column="13" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcomponent_1_1drawable_1adc7256860004bcd8a101ba81aa36b89e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int component::drawable::currentFramey</definition>
+        <argsstring></argsstring>
+        <name>currentFramey</name>
+        <qualifiedname>component::drawable::currentFramey</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="151" column="13" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcomponent_1_1drawable_1aaa1b794dedc16e88867b596f462ce6ee" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string component::drawable::font_path</definition>
+        <argsstring></argsstring>
+        <name>font_path</name>
+        <qualifiedname>component::drawable::font_path</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="153" column="21" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcomponent_1_1drawable_1a7b3ec64b5be9df3b71ad7d4513ce9cf3" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string component::drawable::text</definition>
+        <argsstring></argsstring>
+        <name>text</name>
+        <qualifiedname>component::drawable::text</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="154" column="21" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcomponent_1_1drawable_1ac3132328d9ca0397b8df0f39ee71f05b" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float component::drawable::font_scale</definition>
+        <argsstring></argsstring>
+        <name>font_scale</name>
+        <qualifiedname>component::drawable::font_scale</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="155" column="15" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcomponent_1_1drawable_1acb6bc4efbe6725c77e6a5d9c3092e42b" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float component::drawable::font_spacing</definition>
+        <argsstring></argsstring>
+        <name>font_spacing</name>
+        <qualifiedname>component::drawable::font_spacing</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="156" column="15" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcomponent_1_1drawable_1a01f9cdebc8e53bd6545f826bba329468" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float component::drawable::rec_width</definition>
+        <argsstring></argsstring>
+        <name>rec_width</name>
+        <qualifiedname>component::drawable::rec_width</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="158" column="15" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcomponent_1_1drawable_1a00eae89d2942955daeb8259327345a26" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float component::drawable::rec_height</definition>
+        <argsstring></argsstring>
+        <name>rec_height</name>
+        <qualifiedname>component::drawable::rec_height</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="159" column="15" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcomponent_1_1drawable_1ac74ddba872c448bd03b03146bfd5fc89" prot="public" static="no" mutable="no">
+        <type><ref refid="structgraphics_1_1color" kindref="compound">graphics::color</ref></type>
+        <definition>graphics::color component::drawable::color</definition>
+        <argsstring></argsstring>
+        <name>color</name>
+        <qualifiedname>component::drawable::color</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="161" column="25" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcomponent_1_1drawable_1a436efc8a637233e0d16960fdf6bdfcb8" prot="public" static="no" mutable="no">
+        <type>sf::RectangleShape</type>
+        <definition>sf::RectangleShape component::drawable::rec</definition>
+        <argsstring></argsstring>
+        <name>rec</name>
+        <qualifiedname>component::drawable::rec</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/BasicECS.hpp" line="28" column="28" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/BasicECS.hpp" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structcomponent_1_1drawable_1ad6d38539ccad633726db5a4da2cf8098" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>component::drawable::drawable</definition>
+        <argsstring>()</argsstring>
+        <name>drawable</name>
+        <qualifiedname>component::drawable::drawable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="105" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="105" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="structcomponent_1_1drawable_1ab167f2a50c8ec10c6f7c35c5b8da4b4b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>component::drawable::drawable</definition>
+        <argsstring>(graphics::DrawType _type, std::string _img_path, bool _scale, float _img_scale_x, float _img_scale_y)</argsstring>
+        <name>drawable</name>
+        <qualifiedname>component::drawable::drawable</qualifiedname>
+        <param>
+          <type>graphics::DrawType</type>
+          <declname>_type</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>_img_path</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>_scale</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_img_scale_x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_img_scale_y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="107" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="107" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="structcomponent_1_1drawable_1a22c91ac6596e3ca33c2cdaa74b5533c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>component::drawable::drawable</definition>
+        <argsstring>(graphics::DrawType _type, std::vector&lt; std::string &gt; _img_paths, bool _scale, float _img_scale_x, float _img_scale_y)</argsstring>
+        <name>drawable</name>
+        <qualifiedname>component::drawable::drawable</qualifiedname>
+        <param>
+          <type>graphics::DrawType</type>
+          <declname>_type</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; std::string &gt;</type>
+          <declname>_img_paths</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>_scale</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_img_scale_x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_img_scale_y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="112" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="112" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="structcomponent_1_1drawable_1ae9dec2f2d261c7c646669a125ccf82df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>component::drawable::drawable</definition>
+        <argsstring>(graphics::DrawType _type, std::string _font_path, std::string _text, float _scale, float _spacing, graphics::color _color)</argsstring>
+        <name>drawable</name>
+        <qualifiedname>component::drawable::drawable</qualifiedname>
+        <param>
+          <type>graphics::DrawType</type>
+          <declname>_type</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>_font_path</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>_text</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_scale</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_spacing</declname>
+        </param>
+        <param>
+          <type><ref refid="structgraphics_1_1color" kindref="compound">graphics::color</ref></type>
+          <declname>_color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="117" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="117" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="structcomponent_1_1drawable_1a5eb8676e606bd5d2273a938a7c7c6a01" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>component::drawable::drawable</definition>
+        <argsstring>(graphics::DrawType _type, float _rec_width, float _rec_height, graphics::color _color)</argsstring>
+        <name>drawable</name>
+        <qualifiedname>component::drawable::drawable</qualifiedname>
+        <param>
+          <type>graphics::DrawType</type>
+          <declname>_type</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_rec_width</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_rec_height</declname>
+        </param>
+        <param>
+          <type><ref refid="structgraphics_1_1color" kindref="compound">graphics::color</ref></type>
+          <declname>_color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="122" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="122" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="structcomponent_1_1drawable_1a0dcb9282482b3001773ae0de1e20ba48" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>component::drawable::drawable</definition>
+        <argsstring>(graphics::DrawType _type, std::string _path, bool _scale, float _scale_x, float _scale_y, int _framex_nb, int _framey_nb, int _framesCounter, int _framesSpeed, int _currentFramex, int _currentFramey)</argsstring>
+        <name>drawable</name>
+        <qualifiedname>component::drawable::drawable</qualifiedname>
+        <param>
+          <type>graphics::DrawType</type>
+          <declname>_type</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>_path</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>_scale</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_scale_x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_scale_y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_framex_nb</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_framey_nb</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_framesCounter</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_framesSpeed</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_currentFramex</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_currentFramey</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="125" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="125" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="structcomponent_1_1drawable_1a148f8b9c5812225ba17dda6905e33a5f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>component::drawable::drawable</definition>
+        <argsstring>(graphics::DrawType _type, std::string _path, bool _scale, float _scale_x, float _scale_y, int _framex_nb, int _framey_nb, int _currentFramex, int _currentFramey)</argsstring>
+        <name>drawable</name>
+        <qualifiedname>component::drawable::drawable</qualifiedname>
+        <param>
+          <type>graphics::DrawType</type>
+          <declname>_type</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>_path</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>_scale</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_scale_x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_scale_y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_framex_nb</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_framey_nb</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_currentFramex</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_currentFramey</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="131" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="131" bodyend="134"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>component::drawable</label>
+        <link refid="structcomponent_1_1drawable"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>color</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>graphics::color</label>
+        <link refid="structgraphics_1_1color"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" line="104" column="5" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/Component.hpp" bodystart="104" bodyend="162"/>
+    <listofallmembers>
+      <member refid="structcomponent_1_1drawable_1ac74ddba872c448bd03b03146bfd5fc89" prot="public" virt="non-virtual"><scope>component::drawable</scope><name>color</name></member>
+      <member refid="structcomponent_1_1drawable_1ad6f7af64c478d8e6874668c213879246" prot="public" virt="non-virtual"><scope>component::drawable</scope><name>currentFramex</name></member>
+      <member refid="structcomponent_1_1drawable_1adc7256860004bcd8a101ba81aa36b89e" prot="public" virt="non-virtual"><scope>component::drawable</scope><name>currentFramey</name></member>
+      <member refid="structcomponent_1_1drawable_1ad6d38539ccad633726db5a4da2cf8098" prot="public" virt="non-virtual"><scope>component::drawable</scope><name>drawable</name></member>
+      <member refid="structcomponent_1_1drawable_1ab167f2a50c8ec10c6f7c35c5b8da4b4b" prot="public" virt="non-virtual"><scope>component::drawable</scope><name>drawable</name></member>
+      <member refid="structcomponent_1_1drawable_1a22c91ac6596e3ca33c2cdaa74b5533c2" prot="public" virt="non-virtual"><scope>component::drawable</scope><name>drawable</name></member>
+      <member refid="structcomponent_1_1drawable_1ae9dec2f2d261c7c646669a125ccf82df" prot="public" virt="non-virtual"><scope>component::drawable</scope><name>drawable</name></member>
+      <member refid="structcomponent_1_1drawable_1a5eb8676e606bd5d2273a938a7c7c6a01" prot="public" virt="non-virtual"><scope>component::drawable</scope><name>drawable</name></member>
+      <member refid="structcomponent_1_1drawable_1a0dcb9282482b3001773ae0de1e20ba48" prot="public" virt="non-virtual"><scope>component::drawable</scope><name>drawable</name></member>
+      <member refid="structcomponent_1_1drawable_1a148f8b9c5812225ba17dda6905e33a5f" prot="public" virt="non-virtual"><scope>component::drawable</scope><name>drawable</name></member>
+      <member refid="structcomponent_1_1drawable_1aaa1b794dedc16e88867b596f462ce6ee" prot="public" virt="non-virtual"><scope>component::drawable</scope><name>font_path</name></member>
+      <member refid="structcomponent_1_1drawable_1ac3132328d9ca0397b8df0f39ee71f05b" prot="public" virt="non-virtual"><scope>component::drawable</scope><name>font_scale</name></member>
+      <member refid="structcomponent_1_1drawable_1acb6bc4efbe6725c77e6a5d9c3092e42b" prot="public" virt="non-virtual"><scope>component::drawable</scope><name>font_spacing</name></member>
+      <member refid="structcomponent_1_1drawable_1a1c72065a5fd9be69b6aeb7f43b31cb1a" prot="public" virt="non-virtual"><scope>component::drawable</scope><name>framesCounter</name></member>
+      <member refid="structcomponent_1_1drawable_1a163773e18186727b4cdf70807e57ca08" prot="public" virt="non-virtual"><scope>component::drawable</scope><name>framesSpeed</name></member>
+      <member refid="structcomponent_1_1drawable_1a0dc8db8e9fe8f75577cee04229216775" prot="public" virt="non-virtual"><scope>component::drawable</scope><name>img_path</name></member>
+      <member refid="structcomponent_1_1drawable_1acad4d959f39ede7dcae951ea87ca015b" prot="public" virt="non-virtual"><scope>component::drawable</scope><name>img_paths</name></member>
+      <member refid="structcomponent_1_1drawable_1a4e243c7bef06cd50e19b17743d270c85" prot="public" virt="non-virtual"><scope>component::drawable</scope><name>img_scale_x</name></member>
+      <member refid="structcomponent_1_1drawable_1a7ace6529c8ade8f0332b1fa5daa37f59" prot="public" virt="non-virtual"><scope>component::drawable</scope><name>img_scale_y</name></member>
+      <member refid="structcomponent_1_1drawable_1a97e5ab5b7c432fde62a3cd9b30c3a9db" prot="public" virt="non-virtual"><scope>component::drawable</scope><name>index</name></member>
+      <member refid="structcomponent_1_1drawable_1afc107d4ad38aae30631c970f356d62e8" prot="public" virt="non-virtual"><scope>component::drawable</scope><name>limit_x</name></member>
+      <member refid="structcomponent_1_1drawable_1ad8ad62467357761305726f0a490e93b2" prot="public" virt="non-virtual"><scope>component::drawable</scope><name>limit_y</name></member>
+      <member refid="structcomponent_1_1drawable_1a436efc8a637233e0d16960fdf6bdfcb8" prot="public" virt="non-virtual"><scope>component::drawable</scope><name>rec</name></member>
+      <member refid="structcomponent_1_1drawable_1a00eae89d2942955daeb8259327345a26" prot="public" virt="non-virtual"><scope>component::drawable</scope><name>rec_height</name></member>
+      <member refid="structcomponent_1_1drawable_1a01f9cdebc8e53bd6545f826bba329468" prot="public" virt="non-virtual"><scope>component::drawable</scope><name>rec_width</name></member>
+      <member refid="structcomponent_1_1drawable_1aee2b93b9d5a38ac10fa21277af7665f1" prot="public" virt="non-virtual"><scope>component::drawable</scope><name>scale</name></member>
+      <member refid="structcomponent_1_1drawable_1a7b3ec64b5be9df3b71ad7d4513ce9cf3" prot="public" virt="non-virtual"><scope>component::drawable</scope><name>text</name></member>
+      <member refid="structcomponent_1_1drawable_1a5e3d8316c5f4ec5cfb7df8bd7a9edf0f" prot="public" virt="non-virtual"><scope>component::drawable</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

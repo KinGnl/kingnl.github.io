@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="dir_ae22ece7f59e0f6599f26f63e1f303bf" kind="dir">
+    <compoundname>ecs_architecture/includes</compoundname>
+    <innerfile refid="BasicECS_8hpp">BasicECS.hpp</innerfile>
+    <innerfile refid="Entity_8hpp">Entity.hpp</innerfile>
+    <innerfile refid="IndexedZipper_8hpp">IndexedZipper.hpp</innerfile>
+    <innerfile refid="Registry_8hpp">Registry.hpp</innerfile>
+    <innerfile refid="SparseArray_8hpp">SparseArray.hpp</innerfile>
+    <innerfile refid="Zipper_8hpp">Zipper.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="ecs_architecture/includes/"/>
+  </compounddef>
+</doxygen>

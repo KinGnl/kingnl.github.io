@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="classregistry_1_1entity__manager__t" kind="class" language="C++" prot="public">
+    <compoundname>registry::entity_manager_t</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classregistry_1_1entity__manager__t_1a22c567e128144683438aaf5bec06d2b9" prot="private" static="no" mutable="no">
+        <type><ref refid="classsparse__array" kindref="compound">sparse_array</ref>&lt; <ref refid="classentity" kindref="compound">entity_t</ref> &gt;</type>
+        <definition>sparse_array&lt;entity_t&gt; registry::entity_manager_t::_entities</definition>
+        <argsstring></argsstring>
+        <name>_entities</name>
+        <qualifiedname>registry::entity_manager_t::_entities</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" line="180" column="30" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classregistry_1_1entity__manager__t_1a7ac7991239a012a0915ec2c74379e541" prot="private" static="no" mutable="no">
+        <type><ref refid="classregistry" kindref="compound">registry</ref> &amp;</type>
+        <definition>registry&amp; registry::entity_manager_t::_reg</definition>
+        <argsstring></argsstring>
+        <name>_reg</name>
+        <qualifiedname>registry::entity_manager_t::_reg</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" line="181" column="26" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" bodystart="181" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classregistry_1_1entity__manager__t_1a6cfdd1c6b4c2efaa442c8557b451fa65" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>registry::entity_manager_t::entity_manager_t</definition>
+        <argsstring>(registry &amp;reg)</argsstring>
+        <name>entity_manager_t</name>
+        <qualifiedname>registry::entity_manager_t::entity_manager_t</qualifiedname>
+        <param>
+          <type><ref refid="classregistry" kindref="compound">registry</ref> &amp;</type>
+          <declname>reg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" line="118" column="17" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" bodystart="118" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="classregistry_1_1entity__manager__t_1a68eeaf0849307b54d7d423bf0080e0ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>registry::entity_manager_t::~entity_manager_t</definition>
+        <argsstring>()</argsstring>
+        <name>~entity_manager_t</name>
+        <qualifiedname>registry::entity_manager_t::~entity_manager_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" line="120" column="17" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" bodystart="120" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="classregistry_1_1entity__manager__t_1a18c45131a69854ecde5b2e08cffc5868" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classentity" kindref="compound">entity_t</ref></type>
+        <definition>entity_t registry::entity_manager_t::spawn_entity</definition>
+        <argsstring>()</argsstring>
+        <name>spawn_entity</name>
+        <qualifiedname>registry::entity_manager_t::spawn_entity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" line="122" column="26" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" bodystart="122" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="classregistry_1_1entity__manager__t_1a1f73a165e15d3c8471f0252ce7e694ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classentity" kindref="compound">entity_t</ref></type>
+        <definition>entity_t registry::entity_manager_t::entity_from_index</definition>
+        <argsstring>(std::size_t idx)</argsstring>
+        <name>entity_from_index</name>
+        <qualifiedname>registry::entity_manager_t::entity_from_index</qualifiedname>
+        <param>
+          <type>std::size_t</type>
+          <declname>idx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" line="132" column="26" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" bodystart="132" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="classregistry_1_1entity__manager__t_1af11740fa56d974822089dbdef83c0c7b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void registry::entity_manager_t::kill_entity</definition>
+        <argsstring>(entity_t const &amp;e)</argsstring>
+        <name>kill_entity</name>
+        <qualifiedname>registry::entity_manager_t::kill_entity</qualifiedname>
+        <param>
+          <type><ref refid="classentity" kindref="compound">entity_t</ref> const &amp;</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" line="139" column="22" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" bodystart="139" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="classregistry_1_1entity__manager__t_1ac8740ddbca18da737e5869504a9674e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Component</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classsparse__array" kindref="compound">sparse_array</ref>&lt; Component &gt;::reference_type</type>
+        <definition>sparse_array&lt; Component &gt;::reference_type registry::entity_manager_t::add_component</definition>
+        <argsstring>(entity_t const &amp;to, Component &amp;c)</argsstring>
+        <name>add_component</name>
+        <qualifiedname>registry::entity_manager_t::add_component</qualifiedname>
+        <param>
+          <type><ref refid="classentity" kindref="compound">entity_t</ref> const &amp;</type>
+          <declname>to</declname>
+        </param>
+        <param>
+          <type>Component &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" line="148" column="57" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" bodystart="148" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="classregistry_1_1entity__manager__t_1a18abf469c0ded8828f63cc1b49468211" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Component</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classsparse__array" kindref="compound">sparse_array</ref>&lt; Component &gt;::reference_type</type>
+        <definition>sparse_array&lt; Component &gt;::reference_type registry::entity_manager_t::add_component</definition>
+        <argsstring>(entity_t const &amp;to, Component &amp;&amp;c)</argsstring>
+        <name>add_component</name>
+        <qualifiedname>registry::entity_manager_t::add_component</qualifiedname>
+        <param>
+          <type><ref refid="classentity" kindref="compound">entity_t</ref> const &amp;</type>
+          <declname>to</declname>
+        </param>
+        <param>
+          <type>Component &amp;&amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" line="154" column="57" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" bodystart="154" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="classregistry_1_1entity__manager__t_1a7796e69d316acd80fd0bd24ad1a85f59" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Component</type>
+          </param>
+          <param>
+            <type>typename ...</type>
+            <declname>Params</declname>
+            <defname>Params</defname>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classsparse__array" kindref="compound">sparse_array</ref>&lt; Component &gt;::reference_type</type>
+        <definition>sparse_array&lt; Component &gt;::reference_type registry::entity_manager_t::emplace_component</definition>
+        <argsstring>(entity_t const &amp;to, Params &amp;&amp;...p)</argsstring>
+        <name>emplace_component</name>
+        <qualifiedname>registry::entity_manager_t::emplace_component</qualifiedname>
+        <param>
+          <type><ref refid="classentity" kindref="compound">entity_t</ref> const &amp;</type>
+          <declname>to</declname>
+        </param>
+        <param>
+          <type>Params &amp;&amp;...</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" line="160" column="57" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" bodystart="160" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="classregistry_1_1entity__manager__t_1a56c9b9c0a3dd19b3bcf814e2335d56c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename ...</type>
+            <declname>Components</declname>
+            <defname>Components</defname>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool registry::entity_manager_t::has_components</definition>
+        <argsstring>(entity_t const &amp;obj)</argsstring>
+        <name>has_components</name>
+        <qualifiedname>registry::entity_manager_t::has_components</qualifiedname>
+        <param>
+          <type><ref refid="classentity" kindref="compound">entity_t</ref> const &amp;</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" line="166" column="22" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" bodystart="166" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="classregistry_1_1entity__manager__t_1aec983d6a81f431c0701026fa1c17cbbc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Component</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void registry::entity_manager_t::remove_component</definition>
+        <argsstring>(entity_t const &amp;from)</argsstring>
+        <name>remove_component</name>
+        <qualifiedname>registry::entity_manager_t::remove_component</qualifiedname>
+        <param>
+          <type><ref refid="classentity" kindref="compound">entity_t</ref> const &amp;</type>
+          <declname>from</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" line="172" column="22" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" bodystart="172" bodyend="177"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" line="115" column="9" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes/Registry.hpp" bodystart="115" bodyend="182"/>
+    <listofallmembers>
+      <member refid="classregistry_1_1entity__manager__t_1a22c567e128144683438aaf5bec06d2b9" prot="private" virt="non-virtual"><scope>registry::entity_manager_t</scope><name>_entities</name></member>
+      <member refid="classregistry_1_1entity__manager__t_1a7ac7991239a012a0915ec2c74379e541" prot="private" virt="non-virtual"><scope>registry::entity_manager_t</scope><name>_reg</name></member>
+      <member refid="classregistry_1_1entity__manager__t_1ac8740ddbca18da737e5869504a9674e7" prot="public" virt="non-virtual"><scope>registry::entity_manager_t</scope><name>add_component</name></member>
+      <member refid="classregistry_1_1entity__manager__t_1a18abf469c0ded8828f63cc1b49468211" prot="public" virt="non-virtual"><scope>registry::entity_manager_t</scope><name>add_component</name></member>
+      <member refid="classregistry_1_1entity__manager__t_1a7796e69d316acd80fd0bd24ad1a85f59" prot="public" virt="non-virtual"><scope>registry::entity_manager_t</scope><name>emplace_component</name></member>
+      <member refid="classregistry_1_1entity__manager__t_1a1f73a165e15d3c8471f0252ce7e694ac" prot="public" virt="non-virtual"><scope>registry::entity_manager_t</scope><name>entity_from_index</name></member>
+      <member refid="classregistry_1_1entity__manager__t_1a6cfdd1c6b4c2efaa442c8557b451fa65" prot="public" virt="non-virtual"><scope>registry::entity_manager_t</scope><name>entity_manager_t</name></member>
+      <member refid="classregistry_1_1entity__manager__t_1a56c9b9c0a3dd19b3bcf814e2335d56c0" prot="public" virt="non-virtual"><scope>registry::entity_manager_t</scope><name>has_components</name></member>
+      <member refid="classregistry_1_1entity__manager__t_1af11740fa56d974822089dbdef83c0c7b" prot="public" virt="non-virtual"><scope>registry::entity_manager_t</scope><name>kill_entity</name></member>
+      <member refid="classregistry_1_1entity__manager__t_1aec983d6a81f431c0701026fa1c17cbbc" prot="public" virt="non-virtual"><scope>registry::entity_manager_t</scope><name>remove_component</name></member>
+      <member refid="classregistry_1_1entity__manager__t_1a18c45131a69854ecde5b2e08cffc5868" prot="public" virt="non-virtual"><scope>registry::entity_manager_t</scope><name>spawn_entity</name></member>
+      <member refid="classregistry_1_1entity__manager__t_1a68eeaf0849307b54d7d423bf0080e0ec" prot="public" virt="non-virtual"><scope>registry::entity_manager_t</scope><name>~entity_manager_t</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

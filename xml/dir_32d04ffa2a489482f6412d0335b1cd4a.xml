@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="dir_32d04ffa2a489482f6412d0335b1cd4a" kind="dir">
+    <compoundname>/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes</compoundname>
+    <innerfile refid="ClientCore_8hpp">ClientCore.hpp</innerfile>
+    <innerfile refid="R-typeClient_2includes_2Component_8hpp">Component.hpp</innerfile>
+    <innerfile refid="R-typeClient_2includes_2CreateEntities_8hpp">CreateEntities.hpp</innerfile>
+    <innerfile refid="Scene_8hpp">Scene.hpp</innerfile>
+    <innerfile refid="R-typeClient_2includes_2Systems_8hpp">Systems.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes/"/>
+  </compounddef>
+</doxygen>

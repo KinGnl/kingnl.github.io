@@ -1,0 +1,928 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.5" xml:lang="en-US">
+  <compound refid="structcomponent_1_1acceleration" kind="struct"><name>component::acceleration</name>
+    <member refid="structcomponent_1_1acceleration_1a9051bb3e9b69c3d13f0697472f5f3842" kind="variable"><name>x</name></member>
+    <member refid="structcomponent_1_1acceleration_1ad1ed38e16b383170b26d51244bb6ee28" kind="variable"><name>y</name></member>
+    <member refid="structcomponent_1_1acceleration_1af799d0267c1ef2e44188be36fc9862a8" kind="function"><name>acceleration</name></member>
+    <member refid="structcomponent_1_1acceleration_1af799d0267c1ef2e44188be36fc9862a8" kind="function"><name>acceleration</name></member>
+  </compound>
+  <compound refid="structcomponent_1_1area" kind="struct"><name>component::area</name>
+    <member refid="structcomponent_1_1area_1a52a02fb38c9215072cdde905b2a39831" kind="typedef"><name>affecter_t</name></member>
+    <member refid="structcomponent_1_1area_1a52a02fb38c9215072cdde905b2a39831" kind="typedef"><name>affecter_t</name></member>
+    <member refid="structcomponent_1_1area_1a0839b00c7ad0b288aadaa416d1b7cfe2" kind="variable"><name>x</name></member>
+    <member refid="structcomponent_1_1area_1aae13d693eb94bee2c7fe2739c8c2b0b2" kind="variable"><name>y</name></member>
+    <member refid="structcomponent_1_1area_1acf38fb66cc0eba34631825606f1cff37" kind="variable"><name>width</name></member>
+    <member refid="structcomponent_1_1area_1a7039f35c31ad3b5c5de150efbd96903d" kind="variable"><name>height</name></member>
+    <member refid="structcomponent_1_1area_1ac76ad7ab9389b1458a2d867ced503824" kind="variable"><name>affect</name></member>
+    <member refid="structcomponent_1_1area_1ac9748f59ae8571f481e7339585cec447" kind="variable"><name>collided</name></member>
+    <member refid="structcomponent_1_1area_1aec135fd38d705693b50d70b14f4fe2a8" kind="function"><name>area</name></member>
+    <member refid="structcomponent_1_1area_1aa6fda86ebe2eed0445b93abee972127a" kind="function"><name>collide</name></member>
+    <member refid="structcomponent_1_1area_1aec135fd38d705693b50d70b14f4fe2a8" kind="function"><name>area</name></member>
+    <member refid="structcomponent_1_1area_1aa6fda86ebe2eed0445b93abee972127a" kind="function"><name>collide</name></member>
+  </compound>
+  <compound refid="structcomponent_1_1clickable" kind="struct"><name>component::clickable</name>
+    <member refid="structcomponent_1_1clickable_1a00156895900c53385a282a95fd2fb156" kind="typedef"><name>actioner_t</name></member>
+    <member refid="structcomponent_1_1clickable_1a5221912cf095c9807e093bdae10d1c78" kind="variable"><name>state</name></member>
+    <member refid="structcomponent_1_1clickable_1af650ba64b03c19d1b051ab5be0c22fa3" kind="variable"><name>width</name></member>
+    <member refid="structcomponent_1_1clickable_1af9dbed3ae5574aabd25ec82c71df69c0" kind="variable"><name>height</name></member>
+    <member refid="structcomponent_1_1clickable_1ad6166a95f44d0f4e5c4879dc10d36134" kind="variable"><name>action</name></member>
+    <member refid="structcomponent_1_1clickable_1a910fb37d4f4b21c0d2bff7060198f38a" kind="function"><name>clickable</name></member>
+  </compound>
+  <compound refid="classSystems_1_1clickable" kind="class"><name>Systems::clickable</name>
+    <member refid="classSystems_1_1clickable_1a3d5180b0980cbd8ea1c0779a54b5ee4f" kind="variable"><name>_disp</name></member>
+    <member refid="classSystems_1_1clickable_1a0b75299cc53314185803453a94e0ff98" kind="function"><name>clickable</name></member>
+    <member refid="classSystems_1_1clickable_1a437ca96d73c058c9a1c9b88ee986a62b" kind="function"><name>~clickable</name></member>
+    <member refid="classSystems_1_1clickable_1a6762e32c2a4a20aaf2af634c47d87e07" kind="function"><name>operator()</name></member>
+  </compound>
+  <compound refid="classrtype_1_1ClientCore" kind="class"><name>rtype::ClientCore</name>
+    <member refid="classrtype_1_1ClientCore_1af8699ab7b231897c25fb44d61e51614c" kind="variable"><name>_username</name></member>
+    <member refid="classrtype_1_1ClientCore_1a1b546e9f90c57386c02f64aa217a684d" kind="variable"><name>_mute</name></member>
+    <member refid="classrtype_1_1ClientCore_1ab3e8fcaab93515739f01a83c5220755d" kind="variable"><name>_volume</name></member>
+    <member refid="classrtype_1_1ClientCore_1a0f430d8c9123def328928f4714a3d1db" kind="variable"><name>_name</name></member>
+    <member refid="classrtype_1_1ClientCore_1aaeabfa8145063f263adc607d52dd23b1" kind="variable"><name>_level</name></member>
+    <member refid="classrtype_1_1ClientCore_1a6456b267fcf8e70d998f9455f1bb270c" kind="variable"><name>reg</name></member>
+    <member refid="classrtype_1_1ClientCore_1ac716180f7ede2b6a77d32ac4e07e1dd3" kind="variable"><name>_graphics_manager</name></member>
+    <member refid="classrtype_1_1ClientCore_1a82e9de94f6df1fc5b9339778389268bb" kind="variable"><name>_networker</name></member>
+    <member refid="classrtype_1_1ClientCore_1a2ffbf27fe3590bd37813876f9f00c5ca" kind="function"><name>ClientCore</name></member>
+    <member refid="classrtype_1_1ClientCore_1a0a625106e6afc8ae2c18f2fe3e00e2b9" kind="function"><name>~ClientCore</name></member>
+    <member refid="classrtype_1_1ClientCore_1a47a38945daee87130f29115360cbd574" kind="function"><name>set_components</name></member>
+    <member refid="classrtype_1_1ClientCore_1ab7471600ffb7a773adc8d44344e66ae1" kind="function"><name>set_events_systems</name></member>
+    <member refid="classrtype_1_1ClientCore_1a9b3b6fd02986f1b142edc4f8410afe74" kind="function"><name>set_systems</name></member>
+    <member refid="classrtype_1_1ClientCore_1a6e12a2ea31abac408ca6b912e9886668" kind="function"><name>run</name></member>
+    <member refid="classrtype_1_1ClientCore_1adfe7ffb7f37fbe25ff354ffa83ded55b" kind="function"><name>createCinematic</name></member>
+    <member refid="classrtype_1_1ClientCore_1a518f9326c77f92f3476cac22390c8016" kind="function"><name>createMainMenu</name></member>
+    <member refid="classrtype_1_1ClientCore_1ab822a00ca6ca855c8121a5990c9da2e7" kind="function"><name>createSoloMode</name></member>
+    <member refid="classrtype_1_1ClientCore_1aacc836882a25ed37a2c0e5857775e673" kind="function"><name>createLevels</name></member>
+    <member refid="classrtype_1_1ClientCore_1a1fda01a2a59a76cdcbd4dde1bd892991" kind="function"><name>createRoomLoading</name></member>
+    <member refid="classrtype_1_1ClientCore_1a868a22a3a870bfad516ee2219a2f2c1f" kind="function"><name>createGame</name></member>
+    <member refid="classrtype_1_1ClientCore_1a93e6c251a6bfef6eea30a556808adc0c" kind="function"><name>createCredits</name></member>
+    <member refid="classrtype_1_1ClientCore_1a5c25812bd05a5a4ae30e09e04536e713" kind="function"><name>createHelp</name></member>
+    <member refid="classrtype_1_1ClientCore_1afa7527fca408bc3c096617b1b6d5c27c" kind="function"><name>nameInsertion</name></member>
+    <member refid="classrtype_1_1ClientCore_1a3e2d8b3b748ef4ecfcc299a5b601142a" kind="function"><name>createLocalGame</name></member>
+    <member refid="classrtype_1_1ClientCore_1a7190d0e597c7064aea356ef4e0a10a34" kind="function"><name>createPlayMenu</name></member>
+    <member refid="classrtype_1_1ClientCore_1ae246194b48d1205b023437030eb68486" kind="function"><name>createPause</name></member>
+  </compound>
+  <compound refid="classClockTime" kind="class"><name>ClockTime</name>
+    <member refid="classClockTime_1a1c68df787a3aab6526f3a3a38e6809a4" kind="variable"><name>start</name></member>
+    <member refid="classClockTime_1aa8e255977e241f843383f5face6d8ff1" kind="variable"><name>active</name></member>
+    <member refid="classClockTime_1a6ace7b63b14cda5e085fba1a043b05ce" kind="function"><name>ClockTime</name></member>
+    <member refid="classClockTime_1ac308325b87407eb91279113add6675e7" kind="function"><name>~ClockTime</name></member>
+    <member refid="classClockTime_1a3debc6cc818f7844b2b13ef051ac8c18" kind="function"><name>launched</name></member>
+    <member refid="classClockTime_1af3b7a20b4bdcfd8a867bb04e13a84159" kind="function"><name>launchChrono</name></member>
+    <member refid="classClockTime_1abf52ec1d8c74c1ea8f284fb28c2ad159" kind="function"><name>reset</name></member>
+    <member refid="classClockTime_1a1b3752b75c54315d023c0e4d84963c21" kind="function"><name>getElapsedTime</name></member>
+  </compound>
+  <compound refid="structgraphics_1_1color" kind="struct"><name>graphics::color</name>
+    <member refid="structgraphics_1_1color_1aedc31d808610af90389cf108bde94d86" kind="variable"><name>red</name></member>
+    <member refid="structgraphics_1_1color_1a3520538c9e242bc1b28284275bea031e" kind="variable"><name>green</name></member>
+    <member refid="structgraphics_1_1color_1a89c4d65a18a1a52608682e6032ad85db" kind="variable"><name>blue</name></member>
+    <member refid="structgraphics_1_1color_1a52d67786a1e68bcf4d013ab22c321901" kind="variable"><name>alpha</name></member>
+  </compound>
+  <compound refid="classecs__system_1_1control" kind="class"><name>ecs_system::control</name>
+    <member refid="classecs__system_1_1control_1a105aa8499c3390c0d68245b866bb8eaf" kind="variable"><name>_event</name></member>
+    <member refid="classecs__system_1_1control_1a9623539736080ded85989f230f1822f1" kind="function"><name>control</name></member>
+    <member refid="classecs__system_1_1control_1acf29bf46a11ec39013a817a4fb62c2c5" kind="function"><name>~control</name></member>
+    <member refid="classecs__system_1_1control_1a04a2a6bd87a14c970be13e5f311ebea6" kind="function"><name>operator()</name></member>
+  </compound>
+  <compound refid="classSystems_1_1control" kind="class"><name>Systems::control</name>
+    <member refid="classSystems_1_1control_1aeb3070655bab3f10b20a82f801040ea0" kind="variable"><name>_disp</name></member>
+    <member refid="classSystems_1_1control_1a88c2b396fca84c356e278436f77ce842" kind="variable"><name>_net</name></member>
+    <member refid="classSystems_1_1control_1a921a75e49b9a3fc0a93ee70a2be841c1" kind="function"><name>control</name></member>
+    <member refid="classSystems_1_1control_1a69510cc26bfc9145ebe2f4fe52fe83af" kind="function"><name>~control</name></member>
+    <member refid="classSystems_1_1control_1ac3f5d4dbec6fe4cd8c577bfc21831b59" kind="function"><name>operator()</name></member>
+  </compound>
+  <compound refid="structcomponent_1_1controllable" kind="struct"><name>component::controllable</name>
+    <member refid="structcomponent_1_1controllable_1a35cbb25ad757cef3b41cfcaa49b8fedd" kind="typedef"><name>actioner_t</name></member>
+    <member refid="structcomponent_1_1controllable_1a98d5b0a7455e84f76c6bf1c26b5c77bc" kind="variable"><name>bindings</name></member>
+    <member refid="structcomponent_1_1controllable_1af9191caf199465f6103d223f63fb8592" kind="variable"><name>keyUp</name></member>
+    <member refid="structcomponent_1_1controllable_1a4f7250b5a73391f46f7bf2ac61043422" kind="variable"><name>keyLeft</name></member>
+    <member refid="structcomponent_1_1controllable_1a9abefe7efd746aea45cf32711c46fdcd" kind="variable"><name>keyDown</name></member>
+    <member refid="structcomponent_1_1controllable_1ab044e8c9f38739146b0e4a76ee123239" kind="variable"><name>keyRight</name></member>
+    <member refid="structcomponent_1_1controllable_1af56b9cd6e8f9079d0e7f89d8d27afc27" kind="function"><name>controllable</name></member>
+    <member refid="structcomponent_1_1controllable_1a9c8951042666321024e22e4e48ea3359" kind="function"><name>add_binding</name></member>
+  </compound>
+  <compound refid="structcomponent_1_1damage" kind="struct"><name>component::damage</name>
+    <member refid="structcomponent_1_1damage_1a88226417a237dfd4e0ac383d9d459901" kind="variable"><name>val</name></member>
+    <member refid="structcomponent_1_1damage_1afd2da8c44c0497dde4223f5e4a691a10" kind="function"><name>damage</name></member>
+    <member refid="structcomponent_1_1damage_1afd2da8c44c0497dde4223f5e4a691a10" kind="function"><name>damage</name></member>
+  </compound>
+  <compound refid="structnetwork_1_1datatrans" kind="struct"><name>network::datatrans</name>
+    <member refid="structnetwork_1_1datatrans_1affa99fad1b8ffe2ca3e8a44ac6aadd95" kind="variable"><name>code</name></member>
+    <member refid="structnetwork_1_1datatrans_1a8f29ba9a555a0b9fa78b7074f6e7e5b3" kind="variable"><name>info</name></member>
+    <member refid="structnetwork_1_1datatrans_1a4e7940551e109a5e21f383c789b5c086" kind="variable"><name>room_id</name></member>
+    <member refid="structnetwork_1_1datatrans_1a04fd4889ee2a1456cb5d7905b7629ae9" kind="variable"><name>pos</name></member>
+    <member refid="structnetwork_1_1datatrans_1a657c5610398be7a617ab4977a3169774" kind="variable"><name>vel</name></member>
+    <member refid="structnetwork_1_1datatrans_1ab7f6790da337703eb8ff35d8bbf96a4b" kind="variable"><name>acc</name></member>
+    <member refid="structnetwork_1_1datatrans_1a1425cb04712d6db7c3487fa61af736c6" kind="function"><name>datatrans</name></member>
+    <member refid="structnetwork_1_1datatrans_1ae6631d5a5cf2242511c3bde302ecc86f" kind="function"><name>~datatrans</name></member>
+    <member refid="structnetwork_1_1datatrans_1a7a134acb0f0e8ac85c90cbaaa378da86" kind="function"><name>serialize</name></member>
+  </compound>
+  <compound refid="classDLLoader" kind="class"><name>DLLoader</name>
+    <member refid="classDLLoader_1a5325b75590d870844d552acbc5140318" kind="variable"><name>_path</name></member>
+    <member refid="classDLLoader_1adf5e6cb9f2417fb09a086216540b0cc0" kind="variable"><name>_hdl</name></member>
+    <member refid="classDLLoader_1acc5f868150527e09aa8a6aaac63666d6" kind="function"><name>DLLoader</name></member>
+    <member refid="classDLLoader_1aea867b497cf92c50f85ad7e1d37962ae" kind="function"><name>~DLLoader</name></member>
+    <member refid="classDLLoader_1a8922cc5d294e7f0ac39a3ad6ebd85d47" kind="function"><name>check_dlerror</name></member>
+    <member refid="classDLLoader_1a5c641f157c254b525de688663e59c62d" kind="function"><name>getInstance</name></member>
+  </compound>
+  <compound refid="classecs__system_1_1draw" kind="class"><name>ecs_system::draw</name>
+    <member refid="classecs__system_1_1draw_1a6fe5d2a011674383222390f40d45d8d5" kind="variable"><name>_window</name></member>
+    <member refid="classecs__system_1_1draw_1ac2b8aabe1acb8f332ff2ceda3e600565" kind="function"><name>draw</name></member>
+    <member refid="classecs__system_1_1draw_1af487f173949f657bcf03482f782bfcaf" kind="function"><name>~draw</name></member>
+    <member refid="classecs__system_1_1draw_1a2e1f2267e6aea8d97a52392dc7cf55a5" kind="function"><name>operator()</name></member>
+  </compound>
+  <compound refid="classSystems_1_1draw__health" kind="class"><name>Systems::draw_health</name>
+    <member refid="classSystems_1_1draw__health_1ac20d600d6aca09f3f2a09197c81ebaea" kind="variable"><name>_disp</name></member>
+    <member refid="classSystems_1_1draw__health_1aa1dbc71feac223db3f082c50969f472f" kind="function"><name>draw_health</name></member>
+    <member refid="classSystems_1_1draw__health_1a60cbab8826d0e255b3a49c143eb306bf" kind="function"><name>~draw_health</name></member>
+    <member refid="classSystems_1_1draw__health_1a74c7a3f6dcd9095bdca8d42733b0d033" kind="function"><name>operator()</name></member>
+  </compound>
+  <compound refid="structcomponent_1_1drawable" kind="struct"><name>component::drawable</name>
+    <member refid="structcomponent_1_1drawable_1a5e3d8316c5f4ec5cfb7df8bd7a9edf0f" kind="variable"><name>type</name></member>
+    <member refid="structcomponent_1_1drawable_1acad4d959f39ede7dcae951ea87ca015b" kind="variable"><name>img_paths</name></member>
+    <member refid="structcomponent_1_1drawable_1a97e5ab5b7c432fde62a3cd9b30c3a9db" kind="variable"><name>index</name></member>
+    <member refid="structcomponent_1_1drawable_1a0dc8db8e9fe8f75577cee04229216775" kind="variable"><name>img_path</name></member>
+    <member refid="structcomponent_1_1drawable_1aee2b93b9d5a38ac10fa21277af7665f1" kind="variable"><name>scale</name></member>
+    <member refid="structcomponent_1_1drawable_1a4e243c7bef06cd50e19b17743d270c85" kind="variable"><name>img_scale_x</name></member>
+    <member refid="structcomponent_1_1drawable_1a7ace6529c8ade8f0332b1fa5daa37f59" kind="variable"><name>img_scale_y</name></member>
+    <member refid="structcomponent_1_1drawable_1afc107d4ad38aae30631c970f356d62e8" kind="variable"><name>limit_x</name></member>
+    <member refid="structcomponent_1_1drawable_1ad8ad62467357761305726f0a490e93b2" kind="variable"><name>limit_y</name></member>
+    <member refid="structcomponent_1_1drawable_1a1c72065a5fd9be69b6aeb7f43b31cb1a" kind="variable"><name>framesCounter</name></member>
+    <member refid="structcomponent_1_1drawable_1a163773e18186727b4cdf70807e57ca08" kind="variable"><name>framesSpeed</name></member>
+    <member refid="structcomponent_1_1drawable_1ad6f7af64c478d8e6874668c213879246" kind="variable"><name>currentFramex</name></member>
+    <member refid="structcomponent_1_1drawable_1adc7256860004bcd8a101ba81aa36b89e" kind="variable"><name>currentFramey</name></member>
+    <member refid="structcomponent_1_1drawable_1aaa1b794dedc16e88867b596f462ce6ee" kind="variable"><name>font_path</name></member>
+    <member refid="structcomponent_1_1drawable_1a7b3ec64b5be9df3b71ad7d4513ce9cf3" kind="variable"><name>text</name></member>
+    <member refid="structcomponent_1_1drawable_1ac3132328d9ca0397b8df0f39ee71f05b" kind="variable"><name>font_scale</name></member>
+    <member refid="structcomponent_1_1drawable_1acb6bc4efbe6725c77e6a5d9c3092e42b" kind="variable"><name>font_spacing</name></member>
+    <member refid="structcomponent_1_1drawable_1a01f9cdebc8e53bd6545f826bba329468" kind="variable"><name>rec_width</name></member>
+    <member refid="structcomponent_1_1drawable_1a00eae89d2942955daeb8259327345a26" kind="variable"><name>rec_height</name></member>
+    <member refid="structcomponent_1_1drawable_1ac74ddba872c448bd03b03146bfd5fc89" kind="variable"><name>color</name></member>
+    <member refid="structcomponent_1_1drawable_1a436efc8a637233e0d16960fdf6bdfcb8" kind="variable"><name>rec</name></member>
+    <member refid="structcomponent_1_1drawable_1ad6d38539ccad633726db5a4da2cf8098" kind="function"><name>drawable</name></member>
+    <member refid="structcomponent_1_1drawable_1ab167f2a50c8ec10c6f7c35c5b8da4b4b" kind="function"><name>drawable</name></member>
+    <member refid="structcomponent_1_1drawable_1a22c91ac6596e3ca33c2cdaa74b5533c2" kind="function"><name>drawable</name></member>
+    <member refid="structcomponent_1_1drawable_1ae9dec2f2d261c7c646669a125ccf82df" kind="function"><name>drawable</name></member>
+    <member refid="structcomponent_1_1drawable_1a5eb8676e606bd5d2273a938a7c7c6a01" kind="function"><name>drawable</name></member>
+    <member refid="structcomponent_1_1drawable_1a0dcb9282482b3001773ae0de1e20ba48" kind="function"><name>drawable</name></member>
+    <member refid="structcomponent_1_1drawable_1a148f8b9c5812225ba17dda6905e33a5f" kind="function"><name>drawable</name></member>
+  </compound>
+  <compound refid="classSystems_1_1drawable" kind="class"><name>Systems::drawable</name>
+    <member refid="classSystems_1_1drawable_1ac29902b029a940d53136ac5587ab8136" kind="variable"><name>_disp</name></member>
+    <member refid="classSystems_1_1drawable_1ac2e904822fece20f84b946cd999d9191" kind="function"><name>drawable</name></member>
+    <member refid="classSystems_1_1drawable_1af972280d720c9783eb826fa3f69f96b5" kind="function"><name>~drawable</name></member>
+    <member refid="classSystems_1_1drawable_1a3fbd8bd7f5ab639d7bdea4f084501d38" kind="function"><name>operator()</name></member>
+  </compound>
+  <compound refid="classEnet" kind="class"><name>Enet</name>
+    <member refid="classEnet_1a9b8b8db25211ee267c459c857b333f67" kind="variable"><name>_address</name></member>
+    <member refid="classEnet_1a4341d139f1205f6bd8645b37baf3bbbd" kind="variable"><name>_host</name></member>
+    <member refid="classEnet_1a3687108d02d243cf451848df89280f9d" kind="variable"><name>_peer</name></member>
+    <member refid="classEnet_1abef69feb35054f1555cbba677a57c6bb" kind="variable"><name>_event</name></member>
+    <member refid="classEnet_1a65ecb9ec8795583ea8ad3011bf633c68" kind="variable"><name>mtx</name></member>
+    <member refid="classEnet_1a24b6b0b666d3cab4103879cdecd06f17" kind="function"><name>Enet</name></member>
+    <member refid="classEnet_1a3b9a358ac7368633daa2eaa00f177540" kind="function"><name>Enet</name></member>
+    <member refid="classEnet_1a1c08ab8ef4e0a2b4f6e774d656130f44" kind="function"><name>~Enet</name></member>
+    <member refid="classEnet_1a105ab2b31e06bcc320e4ba1b7c7373b4" kind="function"><name>send_data</name></member>
+    <member refid="classEnet_1aa0861110586ba5346c20ad2777b73862" kind="function"><name>send_reliable_data</name></member>
+    <member refid="classEnet_1ab85cb2a871b7095762f4b8571c761a01" kind="function"><name>receive_data</name></member>
+    <member refid="classEnet_1af70c11f3b3d8496c2e95d0561b54cc2c" kind="function"><name>broadcast</name></member>
+    <member refid="classEnet_1aaa8cb37747b47c53c23a50334f7cc655" kind="function"><name>get_event</name></member>
+    <member refid="classEnet_1a1ba15484142587c32aa29aeef41027d5" kind="function"><name>reset_peer</name></member>
+  </compound>
+  <compound refid="classentity" kind="class"><name>entity</name>
+    <member refid="classentity_1a7995f0bfb6e947efb47c96ecfe3bb8ff" kind="variable"><name>id</name></member>
+    <member refid="classentity_1a7cfd8e1d10076bc4139e8b86cd2897b1" kind="function"><name>entity</name></member>
+    <member refid="classentity_1acec2b315e0eddb40f6c2dc1a7688293e" kind="function"><name>~entity</name></member>
+    <member refid="classentity_1a5fcb6528bfcdf84ac69440ae83720b02" kind="function"><name>operator size_t</name></member>
+    <member refid="classentity_1a87e85768bffb796e8eafc3f7370257fe" kind="friend"><name>operator&lt;&lt;</name></member>
+  </compound>
+  <compound refid="structnetwork_1_1entity__info" kind="struct"><name>network::entity_info</name>
+    <member refid="structnetwork_1_1entity__info_1a1d953ee77ed958dc9742264afe05bb38" kind="variable"><name>id</name></member>
+    <member refid="structnetwork_1_1entity__info_1a3061ff0ced16c65eeb4b4c6684b95661" kind="variable"><name>health</name></member>
+    <member refid="structnetwork_1_1entity__info_1a3b3a825261993bd47f586559db3c358d" kind="variable"><name>score</name></member>
+    <member refid="structnetwork_1_1entity__info_1abde6d4e636c11b25f5cc3a5cb8501ab5" kind="variable"><name>type</name></member>
+    <member refid="structnetwork_1_1entity__info_1afc5d2bff4c25372e89357473a2992291" kind="function"><name>entity_info</name></member>
+    <member refid="structnetwork_1_1entity__info_1a14bc335f0eb6b9af374e5ab3b5e72847" kind="function"><name>serialize</name></member>
+  </compound>
+  <compound refid="classregistry_1_1entity__manager__t" kind="class"><name>registry::entity_manager_t</name>
+    <member refid="classregistry_1_1entity__manager__t_1a22c567e128144683438aaf5bec06d2b9" kind="variable"><name>_entities</name></member>
+    <member refid="classregistry_1_1entity__manager__t_1a7ac7991239a012a0915ec2c74379e541" kind="variable"><name>_reg</name></member>
+    <member refid="classregistry_1_1entity__manager__t_1a6cfdd1c6b4c2efaa442c8557b451fa65" kind="function"><name>entity_manager_t</name></member>
+    <member refid="classregistry_1_1entity__manager__t_1a68eeaf0849307b54d7d423bf0080e0ec" kind="function"><name>~entity_manager_t</name></member>
+    <member refid="classregistry_1_1entity__manager__t_1a18c45131a69854ecde5b2e08cffc5868" kind="function"><name>spawn_entity</name></member>
+    <member refid="classregistry_1_1entity__manager__t_1a1f73a165e15d3c8471f0252ce7e694ac" kind="function"><name>entity_from_index</name></member>
+    <member refid="classregistry_1_1entity__manager__t_1af11740fa56d974822089dbdef83c0c7b" kind="function"><name>kill_entity</name></member>
+    <member refid="classregistry_1_1entity__manager__t_1ac8740ddbca18da737e5869504a9674e7" kind="function"><name>add_component</name></member>
+    <member refid="classregistry_1_1entity__manager__t_1a18abf469c0ded8828f63cc1b49468211" kind="function"><name>add_component</name></member>
+    <member refid="classregistry_1_1entity__manager__t_1a7796e69d316acd80fd0bd24ad1a85f59" kind="function"><name>emplace_component</name></member>
+    <member refid="classregistry_1_1entity__manager__t_1a56c9b9c0a3dd19b3bcf814e2335d56c0" kind="function"><name>has_components</name></member>
+    <member refid="classregistry_1_1entity__manager__t_1aec983d6a81f431c0701026fa1c17cbbc" kind="function"><name>remove_component</name></member>
+  </compound>
+  <compound refid="classError" kind="class"><name>Error</name>
+    <member refid="classError_1af2cfd799393ab472242a364701f0244e" kind="variable"><name>_message</name></member>
+    <member refid="classError_1a531664ff4c9e228a269aea757d23236f" kind="function"><name>Error</name></member>
+    <member refid="classError_1a1a45d42a3a035d510333cdfeb36a0e93" kind="function"><name>~Error</name></member>
+    <member refid="classError_1a94f60633baf3f7cbd175c05a2d5bec86" kind="function"><name>what</name></member>
+  </compound>
+  <compound refid="classSystems_1_1gameplay" kind="class"><name>Systems::gameplay</name>
+    <member refid="classSystems_1_1gameplay_1a673fcf4aba79f8c8924ac67346cfbe27" kind="variable"><name>_net</name></member>
+    <member refid="classSystems_1_1gameplay_1a7ab1571ff7a9e032c2cff001a79b28f8" kind="function"><name>gameplay</name></member>
+    <member refid="classSystems_1_1gameplay_1a901ee3199948e96b84c42cb75af2c122" kind="function"><name>~gameplay</name></member>
+    <member refid="classSystems_1_1gameplay_1a2bae1e974153ae7e9dd8a6b966844a5a" kind="function"><name>operator()</name></member>
+    <member refid="classSystems_1_1gameplay_1aba3568f6ad981ad5a4abb0433382afe1" kind="function"><name>update_room</name></member>
+    <member refid="classSystems_1_1gameplay_1a2409e094a5c9daf1a47cb0cc21842f43" kind="function"><name>kill_entities</name></member>
+    <member refid="classSystems_1_1gameplay_1a28cee185b28d18efe17f8076f46f62cc" kind="function"><name>make_enemy_shoot</name></member>
+  </compound>
+  <compound refid="structcomponent_1_1health" kind="struct"><name>component::health</name>
+    <member refid="structcomponent_1_1health_1a99fe014a30fd16fc5f10f320b63cffec" kind="variable"><name>val</name></member>
+    <member refid="structcomponent_1_1health_1a683a0747fd79211380fe8a29253978ad" kind="variable"><name>to_draw</name></member>
+    <member refid="structcomponent_1_1health_1a5d940b6715283a4ee4b68dc68515a7cc" kind="variable"><name>ref</name></member>
+    <member refid="structcomponent_1_1health_1a5f67b05fb6b5b854bc74d34d296a38d3" kind="function"><name>health</name></member>
+    <member refid="structcomponent_1_1health_1a3361fcb25fbadee78198363f36f2c469" kind="function"><name>health</name></member>
+    <member refid="structcomponent_1_1health_1a5f67b05fb6b5b854bc74d34d296a38d3" kind="function"><name>health</name></member>
+  </compound>
+  <compound refid="classgraphics_1_1IDisplay" kind="class"><name>graphics::IDisplay</name>
+    <member refid="classgraphics_1_1IDisplay_1ade1b83a4b736f8c866be0a58b685ee99" kind="function"><name>IDisplay</name></member>
+    <member refid="classgraphics_1_1IDisplay_1a8842b34be9393e4083157dd33ac8d0aa" kind="function"><name>~IDisplay</name></member>
+    <member refid="classgraphics_1_1IDisplay_1a42d4ac0840dd50629674739732c18158" kind="function"><name>openWin</name></member>
+    <member refid="classgraphics_1_1IDisplay_1a68e9af3e1a47f1547bc734c643526301" kind="function"><name>getScreenWidth</name></member>
+    <member refid="classgraphics_1_1IDisplay_1aecc5c67d9f7301c2501aa3be55de6d2b" kind="function"><name>getScreenHeight</name></member>
+    <member refid="classgraphics_1_1IDisplay_1a75686a31bb9195da5dcef3bdc581da24" kind="function"><name>setFps</name></member>
+    <member refid="classgraphics_1_1IDisplay_1ad3e8d7f8c2f6cd2f3ab549e36995054f" kind="function"><name>isOpen</name></member>
+    <member refid="classgraphics_1_1IDisplay_1ab42619fb6444a67ac7f4c25ed6df71d6" kind="function"><name>closeWin</name></member>
+    <member refid="classgraphics_1_1IDisplay_1ad2524a05717992ebad1f69394ce4c34d" kind="function"><name>pollEvent</name></member>
+    <member refid="classgraphics_1_1IDisplay_1a422115304bc15272930fc91cfac942f1" kind="function"><name>beginDrawing</name></member>
+    <member refid="classgraphics_1_1IDisplay_1aa83ce879ec863bc6d6afec6fb19928a8" kind="function"><name>clearBackground</name></member>
+    <member refid="classgraphics_1_1IDisplay_1a7d87637abb600adbc1b716ad89d10967" kind="function"><name>draw</name></member>
+    <member refid="classgraphics_1_1IDisplay_1a20933b417f7b845cab5c2c3d327e2812" kind="function"><name>endDrawing</name></member>
+    <member refid="classgraphics_1_1IDisplay_1ac8040ff86e0fc29b3e381a59a9e9b7c9" kind="function"><name>getCharPressed</name></member>
+    <member refid="classgraphics_1_1IDisplay_1a7496a199aa98a30da52e880e4dbf900d" kind="function"><name>isKeyPressed</name></member>
+    <member refid="classgraphics_1_1IDisplay_1a64685751056794aeb7c2ee3cca05829f" kind="function"><name>isKeyBeingPressed</name></member>
+    <member refid="classgraphics_1_1IDisplay_1a2e846357664409226f392f639b037260" kind="function"><name>isKeyReleased</name></member>
+    <member refid="classgraphics_1_1IDisplay_1aa2c0a45707bde7c0fe6b31b0acee7a98" kind="function"><name>isMouseButtonPressed</name></member>
+    <member refid="classgraphics_1_1IDisplay_1a278330d28bad9727887acb58d8898050" kind="function"><name>isMouseButtonBeingPressed</name></member>
+    <member refid="classgraphics_1_1IDisplay_1a05a9a3fdae05afeaeee652cee37adcf7" kind="function"><name>isMouseButtonReleased</name></member>
+    <member refid="classgraphics_1_1IDisplay_1a6ed5288e1985a98395da471035d56985" kind="function"><name>getMousePosition</name></member>
+    <member refid="classgraphics_1_1IDisplay_1a35ee147040aedfc79ef7b9301f3cc26b" kind="function"><name>playSound</name></member>
+    <member refid="classgraphics_1_1IDisplay_1adf53de91cee0a7cd9df6dfd5946b9d85" kind="function"><name>stopSound</name></member>
+    <member refid="classgraphics_1_1IDisplay_1a50106e73837ed2bac73c3bdd58d040d5" kind="function"><name>setSoundVolume</name></member>
+  </compound>
+  <compound refid="classcontainers_1_1indexed__zipper" kind="class"><name>containers::indexed_zipper</name>
+    <member refid="classcontainers_1_1indexed__zipper_1ae1046e55bae78a976fbb4a89a5f26129" kind="typedef"><name>iterator</name></member>
+    <member refid="classcontainers_1_1indexed__zipper_1a738b07a094b07fd38c5a9c2aa708f23b" kind="typedef"><name>iterator_tuple</name></member>
+    <member refid="classcontainers_1_1indexed__zipper_1a6dee5a2a8b5fba5f9b815057c0bccf49" kind="variable"><name>_begin</name></member>
+    <member refid="classcontainers_1_1indexed__zipper_1ae053109fb90cc3e2ee1aa3cd96e009b1" kind="variable"><name>_end</name></member>
+    <member refid="classcontainers_1_1indexed__zipper_1a884e107e74335a9ddb63b1754afcabb6" kind="variable"><name>_size</name></member>
+    <member refid="classcontainers_1_1indexed__zipper_1a1ed5fff402cb7ef6767106237d1e2da4" kind="function"><name>indexed_zipper</name></member>
+    <member refid="classcontainers_1_1indexed__zipper_1a75d5034c93f3bd1bbc7f1bca7e0d9b9d" kind="function"><name>begin</name></member>
+    <member refid="classcontainers_1_1indexed__zipper_1ae08b3517143ee7c58334aa3ba2b985fc" kind="function"><name>end</name></member>
+    <member refid="classcontainers_1_1indexed__zipper_1a04a8d157f3b57c30f7dc9e71c35f626a" kind="function"><name>size</name></member>
+    <member refid="classcontainers_1_1indexed__zipper_1a31d0daeaaace3ffa4849a94e02f1b62c" kind="function"><name>_compute_size</name></member>
+    <member refid="classcontainers_1_1indexed__zipper_1a8fec335106a9c22785ef9968b2d74985" kind="function"><name>_compute_begin_idx</name></member>
+    <member refid="classcontainers_1_1indexed__zipper_1a3477729b06f4ad7a4f4bbdc44c613f18" kind="function"><name>_compute_begin</name></member>
+    <member refid="classcontainers_1_1indexed__zipper_1a6020f7aba172fa10d797ef12fd176d73" kind="function"><name>_compute_end</name></member>
+  </compound>
+  <compound refid="classcontainers_1_1indexed__zipper__iterator" kind="class"><name>containers::indexed_zipper_iterator</name>
+    <member refid="classcontainers_1_1indexed__zipper__iterator_1aff099fb2b69ab78714526e013b0df8ea" kind="typedef"><name>iterator_t</name></member>
+    <member refid="classcontainers_1_1indexed__zipper__iterator_1a60b27e9e110c58c7802350e3888b33d6" kind="typedef"><name>it_reference_t</name></member>
+    <member refid="classcontainers_1_1indexed__zipper__iterator_1aa2647306d5cd5fe30cb1a81122319b17" kind="typedef"><name>value_type</name></member>
+    <member refid="classcontainers_1_1indexed__zipper__iterator_1ac5254e0fdd47f0bb1719089ca944593d" kind="typedef"><name>reference</name></member>
+    <member refid="classcontainers_1_1indexed__zipper__iterator_1ac1fb43ea6466bf98ddabec4841afeabd" kind="typedef"><name>pointer</name></member>
+    <member refid="classcontainers_1_1indexed__zipper__iterator_1a3683735a3bcda90699e71a7475a2001e" kind="typedef"><name>difference_type</name></member>
+    <member refid="classcontainers_1_1indexed__zipper__iterator_1a5223d0a109eb86ca57d0126d37c4dc9f" kind="typedef"><name>iterator_category</name></member>
+    <member refid="classcontainers_1_1indexed__zipper__iterator_1a342971799c87c66b4689d3ac4d0f0964" kind="typedef"><name>iterator_tuple</name></member>
+    <member refid="classcontainers_1_1indexed__zipper__iterator_1afcf1f7accc8260244e1d28c57cade5cc" kind="variable"><name>_current</name></member>
+    <member refid="classcontainers_1_1indexed__zipper__iterator_1a63910b4ea74652595caa6bb93aafd898" kind="variable"><name>_value</name></member>
+    <member refid="classcontainers_1_1indexed__zipper__iterator_1ab798e48bb1b807a047ccf222db2a8054" kind="variable"><name>_max</name></member>
+    <member refid="classcontainers_1_1indexed__zipper__iterator_1a8ac03c3d66dbf264fa7ad232594cb857" kind="variable"><name>_idx</name></member>
+    <member refid="classcontainers_1_1indexed__zipper__iterator_1a823d33b80dd0595fd99343dc183f4447" kind="variable"><name>_seq</name></member>
+    <member refid="classcontainers_1_1indexed__zipper__iterator_1ab175413e0ee74d604b9972e9c901fc04" kind="function"><name>indexed_zipper_iterator</name></member>
+    <member refid="classcontainers_1_1indexed__zipper__iterator_1a6b4e6b05bfbe37f7569e13dd8a04ab09" kind="function"><name>indexed_zipper_iterator</name></member>
+    <member refid="classcontainers_1_1indexed__zipper__iterator_1ae3b3b6c0a8a127cf6c7ae9353c2d9b25" kind="function"><name>indexed_zipper_iterator</name></member>
+    <member refid="classcontainers_1_1indexed__zipper__iterator_1a888cba47c53d59851f94bba0d927b27d" kind="function"><name>operator=</name></member>
+    <member refid="classcontainers_1_1indexed__zipper__iterator_1ad1de6c03624cd7e92e89757dc0f893df" kind="function"><name>operator++</name></member>
+    <member refid="classcontainers_1_1indexed__zipper__iterator_1abecbdcdab3d2ef639c21b2b7c7079c26" kind="function"><name>operator++</name></member>
+    <member refid="classcontainers_1_1indexed__zipper__iterator_1a8c9c170d5ce9264f567f382391158095" kind="function"><name>operator--</name></member>
+    <member refid="classcontainers_1_1indexed__zipper__iterator_1af05796bee465483e981defcdb916880a" kind="function"><name>operator--</name></member>
+    <member refid="classcontainers_1_1indexed__zipper__iterator_1a6ef2c96f85845c91dd1543ee1567daf7" kind="function"><name>set_value</name></member>
+    <member refid="classcontainers_1_1indexed__zipper__iterator_1a52b66739c1de5043a0dc1ebb985e486d" kind="function"><name>operator*</name></member>
+    <member refid="classcontainers_1_1indexed__zipper__iterator_1ab34e593a3ebda937b23e48365962c6fc" kind="function"><name>operator-&gt;</name></member>
+    <member refid="classcontainers_1_1indexed__zipper__iterator_1aa393915d24bd6e67c957e818965185f8" kind="friend"><name>operator==</name></member>
+    <member refid="classcontainers_1_1indexed__zipper__iterator_1aea2d9f80f4ac7a0e3615b6fbf6e117fa" kind="friend"><name>operator!=</name></member>
+    <member refid="classcontainers_1_1indexed__zipper__iterator_1a814e76a00721617c8c347595bc30e0cc" kind="function"><name>incr_all</name></member>
+    <member refid="classcontainers_1_1indexed__zipper__iterator_1a77742fab41c23897adf289133c785820" kind="function"><name>decr_all</name></member>
+    <member refid="classcontainers_1_1indexed__zipper__iterator_1ab88931e373722c1fbf16cab7f1339cdd" kind="function"><name>all_set</name></member>
+    <member refid="classcontainers_1_1indexed__zipper__iterator_1a5a0e52ce60a3bf13b422775094fee044" kind="function"><name>to_value</name></member>
+  </compound>
+  <compound refid="classnetwork_1_1INetworker" kind="class"><name>network::INetworker</name>
+    <member refid="classnetwork_1_1INetworker_1a557b7d5ac070e0bf0644fe60d68f6e0b" kind="variable"><name>_ip</name></member>
+    <member refid="classnetwork_1_1INetworker_1a68e1133c2169f6e8f262c9c0cc3f55cd" kind="variable"><name>_port</name></member>
+    <member refid="classnetwork_1_1INetworker_1ad33f8bdaa89ebd10ff7065f86047f547" kind="variable"><name>istream</name></member>
+    <member refid="classnetwork_1_1INetworker_1ab334c4457600fa06e22bd3054e5b8737" kind="variable"><name>ostream</name></member>
+    <member refid="classnetwork_1_1INetworker_1a1f18f04662fb7d9d3ae29216065cfd92" kind="variable"><name>peer_id</name></member>
+    <member refid="classnetwork_1_1INetworker_1a7026a0b619e21ed7828b54e0e9dd5a88" kind="function"><name>INetworker</name></member>
+    <member refid="classnetwork_1_1INetworker_1ae872f690a149347859f5e8a41b98d529" kind="function"><name>~INetworker</name></member>
+    <member refid="classnetwork_1_1INetworker_1a5f0beb4d4b0fe1958cfb742f40c2cd6b" kind="function"><name>INetworker</name></member>
+    <member refid="classnetwork_1_1INetworker_1a17303fe0ad584376dd3d315bfbb31449" kind="function"><name>send_reliable_data</name></member>
+    <member refid="classnetwork_1_1INetworker_1aef33e147bdaf4d21aea28613ded4fe58" kind="function"><name>send_data</name></member>
+    <member refid="classnetwork_1_1INetworker_1abf40ec464641221c4fa326404214efe6" kind="function"><name>receive_data</name></member>
+    <member refid="classnetwork_1_1INetworker_1a1127c72b860e6929c70c3c31f7ee26eb" kind="function"><name>operator&amp;</name></member>
+    <member refid="classnetwork_1_1INetworker_1a3435acdabcd0fc643b7a847479b0d70c" kind="function"><name>operator&lt;&lt;</name></member>
+    <member refid="classnetwork_1_1INetworker_1a247723909dc86c2b6a5b2b297a90bd90" kind="function"><name>operator&gt;&gt;</name></member>
+    <member refid="classnetwork_1_1INetworker_1a282412c4f5e86c61c30f2ca7e18427b4" kind="function"><name>get_peer_id</name></member>
+    <member refid="classnetwork_1_1INetworker_1a12db8946723dfed7a46421b6acf8b931" kind="function"><name>set_peer_id</name></member>
+  </compound>
+  <compound refid="classrtype_1_1IScene" kind="class"><name>rtype::IScene</name>
+    <member refid="classrtype_1_1IScene_1a744e1d1ae75bd8418080d531f4de46e8" kind="variable"><name>_entities</name></member>
+    <member refid="classrtype_1_1IScene_1a4d7f11be2a58aa0fe3f1284cbb06c50a" kind="function"><name>IScene</name></member>
+    <member refid="classrtype_1_1IScene_1ac5bef1212a82eaa65ef765dc9c9b0687" kind="function"><name>~IScene</name></member>
+    <member refid="classrtype_1_1IScene_1a607f06da39e0325a77dd17646b2ed588" kind="function"><name>addEntity</name></member>
+    <member refid="classrtype_1_1IScene_1a84f0622d635943591d57720e2667c8ec" kind="function"><name>setActivity</name></member>
+  </compound>
+  <compound refid="classSystems_1_1local__gameplay" kind="class"><name>Systems::local_gameplay</name>
+    <member refid="classSystems_1_1local__gameplay_1a815943fc6a4f4a1706416f5bc4b04072" kind="function"><name>local_gameplay</name></member>
+    <member refid="classSystems_1_1local__gameplay_1ab7c5eb5a3c85b6bc54616cc52d2bde50" kind="function"><name>~local_gameplay</name></member>
+    <member refid="classSystems_1_1local__gameplay_1a3bcb918ef32dff2a99c068a8b2b64368" kind="function"><name>operator()</name></member>
+    <member refid="classSystems_1_1local__gameplay_1a90c31e3d7fb34fddb34ed0a9d76d1c2b" kind="function"><name>update_room</name></member>
+    <member refid="classSystems_1_1local__gameplay_1a920a1910827278a6a8d5186c19f2263d" kind="function"><name>kill_entities</name></member>
+  </compound>
+  <compound refid="classSystems_1_1manage__requests" kind="class"><name>Systems::manage_requests</name>
+    <member refid="classSystems_1_1manage__requests_1aa6300d845e6eecdbade6a273d481aec5" kind="variable"><name>_net</name></member>
+    <member refid="classSystems_1_1manage__requests_1a7778b50e7d99a7193bdd6b33c13d9476" kind="variable"><name>_net_datas</name></member>
+    <member refid="classSystems_1_1manage__requests_1a93e0fd1b4a2620f8949bb51104e3fbdf" kind="variable"><name>req_mtx</name></member>
+    <member refid="classSystems_1_1manage__requests_1a8fa26598bbe2ea6e8bc1ad2ce6d29bfb" kind="function"><name>manage_requests</name></member>
+    <member refid="classSystems_1_1manage__requests_1a784761fea78586884096aabe7dea46f0" kind="function"><name>~manage_requests</name></member>
+    <member refid="classSystems_1_1manage__requests_1a82d4e9918f725f8bff2a36062163c262" kind="function"><name>operator()</name></member>
+    <member refid="classSystems_1_1manage__requests_1a6f7b2ab31d53edf2c53c7dfc3c417e4c" kind="function"><name>manage_requests</name></member>
+    <member refid="classSystems_1_1manage__requests_1a784761fea78586884096aabe7dea46f0" kind="function"><name>~manage_requests</name></member>
+    <member refid="classSystems_1_1manage__requests_1a82d4e9918f725f8bff2a36062163c262" kind="function"><name>operator()</name></member>
+  </compound>
+  <compound refid="structcomponent_1_1network__id" kind="struct"><name>component::network_id</name>
+    <member refid="structcomponent_1_1network__id_1ab837fe576e12adac1773233f1c1345a8" kind="variable"><name>id</name></member>
+    <member refid="structcomponent_1_1network__id_1a55f45319685097f2d8a40cb3be94fc7e" kind="variable"><name>id</name></member>
+    <member refid="structcomponent_1_1network__id_1a9645d39f7dc56b9d32db534b4412a08b" kind="function"><name>network_id</name></member>
+    <member refid="structcomponent_1_1network__id_1ab8e8353828f19c30aa75dddb36299868" kind="function"><name>network_id</name></member>
+  </compound>
+  <compound refid="structcomponent_1_1oscillation" kind="struct"><name>component::oscillation</name>
+    <member refid="structcomponent_1_1oscillation_1ab513b0e09e8c5c6f47be31a47a6582d9" kind="variable"><name>ymax</name></member>
+    <member refid="structcomponent_1_1oscillation_1a0348ec266697c37818b1f02b36ce09fa" kind="variable"><name>ymin</name></member>
+    <member refid="structcomponent_1_1oscillation_1a4a842c469675445ebdce48fbeeadc70b" kind="function"><name>oscillation</name></member>
+  </compound>
+  <compound refid="structcomponent_1_1parent" kind="struct"><name>component::parent</name>
+    <member refid="structcomponent_1_1parent_1aa22e95594f83acb5119b793fc917bdc1" kind="variable"><name>en</name></member>
+    <member refid="structcomponent_1_1parent_1a52b8f8a1eb6d0e5caf52e56aab41d0e0" kind="function"><name>parent</name></member>
+    <member refid="structcomponent_1_1parent_1a52b8f8a1eb6d0e5caf52e56aab41d0e0" kind="function"><name>parent</name></member>
+  </compound>
+  <compound refid="structcomponent_1_1player__type" kind="struct"><name>component::player_type</name>
+    <member refid="structcomponent_1_1player__type_1ad3f542fd371e8f7e2a98a4d39c59a352" kind="variable"><name>type</name></member>
+    <member refid="structcomponent_1_1player__type_1aa9c3383423a0e2c8379d1014a86fe439" kind="function"><name>player_type</name></member>
+  </compound>
+  <compound refid="structcomponent_1_1position" kind="struct"><name>component::position</name>
+    <member refid="structcomponent_1_1position_1ad81c687abab1ddbaa0bb3c46e360fc6e" kind="variable"><name>x</name></member>
+    <member refid="structcomponent_1_1position_1a5efb518f0f9e2d5f716942aafc69f1b9" kind="variable"><name>y</name></member>
+    <member refid="structcomponent_1_1position_1a47010ab7c06d8b30fb7e82cfe4f5737c" kind="function"><name>position</name></member>
+    <member refid="structcomponent_1_1position_1a47010ab7c06d8b30fb7e82cfe4f5737c" kind="function"><name>position</name></member>
+    <member refid="structcomponent_1_1position_1a47010ab7c06d8b30fb7e82cfe4f5737c" kind="function"><name>position</name></member>
+  </compound>
+  <compound refid="classSystems_1_1position" kind="class"><name>Systems::position</name>
+    <member refid="classSystems_1_1position_1a61b9d1d47a46fc8d452df402ddc1fb15" kind="variable"><name>_net</name></member>
+    <member refid="classSystems_1_1position_1a03992271710858ee29c050f1699dec6c" kind="function"><name>position</name></member>
+    <member refid="classSystems_1_1position_1a10d85c7b4a04401fb31fd26c0a5ad040" kind="function"><name>~position</name></member>
+    <member refid="classSystems_1_1position_1a12df3602073a30d615a4c21e64fbdbd6" kind="function"><name>operator()</name></member>
+  </compound>
+  <compound refid="classRaylib" kind="class"><name>Raylib</name>
+    <member refid="classRaylib_1aa62ad9b2eefd809dc4a539298d59eb3f" kind="variable"><name>_fonts</name></member>
+    <member refid="classRaylib_1a31062a17fe50df4ce42aca4e18615b89" kind="variable"><name>_images</name></member>
+    <member refid="classRaylib_1a649b95a52e1c4becb8d3e37b81dba0a0" kind="variable"><name>_textures</name></member>
+    <member refid="classRaylib_1afc8f920c274b675cde60207d7fd1cb5b" kind="variable"><name>_sounds</name></member>
+    <member refid="classRaylib_1a0756c7c92db805f6826c2aa07ad9280e" kind="variable"><name>_poll_event</name></member>
+    <member refid="classRaylib_1a6912339ce0a1c189a7b756ad3ca1fe50" kind="function"><name>Raylib</name></member>
+    <member refid="classRaylib_1a73c8b0f22704986442fd4d63146ac0a7" kind="function"><name>~Raylib</name></member>
+    <member refid="classRaylib_1a6817466000222151e6dea205ba5d44e6" kind="function"><name>openWin</name></member>
+    <member refid="classRaylib_1ab07e6a62d1031b183c9cf894ee1a5f3a" kind="function"><name>getScreenWidth</name></member>
+    <member refid="classRaylib_1af0fd264584fc278602d28188cfc04123" kind="function"><name>getScreenHeight</name></member>
+    <member refid="classRaylib_1a5102ca76dfb9e5dd2b3dd2bfbda3a04d" kind="function"><name>setFps</name></member>
+    <member refid="classRaylib_1a72c614e50e0ba7cc2994f7b4c9a2e3b5" kind="function"><name>isOpen</name></member>
+    <member refid="classRaylib_1a553668e178d1a09c176293f2e3210ead" kind="function"><name>closeWin</name></member>
+    <member refid="classRaylib_1a70c7f9c8a078818a737a796d21594c5f" kind="function"><name>pollEvent</name></member>
+    <member refid="classRaylib_1ae2f46bc478414d002510e8268fc94107" kind="function"><name>beginDrawing</name></member>
+    <member refid="classRaylib_1a452fd23d2d7412fb4a3035c7337f28f2" kind="function"><name>clearBackground</name></member>
+    <member refid="classRaylib_1ab24a2afc51a35fe0cd8d99632d82b144" kind="function"><name>draw</name></member>
+    <member refid="classRaylib_1a247b79289042dffcbaa45eaa90e1a9c4" kind="function"><name>endDrawing</name></member>
+    <member refid="classRaylib_1a854e5d6c6bd36b961f7845e401242c14" kind="function"><name>getCharPressed</name></member>
+    <member refid="classRaylib_1ae89ed6e0dc80c915e007b85ddb9e257e" kind="function"><name>isKeyPressed</name></member>
+    <member refid="classRaylib_1abdd2681427e02f7c2a4a24ff8325bb6c" kind="function"><name>isKeyBeingPressed</name></member>
+    <member refid="classRaylib_1af01e7b95d67a38b65665fe0596c6ece2" kind="function"><name>isKeyReleased</name></member>
+    <member refid="classRaylib_1af47b4c4b37a12d11942f5492f8863446" kind="function"><name>isMouseButtonPressed</name></member>
+    <member refid="classRaylib_1a1cd45d48b839a21ad0b75063a893847f" kind="function"><name>isMouseButtonBeingPressed</name></member>
+    <member refid="classRaylib_1a4144ebbc3754a4807d623ca1ffb9681f" kind="function"><name>isMouseButtonReleased</name></member>
+    <member refid="classRaylib_1a62b1e9caf4cbe2ee8864c2c72dcdea88" kind="function"><name>getMousePosition</name></member>
+    <member refid="classRaylib_1a53b5cea12a2daead5e9a3bc7728944c5" kind="function"><name>playSound</name></member>
+    <member refid="classRaylib_1a3371e3aac7fad1373bf459ccde1b6211" kind="function"><name>stopSound</name></member>
+    <member refid="classRaylib_1a0b25e235c85454c221abe2e458754c05" kind="function"><name>setSoundVolume</name></member>
+  </compound>
+  <compound refid="classregistry" kind="class"><name>registry</name>
+    <member refid="classregistry_1afbd442d3a10f483cd3caab2ded84bca2" kind="typedef"><name>entity_t</name></member>
+    <member refid="classregistry_1add498b246f43a27490a289380209237a" kind="typedef"><name>deleter_t</name></member>
+    <member refid="classregistry_1a09362dcb9bd021eadb89de3cda0e6eb8" kind="typedef"><name>systemt_t</name></member>
+    <member refid="classregistry_1a981a0c96d6eb81e70e595a5d450b558c" kind="variable"><name>entity_manager</name></member>
+    <member refid="classregistry_1a3f2fdfe244f6966dfad14dc50a34e9f0" kind="variable"><name>_components_arrays</name></member>
+    <member refid="classregistry_1adafa1913ae539fca17c5e01e41caa826" kind="variable"><name>_deleters</name></member>
+    <member refid="classregistry_1aa85497f90547454c32d1100603726068" kind="variable"><name>_systems</name></member>
+    <member refid="classregistry_1aa28d4215819df64d37a6d854fe0f960b" kind="variable"><name>_events_systems</name></member>
+    <member refid="classregistry_1a757883d504ab1bb5a06e0faa8e28664d" kind="function"><name>registry</name></member>
+    <member refid="classregistry_1a5007aa52f3b6809650467604be188acf" kind="function"><name>~registry</name></member>
+    <member refid="classregistry_1ac77008529bb6e296916633cc41ba5be5" kind="function"><name>register_component</name></member>
+    <member refid="classregistry_1a3866ee276a5a1d78d00cd403e8e8c7d9" kind="function"><name>get_components</name></member>
+    <member refid="classregistry_1a216d887232d1a7b36b115add610c2d84" kind="function"><name>get_components</name></member>
+    <member refid="classregistry_1af9596641371a7191d44293d13c1f69bf" kind="function"><name>add_system</name></member>
+    <member refid="classregistry_1a7453ec1f4862192b6d4091488c15a3ab" kind="function"><name>add_system</name></member>
+    <member refid="classregistry_1a1fda5cc52e611441228f8b1c26302060" kind="function"><name>run_systems</name></member>
+    <member refid="classregistry_1aad3a53aad49d662703ac8769ad0ad676" kind="function"><name>add_events_system</name></member>
+    <member refid="classregistry_1a81782165114089ffca599dcaeeb213e8" kind="function"><name>add_events_system</name></member>
+    <member refid="classregistry_1a842591a93878d83bd717f98b82bea2b3" kind="function"><name>run_events_systems</name></member>
+  </compound>
+  <compound refid="structcomponent_1_1room__id" kind="struct"><name>component::room_id</name>
+    <member refid="structcomponent_1_1room__id_1ab499fc5cc388bcb04a1cc2dbc6b3eebb" kind="variable"><name>id</name></member>
+    <member refid="structcomponent_1_1room__id_1ac217ae027aaaf2e32b9b80e861eb2858" kind="function"><name>room_id</name></member>
+    <member refid="structcomponent_1_1room__id_1ac217ae027aaaf2e32b9b80e861eb2858" kind="function"><name>room_id</name></member>
+  </compound>
+  <compound refid="structcomponent_1_1room__info" kind="struct"><name>component::room_info</name>
+    <member refid="structcomponent_1_1room__info_1a5f10e6930f756a3b3aad512eef0e2e7c" kind="variable"><name>full</name></member>
+    <member refid="structcomponent_1_1room__info_1abc97e20f72934d3c71fdb576c8f728de" kind="variable"><name>can</name></member>
+    <member refid="structcomponent_1_1room__info_1a7c32f834f7ae18bf7e8265f36361396c" kind="variable"><name>entities</name></member>
+    <member refid="structcomponent_1_1room__info_1a4e3cd3fb0676325e2282e804a9aef780" kind="variable"><name>clients</name></member>
+    <member refid="structcomponent_1_1room__info_1a36210e3c9e437e63373d1f7433921e74" kind="variable"><name>commands</name></member>
+    <member refid="structcomponent_1_1room__info_1ad988f8e9ef4cd4a887db4e120f0bcb7d" kind="variable"><name>cmd</name></member>
+    <member refid="structcomponent_1_1room__info_1a36bc0f9cbf0a9e6f5ce3a51b2b4f3aef" kind="variable"><name>clock</name></member>
+    <member refid="structcomponent_1_1room__info_1afdef3574667e99c8c5969fb151679363" kind="variable"><name>next_wake</name></member>
+    <member refid="structcomponent_1_1room__info_1a1207058550b507572267a4ab03e77dbe" kind="function"><name>room_info</name></member>
+    <member refid="structcomponent_1_1room__info_1a458c41e6bb64978b10fc53cfdb3aceeb" kind="function"><name>load_level</name></member>
+    <member refid="structcomponent_1_1room__info_1a666d80aa802b921834b217fc1f87e472" kind="function"><name>spliter</name></member>
+    <member refid="structcomponent_1_1room__info_1add35dca53aa4e8f822b8bd1aa84328bd" kind="function"><name>destroy</name></member>
+    <member refid="structcomponent_1_1room__info_1a7ee0a8410bfbe03e8b37b6fe4aaf3041" kind="function"><name>add_client</name></member>
+    <member refid="structcomponent_1_1room__info_1a165510c7d6cc366c3271225581c73ee5" kind="function"><name>add_entity</name></member>
+    <member refid="structcomponent_1_1room__info_1a12aa73c1959a50afb8e52bb9c6dddbc0" kind="function"><name>kill_entity</name></member>
+    <member refid="structcomponent_1_1room__info_1a8c13a44fcfc9a2017da1cd5fa8d89835" kind="function"><name>kill_player</name></member>
+    <member refid="structcomponent_1_1room__info_1a1207058550b507572267a4ab03e77dbe" kind="function"><name>room_info</name></member>
+    <member refid="structcomponent_1_1room__info_1a666d80aa802b921834b217fc1f87e472" kind="function"><name>spliter</name></member>
+    <member refid="structcomponent_1_1room__info_1add35dca53aa4e8f822b8bd1aa84328bd" kind="function"><name>destroy</name></member>
+    <member refid="structcomponent_1_1room__info_1a7ee0a8410bfbe03e8b37b6fe4aaf3041" kind="function"><name>add_client</name></member>
+    <member refid="structcomponent_1_1room__info_1a165510c7d6cc366c3271225581c73ee5" kind="function"><name>add_entity</name></member>
+    <member refid="structcomponent_1_1room__info_1a12aa73c1959a50afb8e52bb9c6dddbc0" kind="function"><name>kill_entity</name></member>
+    <member refid="structcomponent_1_1room__info_1a8c13a44fcfc9a2017da1cd5fa8d89835" kind="function"><name>kill_player</name></member>
+  </compound>
+  <compound refid="classrtype_1_1Scene" kind="class"><name>rtype::Scene</name>
+    <member refid="classrtype_1_1Scene_1a5729f02ff001ceed6598748260404ba3" kind="function"><name>Scene</name></member>
+    <member refid="classrtype_1_1Scene_1aa050da328cdf89405306e6a57a2d9855" kind="function"><name>~Scene</name></member>
+    <member refid="classrtype_1_1Scene_1a2af1d66869fac1b3e35711bac99faa98" kind="function"><name>addEntity</name></member>
+    <member refid="classrtype_1_1Scene_1acabfaa7057e8950b23b8f9d89c3ae586" kind="function"><name>setActivity</name></member>
+  </compound>
+  <compound refid="structcomponent_1_1score" kind="struct"><name>component::score</name>
+    <member refid="structcomponent_1_1score_1a091e58ffb8056975f4d63d2d1cd9cad3" kind="variable"><name>val</name></member>
+    <member refid="structcomponent_1_1score_1a099033d4b8b68c8509779d8af48ddee5" kind="variable"><name>ref</name></member>
+    <member refid="structcomponent_1_1score_1aad2ff82561f16473aa711fcc7d2f457d" kind="function"><name>score</name></member>
+    <member refid="structcomponent_1_1score_1a4cf8acfb698d1113276a4d41533d1638" kind="function"><name>score</name></member>
+    <member refid="structcomponent_1_1score_1a45d277909b305811775b5e81c436df5f" kind="function"><name>update</name></member>
+    <member refid="structcomponent_1_1score_1a4ab3fef28203c874094912a1fd8c5d44" kind="function"><name>add</name></member>
+    <member refid="structcomponent_1_1score_1aad2ff82561f16473aa711fcc7d2f457d" kind="function"><name>score</name></member>
+  </compound>
+  <compound refid="structcomponent_1_1scrolling" kind="struct"><name>component::scrolling</name>
+    <member refid="structcomponent_1_1scrolling_1ad7b39bd09c49314063a47b4e271d7116" kind="variable"><name>limit</name></member>
+    <member refid="structcomponent_1_1scrolling_1a5367161dd1ce3c5fc6404f6a40e91cb3" kind="variable"><name>start</name></member>
+    <member refid="structcomponent_1_1scrolling_1a9d8270ceb65b33fe08c0c62dca6289d6" kind="function"><name>scrolling</name></member>
+  </compound>
+  <compound refid="classrtype_1_1ServerCore" kind="class"><name>rtype::ServerCore</name>
+    <member refid="classrtype_1_1ServerCore_1a005a8c3832312195429e00ff014d3ca5" kind="variable"><name>reg</name></member>
+    <member refid="classrtype_1_1ServerCore_1a63534027fcf47908312c1caab542a833" kind="variable"><name>running</name></member>
+    <member refid="classrtype_1_1ServerCore_1a25fb4b8b0cded7836940b3d80a11f031" kind="variable"><name>_networker</name></member>
+    <member refid="classrtype_1_1ServerCore_1a28d31aea3a93af42aeca0fa207d4086e" kind="variable"><name>_net_datas</name></member>
+    <member refid="classrtype_1_1ServerCore_1afbba78f7b387523ec00fc49d43879e56" kind="variable"><name>accept_req_th</name></member>
+    <member refid="classrtype_1_1ServerCore_1ace2c26fbcb3ec9a4815164e2a9bd8617" kind="variable"><name>req_mtx</name></member>
+    <member refid="classrtype_1_1ServerCore_1ad575456755c9dbb49046d229addfe0d0" kind="function"><name>ServerCore</name></member>
+    <member refid="classrtype_1_1ServerCore_1a6d2e1e92a18212e9e37a5532e8bef3fe" kind="function"><name>~ServerCore</name></member>
+    <member refid="classrtype_1_1ServerCore_1a251eab798799d4f70f2862fd4c090369" kind="function"><name>set_components</name></member>
+    <member refid="classrtype_1_1ServerCore_1a98db4db19fc67bd57e818dc40bb5ebdf" kind="function"><name>set_systems</name></member>
+    <member refid="classrtype_1_1ServerCore_1a2cb96c43289cb8c9715281d734448ead" kind="function"><name>run</name></member>
+  </compound>
+  <compound refid="structcomponent_1_1sound" kind="struct"><name>component::sound</name>
+    <member refid="structcomponent_1_1sound_1adea0784bd3a6e0c2274ef10b9cc7917b" kind="variable"><name>song</name></member>
+    <member refid="structcomponent_1_1sound_1a1b4b908bda93542dad9aa26f10bd1286" kind="variable"><name>looping</name></member>
+    <member refid="structcomponent_1_1sound_1ae3735203aa3c39b3d7a3747afa1ccf3e" kind="function"><name>sound</name></member>
+  </compound>
+  <compound refid="classSystems_1_1sound" kind="class"><name>Systems::sound</name>
+    <member refid="classSystems_1_1sound_1a0bc8e3e8ba66015074e6a3fa49f2354f" kind="variable"><name>_disp</name></member>
+    <member refid="classSystems_1_1sound_1a967f24da9ae59f65940827822c5aebd4" kind="function"><name>sound</name></member>
+    <member refid="classSystems_1_1sound_1ae4f2d1e54cebef9ee7ba82e2895ebc3e" kind="function"><name>~sound</name></member>
+    <member refid="classSystems_1_1sound_1ac21d5278fe526d4df11a60a3e09075b6" kind="function"><name>operator()</name></member>
+  </compound>
+  <compound refid="classsparse__array" kind="class"><name>sparse_array</name>
+    <member refid="classsparse__array_1ab7403a6f935fa66034cce5bdcf49a9fc" kind="typedef"><name>value_type</name></member>
+    <member refid="classsparse__array_1ae00c5b30838e89f0d368d55e0ba6a54d" kind="typedef"><name>reference_type</name></member>
+    <member refid="classsparse__array_1a373bf1a871a33e79a21da15acf3652f8" kind="typedef"><name>const_reference_type</name></member>
+    <member refid="classsparse__array_1a5f747e93a9406474b106bde9c66f01b7" kind="typedef"><name>container_t</name></member>
+    <member refid="classsparse__array_1af1468a11a30a58090580d1fb399e3cc0" kind="typedef"><name>size_type</name></member>
+    <member refid="classsparse__array_1a1293c5b64d77bb97ed87e57c6276925e" kind="typedef"><name>iterator</name></member>
+    <member refid="classsparse__array_1a9beecc69673481f79844336194dfc1a2" kind="typedef"><name>const_iterator</name></member>
+    <member refid="classsparse__array_1af112878e0e1b449f263d4bb8f6ef758b" kind="variable"><name>_data</name></member>
+    <member refid="classsparse__array_1a7b8126fa6ace12d7c202a720a5bd9247" kind="variable"><name>npos</name></member>
+    <member refid="classsparse__array_1a34c792f0a28f90cffd87e58c52f20017" kind="function"><name>sparse_array</name></member>
+    <member refid="classsparse__array_1a2530f93c4d5c88e06ba6c69b4e04ca40" kind="function"><name>sparse_array</name></member>
+    <member refid="classsparse__array_1abce5f36fcd9fba0ef3ce5280cbe241db" kind="function"><name>sparse_array</name></member>
+    <member refid="classsparse__array_1a4fcfd9065975ddcb90f2a84c91313867" kind="function"><name>~sparse_array</name></member>
+    <member refid="classsparse__array_1a22f7112eb9f0bf3d6f756ef14abd698a" kind="function"><name>operator=</name></member>
+    <member refid="classsparse__array_1aadb8fc0433c146fd3d0f7309672b458d" kind="function"><name>operator=</name></member>
+    <member refid="classsparse__array_1a4aa1f2fae14ff1cecdc6e42ded260cad" kind="function"><name>operator[]</name></member>
+    <member refid="classsparse__array_1a1d66e1a1e11a9bcef70425c3c09eb6b4" kind="function"><name>operator[]</name></member>
+    <member refid="classsparse__array_1a1cdf824b5897fb3ffc857843b37453b2" kind="function"><name>begin</name></member>
+    <member refid="classsparse__array_1a25c3a93f84f860ee55bb25f8da67e358" kind="function"><name>begin</name></member>
+    <member refid="classsparse__array_1a8f6e23b67ea783baf53129f8907e297a" kind="function"><name>cbegin</name></member>
+    <member refid="classsparse__array_1af6749bdfbdc5200a77549f52594107eb" kind="function"><name>end</name></member>
+    <member refid="classsparse__array_1a094425cbf56a592e130b67ecda68cd3d" kind="function"><name>end</name></member>
+    <member refid="classsparse__array_1adb95eba3fb7e88207a4374c04950d167" kind="function"><name>cend</name></member>
+    <member refid="classsparse__array_1a6679a2315be266da4c01ad97f00e51fd" kind="function"><name>size</name></member>
+    <member refid="classsparse__array_1a2e2d04ac69bfebfa5cc7ac4525c91813" kind="function"><name>has_value_at</name></member>
+    <member refid="classsparse__array_1a937a81f8dc37d0a33237f3442225695c" kind="function"><name>insert_at</name></member>
+    <member refid="classsparse__array_1a0deaa37276bdd7ed64b33ce2d5c91e94" kind="function"><name>insert_at</name></member>
+    <member refid="classsparse__array_1a198a17233acf70ec1d3d1451e77e12df" kind="function"><name>emplace_at</name></member>
+    <member refid="classsparse__array_1ac0bea77704ce39c1a731dc69de8d9d2d" kind="function"><name>erase</name></member>
+    <member refid="classsparse__array_1acea541e416d26ee1fd0e7e5a8be7d989" kind="function"><name>get_index</name></member>
+    <member refid="classsparse__array_1a6efb885f4136710821a68d0c5ed6661f" kind="friend"><name>operator&lt;&lt;</name></member>
+  </compound>
+  <compound refid="classTest" kind="class"><name>Test</name>
+    <member refid="classTest_1af0802b1f817c7baf4ec7dc214b81c909" kind="variable"><name>a</name></member>
+    <member refid="classTest_1a3973896fdcf5a9310602c4cffdfc1768" kind="variable"><name>s</name></member>
+    <member refid="classTest_1acd27ea3aef46e51b0664986315b92773" kind="variable"><name>v</name></member>
+    <member refid="classTest_1a99f2bbfac6c95612322b0f10e607ebe5" kind="function"><name>Test</name></member>
+    <member refid="classTest_1a08807bbd5bfe2ab43e975644729e87a0" kind="function"><name>Test</name></member>
+    <member refid="classTest_1af23c3a107c375bfba55174dfdb780709" kind="function"><name>serialize</name></member>
+  </compound>
+  <compound refid="classSystems_1_1username" kind="class"><name>Systems::username</name>
+    <member refid="classSystems_1_1username_1a8da6e66fb308808bf165bd46bdb5b6f3" kind="variable"><name>_disp</name></member>
+    <member refid="classSystems_1_1username_1a1c487a8eb4d0111f7a00e9f143a71ec8" kind="function"><name>username</name></member>
+    <member refid="classSystems_1_1username_1a591b6dfd8a477bf6626ed96d69fe5dc7" kind="function"><name>~username</name></member>
+    <member refid="classSystems_1_1username_1abd12c2ad438d11d6c29a3ee8ee4ddfe5" kind="function"><name>operator()</name></member>
+  </compound>
+  <compound refid="structVector2D" kind="struct"><name>Vector2D</name>
+    <member refid="structVector2D_1a65e391ec61c185092a02cf6301d0fff7" kind="variable"><name>x</name></member>
+    <member refid="structVector2D_1a6a91fccbbd37162d28fa54aeeb88f9d2" kind="variable"><name>y</name></member>
+    <member refid="structVector2D_1ab0c331c7e7c41bc297447fc9de7aa682" kind="function"><name>Vector2D</name></member>
+    <member refid="structVector2D_1a46fa682e1306e0cc13ede410a886bffc" kind="function"><name>serialize</name></member>
+  </compound>
+  <compound refid="structcomponent_1_1velocity" kind="struct"><name>component::velocity</name>
+    <member refid="structcomponent_1_1velocity_1a3373a19e5aa3d54cd371a8b3ee89dbe4" kind="variable"><name>x</name></member>
+    <member refid="structcomponent_1_1velocity_1a2172daf5bf2f6a5ad0f030f481524f94" kind="variable"><name>y</name></member>
+    <member refid="structcomponent_1_1velocity_1a2d4d46bbc5c65a74381efd60b78a65a9" kind="function"><name>velocity</name></member>
+    <member refid="structcomponent_1_1velocity_1a2d4d46bbc5c65a74381efd60b78a65a9" kind="function"><name>velocity</name></member>
+    <member refid="structcomponent_1_1velocity_1a2d4d46bbc5c65a74381efd60b78a65a9" kind="function"><name>velocity</name></member>
+  </compound>
+  <compound refid="classSystems_1_1velocity" kind="class"><name>Systems::velocity</name>
+    <member refid="classSystems_1_1velocity_1a51c5b38e9a5ff8802171806ef89951b0" kind="variable"><name>_net</name></member>
+    <member refid="classSystems_1_1velocity_1aef7b83cd106aafc4189005bfc7dc1935" kind="function"><name>velocity</name></member>
+    <member refid="classSystems_1_1velocity_1a156429f8494fa1b47c492abcf16ef377" kind="function"><name>~velocity</name></member>
+    <member refid="classSystems_1_1velocity_1a0aba3f634b63eeae6fef5931df84e06f" kind="function"><name>operator()</name></member>
+  </compound>
+  <compound refid="structcomponent_1_1weapon" kind="struct"><name>component::weapon</name>
+    <member refid="structcomponent_1_1weapon_1abbd9d93537d1d0c3ee5cb8116150d521" kind="variable"><name>type</name></member>
+    <member refid="structcomponent_1_1weapon_1ad7dc160990329467a90f7d77e70573ba" kind="variable"><name>damage_val</name></member>
+    <member refid="structcomponent_1_1weapon_1ac8d67edd5bfc593f146298b069aed0f4" kind="variable"><name>adversary_type</name></member>
+    <member refid="structcomponent_1_1weapon_1a4170d44b80e1c40e0761f38bd037a02b" kind="variable"><name>clock</name></member>
+    <member refid="structcomponent_1_1weapon_1a7724eb798177c303feb651e3c4b99852" kind="function"><name>weapon</name></member>
+    <member refid="structcomponent_1_1weapon_1a80ee5fd14c08ef033881d2b021ab50c4" kind="function"><name>set_type</name></member>
+    <member refid="structcomponent_1_1weapon_1af9bcdc606a442dce6d41f6ad079edea7" kind="function"><name>shoot</name></member>
+    <member refid="structcomponent_1_1weapon_1a5f7bd4b7713d28046cd65ffb4eee10a0" kind="function"><name>one_shot</name></member>
+    <member refid="structcomponent_1_1weapon_1a7724eb798177c303feb651e3c4b99852" kind="function"><name>weapon</name></member>
+    <member refid="structcomponent_1_1weapon_1a80ee5fd14c08ef033881d2b021ab50c4" kind="function"><name>set_type</name></member>
+    <member refid="structcomponent_1_1weapon_1afe5757e992ce3d37b2ab4ae4cd4397e8" kind="function"><name>shoot</name></member>
+    <member refid="structcomponent_1_1weapon_1a4d694882b9e19d1cdef5146087568c39" kind="function"><name>one_shot</name></member>
+  </compound>
+  <compound refid="classcontainers_1_1zipper" kind="class"><name>containers::zipper</name>
+    <member refid="classcontainers_1_1zipper_1a839bacbc53800294ef0cafdc79076613" kind="typedef"><name>iterator</name></member>
+    <member refid="classcontainers_1_1zipper_1a58f43daf7e915eda3ffeefbd1b9f6930" kind="typedef"><name>iterator_tuple</name></member>
+    <member refid="classcontainers_1_1zipper_1a8f5d36caade617d11236667bae49457f" kind="variable"><name>_begin</name></member>
+    <member refid="classcontainers_1_1zipper_1ada507196658ef93ff3e05d24e261a848" kind="variable"><name>_end</name></member>
+    <member refid="classcontainers_1_1zipper_1a0dd3a14f892685e0309658e8b5b3a907" kind="variable"><name>_size</name></member>
+    <member refid="classcontainers_1_1zipper_1a85e03314952524002fbe0aa2e8fc04b9" kind="function"><name>zipper</name></member>
+    <member refid="classcontainers_1_1zipper_1aaa9c13ae050a0fbcae80b75bfcc75454" kind="function"><name>begin</name></member>
+    <member refid="classcontainers_1_1zipper_1a33e914ddc870bad938576ad46569da1b" kind="function"><name>end</name></member>
+    <member refid="classcontainers_1_1zipper_1afc8a5be3ffc7cf8e2b413fa67d213a7a" kind="function"><name>size</name></member>
+    <member refid="classcontainers_1_1zipper_1a6626db4625514754f341fe3825c1e507" kind="function"><name>_compute_size</name></member>
+    <member refid="classcontainers_1_1zipper_1a10f91577576f755581de311b2adbfb14" kind="function"><name>_compute_begin_idx</name></member>
+    <member refid="classcontainers_1_1zipper_1aa8d8049fd93e0a9e8d5f01bb818962cf" kind="function"><name>_compute_begin</name></member>
+    <member refid="classcontainers_1_1zipper_1a1f5ea757926eb92c29e8c6dda57bc649" kind="function"><name>_compute_end</name></member>
+  </compound>
+  <compound refid="classcontainers_1_1zipper__iterator" kind="class"><name>containers::zipper_iterator</name>
+    <member refid="classcontainers_1_1zipper__iterator_1adad9671219a1ea399e414180cbfe836d" kind="typedef"><name>iterator_t</name></member>
+    <member refid="classcontainers_1_1zipper__iterator_1a463c89f5caf25648666898b48e948d5d" kind="typedef"><name>it_reference_t</name></member>
+    <member refid="classcontainers_1_1zipper__iterator_1adcffc8b38227da427abec51c308c056d" kind="typedef"><name>value_type</name></member>
+    <member refid="classcontainers_1_1zipper__iterator_1a5d84749226bb09b5e5cffe20d715f699" kind="typedef"><name>reference</name></member>
+    <member refid="classcontainers_1_1zipper__iterator_1ae9e7f1366abf7e3e877dc32090cb5de9" kind="typedef"><name>pointer</name></member>
+    <member refid="classcontainers_1_1zipper__iterator_1a1cfd50433882075d5c2f2a74ac42dc40" kind="typedef"><name>difference_type</name></member>
+    <member refid="classcontainers_1_1zipper__iterator_1aa4e356fc97550cbccea01a5f9b13c824" kind="typedef"><name>iterator_category</name></member>
+    <member refid="classcontainers_1_1zipper__iterator_1a534086e4fc5fe56798ee84a162ada001" kind="typedef"><name>iterator_tuple</name></member>
+    <member refid="classcontainers_1_1zipper__iterator_1a5ef09611f4e1dca8228bcf1c5b478b33" kind="variable"><name>_current</name></member>
+    <member refid="classcontainers_1_1zipper__iterator_1aa74a088af21a5ba2ba684f15a193f67d" kind="variable"><name>_value</name></member>
+    <member refid="classcontainers_1_1zipper__iterator_1ad4689ab6660c7f9a5798e9b0ad51dac4" kind="variable"><name>_max</name></member>
+    <member refid="classcontainers_1_1zipper__iterator_1a1b7a4acaee73be259b6b51c99f39b5b9" kind="variable"><name>_idx</name></member>
+    <member refid="classcontainers_1_1zipper__iterator_1aa15ce1d86060fae2860abd385b41113e" kind="variable"><name>_seq</name></member>
+    <member refid="classcontainers_1_1zipper__iterator_1a8cc553af6cd21f32e0a61344333377bf" kind="function"><name>zipper_iterator</name></member>
+    <member refid="classcontainers_1_1zipper__iterator_1a40f1c67ec6c2c29a33e5280a53b66a88" kind="function"><name>zipper_iterator</name></member>
+    <member refid="classcontainers_1_1zipper__iterator_1a57a7864c34b0c42916ccd4dd3dda8505" kind="function"><name>zipper_iterator</name></member>
+    <member refid="classcontainers_1_1zipper__iterator_1a76fae19593639acdba6ff63b16abe6ba" kind="function"><name>operator=</name></member>
+    <member refid="classcontainers_1_1zipper__iterator_1a8e7d3d9010f89c2583a89583ec710d38" kind="function"><name>operator++</name></member>
+    <member refid="classcontainers_1_1zipper__iterator_1a6411cbeed1833a854dce7e6f4b1f9383" kind="function"><name>operator++</name></member>
+    <member refid="classcontainers_1_1zipper__iterator_1a3a34cf9ffd6878139b32722cb645fb4e" kind="function"><name>operator--</name></member>
+    <member refid="classcontainers_1_1zipper__iterator_1a66bf796849e22c7d1c27e624a83c5f14" kind="function"><name>operator--</name></member>
+    <member refid="classcontainers_1_1zipper__iterator_1a797726c8b9b8a5cf289669a12f7a8c9e" kind="function"><name>set_value</name></member>
+    <member refid="classcontainers_1_1zipper__iterator_1a706791869d3c653e9b25451d05c1d7e8" kind="function"><name>operator*</name></member>
+    <member refid="classcontainers_1_1zipper__iterator_1a046e7c6865d9824a1a6a8d6796ccc0b8" kind="function"><name>operator-&gt;</name></member>
+    <member refid="classcontainers_1_1zipper__iterator_1a9dd49941fda1e913f093febd6412a967" kind="friend"><name>operator==</name></member>
+    <member refid="classcontainers_1_1zipper__iterator_1ad41cff659848db0b594c686745102cdb" kind="friend"><name>operator!=</name></member>
+    <member refid="classcontainers_1_1zipper__iterator_1acbe8caf3b9a04139e0c4516f3df29234" kind="function"><name>incr_all</name></member>
+    <member refid="classcontainers_1_1zipper__iterator_1a538a939f0e02fdc8ee6340b033ddc857" kind="function"><name>decr_all</name></member>
+    <member refid="classcontainers_1_1zipper__iterator_1a4dfa207da3c53a3fffb5af0e23553679" kind="function"><name>all_set</name></member>
+    <member refid="classcontainers_1_1zipper__iterator_1a90aaa1bc7ec7b25f0b176c7dea201768" kind="function"><name>to_value</name></member>
+  </compound>
+  <compound refid="namespacecomponent" kind="namespace"><name>component</name>
+    <member refid="R-typeClient_2includes_2Component_8hpp_1a30a955039ed7582b68538fd8df72d371" kind="enum"><name>SceneName</name></member>
+    <member refid="R-typeClient_2includes_2Component_8hpp_1a30a955039ed7582b68538fd8df72d371ac4b969443c10a394d8cbce67642847bb" kind="enumvalue"><name>None</name></member>
+    <member refid="R-typeClient_2includes_2Component_8hpp_1a30a955039ed7582b68538fd8df72d371ad09b3da9555bd296e07f210250d125b6" kind="enumvalue"><name>Cinematic</name></member>
+    <member refid="R-typeClient_2includes_2Component_8hpp_1a30a955039ed7582b68538fd8df72d371a5fd3b2d8e850f8e0f499507e4d4d5d54" kind="enumvalue"><name>Loading</name></member>
+    <member refid="R-typeClient_2includes_2Component_8hpp_1a30a955039ed7582b68538fd8df72d371a6aed9e3ede2c9d5c88b20014f98e4ff1" kind="enumvalue"><name>MainMenu</name></member>
+    <member refid="R-typeClient_2includes_2Component_8hpp_1a30a955039ed7582b68538fd8df72d371af5f4f5c2f5609087745ccb6250c8c830" kind="enumvalue"><name>Transition</name></member>
+    <member refid="R-typeClient_2includes_2Component_8hpp_1a30a955039ed7582b68538fd8df72d371ad99d4958518b6a7e2d07890d54c0cba1" kind="enumvalue"><name>PlayMenu</name></member>
+    <member refid="R-typeClient_2includes_2Component_8hpp_1a30a955039ed7582b68538fd8df72d371ad893233678bb3e05baced04181910651" kind="enumvalue"><name>MultiPlayer</name></member>
+    <member refid="R-typeClient_2includes_2Component_8hpp_1a30a955039ed7582b68538fd8df72d371a7e43df87ab47380d5590060cb55ff099" kind="enumvalue"><name>Settings</name></member>
+    <member refid="R-typeClient_2includes_2Component_8hpp_1a30a955039ed7582b68538fd8df72d371a017d222413bc46d13346016d37fc98df" kind="enumvalue"><name>Help</name></member>
+    <member refid="R-typeClient_2includes_2Component_8hpp_1a30a955039ed7582b68538fd8df72d371a433aa0ea512c4962c51363ef5325ddf8" kind="enumvalue"><name>Credits</name></member>
+    <member refid="R-typeClient_2includes_2Component_8hpp_1a30a955039ed7582b68538fd8df72d371a7b1301f21430d7ac90f9d01d82025746" kind="enumvalue"><name>NameInsertion</name></member>
+    <member refid="R-typeClient_2includes_2Component_8hpp_1a30a955039ed7582b68538fd8df72d371acd89587883eae5dad8fcf031a8c09049" kind="enumvalue"><name>VesselChoice</name></member>
+    <member refid="R-typeClient_2includes_2Component_8hpp_1a30a955039ed7582b68538fd8df72d371a7afbcb69b364678c48dad4556f8e0680" kind="enumvalue"><name>RoomChoice</name></member>
+    <member refid="R-typeClient_2includes_2Component_8hpp_1a30a955039ed7582b68538fd8df72d371ad6042cea5114e529fb74619f96d188c0" kind="enumvalue"><name>RoomLoading</name></member>
+    <member refid="R-typeClient_2includes_2Component_8hpp_1a30a955039ed7582b68538fd8df72d371a97c364b36c292c24b6c787061d41c47a" kind="enumvalue"><name>Game</name></member>
+    <member refid="R-typeClient_2includes_2Component_8hpp_1a30a955039ed7582b68538fd8df72d371aea455ec41322b5f5d6656b4ee43c1f03" kind="enumvalue"><name>SoloMode</name></member>
+    <member refid="R-typeClient_2includes_2Component_8hpp_1a30a955039ed7582b68538fd8df72d371aebd04a2b1f4ea1a7fb5455db17a3294d" kind="enumvalue"><name>Level</name></member>
+    <member refid="R-typeClient_2includes_2Component_8hpp_1a30a955039ed7582b68538fd8df72d371aeed8fe03d5f451a055dfade135efd311" kind="enumvalue"><name>LocalGame</name></member>
+    <member refid="R-typeClient_2includes_2Component_8hpp_1a30a955039ed7582b68538fd8df72d371a63f46d9708e1ce44e166c50932204445" kind="enumvalue"><name>Pause</name></member>
+    <member refid="R-typeClient_2includes_2Component_8hpp_1a58afe55b3ec5e30f745623a8030ad34a" kind="enum"><name>EntityType</name></member>
+    <member refid="R-typeClient_2includes_2Component_8hpp_1a58afe55b3ec5e30f745623a8030ad34aa10a96f67d4d921e0a79e3dda517b8345" kind="enumvalue"><name>Common</name></member>
+    <member refid="R-typeClient_2includes_2Component_8hpp_1a58afe55b3ec5e30f745623a8030ad34aa80b9e7e939baf71699cf43804fc619c8" kind="enumvalue"><name>Player</name></member>
+    <member refid="R-typeClient_2includes_2Component_8hpp_1a58afe55b3ec5e30f745623a8030ad34aa797b5d23cb293555e1bdfdc868481613" kind="enumvalue"><name>Enemy</name></member>
+    <member refid="R-typeClient_2includes_2Component_8hpp_1a58afe55b3ec5e30f745623a8030ad34aac6eb0a7d8a65d291f8a791237c6e07cb" kind="enumvalue"><name>Missile</name></member>
+    <member refid="R-typeClient_2includes_2Component_8hpp_1a58afe55b3ec5e30f745623a8030ad34aa10a96f67d4d921e0a79e3dda517b8345" kind="enumvalue"><name>Common</name></member>
+    <member refid="R-typeClient_2includes_2Component_8hpp_1a58afe55b3ec5e30f745623a8030ad34aa80b9e7e939baf71699cf43804fc619c8" kind="enumvalue"><name>Player</name></member>
+    <member refid="R-typeClient_2includes_2Component_8hpp_1a58afe55b3ec5e30f745623a8030ad34aa797b5d23cb293555e1bdfdc868481613" kind="enumvalue"><name>Enemy</name></member>
+    <member refid="R-typeClient_2includes_2Component_8hpp_1a58afe55b3ec5e30f745623a8030ad34aac6eb0a7d8a65d291f8a791237c6e07cb" kind="enumvalue"><name>Missile</name></member>
+    <member refid="R-typeServer_2includes_2Component_8hpp_1a58afe55b3ec5e30f745623a8030ad34a" kind="enum"><name>EntityType</name></member>
+    <member refid="R-typeServer_2includes_2Component_8hpp_1a58afe55b3ec5e30f745623a8030ad34aa10a96f67d4d921e0a79e3dda517b8345" kind="enumvalue"><name>Common</name></member>
+    <member refid="R-typeServer_2includes_2Component_8hpp_1a58afe55b3ec5e30f745623a8030ad34aa80b9e7e939baf71699cf43804fc619c8" kind="enumvalue"><name>Player</name></member>
+    <member refid="R-typeServer_2includes_2Component_8hpp_1a58afe55b3ec5e30f745623a8030ad34aa797b5d23cb293555e1bdfdc868481613" kind="enumvalue"><name>Enemy</name></member>
+    <member refid="R-typeServer_2includes_2Component_8hpp_1a58afe55b3ec5e30f745623a8030ad34aac6eb0a7d8a65d291f8a791237c6e07cb" kind="enumvalue"><name>Missile</name></member>
+    <member refid="R-typeServer_2includes_2Component_8hpp_1a58afe55b3ec5e30f745623a8030ad34aa10a96f67d4d921e0a79e3dda517b8345" kind="enumvalue"><name>Common</name></member>
+    <member refid="R-typeServer_2includes_2Component_8hpp_1a58afe55b3ec5e30f745623a8030ad34aa80b9e7e939baf71699cf43804fc619c8" kind="enumvalue"><name>Player</name></member>
+    <member refid="R-typeServer_2includes_2Component_8hpp_1a58afe55b3ec5e30f745623a8030ad34aa797b5d23cb293555e1bdfdc868481613" kind="enumvalue"><name>Enemy</name></member>
+    <member refid="R-typeServer_2includes_2Component_8hpp_1a58afe55b3ec5e30f745623a8030ad34aac6eb0a7d8a65d291f8a791237c6e07cb" kind="enumvalue"><name>Missile</name></member>
+  </compound>
+  <compound refid="namespacecontainers" kind="namespace"><name>containers</name>
+  </compound>
+  <compound refid="namespaceecs__system" kind="namespace"><name>ecs_system</name>
+  </compound>
+  <compound refid="namespacegraphics" kind="namespace"><name>graphics</name>
+    <member refid="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64" kind="enum"><name>Keyboard</name></member>
+    <member refid="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a96eaeae4aa1b538cc8365da4bf92ccdd" kind="enumvalue"><name>keyA</name></member>
+    <member refid="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a85b59a8b15eba3e42a7eec088a02eca4" kind="enumvalue"><name>keyB</name></member>
+    <member refid="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64ac2614a0661a9907b1ccc188751f882a5" kind="enumvalue"><name>keyC</name></member>
+    <member refid="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64aaf6d8ebbba6404e2021db3c864bf7535" kind="enumvalue"><name>keyD</name></member>
+    <member refid="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a0ae2dca79c1bd513cfe14a2d035a0323" kind="enumvalue"><name>keyE</name></member>
+    <member refid="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a833d8d3a269cdf5cf40df1b33459b6ea" kind="enumvalue"><name>keyF</name></member>
+    <member refid="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a0ab6905219acbe65869564e0b1b40e8c" kind="enumvalue"><name>keyG</name></member>
+    <member refid="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a56e589e467063fadae4fca00c957cc33" kind="enumvalue"><name>keyH</name></member>
+    <member refid="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a35aaaf15b39fbd23c28169509cbd4cab" kind="enumvalue"><name>keyI</name></member>
+    <member refid="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64adb788b5aa24f74f904fb1e22fbdc6d73" kind="enumvalue"><name>keyJ</name></member>
+    <member refid="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a97ffd5602045492f569b9c46ad22127e" kind="enumvalue"><name>keyK</name></member>
+    <member refid="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64ae3cb5c09d31a2b23620b18976cc8e755" kind="enumvalue"><name>keyL</name></member>
+    <member refid="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a5f2df3f0149f021dd569af9273d3e83c" kind="enumvalue"><name>keyM</name></member>
+    <member refid="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64aa66f740e7b8ddbf6ef43e73004bfdfb6" kind="enumvalue"><name>keyN</name></member>
+    <member refid="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a384ad610ded967ac4e64fdc1120a3b5e" kind="enumvalue"><name>keyO</name></member>
+    <member refid="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a0722dae2ad428fa34063c681094dede5" kind="enumvalue"><name>keyP</name></member>
+    <member refid="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a9d79a136a250003b47e586be347deedc" kind="enumvalue"><name>keyQ</name></member>
+    <member refid="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a559617b3194ace2fe4da5c338b5182be" kind="enumvalue"><name>keyR</name></member>
+    <member refid="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64ac507fc23f112a3707d1c7a3622d47ad5" kind="enumvalue"><name>keyS</name></member>
+    <member refid="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a371b30c4fda315932e26aa401cd9b9e4" kind="enumvalue"><name>keyT</name></member>
+    <member refid="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a1caf789b4b2a16ce16b54b347c3a5a7b" kind="enumvalue"><name>keyU</name></member>
+    <member refid="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a7c0e5559aaaf60d79e5853d58d8292cb" kind="enumvalue"><name>keyV</name></member>
+    <member refid="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a0ec5aefbbc58f19eb84bfc7439c04d00" kind="enumvalue"><name>keyW</name></member>
+    <member refid="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64af765cf1b14ecf0743f4007ba0c0a97d9" kind="enumvalue"><name>keyX</name></member>
+    <member refid="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a45829eed81f37f7ac1e05692658fc931" kind="enumvalue"><name>keyY</name></member>
+    <member refid="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a4e874ff4de3c0dc43eeb4258b3e254f7" kind="enumvalue"><name>keyZ</name></member>
+    <member refid="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a0c0b6af22bf2a958db80e32d6965ad21" kind="enumvalue"><name>keyUp</name></member>
+    <member refid="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a9fdd3c12cb1613f473e276484e6776c3" kind="enumvalue"><name>keyDown</name></member>
+    <member refid="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a8fbb364450dec11e07fdda09d55ac1f7" kind="enumvalue"><name>keyRight</name></member>
+    <member refid="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a22b25c3e5abb6502a17b3c1f9a7749df" kind="enumvalue"><name>keyLeft</name></member>
+    <member refid="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a644aefe621fa5c1f1eea5fc7e5c07c39" kind="enumvalue"><name>keyEnter</name></member>
+    <member refid="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a0bb7883b72cb4c9bee342af72dd97804" kind="enumvalue"><name>keyDel</name></member>
+    <member refid="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64ab02b16837eab97156c69ad5f80a8c3a2" kind="enumvalue"><name>keySpace</name></member>
+    <member refid="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a7038cfbf48601ec5ccec97c79d39ce92" kind="enumvalue"><name>keyESC</name></member>
+    <member refid="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a4c54603b3e8fc955941fd23a998ace13" kind="enumvalue"><name>key0</name></member>
+    <member refid="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64ad72a87bf586bd23c368248d4a642033f" kind="enumvalue"><name>key1</name></member>
+    <member refid="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a7f04f47a26bb401f45650d1d04d65037" kind="enumvalue"><name>key2</name></member>
+    <member refid="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a51411432edd099c362fcfa3060267481" kind="enumvalue"><name>key3</name></member>
+    <member refid="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a035d1ff6a787acd9c1c5f4c5a5e9d687" kind="enumvalue"><name>key4</name></member>
+    <member refid="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a4c7c093ae1ff69e25f5fef8c11287e9c" kind="enumvalue"><name>key5</name></member>
+    <member refid="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a2e7211384aabb64454b7093f6a4cce30" kind="enumvalue"><name>key6</name></member>
+    <member refid="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64aa50cb5cea3fd3d82a6f6882a676c0e83" kind="enumvalue"><name>key7</name></member>
+    <member refid="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64afc035cff8fd5f7f54217e4a99b314b6d" kind="enumvalue"><name>key8</name></member>
+    <member refid="IDisplay_8hpp_1aff95b66054bff8bb221db17f15893a64a6cde498257e5aacd16c8274b448f0008" kind="enumvalue"><name>key9</name></member>
+    <member refid="IDisplay_8hpp_1aeb1623160f684ce34c74595def0b35f5" kind="enum"><name>MouseButton</name></member>
+    <member refid="IDisplay_8hpp_1aeb1623160f684ce34c74595def0b35f5a07a69d44f714cbd0fed2abe274f3a093" kind="enumvalue"><name>ButtonLeft</name></member>
+    <member refid="IDisplay_8hpp_1aeb1623160f684ce34c74595def0b35f5a356db44c1596d658fdf8f75ff4a145fc" kind="enumvalue"><name>ButtonRight</name></member>
+    <member refid="IDisplay_8hpp_1aeb1623160f684ce34c74595def0b35f5ac138c149d4ee6202e3c1fb4aef36bbbf" kind="enumvalue"><name>ButtonMiddle</name></member>
+    <member refid="IDisplay_8hpp_1ad31ec5e9e82ed8d0e9f5c16b89fd105d" kind="enum"><name>DrawType</name></member>
+    <member refid="IDisplay_8hpp_1ad31ec5e9e82ed8d0e9f5c16b89fd105da50bfa433c63de8103d2da10cb0e03a1e" kind="enumvalue"><name>Rectangle</name></member>
+    <member refid="IDisplay_8hpp_1ad31ec5e9e82ed8d0e9f5c16b89fd105da95f4e1cef86c0b435b60b1aeeca5b77e" kind="enumvalue"><name>Circle</name></member>
+    <member refid="IDisplay_8hpp_1ad31ec5e9e82ed8d0e9f5c16b89fd105daf5007898413d792af1886712124740b6" kind="enumvalue"><name>Text</name></member>
+    <member refid="IDisplay_8hpp_1ad31ec5e9e82ed8d0e9f5c16b89fd105da47ab65eb1d047245fd9e30217887bbd3" kind="enumvalue"><name>Image</name></member>
+    <member refid="IDisplay_8hpp_1ad31ec5e9e82ed8d0e9f5c16b89fd105da649afb772226045ead1e49b0b5b8fa50" kind="enumvalue"><name>AnimImage</name></member>
+    <member refid="IDisplay_8hpp_1ad31ec5e9e82ed8d0e9f5c16b89fd105da0fd0722149acd7806771c778e80c65e0" kind="enumvalue"><name>Button</name></member>
+    <member refid="IDisplay_8hpp_1ad31ec5e9e82ed8d0e9f5c16b89fd105dace870ab30f5a46a394680635b066436d" kind="enumvalue"><name>Username</name></member>
+    <member refid="IDisplay_8hpp_1ad31ec5e9e82ed8d0e9f5c16b89fd105dafbc35e61990c4d258d8ccb8997f4b558" kind="enumvalue"><name>Changing</name></member>
+  </compound>
+  <compound refid="namespacenetwork" kind="namespace"><name>network</name>
+    <member refid="INetworker_8hpp_1a4f49882eace57fc2599c944161f872a6" kind="enum"><name>Command</name></member>
+    <member refid="INetworker_8hpp_1a4f49882eace57fc2599c944161f872a6a077c0765c78ac629fa30ade828c53937" kind="enumvalue"><name>None</name></member>
+    <member refid="INetworker_8hpp_1a4f49882eace57fc2599c944161f872a6a5b398c4ee0407b2748363627e12a3618" kind="enumvalue"><name>CreatePlayer</name></member>
+    <member refid="INetworker_8hpp_1a4f49882eace57fc2599c944161f872a6aeb398dc5d1eed3fabef4be5c556be451" kind="enumvalue"><name>CreateTeamMate</name></member>
+    <member refid="INetworker_8hpp_1a4f49882eace57fc2599c944161f872a6a0159ab39b964cf0721a39bb3616926a1" kind="enumvalue"><name>CreateEnnemy</name></member>
+    <member refid="INetworker_8hpp_1a4f49882eace57fc2599c944161f872a6af7c8e5999b70d92aed8d625d219fbc9c" kind="enumvalue"><name>CreateMissile</name></member>
+    <member refid="INetworker_8hpp_1a4f49882eace57fc2599c944161f872a6a77f6eff3155aca5bc5f5130318f3b296" kind="enumvalue"><name>UpdateHealth</name></member>
+    <member refid="INetworker_8hpp_1a4f49882eace57fc2599c944161f872a6aea1d48b47e70f7492ea4fbf766937a1d" kind="enumvalue"><name>UpdatePosition</name></member>
+    <member refid="INetworker_8hpp_1a4f49882eace57fc2599c944161f872a6a913d6ec246d01bcdde383ec4908eee9b" kind="enumvalue"><name>UpdateScore</name></member>
+    <member refid="INetworker_8hpp_1a4f49882eace57fc2599c944161f872a6a5bdd2531db02ff78008d06b8aacb779c" kind="enumvalue"><name>KillPlayer</name></member>
+    <member refid="INetworker_8hpp_1a4f49882eace57fc2599c944161f872a6a26f5a9dc022fcb1f6d2be972cb174590" kind="enumvalue"><name>KillEntity</name></member>
+    <member refid="INetworker_8hpp_1a4f49882eace57fc2599c944161f872a6a65f046dd1cc214edb74b86daff9e7b1d" kind="enumvalue"><name>CloseRoom</name></member>
+    <member refid="INetworker_8hpp_1a4f49882eace57fc2599c944161f872a6a14837b6c5deeea13ca1dc61139434052" kind="enumvalue"><name>GameOver</name></member>
+  </compound>
+  <compound refid="namespacertype" kind="namespace"><name>rtype</name>
+    <member refid="Scene_8hpp_1ad80375e169e619db7ebc6377d1679287" kind="enum"><name>SceneName</name></member>
+    <member refid="Scene_8hpp_1ad80375e169e619db7ebc6377d1679287ac0d4ef5a66aedbf87e00841f763f1dfe" kind="enumvalue"><name>Cinematic</name></member>
+    <member refid="Scene_8hpp_1ad80375e169e619db7ebc6377d1679287a3c7997c4b9342c41ca97920e21f93cfc" kind="enumvalue"><name>Loading</name></member>
+    <member refid="Scene_8hpp_1ad80375e169e619db7ebc6377d1679287aef1c8c754d7c631ef57b0113fcf7df49" kind="enumvalue"><name>MainMenu</name></member>
+    <member refid="Scene_8hpp_1ad80375e169e619db7ebc6377d1679287afbb200da690474c3999af9d5dc218b58" kind="enumvalue"><name>Transition</name></member>
+    <member refid="Scene_8hpp_1ad80375e169e619db7ebc6377d1679287a279500ff649ead0d1e64d19c26424d36" kind="enumvalue"><name>PlayMenu</name></member>
+    <member refid="Scene_8hpp_1ad80375e169e619db7ebc6377d1679287ad7fa36ecffb3bd8276c1b404a598e75e" kind="enumvalue"><name>SinglePlayer</name></member>
+    <member refid="Scene_8hpp_1ad80375e169e619db7ebc6377d1679287a539f0ac603e6c1a180dccb0beb2bf970" kind="enumvalue"><name>MultiPlayer</name></member>
+    <member refid="Scene_8hpp_1ad80375e169e619db7ebc6377d1679287a236ed2d8672b1e80403169dd56cc33cf" kind="enumvalue"><name>Settings</name></member>
+    <member refid="Scene_8hpp_1ad80375e169e619db7ebc6377d1679287afd37733ef376879d0d72ddaf6733f921" kind="enumvalue"><name>Help</name></member>
+    <member refid="Scene_8hpp_1ad80375e169e619db7ebc6377d1679287ab1ed65a764f455b71b881e77e3a1bfb6" kind="enumvalue"><name>Credits</name></member>
+    <member refid="Scene_8hpp_1ad80375e169e619db7ebc6377d1679287a6714a24f64e4d01ad068f3cef44a59f0" kind="enumvalue"><name>NameInsertion</name></member>
+    <member refid="Scene_8hpp_1ad80375e169e619db7ebc6377d1679287a952ebd37e716744ff1b13427079cb89c" kind="enumvalue"><name>VesselChoice</name></member>
+    <member refid="Scene_8hpp_1ad80375e169e619db7ebc6377d1679287ac6a258ef214de0604ae75f1448229558" kind="enumvalue"><name>RoomChoice</name></member>
+    <member refid="Scene_8hpp_1ad80375e169e619db7ebc6377d1679287a33bc8c469c9bef8ed0d7ec619a975305" kind="enumvalue"><name>RoomLoading</name></member>
+    <member refid="Scene_8hpp_1ad80375e169e619db7ebc6377d1679287abc90af634195c8abf87399dcb38b0829" kind="enumvalue"><name>Game</name></member>
+    <member refid="ClientCore_8hpp_1a603d480628945ceb2d19ecad061eb531" kind="variable"><name>_scene</name></member>
+    <member refid="ServerCore_8hpp_1a88bd20845fae0a6bd41ed051ef8754a9" kind="variable"><name>sig_num</name></member>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="namespaceSystems" kind="namespace"><name>Systems</name>
+    <member refid="R-typeClient_2includes_2Systems_8hpp_1af4a61e316e72d143ef6c8ec6276cd1db" kind="function"><name>position_system</name></member>
+    <member refid="R-typeClient_2includes_2Systems_8hpp_1af2c5727337c2f9de45df0622b5f0c99f" kind="function"><name>velocity_system</name></member>
+    <member refid="R-typeClient_2includes_2Systems_8hpp_1a6ed4a925e19858c72bf762dc76ecf3a5" kind="function"><name>anim_system</name></member>
+    <member refid="R-typeClient_2includes_2Systems_8hpp_1ab07e5f6c4bee983c83dd7896c368c0e7" kind="function"><name>changing_system</name></member>
+    <member refid="R-typeClient_2includes_2Systems_8hpp_1a9d99493a0e310ec6d361ab5d9000b1a3" kind="function"><name>scrolling_system</name></member>
+    <member refid="R-typeClient_2includes_2Systems_8hpp_1a601861cff4493c91617eea9a39d4598d" kind="function"><name>collision_system</name></member>
+    <member refid="R-typeServer_2includes_2Systems_8hpp_1a63bda7505c28f9be636b8e5d806d15a6" kind="function"><name>accept_requests</name></member>
+    <member refid="R-typeServer_2includes_2Systems_8hpp_1a5e92c4b43fa5194092531948370f4f56" kind="function"><name>collision_system</name></member>
+    <member refid="R-typeServer_2includes_2Systems_8hpp_1ad684704c09305d3cf851cd66dd9fb911" kind="function"><name>oscillation_system</name></member>
+  </compound>
+  <compound refid="server__libs_8hpp" kind="file"><name>server_libs.hpp</name>
+  </compound>
+  <compound refid="INetworker_8hpp" kind="file"><name>INetworker.hpp</name>
+  </compound>
+  <compound refid="Enet_8cpp" kind="file"><name>Enet.cpp</name>
+  </compound>
+  <compound refid="serialization_8cpp" kind="file"><name>serialization.cpp</name>
+  </compound>
+  <compound refid="Enet_8hpp" kind="file"><name>Enet.hpp</name>
+    <member refid="Enet_8hpp_1ab0d546c37b18fc10c9ddd51fb798b43f" kind="define"><name>ENET_IMPLEMENTATION</name></member>
+    <member refid="Enet_8hpp_1a77c5407c8933ce00f180ac8b5f18218f" kind="function"><name>makeNetworkServerLib</name></member>
+    <member refid="Enet_8hpp_1a410857bd84c1e0ae6064ae52ca2bdf66" kind="function"><name>makeNetworkClientLib</name></member>
+  </compound>
+  <compound refid="Raylib_8hpp" kind="file"><name>Raylib.hpp</name>
+    <member refid="Raylib_8hpp_1a59cf938b2e852bc67cb921335934e024" kind="typedef"><name>Keyboard</name></member>
+    <member refid="Raylib_8hpp_1a4c9005a220d405ec6212ce846c8b40fc" kind="typedef"><name>DrawType</name></member>
+    <member refid="Raylib_8hpp_1a01ff869654b5c72a2bb89b1e37dd30a9" kind="typedef"><name>IDisplay</name></member>
+    <member refid="Raylib_8hpp_1ab134dd9edf58f9f4654766e6a2e10c79" kind="variable"><name>_sound</name></member>
+    <member refid="Raylib_8hpp_1ad22173f9d94d2a70e46ea522b77bbd39" kind="function"><name>makeGraphicLib</name></member>
+  </compound>
+  <compound refid="Raylib_8cpp" kind="file"><name>Raylib.cpp</name>
+    <member refid="Raylib_8cpp_1a59cf938b2e852bc67cb921335934e024" kind="typedef"><name>Keyboard</name></member>
+    <member refid="Raylib_8cpp_1ab134dd9edf58f9f4654766e6a2e10c79" kind="variable"><name>_sound</name></member>
+  </compound>
+  <compound refid="graphic__lib__encapsulation_2Raylib_2entryPoint_8cpp" kind="file"><name>entryPoint.cpp</name>
+    <member refid="graphic__lib__encapsulation_2Raylib_2entryPoint_8cpp_1ad22173f9d94d2a70e46ea522b77bbd39" kind="function"><name>makeGraphicLib</name></member>
+  </compound>
+  <compound refid="server__lib__encapsulation_2Enet_2entryPoint_8cpp" kind="file"><name>entryPoint.cpp</name>
+    <member refid="server__lib__encapsulation_2Enet_2entryPoint_8cpp_1a77c5407c8933ce00f180ac8b5f18218f" kind="function"><name>makeNetworkServerLib</name></member>
+    <member refid="server__lib__encapsulation_2Enet_2entryPoint_8cpp_1a410857bd84c1e0ae6064ae52ca2bdf66" kind="function"><name>makeNetworkClientLib</name></member>
+  </compound>
+  <compound refid="IDisplay_8hpp" kind="file"><name>IDisplay.hpp</name>
+  </compound>
+  <compound refid="Error_8hpp" kind="file"><name>Error.hpp</name>
+  </compound>
+  <compound refid="default__libs_8hpp" kind="file"><name>default_libs.hpp</name>
+  </compound>
+  <compound refid="ClockTime_8hpp" kind="file"><name>ClockTime.hpp</name>
+  </compound>
+  <compound refid="DLLoader_8hpp" kind="file"><name>DLLoader.hpp</name>
+  </compound>
+  <compound refid="R-typeClient_2includes_2Systems_8hpp" kind="file"><name>Systems.hpp</name>
+  </compound>
+  <compound refid="R-typeServer_2includes_2Systems_8hpp" kind="file"><name>Systems.hpp</name>
+  </compound>
+  <compound refid="BasicECS_8hpp" kind="file"><name>BasicECS.hpp</name>
+  </compound>
+  <compound refid="Entity_8hpp" kind="file"><name>Entity.hpp</name>
+  </compound>
+  <compound refid="Zipper_8hpp" kind="file"><name>Zipper.hpp</name>
+  </compound>
+  <compound refid="Registry_8hpp" kind="file"><name>Registry.hpp</name>
+  </compound>
+  <compound refid="SparseArray_8hpp" kind="file"><name>SparseArray.hpp</name>
+  </compound>
+  <compound refid="IndexedZipper_8hpp" kind="file"><name>IndexedZipper.hpp</name>
+  </compound>
+  <compound refid="ServerCore_8hpp" kind="file"><name>ServerCore.hpp</name>
+    <member refid="ServerCore_8hpp_1a56fe9bff0a1be75aae2da3e593053e2c" kind="define"><name>USAGE</name></member>
+  </compound>
+  <compound refid="ClientCore_8hpp" kind="file"><name>ClientCore.hpp</name>
+    <member refid="ClientCore_8hpp_1a56fe9bff0a1be75aae2da3e593053e2c" kind="define"><name>USAGE</name></member>
+  </compound>
+  <compound refid="R-typeClient_2includes_2CreateEntities_8hpp" kind="file"><name>CreateEntities.hpp</name>
+    <member refid="R-typeClient_2includes_2CreateEntities_8hpp_1a35f0c178f928b265a5294fed739d8522" kind="variable"><name>_sprites</name></member>
+    <member refid="R-typeClient_2includes_2CreateEntities_8hpp_1aa924cdc942a5bb2613e208759ad12741" kind="function"><name>create_rec</name></member>
+    <member refid="R-typeClient_2includes_2CreateEntities_8hpp_1a1214918a39cab5732811e8657ea33125" kind="function"><name>create_text</name></member>
+    <member refid="R-typeClient_2includes_2CreateEntities_8hpp_1ac75903b7e07f4a17b846818ae90e42ab" kind="function"><name>create_score</name></member>
+    <member refid="R-typeClient_2includes_2CreateEntities_8hpp_1a200a440974c5691f4f4da7a3ab29b0a2" kind="function"><name>create_username</name></member>
+    <member refid="R-typeClient_2includes_2CreateEntities_8hpp_1a6e06eaecdef9e42c8219889618a5c9b0" kind="function"><name>create_fixed_img</name></member>
+    <member refid="R-typeClient_2includes_2CreateEntities_8hpp_1a588542c93fac24d55a89cc739993b5a8" kind="function"><name>create_changed_img</name></member>
+    <member refid="R-typeClient_2includes_2CreateEntities_8hpp_1a550741e086c2d6d8bb78c9e9c2c998a2" kind="function"><name>create_parallax</name></member>
+    <member refid="R-typeClient_2includes_2CreateEntities_8hpp_1a145006bc0c03c39036e542f87871e054" kind="function"><name>create_anim_img</name></member>
+    <member refid="R-typeClient_2includes_2CreateEntities_8hpp_1ae90e2a02d9e75b86edd85af18e04aad5" kind="function"><name>create_sound</name></member>
+    <member refid="R-typeClient_2includes_2CreateEntities_8hpp_1aff66982e95c88e4284dcf135e9b374c3" kind="function"><name>create_local_player</name></member>
+    <member refid="R-typeClient_2includes_2CreateEntities_8hpp_1a6e76da49b55ffc5dca34879b4e9130f8" kind="function"><name>create_player</name></member>
+    <member refid="R-typeClient_2includes_2CreateEntities_8hpp_1a39a0108881b508168e48f4b4668f492d" kind="function"><name>create_team_mate</name></member>
+    <member refid="R-typeClient_2includes_2CreateEntities_8hpp_1a8b8d4fdc17806e7800b43603cc470fff" kind="function"><name>create_enemy</name></member>
+    <member refid="R-typeClient_2includes_2CreateEntities_8hpp_1a34709327054938f4a17a939559b89092" kind="function"><name>create_local_enemy</name></member>
+    <member refid="R-typeClient_2includes_2CreateEntities_8hpp_1a20a3f06c63da0f42808fa92eb220df0c" kind="function"><name>create_missile</name></member>
+    <member refid="R-typeClient_2includes_2CreateEntities_8hpp_1aa6d1d9d6bb62b90f52e5f143566b0e4b" kind="function"><name>update_entity_position</name></member>
+    <member refid="R-typeClient_2includes_2CreateEntities_8hpp_1a6448bfe13414811ccb918f20dffdc525" kind="function"><name>update_player_score</name></member>
+    <member refid="R-typeClient_2includes_2CreateEntities_8hpp_1a5d3ceb7dfb44f3167769dcbe2b0c56a5" kind="function"><name>update_player_health</name></member>
+    <member refid="R-typeClient_2includes_2CreateEntities_8hpp_1a291ba4ed24eeffc73e4aa07a2f1d2d2e" kind="function"><name>kill_entity</name></member>
+    <member refid="R-typeClient_2includes_2CreateEntities_8hpp_1a28d1a6d4365b17ba408ddee437f6b9dd" kind="function"><name>create_button</name></member>
+  </compound>
+  <compound refid="R-typeServer_2includes_2CreateEntities_8hpp" kind="file"><name>CreateEntities.hpp</name>
+    <member refid="R-typeServer_2includes_2CreateEntities_8hpp_1a5b2df025a07dbd91b8d69b65901f6db9" kind="function"><name>create_player</name></member>
+    <member refid="R-typeServer_2includes_2CreateEntities_8hpp_1a0e4a8bedd6ed5b7b62b14e7d84de2667" kind="function"><name>create_missile</name></member>
+    <member refid="R-typeServer_2includes_2CreateEntities_8hpp_1a15abf1f915d2ea6769c8d37c6ef95d15" kind="function"><name>create_enemy</name></member>
+    <member refid="R-typeServer_2includes_2CreateEntities_8hpp_1a9e789424a3e690db2e0ef29415c7ba53" kind="function"><name>move_player</name></member>
+    <member refid="R-typeServer_2includes_2CreateEntities_8hpp_1ae3b88c17f0f1425832fb7b261ca3b11b" kind="function"><name>kill_player</name></member>
+    <member refid="R-typeServer_2includes_2CreateEntities_8hpp_1a18575160cfc65edd5886b437eb5c469e" kind="function"><name>kill_entity</name></member>
+    <member refid="R-typeServer_2includes_2CreateEntities_8hpp_1a48c7d0dd0615aaaddd8d49adcf5146a4" kind="function"><name>close_player_room</name></member>
+    <member refid="R-typeServer_2includes_2CreateEntities_8hpp_1a993b71f3417ddeadb56d57b8c280c876" kind="function"><name>alert_clients</name></member>
+    <member refid="R-typeServer_2includes_2CreateEntities_8hpp_1a1d7c7f240e01b53edba6808c5f4ee0e1" kind="function"><name>alert_clients</name></member>
+  </compound>
+  <compound refid="Scene_8hpp" kind="file"><name>Scene.hpp</name>
+  </compound>
+  <compound refid="R-typeClient_2includes_2Component_8hpp" kind="file"><name>Component.hpp</name>
+    <member refid="R-typeClient_2includes_2Component_8hpp_1a145006bc0c03c39036e542f87871e054" kind="function"><name>create_anim_img</name></member>
+  </compound>
+  <compound refid="R-typeServer_2includes_2Component_8hpp" kind="file"><name>Component.hpp</name>
+  </compound>
+  <compound refid="dir_b2b8fff912d8b23ee29f16cf3c571ad1" kind="dir"><name>/home/KiNGnL/3ème année</name>
+  </compound>
+  <compound refid="dir_7c59a18a3afb4595b46f8318257111d5" kind="dir"><name>/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun</name>
+  </compound>
+  <compound refid="dir_6b44a15587438e5d7726caf127a49cf4" kind="dir"><name>/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture</name>
+  </compound>
+  <compound refid="dir_d385158aaf54585b37b26d4392d682e2" kind="dir"><name>/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/server_lib_encapsulation/Enet</name>
+  </compound>
+  <compound refid="dir_6bd6b347b2f1dda68010923d042a3ee0" kind="dir"><name>/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/general</name>
+  </compound>
+  <compound refid="dir_24f41a365a44fb4659eb8063756e7205" kind="dir"><name>/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation</name>
+  </compound>
+  <compound refid="dir_32d04ffa2a489482f6412d0335b1cd4a" kind="dir"><name>/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient/includes</name>
+  </compound>
+  <compound refid="dir_c086157802b17576f4f3fc6dd9610cd6" kind="dir"><name>/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer/includes</name>
+  </compound>
+  <compound refid="dir_106a0e5ff3ee0d998bb5d4b3f2cdc777" kind="dir"><name>/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/ecs_architecture/includes</name>
+  </compound>
+  <compound refid="dir_7e05298fcd507f3335868b3655908d0f" kind="dir"><name>/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeClient</name>
+  </compound>
+  <compound refid="dir_33ef7286a9b90d42db15bfc87087eeef" kind="dir"><name>/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/R-typeServer</name>
+  </compound>
+  <compound refid="dir_bb15e58af5263c86440ba699b9fb0086" kind="dir"><name>/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib</name>
+  </compound>
+  <compound refid="dir_1c6dcaaa13ce6348bf3515f501160e0f" kind="dir"><name>/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/server_lib_encapsulation</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,458 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="classnetwork_1_1INetworker" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>network::INetworker</compoundname>
+    <derivedcompoundref refid="classEnet" prot="public" virt="non-virtual">Enet</derivedcompoundref>
+    <includes refid="INetworker_8hpp" local="no">INetworker.hpp</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classnetwork_1_1INetworker_1a557b7d5ac070e0bf0644fe60d68f6e0b" prot="protected" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string network::INetworker::_ip</definition>
+        <argsstring></argsstring>
+        <name>_ip</name>
+        <qualifiedname>network::INetworker::_ip</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/server_lib_encapsulation/INetworker.hpp" line="225" column="25" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/server_lib_encapsulation/INetworker.hpp" bodystart="225" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classnetwork_1_1INetworker_1a68e1133c2169f6e8f262c9c0cc3f55cd" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int network::INetworker::_port</definition>
+        <argsstring></argsstring>
+        <name>_port</name>
+        <qualifiedname>network::INetworker::_port</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/server_lib_encapsulation/INetworker.hpp" line="226" column="17" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/server_lib_encapsulation/INetworker.hpp" bodystart="226" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classnetwork_1_1INetworker_1ad33f8bdaa89ebd10ff7065f86047f547" prot="protected" static="no" mutable="no">
+        <type>std::istringstream</type>
+        <definition>std::istringstream network::INetworker::istream</definition>
+        <argsstring></argsstring>
+        <name>istream</name>
+        <qualifiedname>network::INetworker::istream</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/server_lib_encapsulation/INetworker.hpp" line="227" column="32" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/server_lib_encapsulation/INetworker.hpp" bodystart="227" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classnetwork_1_1INetworker_1ab334c4457600fa06e22bd3054e5b8737" prot="protected" static="no" mutable="no">
+        <type>std::ostringstream</type>
+        <definition>std::ostringstream network::INetworker::ostream</definition>
+        <argsstring></argsstring>
+        <name>ostream</name>
+        <qualifiedname>network::INetworker::ostream</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/server_lib_encapsulation/INetworker.hpp" line="228" column="32" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/server_lib_encapsulation/INetworker.hpp" bodystart="228" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classnetwork_1_1INetworker_1a1f18f04662fb7d9d3ae29216065cfd92" prot="protected" static="no" mutable="no">
+        <type>std::size_t</type>
+        <definition>std::size_t network::INetworker::peer_id</definition>
+        <argsstring></argsstring>
+        <name>peer_id</name>
+        <qualifiedname>network::INetworker::peer_id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/server_lib_encapsulation/INetworker.hpp" line="229" column="25" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/server_lib_encapsulation/INetworker.hpp" bodystart="229" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classnetwork_1_1INetworker_1a7026a0b619e21ed7828b54e0e9dd5a88" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>network::INetworker::INetworker</definition>
+        <argsstring>(std::string ip, int port)</argsstring>
+        <name>INetworker</name>
+        <qualifiedname>network::INetworker::INetworker</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>ip</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>port</declname>
+        </param>
+        <briefdescription>
+<para>Construct a new client. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ip</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Server&apos;s ip </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>port</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Server&apos;s port to connect </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/server_lib_encapsulation/INetworker.hpp" line="99" column="13" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/server_lib_encapsulation/INetworker.hpp" bodystart="99" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="classnetwork_1_1INetworker_1ae872f690a149347859f5e8a41b98d529" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual network::INetworker::~INetworker</definition>
+        <argsstring>()</argsstring>
+        <name>~INetworker</name>
+        <qualifiedname>network::INetworker::~INetworker</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/server_lib_encapsulation/INetworker.hpp" line="106" column="21" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/server_lib_encapsulation/INetworker.hpp" bodystart="106" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="classnetwork_1_1INetworker_1a5f0beb4d4b0fe1958cfb742f40c2cd6b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>network::INetworker::INetworker</definition>
+        <argsstring>(int port)</argsstring>
+        <name>INetworker</name>
+        <qualifiedname>network::INetworker::INetworker</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>port</declname>
+        </param>
+        <briefdescription>
+<para>Construct a new server. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>port</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Host&apos;s port to open </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/server_lib_encapsulation/INetworker.hpp" line="113" column="13" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/server_lib_encapsulation/INetworker.hpp" bodystart="113" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="classnetwork_1_1INetworker_1a17303fe0ad584376dd3d315bfbb31449" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void network::INetworker::send_reliable_data</definition>
+        <argsstring>()=0</argsstring>
+        <name>send_reliable_data</name>
+        <qualifiedname>network::INetworker::send_reliable_data</qualifiedname>
+        <reimplementedby refid="classEnet_1aa0861110586ba5346c20ad2777b73862">send_reliable_data</reimplementedby>
+        <briefdescription>
+<para>Reliably Send data to connected peer. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data to reliably send </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/server_lib_encapsulation/INetworker.hpp" line="125" column="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classnetwork_1_1INetworker_1aef33e147bdaf4d21aea28613ded4fe58" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void network::INetworker::send_data</definition>
+        <argsstring>()=0</argsstring>
+        <name>send_data</name>
+        <qualifiedname>network::INetworker::send_data</qualifiedname>
+        <reimplementedby refid="classEnet_1a105ab2b31e06bcc320e4ba1b7c7373b4">send_data</reimplementedby>
+        <briefdescription>
+<para>Send data to connected peer. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data to send </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/server_lib_encapsulation/INetworker.hpp" line="132" column="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classnetwork_1_1INetworker_1abf40ec464641221c4fa326404214efe6" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>int</type>
+        <definition>virtual int network::INetworker::receive_data</definition>
+        <argsstring>(int timeout=0)=0</argsstring>
+        <name>receive_data</name>
+        <qualifiedname>network::INetworker::receive_data</qualifiedname>
+        <reimplementedby refid="classEnet_1ab85cb2a871b7095762f4b8571c761a01">receive_data</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>timeout</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Get data that any peer sent. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>timeout</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>time to wait</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void* Received data </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/server_lib_encapsulation/INetworker.hpp" line="141" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classnetwork_1_1INetworker_1a1127c72b860e6929c70c3c31f7ee26eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classnetwork_1_1INetworker" kindref="compound">INetworker</ref> &amp;</type>
+        <definition>INetworker &amp; network::INetworker::operator&amp;</definition>
+        <argsstring>(T val)</argsstring>
+        <name>operator&amp;</name>
+        <qualifiedname>network::INetworker::operator&amp;</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>Overload operator &lt;&lt; to send data. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Any variable type </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>val</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Variable containig data to transfer </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="classnetwork_1_1INetworker" kindref="compound">INetworker</ref>&amp; </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/server_lib_encapsulation/INetworker.hpp" line="151" column="24" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/server_lib_encapsulation/INetworker.hpp" bodystart="151" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="classnetwork_1_1INetworker_1a3435acdabcd0fc643b7a847479b0d70c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classnetwork_1_1INetworker" kindref="compound">INetworker</ref> &amp;</type>
+        <definition>INetworker &amp; network::INetworker::operator&lt;&lt;</definition>
+        <argsstring>(T val)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <qualifiedname>network::INetworker::operator&lt;&lt;</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>Overload operator &lt;&lt; to send data. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Any variable type </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>val</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Variable containig data to transfer </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="classnetwork_1_1INetworker" kindref="compound">INetworker</ref>&amp; </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/server_lib_encapsulation/INetworker.hpp" line="168" column="13" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/server_lib_encapsulation/INetworker.hpp" bodystart="168" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="classnetwork_1_1INetworker_1a247723909dc86c2b6a5b2b297a90bd90" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classnetwork_1_1INetworker" kindref="compound">INetworker</ref> &amp;</type>
+        <definition>INetworker &amp; network::INetworker::operator&gt;&gt;</definition>
+        <argsstring>(T &amp;val)</argsstring>
+        <name>operator&gt;&gt;</name>
+        <qualifiedname>network::INetworker::operator&gt;&gt;</qualifiedname>
+        <param>
+          <type>T &amp;</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>Overload operator &gt;&gt; to receive data. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Any variable type </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>val</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Variable where to store data </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="classnetwork_1_1INetworker" kindref="compound">INetworker</ref>&amp; </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/server_lib_encapsulation/INetworker.hpp" line="185" column="24" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/server_lib_encapsulation/INetworker.hpp" bodystart="185" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="classnetwork_1_1INetworker_1a282412c4f5e86c61c30f2ca7e18427b4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::size_t</type>
+        <definition>std::size_t network::INetworker::get_peer_id</definition>
+        <argsstring>() const</argsstring>
+        <name>get_peer_id</name>
+        <qualifiedname>network::INetworker::get_peer_id</qualifiedname>
+        <briefdescription>
+<para>Get the peer id object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>std::size_t </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/server_lib_encapsulation/INetworker.hpp" line="214" column="25" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/server_lib_encapsulation/INetworker.hpp" bodystart="214" bodyend="217"/>
+      </memberdef>
+      <memberdef kind="function" id="classnetwork_1_1INetworker_1a12db8946723dfed7a46421b6acf8b931" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void network::INetworker::set_peer_id</definition>
+        <argsstring>(std::size_t id)</argsstring>
+        <name>set_peer_id</name>
+        <qualifiedname>network::INetworker::set_peer_id</qualifiedname>
+        <param>
+          <type>std::size_t</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/server_lib_encapsulation/INetworker.hpp" line="219" column="18" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/server_lib_encapsulation/INetworker.hpp" bodystart="219" bodyend="222"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Base class for networker. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Enet</label>
+        <link refid="classEnet"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>network::INetworker</label>
+        <link refid="classnetwork_1_1INetworker"/>
+      </node>
+    </inheritancegraph>
+    <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/server_lib_encapsulation/INetworker.hpp" line="91" column="5" bodyfile="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/server_lib_encapsulation/INetworker.hpp" bodystart="91" bodyend="230"/>
+    <listofallmembers>
+      <member refid="classnetwork_1_1INetworker_1a557b7d5ac070e0bf0644fe60d68f6e0b" prot="protected" virt="non-virtual"><scope>network::INetworker</scope><name>_ip</name></member>
+      <member refid="classnetwork_1_1INetworker_1a68e1133c2169f6e8f262c9c0cc3f55cd" prot="protected" virt="non-virtual"><scope>network::INetworker</scope><name>_port</name></member>
+      <member refid="classnetwork_1_1INetworker_1a282412c4f5e86c61c30f2ca7e18427b4" prot="public" virt="non-virtual"><scope>network::INetworker</scope><name>get_peer_id</name></member>
+      <member refid="classnetwork_1_1INetworker_1a7026a0b619e21ed7828b54e0e9dd5a88" prot="public" virt="non-virtual"><scope>network::INetworker</scope><name>INetworker</name></member>
+      <member refid="classnetwork_1_1INetworker_1a5f0beb4d4b0fe1958cfb742f40c2cd6b" prot="public" virt="non-virtual"><scope>network::INetworker</scope><name>INetworker</name></member>
+      <member refid="classnetwork_1_1INetworker_1ad33f8bdaa89ebd10ff7065f86047f547" prot="protected" virt="non-virtual"><scope>network::INetworker</scope><name>istream</name></member>
+      <member refid="classnetwork_1_1INetworker_1a1127c72b860e6929c70c3c31f7ee26eb" prot="public" virt="non-virtual"><scope>network::INetworker</scope><name>operator&amp;</name></member>
+      <member refid="classnetwork_1_1INetworker_1a3435acdabcd0fc643b7a847479b0d70c" prot="public" virt="non-virtual"><scope>network::INetworker</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classnetwork_1_1INetworker_1a247723909dc86c2b6a5b2b297a90bd90" prot="public" virt="non-virtual"><scope>network::INetworker</scope><name>operator&gt;&gt;</name></member>
+      <member refid="classnetwork_1_1INetworker_1ab334c4457600fa06e22bd3054e5b8737" prot="protected" virt="non-virtual"><scope>network::INetworker</scope><name>ostream</name></member>
+      <member refid="classnetwork_1_1INetworker_1a1f18f04662fb7d9d3ae29216065cfd92" prot="protected" virt="non-virtual"><scope>network::INetworker</scope><name>peer_id</name></member>
+      <member refid="classnetwork_1_1INetworker_1abf40ec464641221c4fa326404214efe6" prot="public" virt="pure-virtual"><scope>network::INetworker</scope><name>receive_data</name></member>
+      <member refid="classnetwork_1_1INetworker_1aef33e147bdaf4d21aea28613ded4fe58" prot="public" virt="pure-virtual"><scope>network::INetworker</scope><name>send_data</name></member>
+      <member refid="classnetwork_1_1INetworker_1a17303fe0ad584376dd3d315bfbb31449" prot="public" virt="pure-virtual"><scope>network::INetworker</scope><name>send_reliable_data</name></member>
+      <member refid="classnetwork_1_1INetworker_1a12db8946723dfed7a46421b6acf8b931" prot="public" virt="non-virtual"><scope>network::INetworker</scope><name>set_peer_id</name></member>
+      <member refid="classnetwork_1_1INetworker_1ae872f690a149347859f5e8a41b98d529" prot="public" virt="virtual"><scope>network::INetworker</scope><name>~INetworker</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
