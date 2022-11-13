@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="Main_01Page_8md" kind="file" language="Markdown">
+    <compoundname>Main Page.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>R-TYPE<sp/>Architecture</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>Get<sp/>the<sp/>classes<sp/>architecture<sp/>here<sp/>:<sp/>https://kingnl.github.io/html/annotated.html</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>Get<sp/>the<sp/>classes<sp/>inheritance<sp/>here<sp/>:<sp/>https://kingnl.github.io/html/hierarchy.html</highlight></codeline>
+    </programlisting>
+    <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/Main Page.md"/>
+  </compounddef>
+</doxygen>

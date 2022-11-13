@@ -126,6 +126,7 @@
     <value><![CDATA[graphic_lib_encapsulation/Raylib]]></value>
     <value><![CDATA[server_lib_encapsulation/Enet]]></value>
     <value><![CDATA[server_lib_encapsulation]]></value>
+    <value><![CDATA["Main Page.md"]]></value>
   </option>
   <option  id='INPUT_ENCODING' default='yes' type='string'><value><![CDATA[UTF-8]]></value></option>
   <option  id='INPUT_FILE_ENCODING' default='yes' type='stringlist'>

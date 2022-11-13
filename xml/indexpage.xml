@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="indexpage" kind="page">
+    <compoundname>index</compoundname>
+    <title>R-TYPE Architecture</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><anchor id="index_1md__home_KiNGnL_3ème_année_B_CPP_500_COT_5_1_rtype_segnon_gnonlonfoun_Main_Page"/><itemizedlist>
+<listitem><para>Get the classes architecture here : <ulink url="https://kingnl.github.io/html/annotated.html">https://kingnl.github.io/html/annotated.html</ulink></para>
+</listitem><listitem><para>Get the classes inheritance here : <ulink url="https://kingnl.github.io/html/hierarchy.html">https://kingnl.github.io/html/hierarchy.html</ulink> </para>
+</listitem></itemizedlist>
+</para>
+    </detaileddescription>
+    <location file="/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/Main Page.md"/>
+  </compounddef>
+</doxygen>

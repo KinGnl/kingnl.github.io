@@ -796,7 +796,9 @@
     <member refid="R-typeServer_2includes_2Systems_8hpp_1a5e92c4b43fa5194092531948370f4f56" kind="function"><name>collision_system</name></member>
     <member refid="R-typeServer_2includes_2Systems_8hpp_1ad684704c09305d3cf851cd66dd9fb911" kind="function"><name>oscillation_system</name></member>
   </compound>
-  <compound refid="server__libs_8hpp" kind="file"><name>server_libs.hpp</name>
+  <compound refid="DLLoader_8hpp" kind="file"><name>DLLoader.hpp</name>
+  </compound>
+  <compound refid="Main_01Page_8md" kind="file"><name>Main Page.md</name>
   </compound>
   <compound refid="INetworker_8hpp" kind="file"><name>INetworker.hpp</name>
   </compound>
@@ -835,11 +837,11 @@
   </compound>
   <compound refid="ClockTime_8hpp" kind="file"><name>ClockTime.hpp</name>
   </compound>
-  <compound refid="DLLoader_8hpp" kind="file"><name>DLLoader.hpp</name>
-  </compound>
   <compound refid="R-typeClient_2includes_2Systems_8hpp" kind="file"><name>Systems.hpp</name>
   </compound>
   <compound refid="R-typeServer_2includes_2Systems_8hpp" kind="file"><name>Systems.hpp</name>
+  </compound>
+  <compound refid="server__libs_8hpp" kind="file"><name>server_libs.hpp</name>
   </compound>
   <compound refid="BasicECS_8hpp" kind="file"><name>BasicECS.hpp</name>
   </compound>
@@ -925,5 +927,7 @@
   <compound refid="dir_bb15e58af5263c86440ba699b9fb0086" kind="dir"><name>/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/graphic_lib_encapsulation/Raylib</name>
   </compound>
   <compound refid="dir_1c6dcaaa13ce6348bf3515f501160e0f" kind="dir"><name>/home/KiNGnL/3ème année/B-CPP-500-COT-5-1-rtype-segnon.gnonlonfoun/server_lib_encapsulation</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
   </compound>
 </doxygenindex>
